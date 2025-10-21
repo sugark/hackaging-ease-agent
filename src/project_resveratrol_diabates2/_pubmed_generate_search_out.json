@@ -1,0 +1,96 @@
+{
+  "status": "success",
+  "input_topic": "Resveratrol supplementation and type 2 diabetes: a systematic review and meta-analysis",
+  "generated_queries": {
+    "queries": [
+      {
+        "query_type": "Broad Synonym Search (Max Coverage)",
+        "query_string": "(Resveratrol OR trans-Resveratrol OR 3,5,4'-trihydroxystilbene OR stilbene) AND (\"Diabetes Mellitus, Type 2\" OR T2DM OR \"Insulin Resistance\" OR hyperglycemia OR \"Impaired Glucose Tolerance\" OR prediabetes) NOT (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"review\"[Publication Type])",
+        "rationale": "A wide search using high-level synonyms for both the intervention and the condition to maximize sensitivity and capture varied terminology across different journals."
+      },
+      {
+        "query_type": "MeSH Term Focus with Study Types",
+        "query_string": "(\"Resveratrol\"[MeSH] AND \"Diabetes Mellitus, Type 2\"[MeSH]) AND (\"Clinical Trial\"[Publication Type] OR \"Randomized Controlled Trial\"[Publication Type] OR \"Controlled Study\"[Publication Type]) NOT (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"review\"[Publication Type])",
+        "rationale": "Uses controlled vocabulary (MeSH) for high precision, explicitly focusing on robust intervention study designs (RCTs, Controlled Trials) in humans."
+      },
+      {
+        "query_type": "Title/Abstract Biomarker Focus",
+        "query_string": "(resveratrol[tiab] AND (HbA1c[tiab] OR HOMA-IR[tiab] OR \"insulin sensitivity\"[tiab] OR \"glucose control\"[tiab])) NOT (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"review\"[Publication Type])",
+        "rationale": "Focuses on papers where both Resveratrol and key metabolic outcomes (biomarkers of glycemic control) are central to the study (appearing in the title or abstract)."
+      },
+      {
+        "query_type": "Human Subjects and Supplementation Context",
+        "query_string": "(Resveratrol AND Supplementation AND (T2DM OR NIDDM OR prediabetes)) AND (Humans[Mesh]) NOT (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"review\"[Publication Type])",
+        "rationale": "Ensures the search is limited to human studies and specifically includes the term 'Supplementation' to capture relevant nutritional intervention trials."
+      },
+      {
+        "query_type": "Mechanism-Linked Search",
+        "query_string": "(Resveratrol OR SRT501) AND (\"Insulin Resistance\" OR \"Oxidative Stress\" OR \"SIRT1\" OR \"Glucose Metabolism\") NOT (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"review\"[Publication Type])",
+        "rationale": "Captures studies that might not explicitly use 'Diabetes Mellitus, Type 2' but focus on the proposed underlying mechanisms or pathways targeted by resveratrol in the context of T2D pathology."
+      },
+      {
+        "query_type": "Time-Limited and High-Impact Study Filter",
+        "query_string": "(Resveratrol AND T2DM) AND (\"randomized controlled trial\"[pt] OR \"clinical trial\"[pt]) AND (2010:2024[dp]) NOT (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"review\"[Publication Type])",
+        "rationale": "Limits the search to the most recent decade (2010 onwards) to identify contemporary studies using modern diagnostic criteria and pharmacological standards, focusing only on high-quality intervention trials."
+      },
+      {
+        "query_type": "Specific Chemical Structure and T2D Abbreviations",
+        "query_string": "(\"3,5,4'-trihydroxystilbene\" OR \"Resveratrol formulation\") AND (T2DM OR NIDDM) NOT (\"systematic review\"[Publication Type] OR \"meta-analysis\"[Publication Type] OR \"review\"[Publication Type])",
+        "rationale": "Uses specific chemical naming and older/less common abbreviations to capture highly technical papers or older seminal works that might be missed by broader synonym searches."
+      }
+    ],
+    "synonyms_identified": {
+      "resveratrol": [
+        "trans-Resveratrol",
+        "(E)-resveratrol",
+        "3,5,4'-trihydroxystilbene",
+        "resveratrol supplement",
+        "resveratrol formulation",
+        "stilbene",
+        "SRT501"
+      ],
+      "type_2_diabetes": [
+        "Diabetes Mellitus, Type 2",
+        "T2DM",
+        "T2D",
+        "NIDDM",
+        "Insulin Resistance",
+        "Hyperglycemia",
+        "Impaired Glucose Tolerance",
+        "prediabetes",
+        "Glycemic control",
+        "HOMA-IR"
+      ]
+    },
+    "topic_analysis": {
+      "main_concepts": [
+        "Resveratrol Supplementation (Intervention)",
+        "Type 2 Diabetes Mellitus (Condition)",
+        "Glucose Metabolism / Glycemic Outcomes (Outcome)",
+        "Insulin Sensitivity / Resistance (Mechanism)"
+      ],
+      "suggested_mesh_terms": [
+        "Resveratrol",
+        "Diabetes Mellitus, Type 2",
+        "Insulin Resistance",
+        "Hyperglycemia",
+        "Glucose Metabolism",
+        "randomized controlled trial",
+        "clinical trial"
+      ],
+      "study_types": [
+        "clinical trial",
+        "randomized controlled trial",
+        "controlled study",
+        "cohort study"
+      ]
+    }
+  },
+  "total_queries": 7,
+  "usage_instructions": {
+    "api_usage": "Use these queries with PubMed E-utilities API",
+    "rate_limiting": "Respect NCBI rate limits (3 requests/second max)",
+    "email_required": "Set NCBI_EMAIL environment variable"
+  },
+  "generation_method": "gemini_ai"
+}

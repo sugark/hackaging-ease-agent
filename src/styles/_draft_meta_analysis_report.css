@@ -1,0 +1,50 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 0.5cm;
+}
+
+h1, h2, h3 {
+  color: #1a1a1a;
+}
+
+code, pre {
+  font-family: "Courier New", monospace;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 6px;
+  display: block;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  font-size: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 8px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  white-space: normal;
+  word-wrap: break-word;
+  max-width: 10%;
+  width: 10%;
+  vertical-align: top;
+}
+
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+}

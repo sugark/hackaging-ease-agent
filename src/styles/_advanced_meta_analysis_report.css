@@ -1,0 +1,253 @@
+/*
+ * Comprehensive CSS Style Sheet for Professional MD to PDF Conversion
+ * Target: Standard documentation, research reports, and clean academic output.
+ * Optimized for print media (A4/Letter) and screen viewing.
+ */
+
+/* ==========================================================================
+   1. GLOBAL SETTINGS & TYPOGRAPHY
+   ========================================================================== */
+
+@page {
+    /* Define margins for the page. Use 'cm' or 'in' for print precision. */
+    margin-top: 2.5cm;
+    margin-bottom: 2.5cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+
+    /* Headers and Footers (Optional, requires Pandoc/specific renderer support) */
+    @top-center { content: none; }
+    @bottom-center { content: counter(page); font-size: 10pt; color: #555; }
+    @top-right { content: element(header); font-size: 10pt; color: #555; }
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif; /* Serif for professional documents */
+    line-height: 1.6;
+    color: #1e1e1e; /* Dark charcoal text for readability */
+    max-width: 100%;
+}
+
+/* Base font size and margin control */
+p, li, dd, dt, table {
+    font-size: 11pt;
+    margin-bottom: 1em;
+    orphans: 3; /* Keep at least 3 lines of a paragraph at the top/bottom of a page */
+    widows: 3;
+}
+
+/* Links should be visible but not distracting in print */
+a {
+    color: #006699;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   2. HEADERS AND SECTIONING
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333; /* Darker tone for emphasis */
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    page-break-after: avoid; /* Prevent headings from being stranded at the bottom of a page */
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: 700;
+    color: #003366; /* Primary brand color */
+    border-bottom: 3px solid #003366;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: 600;
+    color: #006699;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 14pt;
+    font-weight: 600;
+    color: #444;
+    margin-top: 1.2em;
+}
+
+h4 {
+    font-size: 12pt;
+    font-weight: 500;
+    color: #555;
+}
+
+/* ==========================================================================
+   3. CODE BLOCKS AND MONOSPACE TEXT
+   ========================================================================== */
+
+/* Inline code styling */
+code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 10pt;
+    background-color: #f7f7f7;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #cc3300; /* Distinct color for quick identification */
+}
+
+/* Fenced code block styling */
+pre {
+    background-color: #f4f4f9; /* Light background for the block */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 1.5em 0;
+    overflow-x: auto; /* Handle long lines gracefully */
+    font-size: 9.5pt;
+    font-family: 'Consolas', 'Courier New', monospace;
+    page-break-inside: avoid; /* Keep code blocks intact on one page */
+}
+
+pre code {
+    /* Reset inline code styles within the pre block */
+    background: none;
+    padding: 0;
+    border: none;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* ==========================================================================
+   4. TABLES
+   ========================================================================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-size: 8pt;
+    page-break-inside: avoid; /* Prevent page break inside table if possible */
+
+}
+
+/* Header row styling */
+th {
+    background-color: #eef; /* Very light blue header */
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+/* Data cell styling */
+td {
+    padding: 8px 12px;
+    border: 1px solid #eee;
+    vertical-align: top;
+}
+
+/* Zebra striping for better readability */
+tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+/* ==========================================================================
+   5. LISTS AND BLOCKQUOTES
+   ========================================================================== */
+
+ul, ol {
+    padding-left: 25px;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Blockquote/Citation styling */
+blockquote {
+    border-left: 4px solid #006699; /* Blue border for clear separation */
+    margin: 1.5em 0;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    font-style: italic;
+    color: #555;
+}
+
+/* ==========================================================================
+   6. IMAGES AND FIGURES
+   ========================================================================== */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    border: 1px solid #ddd; /* Subtle border for figures */
+    padding: 5px;
+}
+
+figure {
+    page-break-inside: avoid; /* Keep figure and caption together */
+    margin: 2em 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 10pt;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* ==========================================================================
+   7. KEY DOCUMENT ELEMENTS (FOR MD DOCUMENTATION)
+   ========================================================================== */
+
+/* Styling for specific documentation sections, like metadata headers */
+.metadata-header {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border: 1px solid #cceeff;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+/* Styling for results sections (like a summary box) */
+.results-box {
+    border: 2px solid #006699;
+    padding: 20px;
+    margin: 2em 0;
+    background-color: #fff;
+    border-radius: 5px;
+    page-break-inside: avoid;
+}
+
+/* Highlighted text or critical data points (often rendered as strong/bold) */
+strong, b {
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+/* Ensure no blank pages between sections unless explicitly requested by the markdown renderer */
+h1 + p {
+    margin-top: 0;
+}
+
+/* Force a page break before every major section header (H1) */
+h1 {
+    break-before: always;
+}
+/* Allow the first H1 to start immediately */
+body > h1:first-of-type {
+    break-before: auto;
+}

@@ -1,0 +1,594 @@
+csv format: 3 different type of data record, data type defined in column 2 (values: cohort, clinical_test, species); each data record belongs to a specific paper
+paper_pmid,cohort,cohort_short_name,cohort_description,cohort_group_size
+paper_pmid,clinical_test,clinical_tests_short_name,clinical_test_description
+paper_pmid,species,species_scientific_name,species_common_name
+
+23557933,clinical_test,New York Heart Association (NYHA) Classification,Functional capacity assessment used for classifying patients with heart disease based on the degree of physical activity limitation.,
+23557933,clinical_test,Left Ventricular Ejection Fraction (LVEF),"Measurement of the percentage of blood pumped out of the left ventricle with each heartbeat, used as an inclusion criterion for stable CAD patients.",
+23557933,clinical_test,Anthropometric and Vital Signs Measurement,"Direct measurement of basic physical characteristics and vital parameters including body weight, body mass index (BMI), systolic blood pressure (SBP), diastolic blood pressure (DBP), and heart rate.",
+23557933,clinical_test,Peripheral Blood Mononuclear Cell (PBMC) Isolation,Procedure involving density gradient centrifugation (Histopaque-1077) of heparinized blood samples to isolate PBMCs for subsequent molecular analysis.,
+23557933,clinical_test,Total RNA and Protein Extraction,Extraction protocol used to co-isolate total RNA and protein from PBMCs using the AllPrep DNA/RNA/Protein Mini Kit.,
+23557933,clinical_test,"RNA Purity and Integrity Assessment (RIN, Abs260/Abs280)",Assessment of RNA concentration and purity using Nanodrop ND-1000 UV-Vis Spectrophotometer and RNA Integrity Number (RIN) measurement using the Agilent 2100 Bioanalyzer.,
+23557933,clinical_test,Gene Expression Microarray Analysis,Transcriptomic analysis performed on PBMC RNA using the GeneChip Human Gene 1.0 ST Array (Affymetrix) to quantify the expression levels of human genes and microRNAs.,
+23557933,clinical_test,Quantitative Reverse Transcription PCR (qRT-PCR) for Gene Targets,"One-step quantitative RT-PCR (Taqman system) used to validate changes in expression of selected target genes (TNF-a, IL-1ß, LRRFIP-1, CCL3, NFKB-1, NFKBIA). Normalized to GAPDH.",
+23557933,clinical_test,Quantitative Reverse Transcription PCR (qRT-PCR) for microRNAs (miRs),Relative expression of microRNAs (miRs) measured using the miScript Reverse Transcription kit and miScript SYBR Green PCR kit (Qiagen) on a 7900HT Fast Real-Time PCR system. Normalized using U6.,
+23557933,clinical_test,Serum Serobiochemical Panel (Automated),"Automated biochemical measurement of various serum parameters including Glucose, Creatinine, Albumin, Bilirubin, Total Cholesterol (TChol), HDL-cholesterol (HDLc), LDL-cholesterol (LDLc), Triglycerides, ALT, ALP, AST, GGT, CPK, and Urate.",
+23557933,clinical_test,Glycated Haemoglobin (HbA1c) Measurement,"Measurement of HbA1c, a marker of long-term glucose control, in serum.",
+23557933,clinical_test,Coagulation Parameters Measurement,Determination of coagulation parameters in serum using an ACL TOP 700 analyzer.,
+23557933,clinical_test,Thyroid Hormone (T4) and TSH Measurement,Measurement of Thyroxine (T4) and Thyroid Stimulating Hormone (TSH) levels using an Advia Centaur XP system.,
+23557933,clinical_test,Serum Interleukin-6 (IL-6) ELISA,Measurement of serum IL-6 levels using enzyme-linked immunosorbent assay (ELISA) kits from Biolegend.,
+23557933,clinical_test,Serum Interleukin-10 (IL-10) ELISA,Measurement of serum IL-10 levels using enzyme-linked immunosorbent assay (ELISA) kits from Biolegend.,
+23557933,clinical_test,Serum Tumor Necrosis Factor-alpha (TNF-a) ELISA,Measurement of serum TNF-a levels using enzyme-linked immunosorbent assay (ELISA) kits from Biolegend.,
+23557933,clinical_test,High-sensitivity C-reactive protein (hsCRP) ELISA,Measurement of serum hsCRP using ELISA kits purchased from AssayPro.,
+23557933,clinical_test,Adiponectin ELISA,Measurement of serum adiponectin levels using ELISA kits purchased from AssayPro.,
+23557933,clinical_test,Plasminogen Activator Inhibitor Type 1 (PAI-1) Antigen ELISA,Measurement of PAI-1 antigen levels in citrated plasma using PeproTech's ELISA kits.,
+23557933,clinical_test,DC Protein Assay,"Quantification of total protein extracted from PBMCs using the Biorad DC protein assay kit, based on the Lowry assay.",
+23557933,clinical_test,PBMC TNF-a Ultrasensitive ELISA,Measurement of TNF-a protein levels in PBMCs using a human TNF-a ultrasensitive ELISA kit (Invitrogen).,
+23557933,cohort,T2DM Hypertensive CAD Patients (Total Subset),"Male patients with Type 2 Diabetes Mellitus (T2DM) and hypertension, medicated, with stable Coronary Artery Disease (CAD), participating in the subset study for molecular change investigation.",35
+23557933,cohort,Placebo Group (Maltodextrin),"Participants randomized to receive placebo (maltodextrin) daily for one year in a randomized placebo-controlled, triple-blind study.",9
+23557933,cohort,GE Group,Participants randomized to receive conventional grape extract (GE) lacking resveratrol daily for one year.,13
+23557933,cohort,GE-RES Group,Participants randomized to receive grape extract containing resveratrol (GE-RES) daily for one year. The supplement contained 8.1 ± 0.5 mg of RES per capsule.,13
+23557933,species,Homo sapiens,Human,
+23557933,species,Homo sapiens,Human,
+23557933,species,Sus scrofa,Pig,
+23557933,species,Mus musculus,Mouse,
+24317366,clinical_test,Indirect Calorimetry (EE),"Measurement of Energy Expenditure (EE) using an open-circuit ventilated hood system, conducted during fasting and postprandial conditions.",
+24317366,clinical_test,Substrate Oxidation Calculation,"Calculation of carbohydrate (CHO) and fat (FAT) oxidation rates from gas exchange data (VO2 and VCO2) and nitrogen excretion, utilizing the equations of Weir (30) and Frayn (31).",
+24317366,clinical_test,Respiratory Quotient (RQ),"Measurement of the Respiratory Quotient, reflecting the ratio of CO2 produced to O2 consumed, used to assess substrate metabolism.",
+24317366,clinical_test,Blood Pressure Measurement,Direct quantitative assessment of systolic blood pressure (SBP) and diastolic blood pressure (DBP).,
+24317366,clinical_test,Body Mass Index (BMI),Calculation of Body Mass Index (BMI) to classify subjects as overweight.,
+24317366,clinical_test,Plasma FFA Measurement,Quantification of Plasma Free Fatty Acid (FFA) concentrations using enzymatic assays on an automated spectrophotometer (ABX Pentra 400 autoanalyzer).,
+24317366,clinical_test,Plasma TAG Measurement,Quantification of Plasma Triglyceride (TAG) concentrations using enzymatic assays on an automated spectrophotometer (ABX Pentra 400 autoanalyzer).,
+24317366,clinical_test,Plasma Glucose Measurement,Quantification of Plasma Glucose (Fglu) concentrations using enzymatic assays on an automated spectrophotometer (ABX Pentra 400 autoanalyzer).,
+24317366,clinical_test,Plasma Glycerol Measurement,Quantification of Plasma Free Glycerol concentrations using an enzymatic assay (Enzytec™ Glycerol) automated on a spectrophotometric autoanalyzer (Cobas Fara).,
+24317366,clinical_test,Plasma Insulin Radioimmunoassay (RIA),Determination of circulating plasma insulin (Fins) concentrations using commercially available radioimmunoassay (RIA) kits.,
+24317366,clinical_test,Plasma Adiponectin Radioimmunoassay (RIA),Determination of circulating plasma adiponectin concentrations using commercially available radioimmunoassay (RIA) kits.,
+24317366,clinical_test,Plasma Leptin Radioimmunoassay (RIA),Determination of circulating plasma leptin concentrations using commercially available radioimmunoassay (RIA) kits.,
+24317366,clinical_test,Catecholamine Analysis (HPLC-ECD),Analysis of catecholamine concentrations using high performance liquid chromatography with electrochemical detection.,
+24317366,clinical_test,Inflammatory Markers ELISA,"Determination of plasma concentrations of inflammatory markers (IL-6, IL-8, TNFα) using a multiplex enzyme-linked immuno-sorbent assay (ELISA).",
+24317366,clinical_test,Nitrogen Excretion Measurement (N),"Measurement or calculation of nitrogen excretion (N), necessary for calculating protein oxidation rates in indirect calorimetry.",
+24317366,clinical_test,HOMA-IR,"Homeostatic Model Assessment of Insulin Resistance, calculated using fasting plasma glucose and insulin concentrations.",
+24317366,clinical_test,Metabolic Flexibility Calculation (ΔRQ),"Calculated score reflecting metabolic flexibility, defined as the difference between the highest postprandial Respiratory Quotient (RQMax) and the fasting RQ (RQFasting).",
+24317366,cohort,Overweight Volunteers (Total),"Healthy, weight-stable overweight Caucasian subjects (age 20-50 yrs; BMI 25-30 kg/m²) with normal fasting glucose and blood pressure, participating in a randomized, double-blind cross-over trial.",18
+24317366,cohort,E+R Intervention Arm,Treatment arm receiving short-term supplementation (3 days) of Epigallocatechin-gallate (E: 282mg/d) combined with Resveratrol (R: 200mg/d). All 18 subjects received this treatment in the cross-over design.,18
+24317366,cohort,E+R+S Intervention Arm,"Treatment arm receiving short-term supplementation (3 days) of Epigallocatechin-gallate (E: 282mg/d), Resveratrol (R: 200mg/d), and soy isoflavones (S: 80mg/d). All 18 subjects received this treatment in the cross-over design.",18
+24317366,cohort,Placebo Control Group (PLA),Control arm receiving placebo capsules containing partly hydrolyzed microcrystalline cellulose for 3 days. All 18 subjects received this treatment in the cross-over design.,18
+24317366,cohort,Men Subgroup,"Male subjects extracted for specialized analysis of metabolic flexibility, showing effects not observed in women.",9
+24317366,cohort,Women Subgroup,"Female subjects extracted for specialized analysis, particularly regarding metabolic flexibility and leptin concentrations.",9
+24317366,species,Homo sapiens,Human,
+24317366,species,Mus musculus,Mouse,
+24317366,species,Rattus norvegicus,Rat,
+24317366,species,Unspecified Primates,Non-human primate,
+26234526,clinical_test,Weight,Direct quantitative measurement of body weight in kilograms (kg).,
+26234526,clinical_test,Height,Direct quantitative measurement of body height in meters (m).,
+26234526,clinical_test,BMI,"Body Mass Index, calculated using the formula: BMI = weight (kg)/height² (m).",
+26234526,clinical_test,Waist Circumference (WC),Direct quantitative measurement of waist circumference in centimeters (cm).,
+26234526,clinical_test,Hip Circumference (HC),Direct quantitative measurement of hip circumference in centimeters (cm).,
+26234526,clinical_test,WHR,"Waist:Hip Ratio, calculated based on measured circumferences, according to the WHO recommendation.",
+26234526,clinical_test,ALT,"Serum concentration of Alanine Aminotransferase, measured using enzymatic colorimetric assay (Pars Azmoon).",
+26234526,clinical_test,AST,"Serum concentration of Aspartate Aminotransferase, measured using enzymatic colorimetric assay (Pars Azmoon).",
+26234526,clinical_test,GGT,"Serum concentration of γ-glutamyltransferase, measured using enzymatic colorimetric assay (Pars Azmoon).",
+26234526,clinical_test,Total Bilirubin,"Serum concentration of total bilirubin, measured using standard laboratory methods and enzymatic colorimetric assay.",
+26234526,clinical_test,Total Cholesterol,"Serum concentration of total cholesterol, measured by photometric assay (Pars Azmoon).",
+26234526,clinical_test,TAG,"Serum concentration of Triacylglycerol (triglycerides), measured using enzymatic colorimetric assay (Pars Azmoon).",
+26234526,clinical_test,HDL-Cholesterol,"Serum concentration of High-Density Lipoprotein cholesterol, measured using enzymatic colorimetric assay (Pars Azmoon).",
+26234526,clinical_test,LDL-Cholesterol,Serum concentration of Low-Density Lipoprotein cholesterol (LDL-C).,
+26234526,clinical_test,Non-HDL Cholesterol,Calculated value representing total cholesterol minus HDL cholesterol.,
+26234526,clinical_test,apo a₁,Serum concentration of apolipoprotein A1.,
+26234526,clinical_test,Glucose,Serum concentration of glucose.,
+26234526,clinical_test,Insulin,Serum concentration of insulin.,
+26234526,clinical_test,HOMA-IR,"Homeostasis model of assessment of insulin resistance, calculated based on fasting glucose and insulin levels.",
+26234526,clinical_test,HOMA-B,"Homeostasis model of assessment of β-cell function, calculated based on fasting glucose and insulin levels.",
+26234526,clinical_test,QUICKI,"Quantitative Insulin Sensitivity Check Index, calculated index used to assess insulin sensitivity.",
+26234526,clinical_test,Blood Pressure (SBP/DBP),Measurement of systolic blood pressure (SBP) and diastolic blood pressure (DBP).,
+26234526,clinical_test,Ultrasonography (US),Medical imaging used to determine the presence and grade of hepatic steatosis (fatty liver).,
+26234526,clinical_test,FibroScan (Transient Elastography),Transient elastography (Echosens™ assay) performed by a hepatologist to measure the degree of hepatic fibrosis (kPa).,
+26234526,clinical_test,MET Questionnaire,Standardized questionnaire used to assess physical activity using the metabolic equivalent of task (MET) measurements.,
+26234526,clinical_test,24-h Dietary Intake Recall,Standardized procedure for documenting participants' dietary intake over a 24-hour period (three recalls taken at follow-up visits).,
+26234526,cohort,Screened Population,Patients referred to the Isfahan Fatty Liver Clinic who had elevated serum alanine aminotransferase (ALT) and presence of steatosis on ultrasound examination.,127
+26234526,cohort,Randomized NAFLD Cohort,"Non-alcoholic fatty liver disease (NAFLD) patients who met the inclusion criteria and were randomized into the double-blind, placebo-controlled clinical trial.",50
+26234526,cohort,Resveratrol Group,"Patients randomized to receive 500 mg resveratrol capsule daily for 12 weeks, alongside advice to follow an energy-balanced diet and physical activity recommendations. This size reflects the cohort included in the intention-to-treat (ITT) analysis.",25
+26234526,cohort,Placebo Group,"Patients randomized to receive an identical-appearing placebo capsule (edible paraffin) daily for 12 weeks, alongside advice to follow an energy-balanced diet and physical activity recommendations. This size reflects the cohort included in the intention-to-treat (ITT) analysis.",25
+26234526,species,Homo sapiens,Human,
+26234526,species,Mus musculus,Mouse,
+26234526,species,Rattus norvegicus,Rat,
+26234526,species,Sus scrofa domesticus,Swine,
+26784973,clinical_test,Alanine Transaminase (ALT),"Quantification of plasma/serum alanine transaminase levels, used as a primary outcome measure for liver injury.",
+26784973,clinical_test,Aspartate Transaminase (AST),"Quantification of plasma/serum aspartate transaminase levels, a marker of liver damage.",
+26784973,clinical_test,Gamma-Glutamyl Transferase (GGT),"Quantification of plasma/serum gamma-glutamyl transferase levels, a marker of hepatic injury.",
+26784973,clinical_test,Alkaline Phosphatase (ALP),Quantification of plasma/serum alkaline phosphatase levels.,
+26784973,clinical_test,Bilirubin,Quantification of plasma/serum Bilirubin levels.,
+26784973,clinical_test,Tumor Necrosis Factor alpha (TNFα),"Quantification of serum TNFα levels, used as a marker of inflammation and NAFLD severity.",
+26784973,clinical_test,Soluble CD163 (sCD163),"Quantification of serum CD163 levels, used as a marker of histological NAFLD severity and inflammation.",
+26784973,clinical_test,Plasma Glucose (Fasting),Quantification of fasting plasma glucose levels.,
+26784973,clinical_test,Plasma Insulin (Fasting),Quantification of fasting plasma insulin levels.,
+26784973,clinical_test,Triglycerides (TG),"Quantification of plasma triglyceride levels, assessed as part of the lipid profile.",
+26784973,clinical_test,High Density Lipoprotein (HDL),"Quantification of plasma High Density Lipoprotein levels, assessed as part of the lipid profile.",
+26784973,clinical_test,Low Density Lipoprotein (LDL),"Quantification of plasma Low Density Lipoprotein levels, assessed as part of the lipid profile.",
+26784973,clinical_test,Intrahepatic Lipid (IHL) Content by 1H-MRS,"Measurement of intrahepatic lipid content using 1H-magnetic resonance spectroscopy (MRS) with a Signa Excite 1.5 tesla twin-speed scanner, quantified via LC model software package version 6.2.",
+26784973,clinical_test,Liver Biopsy Procedure,"Procedure for obtaining liver tissue specimens for histological examination, performed at baseline and end-of-trial.",
+26784973,clinical_test,NASH Activity Score (NAS),"Histological scoring system applied to liver biopsy sections according to the NASH-Clinical Research Network criteria, used to assess steatosis, inflammation, ballooning, and fibrosis.",
+26784973,clinical_test,Microarray Analysis (GeneChip),Analysis of global transcriptional changes in paired liver biopsy samples using GeneChip methodology.,
+26784973,clinical_test,Quantitative Real-Time PCR (qRT-PCR),"Quantitative molecular procedure used for targeted assessment of gene expression (e.g., TNFα, TGFβ1, COL1α1, HMOX-1) in liver tissue.",
+26784973,clinical_test,Body Mass Index (BMI),Calculation of Body Mass Index.,
+26784973,clinical_test,Weight Measurement,Direct measurement of body weight in kilograms.,
+26784973,clinical_test,Waist-Hip Ratio,Calculation derived from anthropometric measurements.,
+26784973,clinical_test,Systolic Blood Pressure (BP),Measurement of systolic blood pressure (mmHg).,
+26784973,clinical_test,Diastolic Blood Pressure (BP),Measurement of diastolic blood pressure (mmHg).,
+26784973,clinical_test,Heart Rate,Measurement of heart rate in beats per minute (bpm).,
+26784973,clinical_test,HOMA2-IR,"Insulin resistance determined by the Homeostatic Model Assessment 2, calculated using fasting glucose and insulin levels.",
+26784973,clinical_test,Alcohol Consumption Questionnaire,A detailed questionnaire used to quantify participants' alcohol consumption.,
+26784973,clinical_test,2-day Food Registration,Dietary assessment method where participants recorded their food intake over a two-day period.,
+26784973,clinical_test,Physical Activity Questionnaire,A structured questionnaire used to assess physical activity levels and exercise expenditure.,
+26784973,clinical_test,Adverse Events Questionnaire,A structured instrument used to assess and record adverse events related to the study treatment.,
+26784973,cohort,Screened Population,All patients referred to the tertiary hepatology unit with transaminasemia and suspected Non-Alcoholic Fatty Liver Disease (NAFLD) who were screened for study eligibility.,63
+26784973,cohort,Randomized NAFLD Cohort,Overweight patients with transaminasemia and histological NAFLD who were included and randomized 1:1 into the clinical trial arms.,28
+26784973,cohort,Resveratrol Intervention Arm (Randomized),"Participants randomized to receive high-dose resveratrol (1.5 g daily, or 500 mg three times daily) for 6 months.",15
+26784973,cohort,Placebo Control Group (Randomized),Participants randomized to receive placebo three times daily for 6 months.,13
+26784973,cohort,Completed Treatment Cohort,Participants who completed the entire 6-month intervention period (excluding two resveratrol patients who dropped out due to adverse events).,26
+26784973,cohort,Resveratrol Microarray Subgroup,Subset of resveratrol-treated patients for whom paired baseline and end-of-trial liver biopsies were available for GeneChip and microarray analysis.,7
+26784973,cohort,Placebo Microarray Subgroup,Subset of placebo-treated patients for whom paired baseline and end-of-trial liver biopsies were available for GeneChip and microarray analysis.,9
+26784973,species,Homo sapiens,Human,
+26784973,species,Rattus norvegicus,Rat,
+26784973,species,Mus musculus,Mouse,
+27105868,clinical_test,Transcranial Doppler (TCD) Ultrasound,Non-invasive imaging procedure using ultrasound to measure cerebral blood flow velocities (BFV) and assess cerebrovascular responsiveness (CVR) bilaterally in the Middle Cerebral Arteries (MCA) and Posterior Cerebral Arteries (PCA).,
+27105868,clinical_test,Cerebrovascular Responsiveness (CVR),"Physiological measurement of the cerebral vessels' ability to vasodilate. Assessed using TCD during hypercapnia (breathing carbogen gas: 5% CO2, 95% O2) and expressed as the percentage change in mean blood flow velocity from baseline to peak velocity.",
+27105868,clinical_test,Cerebral Blood Flow Velocities (BFV),"Measurement of basal cerebral blood flow velocities (peak systolic, end diastolic, and mean) in the MCA and PCA, recorded over 30 seconds using TCD ultrasound.",
+27105868,clinical_test,Cerebral Pulsatility Index (PI),"A calculated measure of arterial stiffness derived from TCD measurements, calculated as (peak systolic BFV – end diastolic BFV)/mean BFV, recorded simultaneously with BFV.",
+27105868,clinical_test,Blood Pressure (BP) Measurement,Measurement of clinic systolic and diastolic blood pressure using an automated oscillometric monitor (HDI 2000 Cardiovascular Profiler CR 2000) after 10 minutes of seated rest.,
+27105868,clinical_test,Fasting Serum Glucose Assay,"Laboratory analysis of glucose concentration in a fasting blood sample, used for participant characterization.",
+27105868,clinical_test,Fasting Serum Insulin Assay,"Laboratory analysis of insulin concentration in a fasting blood sample, used for participant characterization.",
+27105868,clinical_test,Glycated Hemoglobin (HbA1c) Assay,"Laboratory analysis of glycated hemoglobin percentage in a blood sample, used for participant characterization of long-term glycemic control.",
+27105868,clinical_test,HOMA-IR Calculation,"Homeostatic Model Assessment of Insulin Resistance, calculated using fasting serum glucose and insulin values.",
+27105868,clinical_test,Mini Modified Mental State Examination (3MS),"Standardized cognitive assessment used for screening, where a score below 78/100 indicated exclusion due to suspected dementia.",
+27105868,clinical_test,Body Mass Index (BMI) Measurement,Calculation of body mass index (weight in kg divided by height squared in m²) used for screening criteria (BMI > 40kg/m² exclusion).,
+27105868,clinical_test,Waist Circumference Measurement,Direct physical measurement of the participants' waist circumference.,
+27105868,cohort,Volunteers Returning Questionnaires,Initial group of volunteers who returned screening questionnaires during the recruitment phase for the study.,52
+27105868,cohort,Screened Participants,Volunteers who underwent physical screening assessments after returning questionnaires.,47
+27105868,cohort,T2DM Enrolled Participants,Participants diagnosed with Type 2 Diabetes Mellitus (T2DM) who met the selection criteria and were enrolled in the acute crossover study.,38
+27105868,cohort,T2DM Completed Participants,"Dementia-free, non-insulin dependent T2DM older adults (49-78 years old) who completed all intervention visits in the double-blind, placebo-controlled crossover trial.",36
+27105868,cohort,Placebo Arm,"Treatment condition where completed participants received 0mg of resveratrol (inert excipients) in the crossover design, serving as the internal control.",36
+27105868,cohort,Resveratrol 75mg Arm,Treatment condition where completed participants received an acute single dose of 75mg synthetic trans-resveratrol in the crossover design.,36
+27105868,cohort,Resveratrol 150mg Arm,Treatment condition where completed participants received an acute single dose of 150mg synthetic trans-resveratrol in the crossover design.,36
+27105868,cohort,Resveratrol 300mg Arm,Treatment condition where completed participants received an acute single dose of 300mg synthetic trans-resveratrol in the crossover design.,36
+27105868,cohort,PCA Measurement Cohort (Max N),Subset of participants for whom satisfactory Transcranial Doppler (TCD) signals could be obtained bilaterally in the Posterior Cerebral Arteries (PCA) to assess Cerebrovascular Responsiveness (CVR).,22
+27105868,cohort,OHA Users,"Participants managing their T2DM using oral hypoglycemic agents, including Metformin.",28
+27105868,cohort,Diet/Exercise Management Group,"Participants managing their T2DM using diet and exercise alone, without pharmacological treatment.",8
+27105868,cohort,Sulfonylurea Users,Participants taking sulfonylurea in addition to other oral hypoglycemic agents.,15
+27105868,species,Homo sapiens,Human,
+27207552,clinical_test,OGIS (Oral Glucose Insulin Sensitivity index),"Calculation of the Oral Glucose Insulin Sensitivity (OGIS) index derived from the 75 g Oral Glucose Tolerance Test (OGTT), serving as a primary clinical end point for metabolic health.",
+27207552,clinical_test,OGTT (Oral Glucose Tolerance Test),"Standard 75 g Oral Glucose Tolerance Test procedure to assess glucose metabolism, measuring plasma glucose and insulin concentrations over time (0, 90, 120 min for glucose; 0, 90 min for insulin).",
+27207552,clinical_test,FMD (Brachial Artery Flow-Mediated Dilatation),"Assessment of vascular health via brachial artery flow-mediated dilatation, measuring arterial dilatation response.",
+27207552,clinical_test,GTND (Glyceryl Nitrate Dilatation Response),Measurement of arterial dilatation response to a subtherapeutic dose (25 µg) of glyceryl nitrate.,
+27207552,clinical_test,Plasma Methylglyoxal and Glycation/Oxidation Adducts Assay (LC-MS/MS),Assay of plasma methylglyoxal and glycation and oxidation adducts in plasma protein and urine using stable isotopic dilution analysis liquid chromatography–tandem mass spectrometry (LC-MS/MS).,
+27207552,clinical_test,Urinary tRES and HESP Metabolites Assay (LC-MS/MS),Determination of total trans-resveratrol (tRES) and hesperetin (HESP) urinary metabolites by stable isotopic LC-MS/MS after deconjugation of glucuronides and sulfates.,
+27207552,clinical_test,Cellular GSH and GSSG Assay (LC-MS/MS),Assay of cellular reduced glutathione (GSH) and oxidized glutathione (GSSG) by stable isotopic dilution analysis LC-MS/MS.,
+27207552,clinical_test,Electrocardiogram (ECG),Safety assessment procedure monitoring cardiac function.,
+27207552,clinical_test,BMI Measurement,"Direct measurement of Body Mass Index (BMI, kg/m²) for subject classification and monitoring small changes post-intervention.",
+27207552,clinical_test,Blood Pressure (BP) Measurement,Measurement of Systolic and Diastolic Blood Pressure (mmHg).,
+27207552,clinical_test,Estimated Glomerular Filtration Rate (eGFR),Calculation of estimated Glomerular Filtration Rate (GFR) based on plasma creatinine levels.,
+27207552,clinical_test,Fasting Plasma Glucose (FPG) Assay,Measurement of plasma glucose concentration in the fasting state.,
+27207552,clinical_test,HbA1c (A1C) Assay,Measurement of glycated hemoglobin (A1C).,
+27207552,clinical_test,Plasma Lipid Profile Assay,"Measurement of plasma Total cholesterol, LDL/VLDL cholesterol, HDL cholesterol, and Triglycerides.",
+27207552,clinical_test,"Plasma Biomarker Panel (sICAM-1, CRP, sE-selectin, sVCAM1, Cystatin-c)","Assessment of markers of vascular inflammation (Plasma sICAM-1, sE-selectin, sVCAM1) and other circulating markers (CRP, Cystatin-c).",
+27207552,clinical_test,HOMA-IR Calculation,Calculation of Homeostatic Model Assessment for Insulin Resistance (HOMA-IR).,
+27207552,clinical_test,Urinary Pyrraline Assay,"Measurement of urinary excretion of pyrraline (an advanced glycation end product sourced only from food), used as a check on stable food consumption.",
+27207552,clinical_test,PBMC Focused Quantitative mRNA Array,"Analysis of gene expression changes (e.g., GLO1, IL8, PTGS2) in Peripheral Blood Mononuclear Cells (PBMCs) using a focused quantitative mRNA array study.",
+27207552,cohort,Initial Recruited Cohort (HATFF Study),"Overweight and obese healthy subjects initially recruited for the randomized, double-blind, placebo-controlled crossover clinical trial (HATFF study).",32
+27207552,cohort,Per Protocol Analysis Cohort (All Subjects),"Overweight and obese subjects who completed the randomized, double-blind, placebo-controlled crossover study (HATFF), analyzed per protocol.",29
+27207552,cohort,tRES-HESP Intervention Arm,All participants received the optimized Glo1 inducer formulation (90 mg trans-resveratrol (tRES) and 120 mg hesperetin (HESP)) daily for an 8-week treatment period in this crossover study phase.,29
+27207552,cohort,Placebo Control Arm,All participants received the placebo (starch in hard gelatin capsules) daily for an 8-week treatment period in this crossover study phase.,29
+27207552,cohort,Highly Overweight/Obese Subgroup,A subset of participants with high body mass index (BMI >27.5 kg/m²) identified for post hoc analysis to explore BMI as a factor influencing responsiveness to Glo1 inducers.,20
+27207552,cohort,Obese Subgroup,A subset of participants categorized as obese (BMI >30 kg/m²) used for enhanced subgroup analysis of treatment effects.,11
+27207552,species,Homo sapiens,Human,
+27207552,species,Homo sapiens,Human,
+27207552,species,Mus musculus,Mouse,
+27207552,species,Rattus norvegicus,Rat,
+27520400,clinical_test,High-sensitivity CRP Assay,Measurement of serum C-reactive protein (CRP) concentrations using a high-sensitivity latex agglutination assay.,
+27520400,clinical_test,IL-6 ELISA,Measurement of circulating Interleukin-6 (IL-6) concentrations using a quantitative sandwich enzyme immunoassay technique.,
+27520400,clinical_test,Fasting Glucose Assay,Measurement of serum glucose concentrations using the glucose oxidase method.,
+27520400,clinical_test,Lipid Panel (Triglycerides & Cholesterol),Measurement of triglycerides and total cholesterol using enzymatic colorimetric assays.,
+27520400,clinical_test,HDL-Cholesterol Assay,Measurement of HDL-cholesterol via enzymatic colorimetric assay following precipitation of LDL and VLDL fractions.,
+27520400,clinical_test,Free Fatty Acids (FFA) Assay,Measurement of Free Fatty Acid values using an enzymatic colorimetric method.,
+27520400,clinical_test,Liver Transaminase Kinetic Determination,"Measurement of AST, ALT, and GGT enzyme activities using a kinetic determination method according to IFCC recommendations.",
+27520400,clinical_test,Insulin Immunoassay,Measurement of insulin concentrations using a biotin labelled antibody based sandwich enzyme immunoassay.,
+27520400,clinical_test,HbA1c Latex-Based Method,Determination of glycated hemoglobin (HbA1c) using a latex-based method.,
+27520400,clinical_test,Adiponectin ELISA,Measurement of adiponectin using sandwich enzyme-linked immunosorbent assays (ELISA).,
+27520400,clinical_test,Uric Acid Assay,Assay of uric acid using uricase-based enzymatic colorimetric assays.,
+27520400,clinical_test,C-peptide Assay,Measurement of C-peptide circulating concentrations from a fasting blood sample.,
+27520400,clinical_test,Body Weight Measurement,Direct measurement of body weight to the nearest 0.1 kg.,
+27520400,clinical_test,Height Measurement,Direct measurement of height to the nearest 0.1 cm using a stadiometer.,
+27520400,clinical_test,Waist Circumference Measurement,Measurement of waist circumference at the narrowest level using a plastic tape meter.,
+27520400,clinical_test,Arterial Blood Pressure Measurement,Measurement of systolic and diastolic arterial blood pressure using a mercury sphygmomanometer.,
+27520400,clinical_test,Dual X-ray Absorptiometry (DXA),"Determination of body composition, including lean and fat body mass, using Dual X-ray Densitometry (DXA).",
+27520400,clinical_test,HOMA-IR Calculation,Calculation of Homeostasis Model Assessment-Insulin Resistance (HOMA-IR) based on fasting plasma glucose and insulin concentrations using a published algorithm.,
+27520400,clinical_test,Validated Food-Frequency Questionnaire,"A food-frequency questionnaire adapted from the EPIC, focused on dietary polyphenol intake, used to assess usual dietary habits.",
+27520400,clinical_test,Minnesota Leisure-Time Physical Activity Questionnaire,A questionnaire used to assess leisure-time physical activities and estimate physical activity levels (METs).,
+27520400,cohort,Assessed for Eligibility,Total number of patients assessed for potential inclusion in the trial.,1146
+27520400,cohort,Randomized T2DM Population,"Type 2 diabetes mellitus (T2DM) patients who met inclusion criteria, were not excluded, and were randomized into the study arms.",192
+27520400,cohort,Placebo Arm (Allocated),Patients allocated to receive one capsule per day of inert microcellulose placebo for 6 months.,62
+27520400,cohort,Placebo Arm (Analyzed),Patients from the placebo group whose data were included in the final analysis (after 4 drop-outs).,58
+27520400,cohort,Resv 40 Arm (Allocated),Patients allocated to receive one capsule per day of resveratrol 40 mg/day for 6 months.,65
+27520400,cohort,Resv 40 Arm (Analyzed),Patients from the Resveratrol 40 mg/day group whose data were included in the final analysis (after 6 drop-outs).,59
+27520400,cohort,Resv 500 Arm (Allocated),Patients allocated to receive one capsule per day of resveratrol 500 mg/day for 6 months.,65
+27520400,cohort,Resv 500 Arm (Analyzed),Patients from the Resveratrol 500 mg/day group whose data were included in the final analysis (after 3 drop-outs).,62
+27520400,cohort,T2DM Duration <8 years,"Subgroup of Type 2 diabetes patients with a disease duration lower than 8 years, used in exploratory analyses to investigate modifying factors on CRP reduction.",
+27520400,cohort,T2DM Duration >=8 years,"Subgroup of Type 2 diabetes patients with a disease duration of 8 years or more, used in exploratory analyses.",
+27520400,species,Homo sapiens,Human,
+28238190,clinical_test,PTX3 concentration measurement,Quantification of human Pentraxin 3 (PTX3) concentration using a ready-to-use solid-phase enzyme-linked immunosorbent assay (ELISA) based on the sandwich principle (Hycult Biotech).,
+28238190,clinical_test,Total Antioxidant Status (TAS) measurement,"Determination of the Total Antioxidant Status (TAS) using a colorimetric assay (ImAnOx TAS Kit, Immundiagnostik AG Bensheim).",
+28238190,clinical_test,Glycated Hemoglobin (HbA1c) measurement,"Measurement of Glycated Hemoglobin (HbA1c) levels, used as a stratification variable during randomization (cut point 7%).",
+28238190,clinical_test,Body Mass Index (BMI) calculation,"Calculation of Body Mass Index (BMI) using height and weight measurements, applied as an inclusion criterion (BMI <35 kg/m²).",
+28238190,cohort,T2DM Patients (Overall Randomized),"The overall study population consisting of patients with type 2 diabetes mellitus (T2DM) who met the inclusion criteria (age ≥40 years, BMI <35 kg/m², on diet and/or hypoglycemic agents other than insulin) and were randomized.",192
+28238190,cohort,Resv 500 Arm (High Dose Intervention),Intervention group randomized to receive 500 mg/day of resveratrol for 6 months. 62 patients completed the trial.,65
+28238190,cohort,Resv 40 Arm (Low Dose Intervention),Intervention group randomized to receive 40 mg/day of resveratrol for 6 months. 59 patients completed the trial.,65
+28238190,cohort,Placebo Arm,Control group randomized to receive 1 capsule/day of placebo (totally inert microcellulose) for 6 months. 58 patients completed the trial.,62
+28238190,cohort,Exploratory Stratified Subgroups,"Subgroups derived from the randomized arms for exploratory analysis to test for interaction effects of resveratrol supplementation based on patient characteristics: age (<65y, ≥65y), gender (Females, Males), diabetes duration (<8y, ≥8y), HbA1c (<7%, ≥7%), aspirin use (No, Yes), smoking status (Current Smoker: No, Yes), and alcohol consumption (No, Yes).",
+28238190,species,Homo sapiens,Human,
+28273841,clinical_test,Non-targeted Metabolomics,"Systematic identification and quantification of small-molecule metabolites using a combination of Ultrahigh Performance Liquid Chromatography-Tandem Mass Spectroscopy (UPLC-MS/MS) and Gas Chromatography-Mass Spectroscopy (GC-MS) platforms. Applied across plasma, urine, adipose tissue, and skeletal muscle matrices.",
+28273841,clinical_test,Skeletal Muscle Biopsy,Harvesting of skeletal muscle tissue from the musculus vastus lateralis using a Bergström cannula under sterile conditions for subsequent metabolomic analysis.,
+28273841,clinical_test,Adipose Tissue Biopsy (Liposuction),Obtaining a biopsy of the abdominal subcutaneous adipose tissue depot using a liposuction cannula under sterile conditions for subsequent metabolomic analysis.,
+28273841,clinical_test,Body Mass Index (BMI),Calculation of body weight relative to height (kg/m²) used to assess general obesity status.,
+28273841,clinical_test,HOMA-IR Calculation,"Calculation of the Homeostatic Model Assessment of Insulin Resistance index, derived from fasting plasma glucose and insulin concentrations, used to evaluate insulin sensitivity.",
+28273841,clinical_test,Systolic Blood Pressure Measurement,Direct quantitative assessment of systolic blood pressure (mmHg).,
+28273841,clinical_test,Diastolic Blood Pressure Measurement,Direct quantitative assessment of diastolic blood pressure (mmHg).,
+28273841,clinical_test,Waist Circumference Measurement,"Direct measurement of waist circumference, used as an indicator of central obesity according to metabolic syndrome criteria.",
+28273841,clinical_test,Plasma Triglycerides Assay,"Laboratory quantification of circulating triglyceride levels in plasma, used for Metabolic Syndrome diagnosis.",
+28273841,clinical_test,HDL Cholesterol Assay,"Laboratory quantification of high-density lipoprotein (HDL) concentration in plasma, used for Metabolic Syndrome diagnosis.",
+28273841,clinical_test,Fasting Plasma Glucose Assay,"Laboratory quantification of circulating glucose levels in plasma after an overnight fast, used for Metabolic Syndrome diagnosis.",
+28273841,clinical_test,Fructosamine Assay,"Laboratory quantification of fructosamine levels, a marker of intermediate-term glucose control.",
+28273841,cohort,hRSV Group,"Middle-aged men with metabolic syndrome randomized to receive high-dose resveratrol (1000 mg daily/500 mg twice daily) treatment for four months, included in the comprehensive metabolomic analysis.",21
+28273841,cohort,Placebo Group,"Middle-aged men with metabolic syndrome randomized to receive placebo treatment for four months, included as the control group for the comprehensive metabolomic analysis.",24
+28703838,clinical_test,Total Cholesterol,Biochemical quantification of total cholesterol levels in a blood sample.,
+28703838,clinical_test,LDL,"Biochemical quantification of Low-Density Lipoprotein levels in a blood sample, as part of the lipid profile.",
+28703838,clinical_test,HDL,"Biochemical quantification of High-Density Lipoprotein levels in a blood sample, as part of the lipid profile.",
+28703838,clinical_test,Triglycerides (TG),"Biochemical quantification of triglyceride levels in a blood sample, as part of the lipid profile.",
+28703838,clinical_test,Blood Glucose Level (Glycaemia),"Biochemical measurement of glucose concentration in the blood, particularly fasting levels.",
+28703838,clinical_test,Systolic Blood Pressure,Direct quantitative assessment of systolic blood pressure.,
+28703838,clinical_test,Diastolic Blood Pressure,Direct quantitative assessment of diastolic blood pressure.,
+28703838,clinical_test,Body Mass Index (BMI),Calculation of body mass index (weight/height^2) used as a measure of pregnancy BMI.,
+28703838,clinical_test,Oral Glucose Tolerance Test (OGTT),A diagnostic procedure using a 75-gram glucose load administered over 2 hours (75-g 2-h OGTT) to screen for Gestational Diabetes Mellitus (GDM).,
+28703838,cohort,Overall Study Population,"Overweight pregnant women enrolled in the clinical trial (aged 25 to 40 years, gestational age at enrollment between 24th and 28th weeks, with a first trimester BMI between 25-30 kg/m2).",104
+28703838,cohort,Group I (Revifast + DCI/MI),Intervention Arm receiving trans-resveratrol (Revifast®) plus D-chiro-inositol (DCI) and Myo-inositol (MI).,35
+28703838,cohort,Group II (DCI/MI alone),Intervention Arm receiving DCI/MI (D-chiro-inositol and Myo-inositol) alone.,34
+28703838,cohort,Group III (Placebo Control),Control group receiving placebo.,35
+28703838,species,Homo sapiens,Human,
+28703838,species,Rattus norvegicus,Rat,
+28703838,species,Mus musculus,Mouse,
+28703838,species,Polygonum cuspidatum,Japanese knotweed,
+29057795,cohort,NW Men - Placebo,Non-overweight men (BMI < 25 kg/m²) receiving placebo capsules for eight weeks.,5
+29057795,cohort,NW Men - Piceatannol,Non-overweight men (BMI < 25 kg/m²) receiving piceatannol supplementation (20 mg/day) for eight weeks.,5
+29057795,cohort,OW Men - Placebo,Overweight men (BMI ≥ 25 kg/m²) receiving placebo capsules for eight weeks.,5
+29057795,cohort,OW Men - Piceatannol,"Overweight men (BMI ≥ 25 kg/m²) receiving piceatannol supplementation (20 mg/day) for eight weeks. This group showed significant improvement in insulin sensitivity, BP, and HR.",5
+29057795,cohort,NW Women - Placebo,Non-overweight women (BMI < 25 kg/m²) receiving placebo capsules for eight weeks.,5
+29057795,cohort,NW Women - Piceatannol,Non-overweight women (BMI < 25 kg/m²) receiving piceatannol supplementation (20 mg/day) for eight weeks.,5
+29057795,cohort,OW Women - Placebo,Overweight women (BMI ≥ 25 kg/m²) receiving placebo capsules for eight weeks.,4
+29057795,cohort,OW Women - Piceatannol,Overweight women (BMI ≥ 25 kg/m²) receiving piceatannol supplementation (20 mg/day) for eight weeks.,5
+29057795,species,Homo sapiens,Human,
+29057795,species,Passiflora edulis,Passion Fruit,
+29057795,species,Mus musculus,House Mouse,
+29057795,species,Rattus norvegicus,Norway Rat,
+29330620,clinical_test,Body Weight Measurement,Direct quantitative assessment of body mass.,
+29330620,clinical_test,Height Measurement,Direct quantitative assessment of body height.,
+29330620,clinical_test,Waist Circumference,Anthropometric measurement taken at the narrowest level using a plastic tape meter.,
+29330620,clinical_test,Body Composition Analysis (DEXA),"Determination of body composition, including body fat percentage, using dual X-ray densitometry (DXA) (QDR-4500 Hologic Inc.), applying whole-body absorptiometry software.",
+29330620,clinical_test,Arterial Blood Pressure Measurement,"Measurement of systolic and diastolic blood pressure using a mercury sphygmomanometer (ERKA Perfect-Aneroid, Germany).",
+29330620,clinical_test,HOMA-IR Calculation,"Homeostasis model assessment for insulin resistance, calculated according to a published algorithm.",
+29330620,clinical_test,Plasma Pentraxin-3 (PTX3) ELISA,Measurement of human PTX3 concentration using a ready-to-use solid-phase enzyme-linked immunosorbent assay (ELISA) based on the sandwich principle (Hycult biotech).,
+29330620,clinical_test,Total Antioxidant Status (TAS) Assay,"Measurement of total antioxidant status using a colorimetric assay (ImAnOx TAS Kit, Immundiagnostik AG Bensheim, Germany).",
+29330620,clinical_test,Serum C-reactive protein (CRP) Assay,Measurement of CRP values using a high-sensitivity latex agglutination assay on a HITACHI 911 Analyzer.,
+29330620,clinical_test,Interleukin-6 (IL-6) Immunoassay,Measurement of circulating IL-6 concentrations using a quantitative sandwich enzyme immunoassay technique (R&D System).,
+29330620,clinical_test,Serum Glucose Assay,Measurement of serum glucose using the glucose oxidase method.,
+29330620,clinical_test,Triglycerides Assay (Colorimetric),Measurement of triglyceride levels using enzymatic colorimetric assays.,
+29330620,clinical_test,Total Cholesterol Assay (Colorimetric),Measurement of total cholesterol using enzymatic colorimetric assays.,
+29330620,clinical_test,HDL-Cholesterol Assay,Measurement of HDL-cholesterol by enzymatic colorimetric assay following chemical precipitation of LDL and VLDL fractions using heparin–MnCl2 solution.,
+29330620,clinical_test,Free Fatty Acid (FFA) Assay,"Measurement of FFA values using an enzymatic colorimetric method (RANDOX, UK).",
+29330620,clinical_test,Alanine Aminotransferase (ALT) Assay,Measurement of ALT levels by kinetic determination according to the IFCC recommendations.,
+29330620,clinical_test,Gamma-Glutamyl-Transferase (GGT) Assay,Measurement of GGT levels by kinetic determination according to the IFCC recommendations.,
+29330620,clinical_test,Insulin Immunoassay,"Measurement of insulin concentration using a biotin labeled antibody based sandwich enzyme immunoassay (LDN, Germany).",
+29330620,clinical_test,Glycated Hemoglobin (HbA1c) Assay,"Measurement of Hba1c using a latex-based method (Sentinel Ch., Milan).",
+29330620,clinical_test,Adiponectin Immunoassay,Measurement of Adiponectin concentration using sandwich enzyme-linked immunosorbent assays (BioVendor).,
+29330620,clinical_test,Uric Acid Assay (Colorimetric),Measurement of uric acid levels using uricase-based enzymatic colorimetric assays.,
+29330620,clinical_test,PBMC Protein Western Blot,"Analysis of protein expression (SIRT-1, H3K56ac, p53ac) in Peripheral Blood Mononuclear Cells (PBMCs) via SDS-PAGE, transfer to nitrocellulose membrane, and densitometric analysis normalized to housekeeping proteins.",
+29330620,cohort,T2DM Study Cohort (Total Enrolled),The total population of Type 2 Diabetes Mellitus (T2DM) patients enrolled specifically for this nested observational study.,128
+29330620,cohort,Resv500 Arm,Intervention arm receiving high-dose resveratrol supplementation (500 mg/day) for 6 months.,43
+29330620,cohort,Resv40 Arm,Intervention arm receiving low-dose resveratrol supplementation (40 mg/day) for 6 months.,43
+29330620,cohort,Placebo Arm,Control arm receiving a placebo (totally inert microcellulose) for 6 months.,42
+29330620,cohort,Baseline SIRT-1 Lower Tertiles,Subgroup of participants characterized by baseline SIRT-1 values less than 1.16 relative amount (ra). Used for baseline comparisons.,86
+29330620,cohort,Baseline SIRT-1 Highest Tertile,Subgroup of participants characterized by baseline SIRT-1 values greater than or equal to 1.16 relative amount (ra). Used for baseline comparisons.,42
+29330620,cohort,Delta SIRT-1 Lower Tertiles (All Arms),"Subgroup of all participants (N=123, post-dropouts) whose change (delta) in SIRT-1 value (trial end minus baseline) was less than 0.66 ra.",83
+29330620,cohort,Delta SIRT-1 Highest Tertile (All Arms),"Subgroup of all participants (N=123, post-dropouts) whose change (delta) in SIRT-1 value (trial end minus baseline) was greater than or equal to 0.66 ra.",40
+29330620,cohort,Delta SIRT-1 Lower Tertiles (Resveratrol Arms Only),"Subgroup consisting only of individuals from the Resveratrol intervention arms (N=83, post-dropouts) whose delta SIRT-1 value was less than 0.66 ra.",50
+29330620,cohort,Delta SIRT-1 Highest Tertile (Resveratrol Arms Only),"Subgroup consisting only of individuals from the Resveratrol intervention arms (N=83, post-dropouts) whose delta SIRT-1 value was greater than or equal to 0.66 ra.",33
+29330620,species,Homo sapiens,Human,
+29357033,clinical_test,Fasting Blood Sugar (FBS),Quantification of fasting blood sugar levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Total Cholesterol (TC),Quantification of total cholesterol levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Low-Density Lipoprotein Cholesterol (LDL-C),Quantification of LDL-C levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,High-Density Lipoprotein Cholesterol (HDL-C),Quantification of HDL-C levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Triacylglycerol (TG),Quantification of triglyceride (TG) levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Urea,Quantification of urea levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Uric Acid,Quantification of uric acid levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Creatinine,Quantification of creatinine levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Total Protein,Quantification of total protein levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,SGOT (AST),Quantification of serum glutamate oxaloacetate transaminase (SGOT) levels using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,SGPT (ALT),Quantification of serum glutamate pyruvate transaminase (SGPT) levels using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,High-Sensitivity C-Reactive Protein (hsCRP),Quantification of high-sensitivity C-reactive protein levels in serum using enzymatic methods via a BIOLIS 24i Premium Autoanalyser.,
+29357033,clinical_test,Glycated Hemoglobin (HbA1c) Assay,Assessment of HbA1c levels using High-Performance Liquid Chromatography (HPLC) method by a Tosoh G8 instrument.,
+29357033,clinical_test,Insulin Quantification ELISA,"Quantification of plasma insulin levels using the Insulin AccuBind ELISA Kit (Monobind Inc, California, USA).",
+29357033,clinical_test,TBARS Assay for MDA,"Measurement of plasma malondialdehyde (MDA) level as the thiobarbituric acid reactive substance (TBARS) using 1,1,3,3-tetramethoxypropane as a standard.",
+29357033,clinical_test,FRAP Assay for TAC,Measurement of plasma Total Antioxidant Capacity (TAC) on the basis of the Ferric Reducing Ability of Plasma (FRAP).,
+29357033,clinical_test,"2,4-Dinitrophenylhydrazine Assay","Assessment of protein carbonyl content in plasma using the 2,4-dinitrophenylhydrazine assay with slight modifications.",
+29357033,clinical_test,Total Thiol Content Measurement (Spectrophotometry),Measurement of total thiol content in plasma using a spectrophotometric method.,
+29357033,clinical_test,Real-time Quantitative PCR (qPCR),"Quantification of gene expression (Nrf2, SOD, Cat, HO-1, RAGE, NOS) in PBMCs using SYBR Green RealQ Plus 2x Master Mix Green and run on a Corbett Rotor Gene 6000 Light Cycler.",
+29357033,clinical_test,Blood Pressure Measurement,Assessment of systolic blood pressure (SBP) and diastolic blood pressure (DBP) using a standard mercury sphygmomanometer on the right arm after a 10-min rest in the sitting position.,
+29357033,clinical_test,Body Weight Measurement,Measurement of body weight using a Seca scale (Germany) to the nearest of 0.1 kg.,
+29357033,clinical_test,Height Measurement,Measurement of height using a stadiometer to the nearest of 0.1 cm.,
+29357033,clinical_test,Waist and Hip Circumference Measurement,Measurement of waist and hip circumferences at the narrowest level over light clothing using a plastic tape meter to the nearest 0.1 cm.,
+29357033,clinical_test,Body Mass Index (BMI) Calculation,Calculation of BMI as the ratio of the current body weight to height² (kg/m²).,
+29357033,clinical_test,Flow Cytometry for Intracellular ROS,"Assessment of intracellular superoxide anion (O2¯) and hydrogen peroxide (H2O2) levels in Peripheral Blood Mononuclear Cells (PBMCs) using dihydroethidium (DHE) and DCFH-DA probes, respectively, via a Becton Dickinson FACSCalibur flow cytometer.",
+29357033,cohort,T2D Patients (Randomized),"The overall study population consisting of patients diagnosed with Type 2 Diabetes (T2D), aged 30–70 years, who were randomized into the clinical trial.",48
+29357033,cohort,Resveratrol Intervention Arm (Analyzed),"Patients with T2D who were allocated to receive 800 mg/day resveratrol supplementation for 8 weeks and completed the study, whose data were included in the final analysis.",23
+29357033,cohort,Placebo Control Arm (Analyzed),"Patients with T2D who were allocated to receive placebo for 8 weeks and completed the study, whose data were included in the final analysis.",23
+29357033,species,Homo sapiens,Human,
+29885082,clinical_test,Hyperinsulinemic Euglycaemic Clamp,"A metabolic procedure used to achieve steady-state hyperinsulinemia while maintaining constant euglycemia, allowing for the assessment of insulin-mediated VLDL-TG, palmitate, and glucose kinetics and substrate oxidation rates.",
+29885082,clinical_test,MR Spectroscopy (MRS),"Magnetic Resonance Spectroscopy, specifically used to quantitatively assess liver fat content (Intrahepatic Triglyceride, IHTG).",
+29885082,clinical_test,Dual-X-ray Absorptiometry (DXA),"Imaging modality used for assessing body composition, including percent fat, fat mass, and fat-free mass (FFM).",
+29885082,clinical_test,MR Imaging,"Magnetic Resonance Imaging, used to assess liver fat content and body composition.",
+29885082,clinical_test,VLDL-TG Tracer Kinetics,"Assessment of very low-density lipoprotein triglyceride kinetics (secretion, oxidation, clearance rates) using a Carbon-14 ($^{14}C$)-labeled VLDL-TG tracer.",
+29885082,clinical_test,Glucose Tracer Kinetics,"Assessment of glucose turnover, including endogenous glucose production (EGP) and glucose disposal rate (Rd), using a Tritium ($^3H$)-labeled glucose tracer.",
+29885082,clinical_test,Palmitate Tracer Kinetics,Assessment of palmitate flux and kinetics using a Tritium ($^3H$)-labeled palmitate tracer.,
+29885082,clinical_test,Indirect Calorimetry,"A technique used in combination with tracers and breath samples to calculate substrate oxidation rates (e.g., VLDL-TG fatty acids oxidation) and energy expenditure.",
+29885082,clinical_test,VLDL-apoB-100 Concentration Assay,"Quantification of apolipoprotein B-100 concentration associated with VLDL particles, used to calculate VLDL particle size (VLDL-TG-to-VLDL-apoB-100 ratio).",
+29885082,clinical_test,Body Mass Index (BMI) Calculation,Calculation of BMI to define participant obesity status (BMI >28 kg/m²).,
+29885082,clinical_test,Waist-to-Hip Ratio (WHR) Measurement,Measurement used to characterize participants as having upper-body obesity (WHR >0.9).,
+29885082,cohort,Total Study Population (NAFLD Men),"Non-diabetic, upper-body obese men (BMI >28 kg/m², WHR >0.9) diagnosed with Nonalcoholic Fatty Liver Disease (NAFLD) who were randomized into the trial.",16
+29885082,cohort,Resveratrol Group (RSV),Intervention arm receiving high-dose Resveratrol (RSV) 500 mg three times daily for 6 months.,
+29885082,cohort,Placebo Group (PL),"Comparison group receiving placebo treatment for 6 months in a double-blinded, placebo-controlled clinical trial.",
+29885082,species,Homo sapiens,Human,
+29914666,clinical_test,Flow Cytometry (CD14+CD16+ Monocytes),"Analysis of the relative percentage of circulating CD14+CD16+ monocyte subsets in whole blood using fluorescein isothiocyanate (FITC)-labeled anti-CD14 and phycoerythrin (PE)-labeled anti-CD16 antibodies, followed by Partec PAS analysis.",
+29914666,clinical_test,ELISA (Circulating Inflammatory Cytokines),"Measurement of plasma levels of inflammatory markers: Tumor necrosis factor alpha (TNF-α), Interleukin-6 (IL-6), Interleukin-1 beta (IL-1β), and Monocyte chemoattractant protein-1 (MCP-1) using enzyme-linked immunosorbent assay (ELIZA) kits.",
+29914666,clinical_test,LPS-stimulated PBMC Cytokine Secretion Assay,"Assessment of the secretion capacity of pro-inflammatory cytokines (TNF-α, IL-1β, and IL-6) from Peripheral Blood Mononuclear Cells (PBMCs) after 24 hours of stimulation with Lipopolysaccharide (LPS, 100 ng/mL).",
+29914666,clinical_test,Quantitative Real-time PCR (Inflammatory Genes),"Measurement of the expression levels of inflammatory response genes: Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB), Toll-like receptor 2 (TLR2), and Toll-like receptor 4 (TLR4) in PBMCs, normalized to the β-actin transcript level using the delta-delta Ct method.",
+29914666,clinical_test,Blood Pressure Measurement (SBP/DBP),"Measurement of systolic (SBP) and diastolic (DBP) blood pressures using a mercury sphygmomanometer according to standard protocol, taken twice at five-minute intervals while the subject was seated at rest.",
+29914666,clinical_test,Weight Measurement,Measurement of body weight using a standard weighing scale.,
+29914666,clinical_test,Body Mass Index (BMI) Calculation,Calculation of body mass index as weight in kilograms divided by the square of height in meters.,
+29914666,clinical_test,Waist Circumference (WC) Measurement,Measurement of waist circumference at the midpoint between the lower margin of the last palpable rib and the top of the iliac crest.,
+29914666,clinical_test,Hip Circumference Measurement,Measurement of hip circumference at its widest portion of the buttocks at left and at the greater trochanters at right.,
+29914666,clinical_test,Waist to Hip Ratio (W/H Ratio) Calculation,Calculation of the waist to hip ratio.,
+29914666,clinical_test,Fasting Blood Glucose (FBS) Assay,Measurement of fasting blood glucose levels using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Glycated Hemoglobin (HbA1c) Measurement,Measurement of glycated hemoglobin using the High-Performance Liquid Chromatography (HPLC) method via the Tosoh G8 instrument.,
+29914666,clinical_test,Insulin ELISA (AccuBind),Measurement of serum insulin levels using the Insulin AccuBind enzyme-linked immunosorbent assay (ELIZA) Kit.,
+29914666,clinical_test,Total Cholesterol Assay,Measurement of total cholesterol using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,LDL-Cholesterol (LDL-C) Assay,Measurement of low-density lipoprotein cholesterol (LDL-C) using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,HDL-Cholesterol (HDL-C) Assay,Measurement of high-density lipoprotein cholesterol (HDL-C) using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Triacylglycerol (TG) Assay,Measurement of triacylglycerol (TG) levels using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Urea Assay,Measurement of urea levels using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Uric Acid Assay,Measurement of uric acid levels using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Creatinine Assay,Measurement of creatinine levels using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Total Protein Assay,Measurement of total protein levels using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Serum Glutamate Oxaloacetate Transaminase (SGOT) Assay,Measurement of SGOT levels (an enzyme related to liver function) using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,Serum Glutamate Pyruvate Transaminase (SGPT) Assay,Measurement of SGPT levels (an enzyme related to liver function) using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,High-Sensitivity C-Reactive Protein (hsCRP) Assay,Measurement of high-sensitivity C-reactive protein levels using enzymatic methods via the BIOLIS 24i Premium autoanalyzer.,
+29914666,clinical_test,HOMA-IR Calculation,"Calculation of the Homeostasis Model Assessment of Insulin Resistance (HOMA-IR) index, derived from fasting glucose and insulin levels.",
+29914666,clinical_test,HOMA-β Calculation,"Calculation of the Homeostasis Model Assessment of β-cell function (HOMA-β) index, derived from fasting glucose and insulin levels.",
+29914666,cohort,Resveratrol Arm (Analyzed Population),Patients with Type 2 Diabetes (T2D) randomized to and completing 8 weeks of supplementation with 800 mg/day of 99% pure trans-resveratrol capsules (400 mg twice daily).,25
+29914666,cohort,Placebo Arm (Analyzed Population),Patients with Type 2 Diabetes (T2D) randomized to and completing 8 weeks of supplementation with 800 mg/day of identical placebo capsules (inert microcellulose).,20
+29914666,cohort,Anti-hypertensive Treated Subgroup,"A subset of T2D patients receiving concomitant anti-hypertensive medication at baseline, analyzed separately to assess the effect of resveratrol on blood pressure.",
+29914666,cohort,No Anti-hypertensive Medication Subgroup,"A subset of T2D patients not receiving anti-hypertensive medication at baseline, analyzed separately to assess the effect of resveratrol on blood pressure.",
+29914666,species,Homo sapiens,Human,
+30237505,clinical_test,DXA BMD/BMC Measurement,"Dual X-ray densitometry (DXA) measurement of areal Bone Mineral Density (BMD) and Bone Mineral Content (BMC) at the lumbar spine (L1-L4), total hip, and whole body.",
+30237505,clinical_test,DXA Whole-Body Absorptiometry,Measurement of lean and fat body mass using specialized whole-body absorptiometry software integrated with the DXA instrument.,
+30237505,clinical_test,Serum Calcium,Determination of circulating concentration of serum calcium using a direct colorimetric method.,
+30237505,clinical_test,Serum Phosphorus,Determination of circulating concentration of serum phosphorus using a direct colorimetric method.,
+30237505,clinical_test,Serum Alkaline Phosphatase (ALP),Determination of serum ALP concentration using an enzymatic colorimetric method according to DGKC recommendations.,
+30237505,clinical_test,25-hydroxy vitamin D (25(OH)D) Assay,Determination of 25-hydroxy vitamin D concentration by competitive solid phase enzyme linked immunosorbent assay (ELISA).,
+30237505,clinical_test,Glycated Hemoglobin (HbA1c),"Measurement of glycated hemoglobin levels, used for patient stratification.",
+30237505,clinical_test,Body Weight,Direct quantitative assessment of patient body mass.,
+30237505,clinical_test,Waist Circumference,Direct measurement of patient waist circumference.,
+30237505,clinical_test,Arterial Blood Pressure,Direct physiological measurement of arterial blood pressure.,
+30237505,clinical_test,Validated Food-Frequency Questionnaire,Validated survey instrument used to collect data on usual dietary habits.,
+30237505,clinical_test,Minnesota-Leisure-Time-Physical-Activity questionnaire,Validated questionnaire used to assess exercise levels.,
+30237505,clinical_test,Alcohol Intake Assessment,"Assessment of daily alcohol consumption, calculated by multiplying mean daily intake for each beverage by its ethanol content (grams of alcohol/day).",
+30237505,clinical_test,Physical Activity Level (METs),"Assessment of physical activity level calculated as the product of the duration and frequency of each activity, weighted by an estimate of the metabolic equivalent (MET) and summed for all activities.",
+30237505,clinical_test,BMD T-score Calculation,"Calculation of BMD T-scores for lumbar, hip, and whole-body, derived using the formula: (patient's BMD mean - young-adult BMD) / (SD young-adult BMD).",
+30237505,cohort,Placebo Arm,Control group participants randomized to receive 1 capsule/day of placebo (totally inert microcellulose) for 6 months.,62
+30237505,cohort,Resv40 Arm,Intervention arm participants randomized to receive low-dose resveratrol 40 mg/day (1 capsule/day) for 6 months.,65
+30237505,cohort,Resv500 Arm,Intervention arm participants randomized to receive high-dose resveratrol 500 mg/day (1 capsule/day) for 6 months.,65
+30237505,cohort,Resv500 Subgroup: Lower Baseline Calcium,"Subset of patients in the Resv500 vs Placebo comparison characterized by baseline calcium levels less than 2.0 mmol/L, identified as a group where resveratrol showed greater beneficial effects on BMD.",56
+30237505,cohort,Resv500 Subgroup: Lower Baseline 25-OH Vitamin D,"Subset of patients in the Resv500 vs Placebo comparison characterized by baseline 25-hydroxy vitamin D levels less than 20 ng/mL, identified as a group where resveratrol showed greater beneficial effects on BMD.",68
+30237505,cohort,Resv500 Subgroup: Alcohol Drinkers,"Subset of patients in the Resv500 vs Placebo comparison who reported alcohol consumption (Yes), identified as a group where resveratrol showed greater beneficial effects on BMD.",70
+30237505,cohort,Resv40 Subgroup: No Sulfonylureas Use,"Subset of patients in the Resv40 arm vs Placebo comparison who were not treated with sulfonylureas, identified as showing an increase in BMD.",78
+30237505,species,Homo sapiens,Human,
+30237505,species,Rattus norvegicus,Rat,
+30237505,species,Mus musculus,Mouse,
+30237505,species,Oryctolagus cuniculus,Rabbit,
+31475415,clinical_test,Weight Measurement,Direct measurement of body mass in kilograms using a stand-on weighing platform.,
+31475415,clinical_test,Height Measurement,Measured using a stadiometer (Seca) with an accuracy level of 0.5 cm.,
+31475415,clinical_test,Waist Circumference (WC),"Measured to the nearest 0.5 cm according to standard methods, using a flexible tape.",
+31475415,clinical_test,Hip Circumference (HC),"Measured to the nearest 0.5 cm according to standard methods, using a flexible tape.",
+31475415,clinical_test,Body Mass Index (BMI) Calculation,Calculated using the formula: BMI = [weight (kg)/height (m)²].,
+31475415,clinical_test,Fat Mass (FM) / Body Composition,Estimated using Bioelectrical Impedance Analysis (BIA) via a stand-on body analyzer machine (Tanita BC-418).,
+31475415,clinical_test,Fasting Blood Sugar (FBS),Measured using automated enzymatic methods with commercial kits (Pars Azmoon).,
+31475415,clinical_test,Glycated Hemoglobin (HbA1c),Determined in whole blood by High-Pressure Liquid Chromatography (HPLC) method using a laboratory kit (Pars Azmoon).,
+31475415,clinical_test,Serum Insulin Level,"Assessed using a commercially available ELISA (enzyme-linked immunosorbent assay) kit (Monobind, USA).",
+31475415,clinical_test,Total Cholesterol (TC),Measured using automated enzymatic methods and commercial kits (Pars Azmoon).,
+31475415,clinical_test,Triglyceride (TG),Measured using automated enzymatic methods and commercial kits (Pars Azmoon).,
+31475415,clinical_test,High-Density Lipoprotein Cholesterol (HDL-C),Measured using automated enzymatic methods and commercial kits (Pars Azmoon).,
+31475415,clinical_test,Low-Density Lipoprotein Cholesterol (LDL-C),Measured using automated enzymatic methods and commercial kits (Pars Azmoon).,
+31475415,clinical_test,HOMA-IR Calculation,Homeostatic model assessment of insulin resistance calculated using the formula: HOMA-IR = [fasting insulin (µIU/mL) × fasting glucose (mg/dL) / 405].,
+31475415,clinical_test,QUICKI Calculation,Quantitative insulin sensitivity check index calculated using the formula: QUICKI = 1 / [Log (fasting insulin (µIU/mL)) + Log (fasting glucose (mg/dL))].,
+31475415,clinical_test,HOMA-β Calculation,Homeostasis model assessment of beta-cell function calculated using the formula: HOMA-β = [360 × fasting insulin (µIU/mL)] / [fasting glucose (mg/dL) - 63].,
+31475415,clinical_test,Atherogenic Index of Plasma (AIP) Calculation,Calculated as log (TG/HDL-C).,
+31475415,clinical_test,Dietary Intake Assessment,"Participants recorded food and beverages consumed over 3 days, with data analyzed using Nutritionist IV software.",
+31475415,clinical_test,MET Physical Activity Questionnaire,Used to assess physical activity level by calculating metabolic equivalents (METs) based on nine activity categories.,
+31475415,clinical_test,Waist-to-Hip Ratio (WHR) Calculation,Calculated using the formula: WHR = [waist (cm)/hip (cm)].,
+31475415,clinical_test,Waist-to-Stature Ratio (WSR) Calculation,Calculated using the formula: WSR = [waist (cm)/height (cm)].,
+31475415,clinical_test,Fat-Free Mass (FFM),Estimated using Bioelectrical Impedance Analysis (BIA) via a stand-on body analyzer machine (Tanita BC-418).,
+31475415,clinical_test,Trunk Fat Mass,Estimated using Bioelectrical Impedance Analysis (BIA) via a stand-on body analyzer machine (Tanita BC-418).,
+31475415,clinical_test,Basal Metabolic Rate (BMR),Estimated using Bioelectrical Impedance Analysis (BIA) via a stand-on body analyzer machine (Tanita BC-418).,
+31475415,cohort,Overall T2DM Cohort (Analyzed),"Overweight patients diagnosed with Type 2 Diabetes Mellitus (T2DM), aged 30-60 years, with a Body Mass Index (BMI) ranging from 25 to 30 kg/m² and Glycated Hemoglobin (HbA1c) lower than 8%. This represents the final analyzed population.",71
+31475415,cohort,Resveratrol Intervention Arm,Participants randomized to receive 1000 mg/day micronized trans-resveratrol supplement (500 mg twice a day) for an 8-week period.,35
+31475415,cohort,Placebo Control Arm,Participants randomized to receive an identical placebo (methyl cellulose) supplement for an 8-week period.,36
+31475415,species,Homo sapiens,Human,
+31475415,species,Mus musculus,Mouse,
+31475415,species,Rattus norvegicus,Rat,
+32144833,clinical_test,Serum ADMA ELISA,"Quantification of serum levels of asymmetric de-methyl-arginine (ADMA) using the enzyme-linked immunosorbent assay (ELISA) method with a commercially available kit (Zellbio, Germany).",
+32144833,clinical_test,Serum PON1 Activity ELISA,"Measurement of paraoxonase 1 (PON1) enzyme activity in serum using the enzyme-linked immunosorbent assay (ELISA) method with a commercially available kit (Zellbio, Germany).",
+32144833,clinical_test,Glycated Hemoglobin (HbA1c),"Measurement of glycated hemoglobin percentage, used as both an inclusion criterion and baseline characteristic.",
+32144833,clinical_test,Segmental Body Composition Analysis,"Assessment of body composition, including fat and fat-free masses, using a segmental body composition analyzer (Tanita BC-418, Tokyo, Japan).",
+32144833,clinical_test,Body Weight Measurement,Direct quantitative assessment of body weight (in kilograms).,
+32144833,clinical_test,Height Measurement,Direct quantitative assessment of body height (in centimeters).,
+32144833,clinical_test,Waist Circumference (WC),Direct quantitative assessment of waist circumference.,
+32144833,clinical_test,Hip Circumference (HC),Direct quantitative assessment of hip circumference.,
+32144833,clinical_test,Body Mass Index (BMI),"Calculated index of body mass (kg/m²), derived from height and weight measurements.",
+32144833,clinical_test,Waist to Hip Ratio (WHR),Calculated ratio derived from waist circumference and hip circumference measurements.,
+32144833,clinical_test,Waist to Height Ratio (WHtR),Calculated ratio derived from waist circumference and height measurements.,
+32144833,clinical_test,3-day Dietary Food Records,"Standardized assessment involving participants completing food records for one weekend day and two weekdays, analyzed using Nutritionist IV software, to assess nutrient intake.",
+32144833,clinical_test,Physical Activity Level Questionnaire,"Validated questionnaire used to calculate physical activity level, expressed as metabolic equivalent (MET/h per day), classified across nine intensity categories.",
+32144833,cohort,T2D Patients (Randomized Population),"Patients with Type 2 Diabetes (T2D) aged 30-60 years old, BMI 25-30 kg/m², and HbA1c lower than 8% who were recruited and randomized into the double-blind controlled trial.",76
+32144833,cohort,Resveratrol Intervention Arm (Allocated),"Participants randomly allocated to the intervention group, receiving 1,000 mg purified resveratrol per day for 8 weeks.",38
+32144833,cohort,Placebo Control Arm (Allocated),"Participants randomly allocated to the control group, receiving placebo capsules (methyl cellulose) per day for 8 weeks.",38
+32144833,cohort,Resveratrol Intervention Arm (Analyzed),Participants in the resveratrol group whose data were included in the final analysis after completing the 8-week intervention period.,35
+32144833,cohort,Placebo Control Arm (Analyzed),Participants in the placebo control group whose data were included in the final analysis after completing the 8-week intervention period.,36
+32144833,species,Homo sapiens,Human,
+32900519,clinical_test,Blood Pressure (BP) Measurement,"Seated measurement of systolic and diastolic blood pressure, taken after 10 minutes of rest and repeated three times at two-minute intervals.",
+32900519,clinical_test,ACE-III,"The Australian Version of Addenbrooke's Cognitive Examination III, used to assess participants' global cognitive status.",
+32900519,clinical_test,NIH-ToolBox Assessment,"A battery of seven cognitive tests used to evaluate overall cognitive performance, covering domains including processing speed, language, working memory, episodic memory, and cognitive flexibility.",
+32900519,clinical_test,RAVLT,"Rey's Auditory Verbal Learning Test, used to measure verbal memory, specifically immediate and 30-minute delayed recall.",
+32900519,clinical_test,Forward Spatial Span Test,A cognitive test used to assess working memory capacity.,
+32900519,clinical_test,Trail Making Task (TMT),A cognitive test including Task A (processing speed) and Task B (cognitive flexibility).,
+32900519,clinical_test,Transcranial Doppler Ultrasound (TCD),A non-invasive ultrasound technique using a TCD headpiece to insonate middle cerebral arteries and assess blood flow velocities.,
+32900519,clinical_test,Cerebral Blood Flow Velocity (CBFV),"Continuous 30-second recording of basal CBFV (maximum, minimum, mean) in the middle cerebral arteries using TCD.",
+32900519,clinical_test,Cerebral Pulsatility Index (PI),"A measure of stiffness in the cerebral vessels derived from CBFV recordings, calculated as (maximum CBFV – minimum CBFV)/mean CBFV.",
+32900519,clinical_test,CVR to Hypercapnia,"Cerebrovascular responsiveness assessed by measuring the increase in mean CBFV while participants breathe carbogen gas (95% O2, 5% CO2) for 180 seconds, normalized to resting PI.",
+32900519,clinical_test,CVR to Cognitive Stimuli (Neurovascular coupling),"Cerebrovascular responsiveness measured in the middle cerebral arteries during neuropsychological tests, used as a measure of neurovascular coupling.",
+32900519,clinical_test,HOMA-IR,"Homeostatic Model Assessment of Insulin Resistance, derived mathematically from fasting serum glucose and fasting insulin results.",
+32900519,clinical_test,Fasting Glucose,Measurement of fasting serum glucose levels obtained after an overnight fast of at least eight hours.,
+32900519,clinical_test,Fasting Insulin,Measurement of fasting serum insulin levels obtained after an overnight fast of at least eight hours.,
+32900519,clinical_test,Total Cholesterol,Analysis of total cholesterol levels in fasting serum.,
+32900519,clinical_test,Triglycerides,Analysis of triglyceride levels in fasting serum.,
+32900519,clinical_test,HDL-Cholesterol,Analysis of high-density lipoprotein cholesterol levels in fasting serum.,
+32900519,clinical_test,LDL-Cholesterol,Analysis of low-density lipoprotein cholesterol levels in fasting serum.,
+32900519,clinical_test,Arterial Compliance Measurement,"Measurement of large and small artery compliance using the Cardiovascular Profiler (model CR 2000), with three measures taken at two-minute intervals.",
+32900519,clinical_test,Pattern Comparison Speed Test,A specific NIH-ToolBox assessment used to measure processing speed.,
+32900519,clinical_test,Picture Vocabulary Test,A specific NIH-ToolBox assessment used to measure language ability.,
+32900519,clinical_test,Oral Reading Recognition Test,A specific NIH-ToolBox assessment used to measure language ability.,
+32900519,clinical_test,List Sorting Working Memory Test (LSWM),A specific NIH-ToolBox assessment used to measure working memory.,
+32900519,clinical_test,Picture Sequence Memory Test (PSM),A specific NIH-ToolBox assessment used to measure episodic memory.,
+32900519,clinical_test,Dimensional Change Card Sort Test (DCCS),A specific NIH-ToolBox assessment used to measure cognitive flexibility.,
+32900519,clinical_test,Flanker Inhibitory Control and Attention Test (FICA),"A specific NIH-ToolBox assessment used to measure inhibitory control and attention, contributing to the cognitive flexibility domain.",
+32900519,cohort,Total Participants Recruited,"Postmenopausal women initially recruited for the 24-month randomized, double-blind, placebo-controlled, crossover trial (RESHAW).",146
+32900519,cohort,Total Participants Completed,Postmenopausal women who completed the full 24-month crossover protocol of the RESHAW study.,125
+32900519,cohort,Resveratrol Condition (Cognitive Analysis),Participants included in the crossover analysis for cognitive performance (primary outcome) during the resveratrol supplementation period.,110
+32900519,cohort,Placebo Condition (Cognitive Analysis),Participants included in the crossover analysis for cognitive performance (primary outcome) during the placebo supplementation period.,110
+32900519,cohort,Resveratrol Condition (Cardiometabolic Analysis),Participants included in the crossover analysis for cardiometabolic markers (secondary outcome) during the resveratrol supplementation period.,118
+32900519,cohort,Placebo Condition (Cardiometabolic Analysis),Participants included in the crossover analysis for cardiometabolic markers (secondary outcome) during the placebo supplementation period.,118
+32900519,cohort,Resveratrol Condition (Cerebrovascular Analysis),Participants included in the crossover analysis for cerebrovascular function (secondary outcome) during the resveratrol supplementation period.,64
+32900519,cohort,Placebo Condition (Cerebrovascular Analysis),Participants included in the crossover analysis for cerebrovascular function (secondary outcome) during the placebo supplementation period.,64
+32900519,cohort,Sequence Group: Placebo to Resveratrol,"Participants randomized to receive placebo first, followed by resveratrol, in the 24-month crossover trial.",63
+32900519,cohort,Sequence Group: Resveratrol to Placebo,"Participants randomized to receive resveratrol first, followed by placebo, in the 24-month crossover trial.",62
+32900519,cohort,Midlife Subgroup,"Postmenopausal women subgroup defined by age less than 65 years, used for post hoc subgroup analyses by life stages.",59
+32900519,cohort,Late-life Subgroup,"Postmenopausal women subgroup defined by age 65 years or older, used for post hoc subgroup analyses by life stages.",66
+32900519,species,Homo sapiens,Human,
+32900519,species,Rattus norvegicus,Rat,
+33580595,clinical_test,Real-time PCR (RT-PCR),"Measurement of mRNA expression levels for peroxisome proliferator-activated receptor alpha (PPARa), p53, p21, and p16 genes using the SYBR Green method, normalized against the GAPDH housekeeping gene.",
+33580595,clinical_test,sCD163 ELISA,Quantification of serum soluble cluster of differentiation 163 (sCD163) levels using an enzyme-linked immunoassay (ELISA) method.,
+33580595,clinical_test,sTWEAK ELISA,Quantification of serum soluble TNF-like weak inducer of apoptosis (sTWEAK) levels using an enzyme-linked immunoassay (ELISA) method.,
+33580595,clinical_test,RNA Purity (260/280 nm ratio),Assessment of total RNA quality and purity by measuring the ratio of absorbance at 260 nm and 280 nm using NanoDrop.,
+33580595,clinical_test,Body Composition Analysis (Tanita BC-418),Measurement of weight and body composition using a body analyzer machine (Tanita BC-418) in an overnight fasted state.,
+33580595,clinical_test,Height Measurement,Measurement of height according to the standard protocol.,
+33580595,clinical_test,Waist Circumference,Measurement of waist circumference according to the standard protocol.,
+33580595,clinical_test,Hip Circumference,Measurement of hip circumference according to the standard protocol.,
+33580595,clinical_test,Body Mass Index (BMI) Calculation,Calculation of BMI mathematically by dividing weight (kg) by height squared (m²).,
+33580595,clinical_test,Physical Activity Questionnaire (MET),"Use of a physical activity questionnaire to assess physical activity levels, quantified in METs (Metabolic Equivalents), obtained at week 0 and week 8.",
+33580595,clinical_test,3-day Food Records,"Collection and analysis of 3-day food records using Nutritionist IV software to determine macronutrient, micronutrient, and total flavonoid intake.",
+33580595,cohort,Resveratrol Intervention Arm (Analyzed),"Patients diagnosed with Type 2 Diabetes Mellitus (T2DM), BMI 25-30 kg/m², aged 30-60 years, randomized to receive 1,000 mg/day of micronized trans-resveratrol for 8 weeks.",35
+33580595,cohort,Placebo Control Group (Analyzed),"Patients diagnosed with Type 2 Diabetes Mellitus (T2DM), BMI 25-30 kg/m², aged 30-60 years, randomized to receive placebo (methyl cellulose) per day for 8 weeks.",36
+33580595,cohort,Total Randomized Population,"The entire patient cohort diagnosed with T2DM, aged 30-60 years, and BMI 25-30 kg/m², enrolled and randomized into the 8-week double-blind controlled trial.",76
+33580595,species,Homo sapiens,Human,
+35240291,clinical_test,Fasting Plasma Glucose (FPG),"Biochemical quantification of glucose levels in blood plasma after a fasting period, analyzed using an automated chemistry analyzer (ADVIA Centaur).",
+35240291,clinical_test,Fasting Insulin,"Quantification of insulin concentration in serum after a fasting period, measured using the ADVIA Centaur® XP immunoassay.",
+35240291,clinical_test,Glycosylated Hemoglobin (HbA1c),"Measurement of the percentage of hemoglobin that is glycosylated, providing an indication of average blood glucose levels over the preceding months, analyzed on an automated chemistry analyzer (ADVIA Centaur).",
+35240291,clinical_test,Homeostatic Model Assessment of Insulin Resistance (HOMA-IR),"A calculated index used to estimate insulin resistance based on fasting insulin and fasting glucose levels, calculated by the formula: Insulin (µU/ml) x Glucose (mmol/l)/22.5.",
+35240291,clinical_test,Total Cholesterol (Total-C),"Measurement of total cholesterol concentration in the blood, analyzed on an automated chemistry analyzer (ADVIA Centaur).",
+35240291,clinical_test,High-Density Lipoprotein Cholesterol (HDL-C),"Measurement of HDL-C concentration in the blood, analyzed on an automated chemistry analyzer (ADVIA Centaur).",
+35240291,clinical_test,Low-Density Lipoprotein Cholesterol (LDL-C),"Measurement of LDL-C concentration in the blood, analyzed on an automated chemistry analyzer (ADVIA Centaur).",
+35240291,clinical_test,Triglycerides (TG),"Measurement of triglyceride concentration in the blood, analyzed on an automated chemistry analyzer (ADVIA Centaur).",
+35240291,clinical_test,High Sensitive C-Reactive Protein (hs-CRP),"Estimation of hs-CRP concentration in serum, used as an inflammatory marker, measured using IMMULITE® 1000.",
+35240291,clinical_test,Tumor Necrosis Factor-Alpha (TNF-α),"Measurement of serum TNF-α concentration, an inflammatory cytokine, performed using Enzyme-Linked Immunosorbent Assay (ELISA) kits.",
+35240291,clinical_test,Interleukin-6 (IL-6),"Measurement of serum IL-6 concentration, an inflammatory marker, performed using Enzyme-Linked Immunosorbent Assay (ELISA) kits.",
+35240291,clinical_test,Malondialdehyde (MDA),"Measurement of MDA concentration in serum, used as a biomarker for oxidative stress (lipid peroxidation status), performed using Enzyme-Linked Immunosorbent Assay (ELISA) kits.",
+35240291,clinical_test,Microalbuminuria (MAU),"Detection and quantification of microalbuminuria in spot urine samples, assessed through calculating the albumin creatinine ratio (ACR).",
+35240291,clinical_test,Urinary Creatinine,"Measurement of creatinine concentration in the urine to calculate the albumin creatinine ratio (ACR), analyzed on an automated chemistry analyzer (ADVIA Centaur).",
+35240291,clinical_test,Circulatory MicroRNA (miRNA) Expression,"Molecular quantification of specific microRNA expression levels (miRNA-34a, miRNA-375, miRNA-21, miRNA-192, miRNA-126, miRNA-132) extracted from whole blood, performed using quantitative Reverse Transcription-PCR (qRT-PCR) on a real-time PCR system 7500.",
+35240291,clinical_test,Liver Function Tests (LFTs),A general panel of biochemical tests performed on blood samples to monitor liver health and assess drug safety/adverse effects during the trial.,
+35240291,clinical_test,Weight Measurement,Direct measurement of body weight (in kilograms) as an anthropometric characteristic.,
+35240291,clinical_test,Height Measurement,Direct measurement of body height (in meters) as an anthropometric characteristic.,
+35240291,clinical_test,Body Mass Index (BMI),Calculated value derived from weight and height measurements (in kg/m²) used to determine participant eligibility and monitor changes.,
+35240291,clinical_test,Waist Circumference,Direct anthropometric measurement of waist circumference (in inches).,
+35240291,clinical_test,Systolic Blood Pressure (Systolic BP),Direct measurement of systolic blood pressure (in mmHg).,
+35240291,clinical_test,Diastolic Blood Pressure (Diastolic BP),Direct measurement of diastolic blood pressure (in mmHg).,
+35240291,cohort,T2DM Patients (Assessed),Total population of Type 2 Diabetes Mellitus (T2DM) patients assessed for eligibility in the clinical trial.,304
+35240291,cohort,T2DM Patients (Randomized),"Total population of T2DM patients who met eligibility criteria and were randomized into one of the five study arms (Resveratrol, Tocotrienol, Vitamin D, Mixture, or Placebo).",275
+35240291,cohort,Resveratrol Intervention Arm (Allocated),"Diabetic patients randomly assigned to receive 200 mg resveratrol daily for 24 weeks, along with their prescribed oral hypoglycemic agents (OHGA).",55
+35240291,cohort,Placebo Control Group (Allocated),"Diabetic patients randomly assigned to receive placebo (cellulose capsules) daily for 24 weeks, along with their prescribed oral hypoglycemic agents (OHGA).",55
+35240291,cohort,Resveratrol Group (Completers),Patients in the resveratrol arm who completed the full 24-week intervention period.,45
+35240291,cohort,Placebo Group (Completers),Patients in the placebo arm who completed the full 24-week intervention period.,46
+35240291,cohort,Resveratrol Group (ITT Analysis),Patients allocated to the resveratrol intervention arm included in the statistical analysis based on the intention-to-treat (ITT) principle.,55
+35240291,cohort,Placebo Group (ITT Analysis),Patients allocated to the placebo control arm included in the statistical analysis based on the intention-to-treat (ITT) principle.,55
+35240291,cohort,Tocotrienol Group (Randomized Arm),Patients randomized into the Tocotrienol intervention arm of the larger clinical trial.,55
+35240291,cohort,Vitamin D Group (Randomized Arm),Patients randomized into the Vitamin D intervention arm of the larger clinical trial.,55
+35240291,cohort,Mixture Group (Randomized Arm),Patients randomized into the Mixture intervention arm of the larger clinical trial.,55
+35240291,species,Homo sapiens,Human,
+35240291,species,Caenorhabditis elegans,Nematode,
+35538431,clinical_test,Height Measurement,"Assessment of participant height using a stadiometer (Seca, Hamburg, Germany) with an accuracy of 0.5 cm.",
+35538431,clinical_test,Weight Measurement (BIA),"Measurement of body weight using a bioelectrical impedance analyzer (Tanita BC-418, Tokyo, Japan) with participants wearing light clothes and without shoes.",
+35538431,clinical_test,Waist Circumference (WC),Measurement of waist circumference performed using a flexible tape with an accuracy of 0.5 cm.,
+35538431,clinical_test,Body Mass Index (BMI),Calculated index using the formula: weight (kg)/height squared (m²).,
+35538431,clinical_test,Total Cholesterol (TC) Assay,Measurement of total cholesterol concentration in serum using an autoanalyzer (AVIDA 1800 chemistry system) and Pars Azmoon kits.,
+35538431,clinical_test,Triglycerides (TG) Assay,Measurement of triglyceride concentration in serum using an autoanalyzer (AVIDA 1800 chemistry system) and Pars Azmoon kits.,
+35538431,clinical_test,LDL-c Assay,Measurement of low-density lipoprotein-cholesterol concentration in serum using an autoanalyzer (AVIDA 1800 chemistry system) and Pars Azmoon kits.,
+35538431,clinical_test,HDL-c Assay,Measurement of high-density lipoprotein-cholesterol concentration in serum using an autoanalyzer (AVIDA 1800 chemistry system) and Pars Azmoon kits.,
+35538431,clinical_test,Dietary Intake Assessment,"Assessment of food and beverage intakes recorded by participants (two weekdays and one weekend day), analyzed using the Nutritionist IV software.",
+35538431,clinical_test,Physical Activity (METs/h),"Physical activity measured using a validated questionnaire [39] that provides metabolic equivalents (METs), calculated as METs/h per day.",
+35538431,clinical_test,LAP Index,"Derived index used to estimate hepatic steatosis, calculated for men as (WC - 65) × TG and for women as (WC - 58) × TG.",
+35538431,clinical_test,VAI Index,"Derived index used to assess visceral adiposity, calculated using gender-specific formulas based on WC, BMI, TG, and HDL-c.",
+35538431,clinical_test,CRI-I Index,"Castelli risk index I, used to estimate cardiovascular risk, calculated as Total Cholesterol (TC)/HDL-c.",
+35538431,clinical_test,CRI-II Index,"Castelli risk index II, used to estimate cardiovascular risk, calculated as LDL-c/HDL-c.",
+35538431,clinical_test,AC Index,"Atherogenic Coefficient, used to estimate cardiovascular risk, calculated as (TC - HDL-c)/HDL-c.",
+35538431,cohort,Enrolled T2DM Patients,The initial population of overweight subjects with Type 2 Diabetes Mellitus (T2DM) assessed for eligibility and enrolled in the randomized controlled trial.,76
+35538431,cohort,Resveratrol Allocated Group,Patients with T2DM randomly allocated to the intervention arm receiving 1000 mg/day resveratrol.,38
+35538431,cohort,Placebo Allocated Group,Patients with T2DM randomly allocated to the control arm receiving placebo (methylcellulose) capsules.,38
+35538431,cohort,Resveratrol Completed Arm,Participants with T2DM who completed the 8-week resveratrol intervention and were included in the final analysis.,35
+35538431,cohort,Placebo Completed Arm,Participants with T2DM who completed the 8-week placebo intervention and were included in the final analysis.,36
+35538431,cohort,Resveratrol Male Subgroup,Male participants within the completed resveratrol intervention group (used for split-sample analysis by gender).,20
+35538431,cohort,Resveratrol Female Subgroup,Female participants within the completed resveratrol intervention group (used for split-sample analysis by gender).,15
+35538431,cohort,Placebo Male Subgroup,Male participants within the completed placebo control group (used for split-sample analysis by gender).,20
+35538431,cohort,Placebo Female Subgroup,Female participants within the completed placebo control group (used for split-sample analysis by gender).,16
+35538431,species,Homo sapiens,Human,
+35538431,species,Rattus norvegicus,Rat,
+35538431,species,Mus musculus,Mouse,
+38871717,clinical_test,6-Minute Walk Distance (6MWD),"Measurement of the distance (in meters) covered by a participant during six minutes of walking along a 100-foot hallway, following a standardized protocol.",
+38871717,clinical_test,Maximal Treadmill Walking Time (Gardner-Skinner Protocol),Measurement of the maximum duration a participant can walk on a treadmill using the standardized progressive Gardner-Skinner protocol.,
+38871717,clinical_test,Walking Impairment Questionnaire (WIQ) Scores,"A PAD-specific self-reported measure of limitations in walking distance, speed, and stair climbing, scored on a 0-100 scale (100 = best). Outcomes extracted include Distance score, Speed score, and Stair Climbing score.",
+38871717,clinical_test,Physical Activity (ActiGraph Accelerometer),"Free-living physical activity measured using an ActiGraph accelerometer over seven days, quantified as total counts per day and counts per minute.",
+38871717,clinical_test,Ankle Brachial Index (ABI),"A physiological measurement defined as the ratio of systolic blood pressure measured at the ankle to the systolic blood pressure measured in the arm, used to diagnose Peripheral Artery Disease (PAD).",
+38871717,clinical_test,Anthropometric Measurements (Height and Weight),Direct measurements of height and weight used to calculate Body Mass Index (BMI).,
+38871717,clinical_test,Short-Form 36 Physical Functioning (SF-36 PF) Score,"A health-related quality of life measure (range 0-100, 100 = best) derived from the SF-36 survey.",
+38871717,clinical_test,San Diego Claudication Questionnaire,A validated questionnaire used to characterize leg symptoms and define classical intermittent claudication.,
+38871717,clinical_test,Open Muscle Biopsy (Gastrocnemius),Surgical procedure to obtain approximately 250 mgs of muscle tissue from the medial head of the gastrocnemius muscle at baseline and 6-month follow-up for subsequent analysis.,
+38871717,clinical_test,High Performance Liquid Chromatography (HPLC) for NAD+ Quantification,"Analytical chemistry technique using a Shimadzu LC-20A pump, UV-VIS detector, and Supelco LC-18-Tcolumn to measure nucleotide (NAD+) abundance in muscle biopsy samples, normalized to muscle weight.",
+38871717,clinical_test,Immunohistochemistry for Muscle Phenotype and Satellite Cells,"Microscopic analysis on frozen muscle sections using antibodies (Pax7, type 1 myosin, and laminin) to determine satellite cell abundance and muscle fiber type (Percent Type I myofibers).",
+38871717,cohort,Randomized PAD Cohort,The overall population of participants with lower extremity peripheral artery disease (PAD) who were randomized into the clinical trial.,90
+38871717,cohort,NR + Resveratrol Arm,"Intervention arm receiving Nicotinamide Riboside (1,000 mg daily) plus Resveratrol (125 mgs daily).",33
+38871717,cohort,NR Alone Arm,"Intervention arm receiving Nicotinamide Riboside (1,000 mg daily) alone.",28
+38871717,cohort,Placebo Control Arm,Control arm receiving placebo treatment.,29
+38871717,cohort,Combined NR Groups,Subset for secondary analyses combining participants randomized to NR alone and NR + resveratrol (total randomized population N=61).,61
+38871717,cohort,High Adherence NR Alone Subgroup,"Participants randomized to NR alone who adhered to at least 75% of study pills, used in post-hoc analysis.",21
+38871717,cohort,High Adherence NR + R Subgroup,"Participants randomized to NR + resveratrol who adhered to at least 75% of study pills, used in post-hoc analysis.",17
+38871717,cohort,High Adherence Placebo Subgroup,"Participants randomized to placebo who adhered to at least 75% of study pills, used in post-hoc analysis.",22
+38871717,cohort,Low Adherence NR Alone Subgroup,Participants randomized to NR alone who discontinued or adhered to ≤75% of study pills.,7
+38871717,cohort,Low Adherence NR + R Subgroup,Participants randomized to NR + resveratrol who discontinued or adhered to ≤75% of study pills.,16
+38871717,cohort,Low Adherence Placebo Subgroup,Participants randomized to placebo who discontinued or adhered to ≤75% of study pills.,7
+38871717,species,Homo sapiens,Human,
+38871717,species,Mus musculus,Mouse,

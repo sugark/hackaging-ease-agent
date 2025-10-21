@@ -1,0 +1,9 @@
+{
+  "selected_clinical_test": "Glycated Hemoglobin (HbA1c)",
+  "justification": "HbA1c is a standardized, clinically vital marker for long-term glycemic control, frequently reported across the studies, especially those involving Type 2 Diabetes. Its stability and relevance make it an excellent primary outcome for meta-analysis, superior to more volatile measures like fasting glucose.",
+  "recommended_cohorts": [
+    "Patients with Type 2 Diabetes (Resveratrol Intervention)",
+    "Patients with Type 2 Diabetes (Placebo Control)",
+    "Overweight/Obese Individuals with Metabolic Dysfunction"
+  ]
+}

@@ -1,0 +1,2576 @@
+{
+  "metadata": {
+    "total_articles_classified": 281,
+    "good_candidates": 39,
+    "bad_candidates": 242,
+    "classification_timestamp": "2025-10-21 12:07:54",
+    "classifier": "Gemini AI"
+  },
+  "classifications": [
+    {
+      "pmid": "35240291",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (double-blind, placebo-controlled).",
+        "Well-defined clinical population (T2DM patients) and intervention (Resveratrol 200 mg/day, 24 weeks).",
+        "Measurable primary and secondary clinical outcomes (glucose, HbA1c, inflammatory markers).",
+        "Results reported with effect sizes and 95% Confidence Intervals (CIs).",
+        "Adequate sample size (N=110 recruited)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39317551",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (Type 2 diabetes rat model).",
+        "Involves in vitro experimentation (HUVECs).",
+        "Focuses on molecular mechanisms (ferroptosis, Nrf2)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "17112576",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (mice).",
+        "Primarily focused on mechanistic pathways (SIRT1 and PGC-1alpha activation)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24606795",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article, not a primary research study or systematic review.",
+        "Lacks original data for extraction."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37108584",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Clinical Trial (RCT) methodology (placebo-controlled).",
+        "Well-defined clinical population (older adults with T2D).",
+        "Measurable outcomes (oxidative stress markers, sirtuin 1, biochemical markers).",
+        "Sufficient sample size (N=97) and intervention duration (6 months)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39088966",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (T2DM rat model).",
+        "Involves in vitro cell culture studies (BMSCs and BMMs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39519608",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind clinical trial methodology.",
+        "Human clinical population (postmenopausal women with insulin resistance).",
+        "Quantifiable outcomes reported (oxidative stress markers, TAC, HOMA-IR).",
+        "Although labeled a pilot, the study (N=46) provides controlled intervention data."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36925241",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (mice model of AD).",
+        "Focuses on novel drug delivery system (Brain targeted peptide-functionalized chitosan nanoparticles)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32900519",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality randomized, placebo-controlled crossover trial (RCT).",
+        "Large sample size (N=125) and long duration (24 months).",
+        "Clear clinical outcomes related to metabolic function (insulin, HOMA-IR) and vascular health.",
+        "Statistical results reported using effect sizes (Cohen's d) and p-values."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38063092",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using murine granulosa cells (GCs).",
+        "Focuses on cell-level mechanism (steroidogenesis and apoptosis)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29554499",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an in vitro mechanistic study (3T3-L1 adipocytes).",
+        "Supporting evidence is from pre-clinical animal models (mice)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31884092",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (HFD-fed mice).",
+        "Includes supporting in vitro mechanistic data (C2C12, 3T3-L1, HepG2 cells)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40430092",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (MetS rat model).",
+        "Focuses on molecular mechanisms (Myostatin/ActRIIA/Smad pathways)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22863012",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal/in vitro study (mice/adipocytes).",
+        "Focuses on molecular mechanism (SirT1-dependent deacetylation of Pparγ)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40004135",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (Diabetic Wistar rats).",
+        "Focuses on tissue-specific signaling pathways (AKT, rpS6, mTOR, Beclin-1)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39923228",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (T2DM rat model).",
+        "Involves in vitro experimentation (HBZY-1 cells).",
+        "Focuses on molecular mechanisms (TLR4/NF-κB signaling pathway)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27105868",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (double-blind, placebo-controlled, crossover).",
+        "Well-defined clinical population (older adults with T2DM).",
+        "Measures a specific physiological outcome (Cerebral Vasodilator Responsiveness, CVR).",
+        "Statistical data (percentage change, p-values) provided for comparison of acute doses."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33573178",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using primary human myotubes.",
+        "Focuses on cellular pathways (AMPK, PKB, mitochondrial biogenesis)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29999247",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro/cell culture study using equine (non-human) adipose-derived stem cells.",
+        "Focuses on molecular mechanisms (osteogenesis, autophagy, PARKIN)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34085383",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (C57BL6 mice).",
+        "The primary intervention is Pterostilbene (PTE), a resveratrol analog, not resveratrol itself.",
+        "Involves in vitro cell studies (Lo2, HepG2)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28329397",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (double-blind crossover study).",
+        "Well-defined clinical population (older glucose-intolerant adults).",
+        "Clinical outcomes measured (insulin sensitivity, glucose tolerance, vascular function).",
+        "Adequate sample size (N=30) and statistical results provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28054445",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (HFD-induced diabetic mice).",
+        "Involves in vitro experimentation (HepG2 cells).",
+        "Intervention uses cis- and trans-THSG, resveratrol analogs, not resveratrol itself."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26455923",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (Wistar rats).",
+        "Focuses on physiological assessments using hyperinsulinemic-euglycemic clamp in an animal model."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31623226",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (Goto-Kakizaki rat model of T2D)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37817396",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using a cell culture model of the blood-brain barrier (endothelial cells and astrocytes).",
+        "Focuses on cellular cytokine modulation."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25137036",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (double-blind, placebo-controlled).",
+        "Clinical population (patients with metabolic syndrome).",
+        "Measurable outcomes (BMI, fat mass, AUC of insulin, insulin secretion/sensitivity).",
+        "Quantitative results (P-values) reported, suitable for meta-analysis pooling."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "26629991",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using Human Umbilical Vascular Endothelial Cells (HUVECs).",
+        "Focuses on mechanistic pathways (SIRT1/p300/p53/p21) and cellular senescence ('metabolic memory')."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35678150",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on a novel drug carrier system (MSN-RSV).",
+        "Study design is likely pre-clinical (animal/in vitro) focused on bioavailability and signaling pathways (SIRT1/AMPK, NF-κB)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25849131",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (rat models of insulin resistance).",
+        "Focuses on highly specific mechanistic pathways (duodenal Sirt1/neuronal network)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37256397",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using ovarian cells.",
+        "Focuses on chemical protection against polychlorinated biphenyls (PCBs) toxicity."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27744600",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (type 2 diabetic rats induced by STZ and nicotine amide).",
+        "Focuses on trace element homeostasis and oxidative stress."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30237505",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (double-blind, placebo-controlled).",
+        "Large sample size (N=192) and clinically relevant population (T2DM patients).",
+        "Measures objective primary outcomes (Bone Mineral Density and content, BMD/BMC).",
+        "Statistical analysis includes adjusted mean differences and p-values."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31240717",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (rat model of gestational diabetes).",
+        "Results pertain to offspring metabolic outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27482073",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (HFD-fed mice).",
+        "Investigates combination therapy (RSV and Metformin)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28703838",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blinded, placebo-controlled clinical study (Pilot RCT).",
+        "Human population (overweight pregnant women).",
+        "Measures relevant metabolic outcomes (glucose, cholesterol, TG).",
+        "Quantitative results (significant improvement at 60 days) reported."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "29402742",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (db/db mice).",
+        "The intervention is a novel, non-resveratrol SIRT1 activator (MHY2233)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31214275",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using metabolically impaired Adipose Stem Cells (ASCs).",
+        "Focuses on cellular dynamics (autophagy, mitochondrial dynamics, chondrogenesis)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23872130",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (HFCS-fed rats).",
+        "Focuses on vascular function and molecular pathways in rats."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36769056",
+      "is_good_candidate": false,
+      "reasons": [
+        "Ex vivo molecular study using human PBMCs (Peripheral Blood Mononuclear Cells).",
+        "Focuses on gene expression and signaling mediators (NGS analysis), not a clinical trial measuring physiological outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22726362",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article, not a primary research study or systematic review.",
+        "Lacks original data for extraction."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36647881",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (STZ-induced diabetic rats).",
+        "Investigates combination therapy (RVT and Pioglitazone)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29976399",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using muscle cells.",
+        "Focuses on molecular mechanism (autophagic flux and cellular senescence)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28688179",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (Sprague-Dawley rats).",
+        "Involves in vitro experimentation (primary rat hepatocytes).",
+        "Focuses on NAD+/NADH ratio mechanism."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31179568",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (STZ-nicotinamide-induced type 2 diabetic rats).",
+        "Outcomes are sperm parameters and DNA integrity, not standard metabolic markers in humans."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22219517",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pilot study with an open-label design.",
+        "Critically small sample size (N=10), leading to insufficient statistical power for meta-analysis inclusion."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25686565",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (HFD-induced insulin resistance rats).",
+        "Focuses on mitochondrial oxidation and antioxidant mechanisms."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37004937",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (AD mice with metabolic disorder).",
+        "Focuses on a novel nano-flower delivery system."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35671692",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using HepG2 liver cells.",
+        "Focuses on methodology development (live-cell FTIR spectroscopy) and validation."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23793060",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-clinical animal study (aged mice).",
+        "Focuses on interaction between resveratrol effects and diet (high-protein)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34918332",
+      "is_good_candidate": false,
+      "reasons": [
+        "Extremely small sample size (N=8 subjects), highly underpowered for reliable meta-analysis pooling.",
+        "Focuses on specialized outcome (arterial inflammation via 18F-FDG PET/CT), often used as a preliminary marker."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36723183",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an in vitro study using cell culture and a supporting in vivo evaluation in an animal model (mice).",
+        "Focuses on basic cellular and biomaterial mechanisms (hydrogel development, DC modulation), not clinical outcomes in humans."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38324260",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study utilizes primary human skeletal muscle cells (myotubes) derived from biopsies, meaning the experiments were conducted entirely in vitro.",
+        "Focuses on mechanistic cellular responses (insulin signal transduction, AMPK), not clinical trial outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39501642",
+      "is_good_candidate": false,
+      "reasons": [
+        "Purely an in vitro enzymatic study involving molecular docking and kinetic analysis.",
+        "No human or animal intervention data or clinical outcomes are provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27941804",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study combines in vitro cell culture (HUVECs) and in vivo animal models (WT and Akt-/- mice).",
+        "Focuses on detailed signaling mechanisms (Akt, eNOS, PTEN) rather than human clinical endpoints."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30503839",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted exclusively in transgenic mouse models (SIRT1-Tg, Ppard-mut mice).",
+        "Non-human experimental research."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30987086",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted exclusively in a rat model of metabolic syndrome (animal study).",
+        "No human clinical trial data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24165878",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study using hepatic cell lines (in vitro).",
+        "Focuses on molecular binding and regulation of microRNAs, not clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30456807",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted exclusively in streptozotocin-induced diabetic mice (animal model).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40653095",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses an established streptozotocin-induced in vitro neurodegeneration model (cell culture).",
+        "Purely mechanistic, non-human, non-clinical study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36862150",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primary focus is the development and optimization of a drug delivery system (liposome-in-hydrogel).",
+        "Efficacy evaluation was conducted using a diabetic foot ulcer animal model."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25392295",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted exclusively in high-fructose-fed rats (animal model).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30039194",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses in vitro models (rat aortic rings and HUVEC cells).",
+        "Mechanistic research focusing on ROS scavenging and NO bioavailability."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30345866",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted using INS-1 cells (in vitro pancreatic beta cell line).",
+        "Mechanistic investigation of the SIRT1/FoxO1 pathway in cell culture."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34109437",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted exclusively in C57BL/6J mice (animal model of insulin resistance).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34273031",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study combines in vitro cell culture (HEK-293 cells) and in vivo evaluation in Wistar rats (animal model).",
+        "No human clinical trial data suitable for meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29885082",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear randomized, double-blind, placebo-controlled clinical trial (RCT) design.",
+        "Study population consists of human subjects (n=16 obese men with NAFLD).",
+        "Measures objective, clinical outcomes (VLDL-TG kinetics, insulin sensitivity, liver fat content) using rigorous methods (tracers, clamp conditions)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31450493",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted exclusively in C57BL/6J mice (animal model).",
+        "Focuses on central neurological markers (AMPK, BDNF, Synaptophysin) in animals."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34371884",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear randomized, double-blind, placebo-controlled crossover study design.",
+        "Study population consists of human subjects (overweight and obese individuals).",
+        "Measures relevant clinical endpoints (insulin resistance, dysglycemia, blood pressure, low-grade inflammation)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "20188786",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study utilizes macrophage (RAW264.7) and adipocyte (3T3-L1) cell lines (in vitro).",
+        "Purely mechanistic study on adipokine expression and signaling pathways."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24563374",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in pregnant nonhuman primates (NHPs).",
+        "Non-human animal study, despite being a high-order model."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38276543",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study utilizes cultured C2C12 myotubes (in vitro) and mouse models (HFD and sciatic neurectomy).",
+        "Non-human, preclinical research."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33671110",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in diabetic Goto-Kakizaki rats (animal model).",
+        "Non-human data focusing on skeletal muscle and liver insulin receptor signaling."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22362175",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in C57BL/6J mice fed a high-fat diet (animal model).",
+        "Non-human data focusing on inflammation and memory deficit."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29796860",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty/missing key methodological details (RCT, population, outcomes).",
+        "Insufficient information to classify as a valid study for inclusion."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40664894",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in a mouse model of T2DM (HFD + STZ injections).",
+        "Focuses on testing a novel nanoparticle formulation in animals."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25832644",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in high fat diet-fed mice and db/db mice (animal models).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25297556",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study utilizes $\\beta$-cell lines and human islets (in vitro/ex vivo tissue study).",
+        "Mechanistic investigation of phosphodiesterase activity; not a clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24081154",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in ZDF rats (animal model) using permeabilized muscle fibers.",
+        "Non-human mechanistic research."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22388319",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in C57BL/6J mice (animal model).",
+        "Non-human data focusing on diet-induced metabolic heart disease."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25808216",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in diabetic mouse models (Irs2-deficient mice and STZ-diabetic mice).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22715031",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in C57BL/KsJ-db/db mice (animal model of type 2 diabetes).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31405706",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear randomized clinical trial methodology (resveratrol vs. placebo).",
+        "Study population consists of human patients with T2D and chronic periodontitis (n=43).",
+        "Measures quantifiable clinical and biochemical outcomes (IL6, TNFα, TAC, CAL)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33476086",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human intervention study (30 days of oral resveratrol administration) in metabolically compromised individuals.",
+        "Analyzes physiological and cellular changes in muscle tissue (IMCL, LD phenotype) in human subjects."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "24894401",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses retinal endothelial cells (in vitro) and diabetic mice (animal model).",
+        "Primarily mechanistic research; human tissue mentioned but not the source of the primary intervention data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34473313",
+      "is_good_candidate": false,
+      "reasons": [
+        "The abstract describes a review or perspective article.",
+        "It summarizes preclinical trials and calls for more human trials, indicating it is not a primary research study or a meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "18046409",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study primarily focuses on the characterization of novel small molecule SIRT1 activators, not solely resveratrol.",
+        "Intervention studies were conducted in diet-induced obese mice and Zucker fa/fa rats (animal models)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26053125",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in chicken embryos (non-mammalian animal model).",
+        "Non-clinical setting."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27153202",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in streptozotocin-induced diabetic rats (animal model).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29242624",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses rat L6 skeletal muscle myotubes (in vitro cell culture).",
+        "Focuses on mechanistic pathways (SIRT1, AMPK) in cell culture."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29985711",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in STZ-NA-induced diabetic Wister rats (animal model).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37086927",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear randomized placebo-controlled trial methodology (RCT).",
+        "Study population consists of human patients with Metabolic Syndrome (n=82).",
+        "Measures molecular outcomes (miRNA expression) relevant to metabolic disease."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26993793",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses isolated mouse tissues (aorta, corpora cavernosa) for ex vivo experiments.",
+        "Non-human, non-clinical setting."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39528771",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses pancreatic $\\beta$ cell line (INS1E-hIAPP) and hippocampal cell line (HT-22) (in vitro).",
+        "Purely mechanistic cell culture study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28159807",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in mice with pressure overload-induced heart failure (animal model).",
+        "Non-human data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38494222",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on material science and delivery systems (porous corn starch granules).",
+        "Evaluations (encapsulation, starch digestion, release behavior) are conducted entirely in vitro."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27332935",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in T2DM mice (animal model).",
+        "Non-human data investigating MI/R injury."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24759758",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study focuses on a novel, modified compound (ZBH), not pure resveratrol.",
+        "Conducted in hyperlipidemic hamsters (animal model)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33966249",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted in Sprague-Dawley rats (animal model) of insulin resistance.",
+        "Non-human data, comparing abdominal massage and resveratrol effects."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24218232",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses DAergic PC12 cells (in vitro cell culture).",
+        "Mechanistic research focusing on oxidative stress and apoptosis in neurodegeneration models."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35458194",
+      "is_good_candidate": true,
+      "reasons": [
+        "Involves human participants (10 T2D patients, 8 healthy volunteers).",
+        "Evaluates clinically relevant physiological functions (platelet function, thrombi formation, TXA2 release) using ex vivo human blood samples."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "28238190",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality randomized placebo-controlled trial (RCT) design (double-blind).",
+        "Adequate sample size (N=192).",
+        "Clear study population (T2DM) and intervention (resveratrol 40mg/500mg for 6 months).",
+        "Provides statistical data including adjusted mean differences and 95% confidence intervals (CIs)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "27852684",
+      "is_good_candidate": false,
+      "reasons": [
+        "The sample size is very small (N=17), classifying it as a pilot or mechanistic study, which lacks sufficient power for robust meta-analysis inclusion.",
+        "Short duration (30 days)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "29706321",
+      "is_good_candidate": false,
+      "reasons": [
+        "The sample size is too small (N=13), limiting its statistical power for an efficacy meta-analysis.",
+        "The study population (first-degree relatives of T2D patients) may not align with a meta-analysis focused strictly on T2D patients."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "29330620",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality randomized controlled trial (double-blind, placebo-controlled).",
+        "Clear intervention (resveratrol 40mg/500mg for 6 months) and T2DM population (likely N=192, sharing the NCT with Article 1).",
+        "Provides statistical analysis including Odds Ratios (OR) and 95% CIs."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "33580595",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (double-blind) in a human population (T2DM).",
+        "Moderate/adequate sample size (N=71).",
+        "Clear intervention (1,000 mg for 8 weeks) and measurable molecular outcomes (gene expression, sCD163/sTWEAK ratio).",
+        "Provides statistical results (fold changes and p-values)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "35538431",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality double-blind randomized controlled trial (RCT).",
+        "Moderate sample size (N=71 completed).",
+        "Clear intervention (1000 mg/day for 8 weeks) and defined cardiovascular/hepatic outcomes (LAP, VAI, CRI).",
+        "Provides measurable outcomes and statistical comparisons (mean change and p-values)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "29914666",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind, placebo-controlled clinical trial (RCT).",
+        "Clear population (T2D) and intervention (800 mg/d for 8 weeks).",
+        "Reports clinical outcomes (Fasting Blood Glucose, BP) and uses statistical comparisons."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "26607942",
+      "is_good_candidate": false,
+      "reasons": [
+        "The sample size is very small (N=14), appropriate only for a pilot or mechanistic study, not large-scale efficacy synthesis.",
+        "Short duration (5 weeks)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "29357033",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind, placebo-controlled clinical trial (RCT).",
+        "Clear population (T2D) and intervention (800 mg/day for 2 months).",
+        "Reports changes in clinical and oxidative stress markers, suitable for inclusion.",
+        "Sample size (N=48) is acceptable for meta-analysis."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "32144833",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind controlled trial (RCT).",
+        "Adequate sample size (N=71 completed).",
+        "Clear T2D population and intervention (1,000 mg for 8 weeks).",
+        "Provides clear statistical results (mean change and p-values) for biochemical outcomes (ADMA, PON1 activity)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "22901562",
+      "is_good_candidate": false,
+      "reasons": [
+        "The trial is described as 'open-label,' which introduces a high risk of performance and detection bias (major methodological flaw).",
+        "Methodological quality is significantly lower than double-blind studies."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "27420093",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study evaluates acute (single dose) effects, not chronic intervention efficacy, limiting its relevance for a meta-analysis on sustained therapeutic effects.",
+        "Outcomes are primarily neurovascular coupling/cognitive measures, which may be too specific for standard metabolic meta-analyses."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "28701674",
+      "is_good_candidate": true,
+      "reasons": [
+        "Double-blind, randomized, placebo-controlled study (RCT).",
+        "Clear T2DM population and intervention (100mg/day for 12 weeks).",
+        "Reports relevant cardiovascular outcomes (CAVI) and oxidative stress markers.",
+        "Provides rigorous statistical data (p-values, multivariate regression)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "23918588",
+      "is_good_candidate": false,
+      "reasons": [
+        "The sample size is extremely small (N=10), making it suitable only for preliminary or pilot investigations, not robust efficacy meta-analysis."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "27520400",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality double-blind randomized placebo-controlled trial (RCT).",
+        "Adequate sample size (N=192, same cohort as Article 1/4).",
+        "Clear T2DM population and relevant metabolic/inflammatory outcomes (CRP, HbA1c, lipids)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "31475415",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind controlled trial (RCT).",
+        "Moderate sample size (N=71).",
+        "Clear intervention (1000 mg/day for 8 weeks) and relevant cardio-metabolic outcomes (FBS, insulin, HDL).",
+        "Provides statistical data (mean difference and p-values)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31486447",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind, placebo-controlled trial (RCT).",
+        "Clear population (T2DM and CHD) and intervention (500 mg/day for 4 weeks).",
+        "Provides statistical effect sizes (beta) and 95% CIs for glycemic, lipid, and oxidative stress outcomes."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "21385509",
+      "is_good_candidate": false,
+      "reasons": [
+        "The sample size is very small (N=19), limiting its power for a comprehensive efficacy meta-analysis.",
+        "Short duration (4 weeks)."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "23557933",
+      "is_good_candidate": true,
+      "reasons": [
+        "Implied randomized controlled design with placebo/control groups.",
+        "Long-term intervention (one year) in human patients (T2DM and hypertension).",
+        "Focuses on relevant clinical/molecular endpoints (cytokines, miRs, HbA1c)."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "17086191",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (mice), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34669477",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a mechanistic study comparing human tissue (T2D vs NGT).",
+        "Resveratrol treatment is restricted to in vitro experiments, not a clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37759824",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (mice), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38199038",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro/mechanistic study using human cell lines, not a human clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38896121",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind controlled clinical trial (RCT).",
+        "Clear population (adults with obesity) and intervention (RES 500mg ± Zinc for 60 days).",
+        "Focuses on measurable metabolic hormones (leptin) and clinical variables (glucose, lipids).",
+        "Statistical results (p-values) provided."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37447331",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study investigates Dihydro-Resveratrol (DR2), a related but different compound, not Resveratrol (RSV) itself.",
+        "The core findings rely on in vitro and mouse models."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31268397",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (mice), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23430507",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study uses in vitro cell culture models and an animal model (diabetic mice), not a human clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36143977",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (mice), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "17908559",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study is based on in vitro cell lines and an animal model (mice), not a human clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28216158",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a mechanistic study based entirely on cell line (N2A cells) experiments (in vitro), not a human clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27207552",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality randomized, placebo-controlled crossover clinical trial (RCT).",
+        "Clear human population (overweight/obese, N=29) and intervention (resveratrol combined with hesperetin).",
+        "Focuses on rigorous metabolic and vascular outcomes (insulin sensitivity, arterial dilatation).",
+        "Provides statistical data (95% CI, p-values). (Note: Inclusion depends slightly on whether combination therapies are accepted in the MA scope)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "35990819",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rats), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36407549",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (sows), unsuitable for a meta-analysis focused on human T2DM/metabolic health."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26042865",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (mice), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38903985",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study primarily uses in silico, in vitro, and animal models (diabetic mice).",
+        "It tests a combination of three compounds (RA, Lut, RS), making it unsuitable for RSV monotherapy analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22627169",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rats), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31853281",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rats), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24093677",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rhesus monkeys), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28218490",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rats), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22916952",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study uses an animal model (mice) and involves combination therapy (quercetin and resveratrol)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31863772",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study uses an animal model (mice) and in vitro cell lines, focusing on mechanistic signaling pathways, not human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26221476",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rats), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34484395",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a Systematic Review and Meta-Analysis (secondary research), not a primary Randomized Controlled Trial (RCT) contributing original patient data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32051733",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study uses an animal model (mice) and in vitro cells, unsuitable for human clinical efficacy meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31565649",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rats), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32529112",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a Meta-Analysis (secondary research), not a primary Randomized Controlled Trial (RCT) contributing original patient data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27194304",
+      "is_good_candidate": false,
+      "reasons": [
+        "Uses a combination therapy (Epigallocatechin-3-gallate and Resveratrol), making it unsuitable for a meta-analysis focused strictly on Resveratrol monotherapy."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "35254877",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rats), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24442997",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (mice), unsuitable for a meta-analysis focused on human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28273841",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, placebo-controlled clinical trial (RCT).",
+        "Clear population (men with Metabolic Syndrome) and intervention (Resveratrol for four months).",
+        "Although outcomes are highly specific (metabolomics), the study uses a high-quality RCT design and provides data on human metabolic changes."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "26784973",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human Randomized Controlled Trial (RCT)",
+        "Placebo-controlled, defined intervention (1.5 g resveratrol) and population (overweight NAFLD patients)",
+        "Reports primary and secondary outcomes with statistical results (p-values)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31666589",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily in silico (molecular docking) and in vitro (cell lines) study",
+        "Concludes with an animal model (diet-induced diabetic mice)",
+        "Not a human clinical trial or systematic review"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27891610",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using mice (C57BL/6 J) and their offspring",
+        "Focuses on maternal diet intervention and offspring metabolism",
+        "Not a human clinical trial"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39496097",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using a diabetic rat model (STZ-induced Wistar rats)",
+        "Investigates cardioprotective effects of liposomal resveratrol in vivo"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29057795",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human Randomized, placebo-controlled study",
+        "Clear intervention (piceatannol 20 mg/day) and defined population (overweight/non-overweight subjects)",
+        "Reports statistical results for primary and secondary outcomes (insulin, HOMA-IR, BP)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33068743",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using DBA/2J and DBCB mice models",
+        "Investigating effects on behavioral, biochemical, and immunological parameters"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "18501116",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (rats fed high-fat diet) combined with in vitro cell culture (HepG2 cells)",
+        "Mechanistic investigation of AMPK activation"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25406018",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using male mice subjected to intermittent hypoxia",
+        "Investigates metabolic dysfunction and inflammation mechanisms"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31233775",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses both cell models (HepG2) and animal models (NAFLD mice)",
+        "Focuses on developing and testing hepatic-targeted nanocarriers"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36540866",
+      "is_good_candidate": false,
+      "reasons": [
+        "General abstract summarizing various studies and biological properties of tocotrienols and related compounds (Part II)",
+        "Lacks the specific methodology, full results, and focus of a single, extractable RCT or systematic review"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "40512369",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study uses C57BL/6 mice (in vivo) and MIN6 cells (in vitro)",
+        "Mechanistic study focused on SIRT1/FoxO1 pathways and iron metabolism in β-cells"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37764672",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using male C57BL/6J mice models",
+        "Investigating protective effects of Gnetin C and resveratrol against NAFLD"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30718820",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using C57BL/6J mice",
+        "Focuses on the role of resveratrol-induced gut microbiota via fecal transplantation (FMT)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35558476",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using insulin-resistant HepG2 cells",
+        "Investigating molecular mechanisms of resveratrol metabolites (R3G and R4G)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26161595",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using streptozotocin-induced diabetic Wistar rats",
+        "Comparing resveratrol efficacy against two pharmaceutical drugs"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27035655",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study using C2C12 myotubes (in vitro) and mouse skeletal muscle (in vivo)",
+        "Focuses on circadian clock regulation (CLOCK/BMAL1) and SIRT1 pathways"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32777783",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using high-fat-fed rats and genetic mouse models (SIRT1-null, AMPKα2-null)",
+        "Mechanistic study on neointimal growth after arterial injury"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33997755",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using Wistar male rats (T2D model)",
+        "Investigating effects of probiotic and resveratrol combination"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26968898",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review/Hypothesis article discussing the anti-diabetogenic properties of milk fat and PPARs",
+        "Lacks original clinical trial data relevant for quantitative synthesis of resveratrol"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28758594",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using Swiss male mice",
+        "Investigates the effects of resveratrol and enalapril combination on lipogenesis genes"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "41062304",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (mouse models of obesity and MASLD)",
+        "Focuses on testing a dual-targeting nanoplatform (aML/R&P) for drug delivery"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40297802",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using C57BL/6J mice with HFD-induced insulin resistance",
+        "Mechanistic investigation involving the DDIT4/mTOR pathway"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34331001",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using stromal vascular fraction cells obtained from human biopsies",
+        "Results are based on cell differentiation capacity, not clinical outcomes in living subjects"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31171562",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study using animal and cell-based models (mice, adipocytes)",
+        "Investigates unconventional protein secretion (FABP4) regulation by SIRT1"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30399060",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using C57Bl/6 mice and in vitro work using HUVECs",
+        "Mechanistic investigation of vascular dysfunction via Akt/eNOS/NO and Sirt1/ER pathway"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26103448",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using HFD-fed C57BL/6 mice",
+        "Assessing Melinjo seed extract (resveratrol derivative rich) for anti-obesity effects"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33115819",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using human periodontal ligament fibroblasts (PDLFs) in culture",
+        "Focuses on metabolic dysfunction and dicarbonyl stress in a high glucose environment"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "18077353",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study focused on molecular pathways (FoxO, Akt, phosphatases) in cardiac myocytes",
+        "Likely uses cell culture or animal models, lacks clinical trial data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22905912",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using mature human SGBS adipocytes (cell line)",
+        "Proteomic analysis of secretion profiles"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22780949",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using endometrial carcinoma cell lines (Ishikawa and RL95-2)",
+        "Investigates molecular regulation of endometrial receptivity"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31935938",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human preliminary exploratory clinical trial (T1D patients)",
+        "Defined intervention (resveratrol 1000 mg/day) and measured outcomes (FBS, HbA1c, oxidative stress)",
+        "Statistical results reported despite small sample size (n=13)"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "27966329",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using diabetic rats (STZ + nicotinamide induced T2D)",
+        "Investigating gene expression (resistin and apelin) in adipose tissue"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27567590",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using mice (chow-fed and HFD-fed)",
+        "Investigating the effects of nicotinamide and resveratrol on glucose tolerance and muscle lipotoxicity"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "20190133",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing, making evaluation impossible",
+        "Likely a short communication or opinion based on the title structure"
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "18840364",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using SirT1 transgenic mice models",
+        "Investigating metabolic efficiency and diabetes prevention mechanisms"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25476247",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using HeLa cells and fibroblasts from human DM1 patients",
+        "Focuses on molecular mechanism (splicing enhancement of insulin receptor exon 11)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31278094",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a study protocol (double-blind controlled randomised clinical trial)",
+        "Provides methodology but does not contain extractable results or statistical data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27807887",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human Double-Blind Clinical Trial (RCT design)",
+        "Clear population (T2D patients with chronic periodontitis) and intervention (480 mg/day resveratrol)",
+        "Reports statistical results for clinical outcomes (HOMA-IR, pocket depth)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30980188",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing, preventing evaluation of study design, methodology, population, and outcomes"
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "26305052",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a proposed trial protocol/rationale",
+        "Describes future methodology (n=20 adolescents) but contains no extractable clinical results or data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26234526",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human randomised double-blinded placebo-controlled clinical trial",
+        "Defined population (NAFLD patients, n=50) and intervention (500 mg resveratrol for 12 weeks)",
+        "Reports outcomes (ALT, hepatic steatosis) and statistical comparisons"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24317366",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human randomized, double-blind cross-over trial",
+        "Defined population (overweight subjects, n=18) and interventions (polyphenol combinations)",
+        "Reports statistical outcomes on energy expenditure (EE) and substrate oxidation"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39725607",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using HFD-fed mice models",
+        "Mechanistic investigation focusing on the gut microbiota-derived 4-HPA-SIRT1 axis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38871717",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human randomized double-blind clinical trial (NICE trial, n=90)",
+        "Clear intervention (NR, NR+resveratrol, placebo) and primary outcome (6-min walk distance) in PAD patients",
+        "Reports effect sizes and statistical significance"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39626375",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study utilizes zebrafish model and human AC16 cell line (in vitro)",
+        "Mechanistic investigation of cardioprotection via foxo3a activation"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39303543",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using mouse models of retinal degeneration and in vitro RPE cells",
+        "Mechanistic investigation of SIRT1 activators against oxidative stress"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39599655",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using mouse embryonic fibroblasts differentiated to adipocytes",
+        "Focuses on mechanism of action and structure-activity relationships in cell culture"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40145083",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using male C57BL6/J mice (melanoma model)",
+        "Investigates resveratrol's protective role against anti-PD-1 induced testicular toxicity"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39447964",
+      "is_good_candidate": false,
+      "reasons": [
+        "Integrated study using network pharmacology (in silico), in vitro cell assays, and animal models (depression rats)",
+        "Not a human clinical trial"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37408242",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using human ARPE-19 retinal cells and macrophages",
+        "Investigating preventive effects against oxidative stress and inflammation in cell culture"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35996050",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (rats)",
+        "Pre-clinical toxicology/mechanism focus, not human clinical efficacy data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39940362",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human Randomized Controlled Trial (RCT)",
+        "Clear intervention (400 mg liposomal RES daily for 12 weeks) and control group",
+        "Well-defined population (HNC patients receiving HEN)",
+        "Measurable outcomes (oxidative stress markers, body composition)"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "39298153",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on nanoparticle fabrication and characterization (NMR)",
+        "Pre-clinical study using in vitro and likely animal models (SCI injury site injection)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39330985",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (mice)",
+        "Pre-clinical neuroprotection mechanism study"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38278473",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (rats, PSD model)",
+        "Pre-clinical investigation of mechanism (Nrf2/HO-1 pathway)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35137611",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (mice SAH model)",
+        "Investigates functional connectivity deficits and SIRT1 mediation"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37018857",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (zebrafish larvae/embryos)",
+        "Focuses on toxicology and protective mechanisms against cardiotoxicity"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40640139",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on targeted nanodrug fabrication (siR/RSV@TNP)",
+        "Pre-clinical efficacy demonstrated in a mouse model (hydrocephalus)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35357412",
+      "is_good_candidate": false,
+      "reasons": [
+        "Uses in vitro models (OGD/R in neurons) and in vivo models (MCAO/R in rats)",
+        "Pre-clinical mechanism study (inhibiting ferroptosis)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38099459",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (Swiss albino mice)",
+        "Investigates effects during parasitic infection (Trichinella spiralis)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39337353",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (Tibetan sheep)",
+        "Focuses on transcriptome-metabolome integrative analysis in livestock"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32569950",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (mice model of alcohol addiction)",
+        "Pre-clinical assessment of antioxidant properties"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39178816",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (broilers/chickens)",
+        "Focuses on livestock nutritional science and cold stress response"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38212345",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study (HepG2 cells)",
+        "Lacks human or whole-organism clinical data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32808479",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (rats with DM1 model)",
+        "Focuses on male reproductive outcomes and DNA quality in a pre-clinical setting"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35088669",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article/summary (indicated by summarizing known actions)",
+        "Does not provide primary experimental data suitable for meta-analysis inclusion"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37401457",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on developing a targeted nanoplatform (polymeric micelles)",
+        "Pre-clinical/methodology study, likely relies on in vitro or animal testing"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35245051",
+      "is_good_candidate": false,
+      "reasons": [
+        "Chemistry and drug development focus (synthesizing new MTDLs)",
+        "Uses in vitro and ex vivo pre-clinical models (hippocampal tissues)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37586559",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (mice model of schizophrenia)",
+        "Pre-clinical investigation of behavioral and oxidative outcomes"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40318601",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on nanobubble fabrication and targeted delivery system (Apt-DTP-NBs@RSV@OCA)",
+        "Efficacy tested in HepG2 cells (in vitro) and mice (animal model)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36525827",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using human peripheral blood mononuclear cells (PBMCs)",
+        "Small sample size (n=6-8 per group) and highly controlled laboratory conditions (H2O2 induction)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37182694",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using primary hepatocytes isolated from calves",
+        "Animal cell culture model"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39376256",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on nanoparticle development (RSV-SLNs)",
+        "Efficacy determined using animal models (rats, Alzheimer's symptoms) in vivo"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37130656",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (old rats)",
+        "Pre-clinical assessment of cognitive and oxidative effects"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31657756",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (heat-stressed rats)",
+        "Pre-clinical physiological and biochemical assessment"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30510631",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (*mdx* mice, model of DMD)",
+        "Pre-clinical investigation of pathophysiology and mechanism (mitophagy)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37169475",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (mice)",
+        "Pre-clinical investigation of aging-associated sarcopenia and hypertrophy"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38920697",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using C2C12 myotubes (mouse cell line)",
+        "Lacks human clinical relevance"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37585992",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (Wistar-Albino rats)",
+        "Pre-clinical investigation of chemotherapy side effect protection"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34391968",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study (microglial BV-2 cells, mouse cell line)",
+        "Focuses on cell line mechanism (STAT1 and Nrf2/Keap1/SLC7A11 pathway)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40523327",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on a resveratrol derivative (SH-707)",
+        "Uses in vitro (macrophages) and animal models (septic mice)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36242589",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (weaned piglets)",
+        "Focuses on agricultural/veterinary science outcomes"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36565226",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (rabbit model of contrast-induced nephropathy)",
+        "Pre-clinical model using rabbits"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35403302",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (Sprague-Dawley rats)",
+        "Pre-clinical investigation of DZN toxicity protection"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31941613",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study (HTR8/SVneo human trophoblast cell line)",
+        "Lacks human or whole-organism clinical data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32352929",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using animal cells (mouse oocytes)",
+        "Lacks human clinical data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34870752",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a biomarker/tissue analysis study (123 patient samples)",
+        "Includes in vitro experiments (cell lines), but not an intervention trial suitable for efficacy meta-analysis"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "39278290",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on development of a biomaterial/device (hydrogel scaffold, liposomes)",
+        "Characterization study using in vitro compatibility testing"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33812581",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on materials science and fabrication (RES-modified polysulfone membranes)",
+        "Tests properties primarily in vitro (dialysis simulation, blood compatibility)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39437818",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on development of a biomaterial (gelatin-based hydrogel)",
+        "Efficacy tested in different animal models (hemostasis/wound healing)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29908346",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (Wistar albino rats)",
+        "Investigates age and gender-dependent vascular alterations in a pre-clinical setting"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36861192",
+      "is_good_candidate": false,
+      "reasons": [
+        "Uses in vitro cell lines (RAW264.7 and MLE12) and an animal model (sepsis mice)",
+        "Pre-clinical mechanism study (necroptosis attenuation)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40451555",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on microneedle-mediated nanoparticle delivery platform development",
+        "Efficacy demonstrated in an animal model (rabbit model of dry AMD)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36549457",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using animal cells (porcine oocytes)",
+        "Lacks human clinical data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36798665",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (young and old mice)",
+        "Compares RES to a bacterial intervention, focusing on gut microbiota"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36622081",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (high-fat-fed male mice)",
+        "Investigates combined supplementation effects (RSV + nitrate) in a pre-clinical model"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33704623",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using human cell lines (HUVECs and THP-1)",
+        "Investigates effects of a combination supplement (MIX) on cellular aging markers (SASP)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37940580",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using animal cells (FAO rat liver cells)",
+        "Focuses on cellular signaling pathways (AMPK/Sirt1-Foxo1)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35945895",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on nanocapsule formulation (RSV-LNCs)",
+        "Efficacy tested in an animal model (bleomycin-induced lung injury in rats)"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32798507",
+      "is_good_candidate": false,
+      "reasons": [
+        "Computational study (systematic pharmacology and network technology)",
+        "Predicts mechanisms of action; does not generate primary clinical or experimental data"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31726798",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rat model) and is not generalizable to human clinical outcomes.",
+        "Lacks human clinical relevance required for a human meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38684734",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rat model of Essential Tremor).",
+        "Lacks human clinical data, making it unsuitable for a clinical meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37511397",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro study using a cell culture model (BBB consisting of endothelial cells and astrocytes).",
+        "Focuses on molecular mechanisms rather than clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29326403",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (C57BL/6 mice) investigating aging-related kidney injury.",
+        "The methodology includes cellular experiments (HK2 cells), confirming its pre-clinical nature."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35297074",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an experimental animal study using male rats (varicocele model).",
+        "Outcomes relate to animal reproductive biology, not human clinical trials."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36499460",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a mechanistic/drug development study involving computational protocols and in vitro assessment (HUVECs).",
+        "It focuses on chemical efficacy and target activation rather than human clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30942490",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an ex vivo/in vitro study using human platelets in storage to investigate senescence mechanisms.",
+        "It does not involve a clinical intervention trial with human subjects."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37009719",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study (rat model of NASH induced by CCl4).",
+        "The study focuses on pharmacokinetics and pharmacodynamics in rats."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37729093",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a pre-clinical nanomedicine study evaluating liposomal resveratrol effects on platelet storage lesion (PSL).",
+        "The methodology relies on in vitro experiments and pre-clinical in vivo platelet survival time assessment, lacking human clinical efficacy data."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "33582552",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an experimental animal study using albino rats (Bisphenol-A induced uterine damage).",
+        "Results are confined to an animal model."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35335317",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study focuses on optimizing resveratrol production in functional crops (rice seeds) and testing its activity in inflammatory cells.",
+        "It is a plant chemistry/in vitro study, not a human clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30904419",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using rats (CUMS-induced depression model).",
+        "Lacks human clinical data suitable for meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35146845",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using Wistar rats (periodontitis model).",
+        "The findings are pre-clinical and limited to an animal model."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39864579",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro study utilizing HT-22 cells (cell line).",
+        "Focuses on molecular pathways (SIRT1, autophagy) in cultured cells."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35334811",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a study using a non-mammalian model (Sparus aurata larvae) and osteoblastic cells (in vitro).",
+        "Not relevant for a human clinical meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33444643",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an ex vivo/mechanistic study using human mononuclear cells from donors in an oxidative stress environment.",
+        "It investigates cellular signaling patterns (SIRT1, AMPK) and does not report clinical outcomes from a human intervention trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37695728",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using a rat model of polymicrobial sepsis (CLP).",
+        "Evaluates treatment efficacy in a pre-clinical setting."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35606908",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using 5/6-nephrectomized rats and Sirt1+/- mice.",
+        "The findings are based on an experimental animal model of chronic kidney disease."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37447275",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Clinical Trial (RCT) methodology used.",
+        "Well-defined human population (48 healthy adults, 55-65 years).",
+        "Clear, measurable clinical vascular outcomes (FMD, NMD) and statistical analysis (correlations, predictions, p-values)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36942598",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using spontaneously hypertensive rats (SHR).",
+        "The study evaluates therapeutic potential in a rodent model of hypertension."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37454955",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro/non-human cellular study using cow neutrophils.",
+        "Focuses on regulatory mechanisms of energy metabolism in veterinary science context."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37017511",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro study evaluating cytotoxicity and antioxidant activities on breast cancer cell lines (MCF7 and SKBr3 cells).",
+        "Lacks clinical patient data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35483776",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using Wistar rats (n=4-7 per group), which is unsuitable for human clinical meta-analysis.",
+        "The sample size (n=4-7) is extremely small, even for an animal study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30909544",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro metabolism study using a faecal fermentation system.",
+        "Focuses on microbial transformation pathways, not human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34648904",
+      "is_good_candidate": false,
+      "reasons": [
+        "This study uses porcine and cellular settings (IPEC-J2 cells).",
+        "It is an animal/in vitro study, unsuitable for human clinical meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32414118",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro study using human keratinocytes to investigate molecular mechanisms of inflammation.",
+        "Lacks human clinical intervention and outcome measures."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38986220",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using rats intoxicated with Cyclosporine A.",
+        "Results are confined to a rodent model of nephrotoxicity."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38338809",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro study examining antioxidants on human dermal fibroblasts.",
+        "The methodology is based on cell culture (replicative lifespan and molecular markers) and is not a clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36148879",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an in vitro study using bovine embryos.",
+        "It is focused on non-human reproductive technology and cellular outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33583445",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an experimental feeding trial conducted on largemouth bass (fish model).",
+        "Not a human clinical study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25371281",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is an animal study using a type 2 diabetic rat model.",
+        "Outcomes relate to pathology and inflammation in rats, lacking human clinical efficacy data."
+      ],
+      "confidence_score": 1.0
+    }
+  ]
+}

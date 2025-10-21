@@ -1,0 +1,35 @@
+Successfully loaded 17 rows from _extracted_datapoints.csv
+Columns: ['study_id', 'author_year', 'country', 'population_type', 'sample_size_intervention', 'sample_size_control', 'intervention_name', 'dose_mg_per_day', 'duration_days', 'outcome_name', 'biomarker_unit', 'intervention_baseline_mean', 'intervention_baseline_sd', 'intervention_post_mean', 'intervention_post_sd', 'control_baseline_mean', 'control_baseline_sd', 'control_post_mean', 'control_post_sd', 'mean_difference', 'sd_difference', 'p_value', 'effect_direction', 'statistical_significance']
+Outcomes available: ['HbA1c']
+Studies: ['Mahjabeen_2022' 'Bo_2018' 'Khodabandehloo_2018' 'Seyyedebrahimi_2018'
+ 'Tabatabaie_2020' 'Bo_2016' 'Abdollahi_2019' 'Tomé-Carneiro_2013'
+ 'Xue_2016' 'Kitada_2017']
+
+After cleaning missing values: 9 rows remaining
+Outcomes with multiple studies: ['HbA1c']
+
+
+==================================================
+GENERATED CHARTS
+==================================================
+--- Meta-analysis for HbA1c ---
+           author_year       intervention_name  dose_mg_per_day         g      se_g
+8       Abdollahi_2019             Resveratrol          1000.00  0.087130  0.237492
+9   Tomé-Carneiro_2013             Resveratrol            12.15  0.145445  0.434183
+10  Tomé-Carneiro_2013             Resveratrol            12.15  0.285185  0.394221
+11            Xue_2016  Resveratrol+Hesperetin            90.00  0.000000  0.262613
+12            Xue_2016  Resveratrol+Hesperetin            90.00  0.000000  0.262613
+13         Kitada_2017             Piceatannol            20.00  0.571250  0.645226
+14         Kitada_2017             Piceatannol            20.00  0.000000  0.670820
+15         Kitada_2017             Piceatannol            20.00 -1.354839  0.701270
+16         Kitada_2017             Piceatannol            20.00 -0.952084  0.667325
+Pooled SMD (Hedges' g): 0.009
+Standard Error of Pooled SMD: 0.122
+95% CI: [-0.229, 0.248]
+
+Chart: Forest Plot - HbA1c
+Filename: _meta_analysis_forest_HbA1c.png
+Description: Forest plot showing standardized mean differences for HbA1c with 95% confidence intervals
+-----------------------------
+
+

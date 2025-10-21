@@ -1,0 +1,1050 @@
+2025-10-20 13:56:16,197 - INFO - Successfully imported DOI downloader from: ./tools
+2025-10-20 13:56:16,197 - INFO - DOI Downloader initialized. Download directory: ./
+2025-10-20 13:56:16,197 - INFO - PubMed PDF Downloader initialized. Download directory: ./
+2025-10-20 13:56:16,197 - INFO - Loading filtered articles...
+2025-10-20 13:56:16,198 - INFO - Loaded 37 good candidate articles from _pubmed_filtered_articles.json
+2025-10-20 13:56:16,198 - INFO - Loading metadata...
+2025-10-20 13:56:16,199 - INFO - Loaded metadata for 130 articles from _pubmed_fetched_meta_results.json
+2025-10-20 13:56:16,199 - INFO - Merging article data...
+2025-10-20 13:56:16,200 - INFO - Merged data for 37 articles
+2025-10-20 13:56:16,200 - INFO - Starting download process for 37 articles...
+2025-10-20 13:56:16,200 - INFO - Starting download of 37 articles
+2025-10-20 13:56:16,200 - INFO - Processing article 1/37: PMID 36159792
+2025-10-20 13:56:16,200 - INFO - Attempting to download PDF for PMID: 36159792
+2025-10-20 13:56:16,200 - INFO - Attempting PMC download for PMID 36159792, PMC ID: PMC9500378
+2025-10-20 13:56:16,200 - INFO - Querying PMC API for PMC9500378: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9500378
+2025-10-20 13:56:16,592 - WARNING - No PDF links found for PMC9500378
+2025-10-20 13:56:16,593 - WARNING - No PMC PDF URL found for PMID 36159792
+2025-10-20 13:56:16,593 - INFO - Attempting DOI download for PMID 36159792, DOI: 10.3389/fimmu.2022.949746
+2025-10-20 13:56:16,593 - INFO - Attempting to download DOI: 10.3389/fimmu.2022.949746
+2025-10-20 13:56:16,593 - INFO - Trying direct download from DOI URL for: 10.3389/fimmu.2022.949746
+2025-10-20 13:56:16,593 - INFO - Attempting direct download from DOI URL for: 10.3389/fimmu.2022.949746
+2025-10-20 13:56:19,072 - INFO - Found PDF via meta citation: https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.949746/pdf
+2025-10-20 13:56:19,072 - INFO - Downloading PDF from: https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.949746/pdf
+2025-10-20 13:56:19,757 - INFO - Successfully downloaded PDF: 10.3389/fimmu.2022.949746 -> ./36159792_Efficacy_and_safety_of_dietary_polyphenol_supplementation_in.pdf
+2025-10-20 13:56:19,758 - INFO - Successfully downloaded via direct DOI method: 10.3389/fimmu.2022.949746
+2025-10-20 13:56:19,758 - INFO - Successfully downloaded via DOI: 36159792
+2025-10-20 13:56:19,758 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:21,758 - INFO - Processing article 2/37: PMID 29183107
+2025-10-20 13:56:21,758 - INFO - Attempting to download PDF for PMID: 29183107
+2025-10-20 13:56:21,758 - INFO - Attempting PMC download for PMID 29183107, PMC ID: PMC6486196
+2025-10-20 13:56:21,758 - INFO - Querying PMC API for PMC6486196: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC6486196
+2025-10-20 13:56:22,217 - WARNING - No PDF links found for PMC6486196
+2025-10-20 13:56:22,217 - WARNING - No PMC PDF URL found for PMID 29183107
+2025-10-20 13:56:22,217 - INFO - Attempting DOI download for PMID 29183107, DOI: 10.1002/14651858.CD003053.pub6
+2025-10-20 13:56:22,217 - INFO - Attempting to download DOI: 10.1002/14651858.CD003053.pub6
+2025-10-20 13:56:22,217 - INFO - Trying direct download from DOI URL for: 10.1002/14651858.CD003053.pub6
+2025-10-20 13:56:22,217 - INFO - Attempting direct download from DOI URL for: 10.1002/14651858.CD003053.pub6
+2025-10-20 13:56:26,967 - INFO - Found potential PDF link: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003053.pub6/pdf/full/en
+2025-10-20 13:56:26,967 - INFO - Downloading PDF from: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003053.pub6/pdf/full/en
+2025-10-20 13:56:27,630 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003053.pub6/pdf/full/en
+2025-10-20 13:56:27,630 - INFO - Falling back to sci-hub download for: 10.1002/14651858.CD003053.pub6
+2025-10-20 13:56:28,625 - INFO - Successfully downloaded via sci-hub: 10.1002/14651858.CD003053.pub6 -> ./29183107_Insulin-sensitising_drugs_(metformin,_rosiglitazone,_pioglit.pdf
+2025-10-20 13:56:28,625 - INFO - Successfully downloaded via DOI: 29183107
+2025-10-20 13:56:28,625 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:30,626 - INFO - Processing article 3/37: PMID 39872318
+2025-10-20 13:56:30,626 - INFO - Attempting to download PDF for PMID: 39872318
+2025-10-20 13:56:30,626 - INFO - Attempting PMC download for PMID 39872318, PMC ID: PMC11771208
+2025-10-20 13:56:30,626 - INFO - Querying PMC API for PMC11771208: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC11771208
+2025-10-20 13:56:31,208 - WARNING - No PDF links found for PMC11771208
+2025-10-20 13:56:31,208 - WARNING - No PMC PDF URL found for PMID 39872318
+2025-10-20 13:56:31,208 - INFO - Attempting DOI download for PMID 39872318, DOI: 10.3389/fendo.2024.1463027
+2025-10-20 13:56:31,208 - INFO - Attempting to download DOI: 10.3389/fendo.2024.1463027
+2025-10-20 13:56:31,208 - INFO - Trying direct download from DOI URL for: 10.3389/fendo.2024.1463027
+2025-10-20 13:56:31,208 - INFO - Attempting direct download from DOI URL for: 10.3389/fendo.2024.1463027
+2025-10-20 13:56:32,043 - INFO - Found PDF via meta citation: https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1463027/pdf
+2025-10-20 13:56:32,043 - INFO - Downloading PDF from: https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1463027/pdf
+2025-10-20 13:56:32,408 - INFO - Successfully downloaded PDF: 10.3389/fendo.2024.1463027 -> ./39872318_The_efficacy_of_resveratrol_supplementation_on_inflammation.pdf
+2025-10-20 13:56:32,408 - INFO - Successfully downloaded via direct DOI method: 10.3389/fendo.2024.1463027
+2025-10-20 13:56:32,408 - INFO - Successfully downloaded via DOI: 39872318
+2025-10-20 13:56:32,408 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:34,408 - INFO - Processing article 4/37: PMID 33321448
+2025-10-20 13:56:34,408 - INFO - Attempting to download PDF for PMID: 33321448
+2025-10-20 13:56:34,408 - INFO - Attempting DOI download for PMID 33321448, DOI: 10.1016/j.ctcp.2020.101281
+2025-10-20 13:56:34,408 - INFO - Attempting to download DOI: 10.1016/j.ctcp.2020.101281
+2025-10-20 13:56:34,409 - INFO - Trying direct download from DOI URL for: 10.1016/j.ctcp.2020.101281
+2025-10-20 13:56:34,409 - INFO - Attempting direct download from DOI URL for: 10.1016/j.ctcp.2020.101281
+2025-10-20 13:56:35,409 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-20 13:56:35,409 - INFO - Falling back to sci-hub download for: 10.1016/j.ctcp.2020.101281
+2025-10-20 13:56:36,448 - INFO - Successfully downloaded via sci-hub: 10.1016/j.ctcp.2020.101281 -> ./33321448_Efficacy_of_resveratrol_supplementation_in_patients_with_non.pdf
+2025-10-20 13:56:36,448 - INFO - Successfully downloaded via DOI: 33321448
+2025-10-20 13:56:36,448 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:38,448 - INFO - Processing article 5/37: PMID 33480264
+2025-10-20 13:56:38,449 - INFO - Attempting to download PDF for PMID: 33480264
+2025-10-20 13:56:38,449 - INFO - Attempting DOI download for PMID 33480264, DOI: 10.1080/10408398.2021.1875980
+2025-10-20 13:56:38,449 - INFO - Attempting to download DOI: 10.1080/10408398.2021.1875980
+2025-10-20 13:56:38,449 - INFO - Trying direct download from DOI URL for: 10.1080/10408398.2021.1875980
+2025-10-20 13:56:38,449 - INFO - Attempting direct download from DOI URL for: 10.1080/10408398.2021.1875980
+2025-10-20 13:56:38,815 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:56:38,815 - INFO - Falling back to sci-hub download for: 10.1080/10408398.2021.1875980
+2025-10-20 13:56:39,649 - INFO - Successfully downloaded via sci-hub: 10.1080/10408398.2021.1875980 -> ./33480264_Resveratrol_supplementation_and_type_2_diabetes__a_systemati.pdf
+2025-10-20 13:56:39,649 - INFO - Successfully downloaded via DOI: 33480264
+2025-10-20 13:56:39,649 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:41,649 - INFO - Processing article 6/37: PMID 31978258
+2025-10-20 13:56:41,650 - INFO - Attempting to download PDF for PMID: 31978258
+2025-10-20 13:56:41,650 - INFO - Attempting PMC download for PMID 31978258, PMC ID: PMC6984411
+2025-10-20 13:56:41,650 - INFO - Querying PMC API for PMC6984411: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC6984411
+2025-10-20 13:56:42,267 - WARNING - No PDF links found for PMC6984411
+2025-10-20 13:56:42,267 - WARNING - No PMC PDF URL found for PMID 31978258
+2025-10-20 13:56:42,267 - INFO - Attempting DOI download for PMID 31978258, DOI: 10.1002/14651858.CD011919.pub2
+2025-10-20 13:56:42,267 - INFO - Attempting to download DOI: 10.1002/14651858.CD011919.pub2
+2025-10-20 13:56:42,267 - INFO - Trying direct download from DOI URL for: 10.1002/14651858.CD011919.pub2
+2025-10-20 13:56:42,267 - INFO - Attempting direct download from DOI URL for: 10.1002/14651858.CD011919.pub2
+2025-10-20 13:56:45,260 - INFO - Found potential PDF link: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011919.pub2/pdf/full/en
+2025-10-20 13:56:45,260 - INFO - Downloading PDF from: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011919.pub2/pdf/full/en
+2025-10-20 13:56:46,057 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011919.pub2/pdf/full/en
+2025-10-20 13:56:46,057 - INFO - Falling back to sci-hub download for: 10.1002/14651858.CD011919.pub2
+2025-10-20 13:56:46,999 - INFO - Successfully downloaded via sci-hub: 10.1002/14651858.CD011919.pub2 -> ./31978258_Resveratrol_for_adults_with_type_2_diabetes_mellitus..pdf
+2025-10-20 13:56:47,000 - INFO - Successfully downloaded via DOI: 31978258
+2025-10-20 13:56:47,000 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:49,000 - INFO - Processing article 7/37: PMID 33430470
+2025-10-20 13:56:49,001 - INFO - Attempting to download PDF for PMID: 33430470
+2025-10-20 13:56:49,001 - INFO - Attempting PMC download for PMID 33430470, PMC ID: PMC7827898
+2025-10-20 13:56:49,001 - INFO - Querying PMC API for PMC7827898: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7827898
+2025-10-20 13:56:49,371 - WARNING - No PDF links found for PMC7827898
+2025-10-20 13:56:49,371 - WARNING - No PMC PDF URL found for PMID 33430470
+2025-10-20 13:56:49,371 - INFO - Attempting DOI download for PMID 33430470, DOI: 10.3390/antiox10010069
+2025-10-20 13:56:49,371 - INFO - Attempting to download DOI: 10.3390/antiox10010069
+2025-10-20 13:56:49,371 - INFO - Trying direct download from DOI URL for: 10.3390/antiox10010069
+2025-10-20 13:56:49,371 - INFO - Attempting direct download from DOI URL for: 10.3390/antiox10010069
+2025-10-20 13:56:49,553 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:56:49,553 - INFO - Falling back to sci-hub download for: 10.3390/antiox10010069
+2025-10-20 13:56:50,863 - INFO - Successfully downloaded via sci-hub: 10.3390/antiox10010069 -> ./33430470_Hypoglycemic_Effect_of_Resveratrol__A_Systematic_Review_and.pdf
+2025-10-20 13:56:50,863 - INFO - Successfully downloaded via DOI: 33430470
+2025-10-20 13:56:50,863 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:52,864 - INFO - Processing article 8/37: PMID 37656235
+2025-10-20 13:56:52,864 - INFO - Attempting to download PDF for PMID: 37656235
+2025-10-20 13:56:52,864 - INFO - Attempting PMC download for PMID 37656235, PMC ID: PMC10504120
+2025-10-20 13:56:52,864 - INFO - Querying PMC API for PMC10504120: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC10504120
+2025-10-20 13:56:53,428 - WARNING - No PDF links found for PMC10504120
+2025-10-20 13:56:53,429 - WARNING - No PMC PDF URL found for PMID 37656235
+2025-10-20 13:56:53,429 - INFO - Attempting DOI download for PMID 37656235, DOI: 10.1007/s10549-023-07043-6
+2025-10-20 13:56:53,429 - INFO - Attempting to download DOI: 10.1007/s10549-023-07043-6
+2025-10-20 13:56:53,429 - INFO - Trying direct download from DOI URL for: 10.1007/s10549-023-07043-6
+2025-10-20 13:56:53,429 - INFO - Attempting direct download from DOI URL for: 10.1007/s10549-023-07043-6
+2025-10-20 13:56:54,703 - INFO - Found potential PDF link: https://link.springer.com/content/pdf/10.1007/s10549-023-07043-6.pdf
+2025-10-20 13:56:54,703 - INFO - Downloading PDF from: https://link.springer.com/content/pdf/10.1007/s10549-023-07043-6.pdf
+2025-10-20 13:56:55,220 - INFO - Successfully downloaded PDF: 10.1007/s10549-023-07043-6 -> ./37656235_Breast_cancer_and_incidence_of_type_2_diabetes_mellitus__a_s.pdf
+2025-10-20 13:56:55,220 - INFO - Successfully downloaded via direct DOI method: 10.1007/s10549-023-07043-6
+2025-10-20 13:56:55,220 - INFO - Successfully downloaded via DOI: 37656235
+2025-10-20 13:56:55,220 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:56:57,220 - INFO - Processing article 9/37: PMID 36014469
+2025-10-20 13:56:57,220 - INFO - Attempting to download PDF for PMID: 36014469
+2025-10-20 13:56:57,220 - INFO - Attempting PMC download for PMID 36014469, PMC ID: PMC9416262
+2025-10-20 13:56:57,221 - INFO - Querying PMC API for PMC9416262: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9416262
+2025-10-20 13:56:57,831 - WARNING - No PDF links found for PMC9416262
+2025-10-20 13:56:57,832 - WARNING - No PMC PDF URL found for PMID 36014469
+2025-10-20 13:56:57,832 - INFO - Attempting DOI download for PMID 36014469, DOI: 10.3390/molecules27165232
+2025-10-20 13:56:57,832 - INFO - Attempting to download DOI: 10.3390/molecules27165232
+2025-10-20 13:56:57,832 - INFO - Trying direct download from DOI URL for: 10.3390/molecules27165232
+2025-10-20 13:56:57,832 - INFO - Attempting direct download from DOI URL for: 10.3390/molecules27165232
+2025-10-20 13:56:57,977 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:56:57,977 - INFO - Falling back to sci-hub download for: 10.3390/molecules27165232
+2025-10-20 13:57:02,354 - ERROR - Sci-hub download completed but file not found: 10.3390/molecules27165232
+2025-10-20 13:57:02,354 - WARNING - DOI download failed for PMID 36014469: Sci-hub download completed but file not found: 10.3390/molecules27165232
+2025-10-20 13:57:02,354 - ERROR - All download methods failed for PMID 36014469
+2025-10-20 13:57:02,354 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:04,354 - INFO - Processing article 10/37: PMID 25138371
+2025-10-20 13:57:04,354 - INFO - Attempting to download PDF for PMID: 25138371
+2025-10-20 13:57:04,355 - INFO - Attempting DOI download for PMID 25138371, DOI: 10.1002/mnfr.201400173
+2025-10-20 13:57:04,355 - INFO - Attempting to download DOI: 10.1002/mnfr.201400173
+2025-10-20 13:57:04,355 - INFO - Trying direct download from DOI URL for: 10.1002/mnfr.201400173
+2025-10-20 13:57:04,355 - INFO - Attempting direct download from DOI URL for: 10.1002/mnfr.201400173
+2025-10-20 13:57:04,529 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:57:04,530 - INFO - Falling back to sci-hub download for: 10.1002/mnfr.201400173
+2025-10-20 13:57:05,526 - INFO - Successfully downloaded via sci-hub: 10.1002/mnfr.201400173 -> ./25138371_Resveratrol_treatment_as_an_adjunct_to_pharmacological_manag.pdf
+2025-10-20 13:57:05,526 - INFO - Successfully downloaded via DOI: 25138371
+2025-10-20 13:57:05,526 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:07,526 - INFO - Processing article 11/37: PMID 29018489
+2025-10-20 13:57:07,526 - INFO - Attempting to download PDF for PMID: 29018489
+2025-10-20 13:57:07,526 - INFO - Attempting PMC download for PMID 29018489, PMC ID: PMC5610395
+2025-10-20 13:57:07,527 - INFO - Querying PMC API for PMC5610395: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC5610395
+2025-10-20 13:57:07,948 - WARNING - No PDF links found for PMC5610395
+2025-10-20 13:57:07,948 - WARNING - No PMC PDF URL found for PMID 29018489
+2025-10-20 13:57:07,948 - INFO - Attempting DOI download for PMID 29018489, DOI: 10.1186/s12986-017-0217-z
+2025-10-20 13:57:07,948 - INFO - Attempting to download DOI: 10.1186/s12986-017-0217-z
+2025-10-20 13:57:07,948 - INFO - Trying direct download from DOI URL for: 10.1186/s12986-017-0217-z
+2025-10-20 13:57:07,948 - INFO - Attempting direct download from DOI URL for: 10.1186/s12986-017-0217-z
+2025-10-20 13:57:08,614 - INFO - Found potential PDF link: https://nutritionandmetabolism.biomedcentral.com/counter/pdf/10.1186/s12986-017-0217-z.pdf
+2025-10-20 13:57:08,614 - INFO - Downloading PDF from: https://nutritionandmetabolism.biomedcentral.com/counter/pdf/10.1186/s12986-017-0217-z.pdf
+2025-10-20 13:57:09,008 - INFO - Successfully downloaded PDF: 10.1186/s12986-017-0217-z -> ./29018489_Effects_of_resveratrol_on_glucose_control_and_insulin_sensit.pdf
+2025-10-20 13:57:09,008 - INFO - Successfully downloaded via direct DOI method: 10.1186/s12986-017-0217-z
+2025-10-20 13:57:09,008 - INFO - Successfully downloaded via DOI: 29018489
+2025-10-20 13:57:09,008 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:11,008 - INFO - Processing article 12/37: PMID 35431994
+2025-10-20 13:57:11,009 - INFO - Attempting to download PDF for PMID: 35431994
+2025-10-20 13:57:11,009 - INFO - Attempting PMC download for PMID 35431994, PMC ID: PMC9009313
+2025-10-20 13:57:11,009 - INFO - Querying PMC API for PMC9009313: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9009313
+2025-10-20 13:57:11,554 - WARNING - No PDF links found for PMC9009313
+2025-10-20 13:57:11,554 - WARNING - No PMC PDF URL found for PMID 35431994
+2025-10-20 13:57:11,554 - INFO - Attempting DOI download for PMID 35431994, DOI: 10.3389/fphys.2022.795980
+2025-10-20 13:57:11,554 - INFO - Attempting to download DOI: 10.3389/fphys.2022.795980
+2025-10-20 13:57:11,554 - INFO - Trying direct download from DOI URL for: 10.3389/fphys.2022.795980
+2025-10-20 13:57:11,554 - INFO - Attempting direct download from DOI URL for: 10.3389/fphys.2022.795980
+2025-10-20 13:57:12,416 - INFO - Found PDF via meta citation: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.795980/pdf
+2025-10-20 13:57:12,417 - INFO - Downloading PDF from: https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.795980/pdf
+2025-10-20 13:57:12,851 - INFO - Successfully downloaded PDF: 10.3389/fphys.2022.795980 -> ./35431994_Efficacy_of_Resveratrol_Supplementation_on_Glucose_and_Lipid.pdf
+2025-10-20 13:57:12,851 - INFO - Successfully downloaded via direct DOI method: 10.3389/fphys.2022.795980
+2025-10-20 13:57:12,851 - INFO - Successfully downloaded via DOI: 35431994
+2025-10-20 13:57:12,852 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:14,852 - INFO - Processing article 13/37: PMID 32529112
+2025-10-20 13:57:14,852 - INFO - Attempting to download PDF for PMID: 32529112
+2025-10-20 13:57:14,852 - INFO - Attempting PMC download for PMID 32529112, PMC ID: PMC7277462
+2025-10-20 13:57:14,852 - INFO - Querying PMC API for PMC7277462: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7277462
+2025-10-20 13:57:15,292 - INFO - Found PDF link for PMC7277462: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_pdf/29/c0/AMS-AD-5-40815.PMC7277462.pdf
+2025-10-20 13:57:15,292 - INFO - Downloading PDF from: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_pdf/29/c0/AMS-AD-5-40815.PMC7277462.pdf
+2025-10-20 13:57:15,293 - ERROR - Network error downloading ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_pdf/29/c0/AMS-AD-5-40815.PMC7277462.pdf: No connection adapters were found for 'ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_pdf/29/c0/AMS-AD-5-40815.PMC7277462.pdf'
+2025-10-20 13:57:15,293 - WARNING - PMC download failed for PMID 32529112
+2025-10-20 13:57:15,293 - INFO - Attempting DOI download for PMID 32529112, DOI: 10.5114/amsad.2020.95884
+2025-10-20 13:57:15,293 - INFO - Attempting to download DOI: 10.5114/amsad.2020.95884
+2025-10-20 13:57:15,293 - INFO - Trying direct download from DOI URL for: 10.5114/amsad.2020.95884
+2025-10-20 13:57:15,293 - INFO - Attempting direct download from DOI URL for: 10.5114/amsad.2020.95884
+2025-10-20 13:57:15,585 - WARNING - Direct DOI download failed: Network error accessing DOI: HTTPSConnectionPool(host='amsad.termedia.pl', port=443): Max retries exceeded with url: /Usefulness-of-resveratrol-supplementation-in-decreasing-cardiometabolic-risk-factors,120761,0,2.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+2025-10-20 13:57:15,585 - INFO - Falling back to sci-hub download for: 10.5114/amsad.2020.95884
+2025-10-20 13:57:16,324 - INFO - Successfully downloaded via sci-hub: 10.5114/amsad.2020.95884 -> ./32529112_Usefulness_of_resveratrol_supplementation_in_decreasing_card.pdf
+2025-10-20 13:57:16,324 - INFO - Successfully downloaded via DOI: 32529112
+2025-10-20 13:57:16,324 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:18,324 - INFO - Processing article 14/37: PMID 35685602
+2025-10-20 13:57:18,324 - INFO - Attempting to download PDF for PMID: 35685602
+2025-10-20 13:57:18,325 - INFO - Attempting PMC download for PMID 35685602, PMC ID: PMC9158797
+2025-10-20 13:57:18,325 - INFO - Querying PMC API for PMC9158797: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9158797
+2025-10-20 13:57:18,703 - WARNING - No PDF links found for PMC9158797
+2025-10-20 13:57:18,703 - WARNING - No PMC PDF URL found for PMID 35685602
+2025-10-20 13:57:18,703 - INFO - Attempting DOI download for PMID 35685602, DOI: 10.1155/2022/9734738
+2025-10-20 13:57:18,703 - INFO - Attempting to download DOI: 10.1155/2022/9734738
+2025-10-20 13:57:18,703 - INFO - Trying direct download from DOI URL for: 10.1155/2022/9734738
+2025-10-20 13:57:18,703 - INFO - Attempting direct download from DOI URL for: 10.1155/2022/9734738
+2025-10-20 13:57:18,906 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:57:18,907 - INFO - Falling back to sci-hub download for: 10.1155/2022/9734738
+2025-10-20 13:57:22,705 - ERROR - Sci-hub download completed but file not found: 10.1155/2022/9734738
+2025-10-20 13:57:22,705 - WARNING - DOI download failed for PMID 35685602: Sci-hub download completed but file not found: 10.1155/2022/9734738
+2025-10-20 13:57:22,705 - ERROR - All download methods failed for PMID 35685602
+2025-10-20 13:57:22,705 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:24,705 - INFO - Processing article 15/37: PMID 32823621
+2025-10-20 13:57:24,705 - INFO - Attempting to download PDF for PMID: 32823621
+2025-10-20 13:57:24,706 - INFO - Attempting PMC download for PMID 32823621, PMC ID: PMC7469003
+2025-10-20 13:57:24,706 - INFO - Querying PMC API for PMC7469003: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7469003
+2025-10-20 13:57:25,275 - WARNING - No PDF links found for PMC7469003
+2025-10-20 13:57:25,275 - WARNING - No PMC PDF URL found for PMID 32823621
+2025-10-20 13:57:25,275 - INFO - Attempting DOI download for PMID 32823621, DOI: 10.3390/nu12082435
+2025-10-20 13:57:25,275 - INFO - Attempting to download DOI: 10.3390/nu12082435
+2025-10-20 13:57:25,275 - INFO - Trying direct download from DOI URL for: 10.3390/nu12082435
+2025-10-20 13:57:25,275 - INFO - Attempting direct download from DOI URL for: 10.3390/nu12082435
+2025-10-20 13:57:25,589 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:57:25,589 - INFO - Falling back to sci-hub download for: 10.3390/nu12082435
+2025-10-20 13:57:26,738 - INFO - Successfully downloaded via sci-hub: 10.3390/nu12082435 -> ./32823621_Effects_of_Resveratrol_Supplementation_in_Patients_with_Non-.pdf
+2025-10-20 13:57:26,738 - INFO - Successfully downloaded via DOI: 32823621
+2025-10-20 13:57:26,738 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:28,738 - INFO - Processing article 16/37: PMID 29931039
+2025-10-20 13:57:28,738 - INFO - Attempting to download PDF for PMID: 29931039
+2025-10-20 13:57:28,739 - INFO - Attempting DOI download for PMID 29931039, DOI: 10.1093/ajcn/nqy083
+2025-10-20 13:57:28,739 - INFO - Attempting to download DOI: 10.1093/ajcn/nqy083
+2025-10-20 13:57:28,739 - INFO - Trying direct download from DOI URL for: 10.1093/ajcn/nqy083
+2025-10-20 13:57:28,739 - INFO - Attempting direct download from DOI URL for: 10.1093/ajcn/nqy083
+2025-10-20 13:57:29,740 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-20 13:57:29,740 - INFO - Falling back to sci-hub download for: 10.1093/ajcn/nqy083
+2025-10-20 13:57:30,577 - INFO - Successfully downloaded via sci-hub: 10.1093/ajcn/nqy083 -> ./29931039_Polyphenol_exposure_and_risk_of_type_2_diabetes__dose-respon.pdf
+2025-10-20 13:57:30,577 - INFO - Successfully downloaded via DOI: 29931039
+2025-10-20 13:57:30,577 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:32,577 - INFO - Processing article 17/37: PMID 36145131
+2025-10-20 13:57:32,577 - INFO - Attempting to download PDF for PMID: 36145131
+2025-10-20 13:57:32,577 - INFO - Attempting PMC download for PMID 36145131, PMC ID: PMC9506025
+2025-10-20 13:57:32,578 - INFO - Querying PMC API for PMC9506025: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9506025
+2025-10-20 13:57:33,160 - WARNING - No PDF links found for PMC9506025
+2025-10-20 13:57:33,160 - WARNING - No PMC PDF URL found for PMID 36145131
+2025-10-20 13:57:33,160 - INFO - Attempting DOI download for PMID 36145131, DOI: 10.3390/nu14183755
+2025-10-20 13:57:33,161 - INFO - Attempting to download DOI: 10.3390/nu14183755
+2025-10-20 13:57:33,161 - INFO - Trying direct download from DOI URL for: 10.3390/nu14183755
+2025-10-20 13:57:33,161 - INFO - Attempting direct download from DOI URL for: 10.3390/nu14183755
+2025-10-20 13:57:33,457 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:57:33,457 - INFO - Falling back to sci-hub download for: 10.3390/nu14183755
+2025-10-20 13:57:37,184 - ERROR - Sci-hub download completed but file not found: 10.3390/nu14183755
+2025-10-20 13:57:37,184 - WARNING - DOI download failed for PMID 36145131: Sci-hub download completed but file not found: 10.3390/nu14183755
+2025-10-20 13:57:37,184 - ERROR - All download methods failed for PMID 36145131
+2025-10-20 13:57:37,184 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:39,184 - INFO - Processing article 18/37: PMID 34666902
+2025-10-20 13:57:39,184 - INFO - Attempting to download PDF for PMID: 34666902
+2025-10-20 13:57:39,185 - INFO - Attempting DOI download for PMID 34666902, DOI: 10.1016/j.medcli.2021.06.028
+2025-10-20 13:57:39,185 - INFO - Attempting to download DOI: 10.1016/j.medcli.2021.06.028
+2025-10-20 13:57:39,185 - INFO - Trying direct download from DOI URL for: 10.1016/j.medcli.2021.06.028
+2025-10-20 13:57:39,185 - INFO - Attempting direct download from DOI URL for: 10.1016/j.medcli.2021.06.028
+2025-10-20 13:57:39,615 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-20 13:57:39,615 - INFO - Falling back to sci-hub download for: 10.1016/j.medcli.2021.06.028
+2025-10-20 13:57:43,366 - ERROR - Sci-hub download completed but file not found: 10.1016/j.medcli.2021.06.028
+2025-10-20 13:57:43,366 - WARNING - DOI download failed for PMID 34666902: Sci-hub download completed but file not found: 10.1016/j.medcli.2021.06.028
+2025-10-20 13:57:43,366 - ERROR - All download methods failed for PMID 34666902
+2025-10-20 13:57:43,366 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:45,366 - INFO - Processing article 19/37: PMID 39683546
+2025-10-20 13:57:45,366 - INFO - Attempting to download PDF for PMID: 39683546
+2025-10-20 13:57:45,366 - INFO - Attempting PMC download for PMID 39683546, PMC ID: PMC11644642
+2025-10-20 13:57:45,366 - INFO - Querying PMC API for PMC11644642: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC11644642
+2025-10-20 13:57:45,960 - WARNING - No PDF links found for PMC11644642
+2025-10-20 13:57:45,960 - WARNING - No PMC PDF URL found for PMID 39683546
+2025-10-20 13:57:45,960 - INFO - Attempting DOI download for PMID 39683546, DOI: 10.3390/nu16234150
+2025-10-20 13:57:45,960 - INFO - Attempting to download DOI: 10.3390/nu16234150
+2025-10-20 13:57:45,960 - INFO - Trying direct download from DOI URL for: 10.3390/nu16234150
+2025-10-20 13:57:45,960 - INFO - Attempting direct download from DOI URL for: 10.3390/nu16234150
+2025-10-20 13:57:46,215 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:57:46,215 - INFO - Falling back to sci-hub download for: 10.3390/nu16234150
+2025-10-20 13:57:49,971 - ERROR - Sci-hub download completed but file not found: 10.3390/nu16234150
+2025-10-20 13:57:49,972 - WARNING - DOI download failed for PMID 39683546: Sci-hub download completed but file not found: 10.3390/nu16234150
+2025-10-20 13:57:49,972 - ERROR - All download methods failed for PMID 39683546
+2025-10-20 13:57:49,972 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:51,972 - INFO - Processing article 20/37: PMID 40439602
+2025-10-20 13:57:51,972 - INFO - Attempting to download PDF for PMID: 40439602
+2025-10-20 13:57:51,972 - INFO - Attempting DOI download for PMID 40439602, DOI: 10.1002/ptr.8431
+2025-10-20 13:57:51,972 - INFO - Attempting to download DOI: 10.1002/ptr.8431
+2025-10-20 13:57:51,972 - INFO - Trying direct download from DOI URL for: 10.1002/ptr.8431
+2025-10-20 13:57:51,972 - INFO - Attempting direct download from DOI URL for: 10.1002/ptr.8431
+2025-10-20 13:57:52,172 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:57:52,173 - INFO - Falling back to sci-hub download for: 10.1002/ptr.8431
+2025-10-20 13:57:56,576 - ERROR - Sci-hub download completed but file not found: 10.1002/ptr.8431
+2025-10-20 13:57:56,576 - WARNING - DOI download failed for PMID 40439602: Sci-hub download completed but file not found: 10.1002/ptr.8431
+2025-10-20 13:57:56,576 - ERROR - All download methods failed for PMID 40439602
+2025-10-20 13:57:56,576 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:57:58,576 - INFO - Processing article 21/37: PMID 29359958
+2025-10-20 13:57:58,576 - INFO - Attempting to download PDF for PMID: 29359958
+2025-10-20 13:57:58,576 - INFO - Attempting DOI download for PMID 29359958, DOI: 10.1080/10408398.2017.1422480
+2025-10-20 13:57:58,576 - INFO - Attempting to download DOI: 10.1080/10408398.2017.1422480
+2025-10-20 13:57:58,577 - INFO - Trying direct download from DOI URL for: 10.1080/10408398.2017.1422480
+2025-10-20 13:57:58,577 - INFO - Attempting direct download from DOI URL for: 10.1080/10408398.2017.1422480
+2025-10-20 13:57:58,802 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:57:58,802 - INFO - Falling back to sci-hub download for: 10.1080/10408398.2017.1422480
+2025-10-20 13:57:59,671 - INFO - Successfully downloaded via sci-hub: 10.1080/10408398.2017.1422480 -> ./29359958_Effect_of_resveratrol_on_blood_pressure__A_systematic_review.pdf
+2025-10-20 13:57:59,672 - INFO - Successfully downloaded via DOI: 29359958
+2025-10-20 13:57:59,672 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:01,672 - INFO - Processing article 22/37: PMID 30569644
+2025-10-20 13:58:01,672 - INFO - Attempting to download PDF for PMID: 30569644
+2025-10-20 13:58:01,673 - INFO - Attempting DOI download for PMID 30569644, DOI: 10.1002/oby.22348
+2025-10-20 13:58:01,673 - INFO - Attempting to download DOI: 10.1002/oby.22348
+2025-10-20 13:58:01,673 - INFO - Trying direct download from DOI URL for: 10.1002/oby.22348
+2025-10-20 13:58:01,673 - INFO - Attempting direct download from DOI URL for: 10.1002/oby.22348
+2025-10-20 13:58:01,932 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:58:01,932 - INFO - Falling back to sci-hub download for: 10.1002/oby.22348
+2025-10-20 13:58:02,876 - INFO - Successfully downloaded via sci-hub: 10.1002/oby.22348 -> ./30569644_Effect_of_Resveratrol_on_Blood_Lipid_Levels_in_Patients_with.pdf
+2025-10-20 13:58:02,876 - INFO - Successfully downloaded via DOI: 30569644
+2025-10-20 13:58:02,876 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:04,876 - INFO - Processing article 23/37: PMID 31647106
+2025-10-20 13:58:04,877 - INFO - Attempting to download PDF for PMID: 31647106
+2025-10-20 13:58:04,877 - INFO - Attempting DOI download for PMID 31647106, DOI: 10.1093/humupd/dmz029
+2025-10-20 13:58:04,877 - INFO - Attempting to download DOI: 10.1093/humupd/dmz029
+2025-10-20 13:58:04,877 - INFO - Trying direct download from DOI URL for: 10.1093/humupd/dmz029
+2025-10-20 13:58:04,877 - INFO - Attempting direct download from DOI URL for: 10.1093/humupd/dmz029
+2025-10-20 13:58:05,118 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:58:05,118 - INFO - Falling back to sci-hub download for: 10.1093/humupd/dmz029
+2025-10-20 13:58:06,270 - INFO - Successfully downloaded via sci-hub: 10.1093/humupd/dmz029 -> ./31647106_First-line_ovulation_induction_for_polycystic_ovary_syndrome.pdf
+2025-10-20 13:58:06,270 - INFO - Successfully downloaded via DOI: 31647106
+2025-10-20 13:58:06,270 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:08,270 - INFO - Processing article 24/37: PMID 34462124
+2025-10-20 13:58:08,271 - INFO - Attempting to download PDF for PMID: 34462124
+2025-10-20 13:58:08,271 - INFO - Attempting DOI download for PMID 34462124, DOI: 10.1016/j.clinthera.2021.07.017
+2025-10-20 13:58:08,271 - INFO - Attempting to download DOI: 10.1016/j.clinthera.2021.07.017
+2025-10-20 13:58:08,271 - INFO - Trying direct download from DOI URL for: 10.1016/j.clinthera.2021.07.017
+2025-10-20 13:58:08,271 - INFO - Attempting direct download from DOI URL for: 10.1016/j.clinthera.2021.07.017
+2025-10-20 13:58:08,695 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-20 13:58:08,696 - INFO - Falling back to sci-hub download for: 10.1016/j.clinthera.2021.07.017
+2025-10-20 13:58:09,350 - INFO - Successfully downloaded via sci-hub: 10.1016/j.clinthera.2021.07.017 -> ./34462124_The_Effect_of_Raloxifene_Treatment_on_Lipid_Profile_in_Elder.pdf
+2025-10-20 13:58:09,350 - INFO - Successfully downloaded via DOI: 34462124
+2025-10-20 13:58:09,350 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:11,351 - INFO - Processing article 25/37: PMID 27456934
+2025-10-20 13:58:11,351 - INFO - Attempting to download PDF for PMID: 27456934
+2025-10-20 13:58:11,351 - INFO - Attempting DOI download for PMID 27456934, DOI: 10.1111/obr.12458
+2025-10-20 13:58:11,351 - INFO - Attempting to download DOI: 10.1111/obr.12458
+2025-10-20 13:58:11,351 - INFO - Trying direct download from DOI URL for: 10.1111/obr.12458
+2025-10-20 13:58:11,351 - INFO - Attempting direct download from DOI URL for: 10.1111/obr.12458
+2025-10-20 13:58:11,628 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:58:11,629 - INFO - Falling back to sci-hub download for: 10.1111/obr.12458
+2025-10-20 13:58:12,457 - INFO - Successfully downloaded via sci-hub: 10.1111/obr.12458 -> ./27456934_The_effects_of_resveratrol_intervention_on_risk_markers_of_c.pdf
+2025-10-20 13:58:12,458 - INFO - Successfully downloaded via DOI: 27456934
+2025-10-20 13:58:12,458 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:14,458 - INFO - Processing article 26/37: PMID 40842160
+2025-10-20 13:58:14,458 - INFO - Attempting to download PDF for PMID: 40842160
+2025-10-20 13:58:14,458 - INFO - Attempting DOI download for PMID 40842160, DOI: 10.1002/ptr.70074
+2025-10-20 13:58:14,458 - INFO - Attempting to download DOI: 10.1002/ptr.70074
+2025-10-20 13:58:14,458 - INFO - Trying direct download from DOI URL for: 10.1002/ptr.70074
+2025-10-20 13:58:14,458 - INFO - Attempting direct download from DOI URL for: 10.1002/ptr.70074
+2025-10-20 13:58:14,661 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:58:14,661 - INFO - Falling back to sci-hub download for: 10.1002/ptr.70074
+2025-10-20 13:58:18,482 - ERROR - Sci-hub download completed but file not found: 10.1002/ptr.70074
+2025-10-20 13:58:18,482 - WARNING - DOI download failed for PMID 40842160: Sci-hub download completed but file not found: 10.1002/ptr.70074
+2025-10-20 13:58:18,482 - ERROR - All download methods failed for PMID 40842160
+2025-10-20 13:58:18,482 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:20,482 - INFO - Processing article 27/37: PMID 24695890
+2025-10-20 13:58:20,482 - INFO - Attempting to download PDF for PMID: 24695890
+2025-10-20 13:58:20,482 - INFO - Attempting DOI download for PMID 24695890, DOI: 10.3945/ajcn.113.082024
+2025-10-20 13:58:20,482 - INFO - Attempting to download DOI: 10.3945/ajcn.113.082024
+2025-10-20 13:58:20,482 - INFO - Trying direct download from DOI URL for: 10.3945/ajcn.113.082024
+2025-10-20 13:58:20,482 - INFO - Attempting direct download from DOI URL for: 10.3945/ajcn.113.082024
+2025-10-20 13:58:20,881 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-20 13:58:20,881 - INFO - Falling back to sci-hub download for: 10.3945/ajcn.113.082024
+2025-10-20 13:58:21,723 - INFO - Successfully downloaded via sci-hub: 10.3945/ajcn.113.082024 -> ./24695890_Effect_of_resveratrol_on_glucose_control_and_insulin_sensiti.pdf
+2025-10-20 13:58:21,723 - INFO - Successfully downloaded via DOI: 24695890
+2025-10-20 13:58:21,723 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:23,724 - INFO - Processing article 28/37: PMID 34484395
+2025-10-20 13:58:23,724 - INFO - Attempting to download PDF for PMID: 34484395
+2025-10-20 13:58:23,724 - INFO - Attempting PMC download for PMID 34484395, PMC ID: PMC8410426
+2025-10-20 13:58:23,724 - INFO - Querying PMC API for PMC8410426: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC8410426
+2025-10-20 13:58:24,156 - WARNING - No PDF links found for PMC8410426
+2025-10-20 13:58:24,156 - WARNING - No PMC PDF URL found for PMID 34484395
+2025-10-20 13:58:24,156 - INFO - Attempting DOI download for PMID 34484395, DOI: 10.1155/2021/5644171
+2025-10-20 13:58:24,156 - INFO - Attempting to download DOI: 10.1155/2021/5644171
+2025-10-20 13:58:24,156 - INFO - Trying direct download from DOI URL for: 10.1155/2021/5644171
+2025-10-20 13:58:24,156 - INFO - Attempting direct download from DOI URL for: 10.1155/2021/5644171
+2025-10-20 13:58:24,512 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:58:24,512 - INFO - Falling back to sci-hub download for: 10.1155/2021/5644171
+2025-10-20 13:58:28,042 - ERROR - Sci-hub download completed but file not found: 10.1155/2021/5644171
+2025-10-20 13:58:28,043 - WARNING - DOI download failed for PMID 34484395: Sci-hub download completed but file not found: 10.1155/2021/5644171
+2025-10-20 13:58:28,043 - ERROR - All download methods failed for PMID 34484395
+2025-10-20 13:58:28,043 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:30,043 - INFO - Processing article 29/37: PMID 33266114
+2025-10-20 13:58:30,043 - INFO - Attempting to download PDF for PMID: 33266114
+2025-10-20 13:58:30,043 - INFO - Attempting PMC download for PMID 33266114, PMC ID: PMC7730696
+2025-10-20 13:58:30,044 - INFO - Querying PMC API for PMC7730696: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7730696
+2025-10-20 13:58:30,505 - WARNING - No PDF links found for PMC7730696
+2025-10-20 13:58:30,505 - WARNING - No PMC PDF URL found for PMID 33266114
+2025-10-20 13:58:30,505 - INFO - Attempting DOI download for PMID 33266114, DOI: 10.3390/molecules25235645
+2025-10-20 13:58:30,505 - INFO - Attempting to download DOI: 10.3390/molecules25235645
+2025-10-20 13:58:30,506 - INFO - Trying direct download from DOI URL for: 10.3390/molecules25235645
+2025-10-20 13:58:30,506 - INFO - Attempting direct download from DOI URL for: 10.3390/molecules25235645
+2025-10-20 13:58:30,782 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:58:30,782 - INFO - Falling back to sci-hub download for: 10.3390/molecules25235645
+2025-10-20 13:58:31,651 - INFO - Successfully downloaded via sci-hub: 10.3390/molecules25235645 -> ./33266114_A_Meta-Analysis_of_the_Impact_of_Resveratrol_Supplementation.pdf
+2025-10-20 13:58:31,651 - INFO - Successfully downloaded via DOI: 33266114
+2025-10-20 13:58:31,652 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:33,652 - INFO - Processing article 30/37: PMID 31845767
+2025-10-20 13:58:33,652 - INFO - Attempting to download PDF for PMID: 31845767
+2025-10-20 13:58:33,652 - INFO - Attempting PMC download for PMID 31845767, PMC ID: PMC6915832
+2025-10-20 13:58:33,652 - INFO - Querying PMC API for PMC6915832: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC6915832
+2025-10-20 13:58:34,191 - WARNING - No PDF links found for PMC6915832
+2025-10-20 13:58:34,191 - WARNING - No PMC PDF URL found for PMID 31845767
+2025-10-20 13:58:34,191 - INFO - Attempting DOI download for PMID 31845767, DOI: 10.1002/14651858.CD013505
+2025-10-20 13:58:34,191 - INFO - Attempting to download DOI: 10.1002/14651858.CD013505
+2025-10-20 13:58:34,191 - INFO - Trying direct download from DOI URL for: 10.1002/14651858.CD013505
+2025-10-20 13:58:34,192 - INFO - Attempting direct download from DOI URL for: 10.1002/14651858.CD013505
+2025-10-20 13:58:41,870 - INFO - Found potential PDF link: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013505/pdf/full/en
+2025-10-20 13:58:41,870 - INFO - Downloading PDF from: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013505/pdf/full/en
+2025-10-20 13:58:42,531 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013505/pdf/full/en
+2025-10-20 13:58:42,531 - INFO - Falling back to sci-hub download for: 10.1002/14651858.CD013505
+2025-10-20 13:58:43,468 - INFO - Successfully downloaded via sci-hub: 10.1002/14651858.CD013505 -> ./31845767_Metformin_for_ovulation_induction_(excluding_gonadotrophins).pdf
+2025-10-20 13:58:43,468 - INFO - Successfully downloaded via DOI: 31845767
+2025-10-20 13:58:43,468 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:45,468 - INFO - Processing article 31/37: PMID 24899709
+2025-10-20 13:58:45,468 - INFO - Attempting to download PDF for PMID: 24899709
+2025-10-20 13:58:45,468 - INFO - Attempting PMC download for PMID 24899709, PMC ID: PMC6608268
+2025-10-20 13:58:45,468 - INFO - Querying PMC API for PMC6608268: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC6608268
+2025-10-20 13:58:45,901 - WARNING - No PDF links found for PMC6608268
+2025-10-20 13:58:45,902 - WARNING - No PMC PDF URL found for PMID 24899709
+2025-10-20 13:58:45,902 - INFO - Attempting DOI download for PMID 24899709, DOI: 10.1523/JNEUROSCI.0385-14.2014
+2025-10-20 13:58:45,902 - INFO - Attempting to download DOI: 10.1523/JNEUROSCI.0385-14.2014
+2025-10-20 13:58:45,902 - INFO - Trying direct download from DOI URL for: 10.1523/JNEUROSCI.0385-14.2014
+2025-10-20 13:58:45,902 - INFO - Attempting direct download from DOI URL for: 10.1523/JNEUROSCI.0385-14.2014
+2025-10-20 13:58:48,571 - INFO - Found potential PDF link: https://www.jneurosci.org/content/jneuro/34/23/7862.full.pdf
+2025-10-20 13:58:48,572 - INFO - Downloading PDF from: https://www.jneurosci.org/content/jneuro/34/23/7862.full.pdf
+2025-10-20 13:58:50,131 - INFO - Successfully downloaded PDF: 10.1523/JNEUROSCI.0385-14.2014 -> ./24899709_Effects_of_resveratrol_on_memory_performance,_hippocampal_fu.pdf
+2025-10-20 13:58:50,131 - INFO - Successfully downloaded via direct DOI method: 10.1523/JNEUROSCI.0385-14.2014
+2025-10-20 13:58:50,131 - INFO - Successfully downloaded via DOI: 24899709
+2025-10-20 13:58:50,132 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:52,132 - INFO - Processing article 32/37: PMID 39565038
+2025-10-20 13:58:52,132 - INFO - Attempting to download PDF for PMID: 39565038
+2025-10-20 13:58:52,132 - INFO - Attempting DOI download for PMID 39565038, DOI: 10.1080/1028415X.2024.2425649
+2025-10-20 13:58:52,132 - INFO - Attempting to download DOI: 10.1080/1028415X.2024.2425649
+2025-10-20 13:58:52,132 - INFO - Trying direct download from DOI URL for: 10.1080/1028415X.2024.2425649
+2025-10-20 13:58:52,132 - INFO - Attempting direct download from DOI URL for: 10.1080/1028415X.2024.2425649
+2025-10-20 13:58:52,375 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:58:52,376 - INFO - Falling back to sci-hub download for: 10.1080/1028415X.2024.2425649
+2025-10-20 13:58:56,170 - ERROR - Sci-hub download completed but file not found: 10.1080/1028415X.2024.2425649
+2025-10-20 13:58:56,171 - WARNING - DOI download failed for PMID 39565038: Sci-hub download completed but file not found: 10.1080/1028415X.2024.2425649
+2025-10-20 13:58:56,171 - ERROR - All download methods failed for PMID 39565038
+2025-10-20 13:58:56,171 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:58:58,171 - INFO - Processing article 33/37: PMID 29548848
+2025-10-20 13:58:58,171 - INFO - Attempting to download PDF for PMID: 29548848
+2025-10-20 13:58:58,171 - INFO - Attempting DOI download for PMID 29548848, DOI: 10.1016/j.neuroimage.2018.03.023
+2025-10-20 13:58:58,171 - INFO - Attempting to download DOI: 10.1016/j.neuroimage.2018.03.023
+2025-10-20 13:58:58,171 - INFO - Trying direct download from DOI URL for: 10.1016/j.neuroimage.2018.03.023
+2025-10-20 13:58:58,171 - INFO - Attempting direct download from DOI URL for: 10.1016/j.neuroimage.2018.03.023
+2025-10-20 13:59:01,022 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-20 13:59:01,022 - INFO - Falling back to sci-hub download for: 10.1016/j.neuroimage.2018.03.023
+2025-10-20 13:59:02,008 - INFO - Successfully downloaded via sci-hub: 10.1016/j.neuroimage.2018.03.023 -> ./29548848_Effects_of_resveratrol_on_memory_performance,_hippocampus_co.pdf
+2025-10-20 13:59:02,008 - INFO - Successfully downloaded via DOI: 29548848
+2025-10-20 13:59:02,008 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:59:04,009 - INFO - Processing article 34/37: PMID 23557933
+2025-10-20 13:59:04,009 - INFO - Attempting to download PDF for PMID: 23557933
+2025-10-20 13:59:04,009 - INFO - Attempting DOI download for PMID 23557933, DOI: 10.1016/j.phrs.2013.03.011
+2025-10-20 13:59:04,009 - INFO - Attempting to download DOI: 10.1016/j.phrs.2013.03.011
+2025-10-20 13:59:04,009 - INFO - Trying direct download from DOI URL for: 10.1016/j.phrs.2013.03.011
+2025-10-20 13:59:04,009 - INFO - Attempting direct download from DOI URL for: 10.1016/j.phrs.2013.03.011
+2025-10-20 13:59:04,318 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-20 13:59:04,318 - INFO - Falling back to sci-hub download for: 10.1016/j.phrs.2013.03.011
+2025-10-20 13:59:05,143 - INFO - Successfully downloaded via sci-hub: 10.1016/j.phrs.2013.03.011 -> ./23557933_One-year_supplementation_with_a_grape_extract_containing_res.pdf
+2025-10-20 13:59:05,144 - INFO - Successfully downloaded via DOI: 23557933
+2025-10-20 13:59:05,144 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:59:07,144 - INFO - Processing article 35/37: PMID 40993947
+2025-10-20 13:59:07,144 - INFO - Attempting to download PDF for PMID: 40993947
+2025-10-20 13:59:07,144 - INFO - Attempting DOI download for PMID 40993947, DOI: 10.2174/011871529X398468250910225946
+2025-10-20 13:59:07,144 - INFO - Attempting to download DOI: 10.2174/011871529X398468250910225946
+2025-10-20 13:59:07,144 - INFO - Trying direct download from DOI URL for: 10.2174/011871529X398468250910225946
+2025-10-20 13:59:07,144 - INFO - Attempting direct download from DOI URL for: 10.2174/011871529X398468250910225946
+2025-10-20 13:59:16,418 - INFO - Found potential PDF link: https://www.eurekaselect.com/images/pdf/Media-Pack-2024.pdf
+2025-10-20 13:59:16,418 - INFO - Downloading PDF from: https://www.eurekaselect.com/images/pdf/Media-Pack-2024.pdf
+2025-10-20 13:59:17,358 - INFO - Successfully downloaded PDF: 10.2174/011871529X398468250910225946 -> ./40993947_The_Effects_of_Resveratrol_on_Menopausal_Cardio-metabolic_Ch.pdf
+2025-10-20 13:59:17,358 - INFO - Successfully downloaded via direct DOI method: 10.2174/011871529X398468250910225946
+2025-10-20 13:59:17,358 - INFO - Successfully downloaded via DOI: 40993947
+2025-10-20 13:59:17,358 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:59:19,358 - INFO - Processing article 36/37: PMID 28182820
+2025-10-20 13:59:19,358 - INFO - Attempting to download PDF for PMID: 28182820
+2025-10-20 13:59:19,359 - INFO - Attempting DOI download for PMID 28182820, DOI: 10.1210/jc.2016-2160
+2025-10-20 13:59:19,359 - INFO - Attempting to download DOI: 10.1210/jc.2016-2160
+2025-10-20 13:59:19,359 - INFO - Trying direct download from DOI URL for: 10.1210/jc.2016-2160
+2025-10-20 13:59:19,359 - INFO - Attempting direct download from DOI URL for: 10.1210/jc.2016-2160
+2025-10-20 13:59:19,647 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:59:19,647 - INFO - Falling back to sci-hub download for: 10.1210/jc.2016-2160
+2025-10-20 13:59:20,569 - INFO - Successfully downloaded via sci-hub: 10.1210/jc.2016-2160 -> ./28182820_No_Beneficial_Effects_of_Resveratrol_on_the_Metabolic_Syndro.pdf
+2025-10-20 13:59:20,570 - INFO - Successfully downloaded via DOI: 28182820
+2025-10-20 13:59:20,570 - INFO - Waiting 2.0 seconds before next download...
+2025-10-20 13:59:22,570 - INFO - Processing article 37/37: PMID 33276518
+2025-10-20 13:59:22,570 - INFO - Attempting to download PDF for PMID: 33276518
+2025-10-20 13:59:22,570 - INFO - Attempting PMC download for PMID 33276518, PMC ID: PMC7760965
+2025-10-20 13:59:22,570 - INFO - Querying PMC API for PMC7760965: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7760965
+2025-10-20 13:59:23,139 - WARNING - No PDF links found for PMC7760965
+2025-10-20 13:59:23,139 - WARNING - No PMC PDF URL found for PMID 33276518
+2025-10-20 13:59:23,139 - INFO - Attempting DOI download for PMID 33276518, DOI: 10.3390/nu12123721
+2025-10-20 13:59:23,139 - INFO - Attempting to download DOI: 10.3390/nu12123721
+2025-10-20 13:59:23,139 - INFO - Trying direct download from DOI URL for: 10.3390/nu12123721
+2025-10-20 13:59:23,139 - INFO - Attempting direct download from DOI URL for: 10.3390/nu12123721
+2025-10-20 13:59:23,381 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-20 13:59:23,381 - INFO - Falling back to sci-hub download for: 10.3390/nu12123721
+2025-10-20 13:59:24,378 - INFO - Successfully downloaded via sci-hub: 10.3390/nu12123721 -> ./33276518_Effects_of_Oral_Resveratrol_Supplementation_on_Glycogen_Repl.pdf
+2025-10-20 13:59:24,379 - INFO - Successfully downloaded via DOI: 33276518
+2025-10-20 13:59:24,379 - INFO - Download completed: 28 successful, 0 cached, 9 failed out of 37 total
+2025-10-20 13:59:24,379 - INFO - Saving results...
+2025-10-20 13:59:24,381 - INFO - Results saved to _pubmed_downloaded_articles.json
+2025-10-20 13:59:24,381 - INFO - Statistics: 28 successful, 0 cached, 9 failed
+2025-10-20 13:59:24,381 - INFO - Download process completed!
+2025-10-21 12:13:22,938 - INFO - Successfully imported DOI downloader from: ./tools
+2025-10-21 12:13:22,939 - INFO - DOI Downloader initialized. Download directory: ./
+2025-10-21 12:13:22,939 - INFO - PubMed PDF Downloader initialized. Download directory: ./
+2025-10-21 12:13:22,939 - INFO - Loading filtered articles...
+2025-10-21 12:13:22,940 - INFO - Loaded 39 good candidate articles from _pubmed_filtered_articles.json
+2025-10-21 12:13:22,940 - INFO - Loading metadata...
+2025-10-21 12:13:22,945 - INFO - Loaded metadata for 281 articles from _pubmed_fetched_meta_results.json
+2025-10-21 12:13:22,945 - INFO - Merging article data...
+2025-10-21 12:13:22,945 - INFO - Merged data for 39 articles
+2025-10-21 12:13:22,945 - INFO - Starting download process for 39 articles...
+2025-10-21 12:13:22,945 - INFO - Starting download of 39 articles
+2025-10-21 12:13:22,945 - INFO - Processing article 1/39: PMID 35240291
+2025-10-21 12:13:22,945 - INFO - Attempting to download PDF for PMID: 35240291
+2025-10-21 12:13:22,945 - INFO - Attempting DOI download for PMID 35240291, DOI: 10.1016/j.ctim.2022.102819
+2025-10-21 12:13:22,945 - INFO - Attempting to download DOI: 10.1016/j.ctim.2022.102819
+2025-10-21 12:13:22,945 - INFO - Trying direct download from DOI URL for: 10.1016/j.ctim.2022.102819
+2025-10-21 12:13:22,945 - INFO - Attempting direct download from DOI URL for: 10.1016/j.ctim.2022.102819
+2025-10-21 12:13:23,707 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:13:23,707 - INFO - Falling back to sci-hub download for: 10.1016/j.ctim.2022.102819
+2025-10-21 12:13:24,801 - INFO - Successfully downloaded via sci-hub: 10.1016/j.ctim.2022.102819 -> ./35240291_Role_of_resveratrol_supplementation_in_regulation_of_glucose.pdf
+2025-10-21 12:13:24,802 - INFO - Successfully downloaded via DOI: 35240291
+2025-10-21 12:13:24,802 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:26,802 - INFO - Processing article 2/39: PMID 37108584
+2025-10-21 12:13:26,802 - INFO - Attempting to download PDF for PMID: 37108584
+2025-10-21 12:13:26,802 - INFO - Attempting PMC download for PMID 37108584, PMC ID: PMC10138491
+2025-10-21 12:13:26,802 - INFO - Querying PMC API for PMC10138491: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC10138491
+2025-10-21 12:13:27,284 - WARNING - No PDF links found for PMC10138491
+2025-10-21 12:13:27,285 - WARNING - No PMC PDF URL found for PMID 37108584
+2025-10-21 12:13:27,285 - INFO - Attempting DOI download for PMID 37108584, DOI: 10.3390/ijms24087422
+2025-10-21 12:13:27,285 - INFO - Attempting to download DOI: 10.3390/ijms24087422
+2025-10-21 12:13:27,285 - INFO - Trying direct download from DOI URL for: 10.3390/ijms24087422
+2025-10-21 12:13:27,285 - INFO - Attempting direct download from DOI URL for: 10.3390/ijms24087422
+2025-10-21 12:13:27,538 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:13:27,538 - INFO - Falling back to sci-hub download for: 10.3390/ijms24087422
+2025-10-21 12:13:32,844 - ERROR - Sci-hub download completed but file not found: 10.3390/ijms24087422
+2025-10-21 12:13:32,844 - WARNING - DOI download failed for PMID 37108584: Sci-hub download completed but file not found: 10.3390/ijms24087422
+2025-10-21 12:13:32,844 - ERROR - All download methods failed for PMID 37108584
+2025-10-21 12:13:32,844 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:34,845 - INFO - Processing article 3/39: PMID 39519608
+2025-10-21 12:13:34,845 - INFO - Attempting to download PDF for PMID: 39519608
+2025-10-21 12:13:34,845 - INFO - Attempting PMC download for PMID 39519608, PMC ID: PMC11548005
+2025-10-21 12:13:34,845 - INFO - Querying PMC API for PMC11548005: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC11548005
+2025-10-21 12:13:35,374 - WARNING - No PDF links found for PMC11548005
+2025-10-21 12:13:35,374 - WARNING - No PMC PDF URL found for PMID 39519608
+2025-10-21 12:13:35,374 - INFO - Attempting DOI download for PMID 39519608, DOI: 10.3390/nu16213775
+2025-10-21 12:13:35,374 - INFO - Attempting to download DOI: 10.3390/nu16213775
+2025-10-21 12:13:35,374 - INFO - Trying direct download from DOI URL for: 10.3390/nu16213775
+2025-10-21 12:13:35,374 - INFO - Attempting direct download from DOI URL for: 10.3390/nu16213775
+2025-10-21 12:13:35,656 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:13:35,656 - INFO - Falling back to sci-hub download for: 10.3390/nu16213775
+2025-10-21 12:13:39,370 - ERROR - Sci-hub download completed but file not found: 10.3390/nu16213775
+2025-10-21 12:13:39,370 - WARNING - DOI download failed for PMID 39519608: Sci-hub download completed but file not found: 10.3390/nu16213775
+2025-10-21 12:13:39,370 - ERROR - All download methods failed for PMID 39519608
+2025-10-21 12:13:39,370 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:41,370 - INFO - Processing article 4/39: PMID 32900519
+2025-10-21 12:13:41,370 - INFO - Attempting to download PDF for PMID: 32900519
+2025-10-21 12:13:41,371 - INFO - Attempting DOI download for PMID 32900519, DOI: 10.1016/j.clnu.2020.08.025
+2025-10-21 12:13:41,371 - INFO - Attempting to download DOI: 10.1016/j.clnu.2020.08.025
+2025-10-21 12:13:41,371 - INFO - Trying direct download from DOI URL for: 10.1016/j.clnu.2020.08.025
+2025-10-21 12:13:41,371 - INFO - Attempting direct download from DOI URL for: 10.1016/j.clnu.2020.08.025
+2025-10-21 12:13:41,639 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:13:41,639 - INFO - Falling back to sci-hub download for: 10.1016/j.clnu.2020.08.025
+2025-10-21 12:13:42,543 - INFO - Successfully downloaded via sci-hub: 10.1016/j.clnu.2020.08.025 -> ./32900519_Long-term_effects_of_resveratrol_on_cognition,_cerebrovascul.pdf
+2025-10-21 12:13:42,544 - INFO - Successfully downloaded via DOI: 32900519
+2025-10-21 12:13:42,544 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:44,544 - INFO - Processing article 5/39: PMID 27105868
+2025-10-21 12:13:44,544 - INFO - Attempting to download PDF for PMID: 27105868
+2025-10-21 12:13:44,545 - INFO - Attempting DOI download for PMID 27105868, DOI: 10.1016/j.numecd.2016.03.003
+2025-10-21 12:13:44,545 - INFO - Attempting to download DOI: 10.1016/j.numecd.2016.03.003
+2025-10-21 12:13:44,545 - INFO - Trying direct download from DOI URL for: 10.1016/j.numecd.2016.03.003
+2025-10-21 12:13:44,545 - INFO - Attempting direct download from DOI URL for: 10.1016/j.numecd.2016.03.003
+2025-10-21 12:13:44,828 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:13:44,828 - INFO - Falling back to sci-hub download for: 10.1016/j.numecd.2016.03.003
+2025-10-21 12:13:45,604 - INFO - Successfully downloaded via sci-hub: 10.1016/j.numecd.2016.03.003 -> ./27105868_Low_dose_resveratrol_improves_cerebrovascular_function_in_ty.pdf
+2025-10-21 12:13:45,604 - INFO - Successfully downloaded via DOI: 27105868
+2025-10-21 12:13:45,604 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:47,604 - INFO - Processing article 6/39: PMID 28329397
+2025-10-21 12:13:47,604 - INFO - Attempting to download PDF for PMID: 28329397
+2025-10-21 12:13:47,605 - INFO - Attempting PMC download for PMID 28329397, PMC ID: PMC5861959
+2025-10-21 12:13:47,605 - INFO - Querying PMC API for PMC5861959: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC5861959
+2025-10-21 12:13:48,174 - WARNING - No PDF links found for PMC5861959
+2025-10-21 12:13:48,174 - WARNING - No PMC PDF URL found for PMID 28329397
+2025-10-21 12:13:48,174 - INFO - Attempting DOI download for PMID 28329397, DOI: 10.1093/gerona/glx041
+2025-10-21 12:13:48,174 - INFO - Attempting to download DOI: 10.1093/gerona/glx041
+2025-10-21 12:13:48,174 - INFO - Trying direct download from DOI URL for: 10.1093/gerona/glx041
+2025-10-21 12:13:48,174 - INFO - Attempting direct download from DOI URL for: 10.1093/gerona/glx041
+2025-10-21 12:13:48,351 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:13:48,351 - INFO - Falling back to sci-hub download for: 10.1093/gerona/glx041
+2025-10-21 12:13:49,092 - INFO - Successfully downloaded via sci-hub: 10.1093/gerona/glx041 -> ./28329397_Resveratrol_Improves_Vascular_Function_and_Mitochondrial_Num.pdf
+2025-10-21 12:13:49,092 - INFO - Successfully downloaded via DOI: 28329397
+2025-10-21 12:13:49,092 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:51,092 - INFO - Processing article 7/39: PMID 25137036
+2025-10-21 12:13:51,092 - INFO - Attempting to download PDF for PMID: 25137036
+2025-10-21 12:13:51,093 - INFO - Attempting DOI download for PMID 25137036, DOI: 10.1089/met.2014.0082
+2025-10-21 12:13:51,093 - INFO - Attempting to download DOI: 10.1089/met.2014.0082
+2025-10-21 12:13:51,093 - INFO - Trying direct download from DOI URL for: 10.1089/met.2014.0082
+2025-10-21 12:13:51,093 - INFO - Attempting direct download from DOI URL for: 10.1089/met.2014.0082
+2025-10-21 12:13:51,401 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:13:51,401 - INFO - Falling back to sci-hub download for: 10.1089/met.2014.0082
+2025-10-21 12:13:52,172 - INFO - Successfully downloaded via sci-hub: 10.1089/met.2014.0082 -> ./25137036_Effect_of_resveratrol_administration_on_metabolic_syndrome,.pdf
+2025-10-21 12:13:52,172 - INFO - Successfully downloaded via DOI: 25137036
+2025-10-21 12:13:52,172 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:54,173 - INFO - Processing article 8/39: PMID 30237505
+2025-10-21 12:13:54,173 - INFO - Attempting to download PDF for PMID: 30237505
+2025-10-21 12:13:54,173 - INFO - Attempting PMC download for PMID 30237505, PMC ID: PMC6147949
+2025-10-21 12:13:54,173 - INFO - Querying PMC API for PMC6147949: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC6147949
+2025-10-21 12:13:54,561 - WARNING - No PDF links found for PMC6147949
+2025-10-21 12:13:54,561 - WARNING - No PMC PDF URL found for PMID 30237505
+2025-10-21 12:13:54,561 - INFO - Attempting DOI download for PMID 30237505, DOI: 10.1038/s41387-018-0059-4
+2025-10-21 12:13:54,561 - INFO - Attempting to download DOI: 10.1038/s41387-018-0059-4
+2025-10-21 12:13:54,561 - INFO - Trying direct download from DOI URL for: 10.1038/s41387-018-0059-4
+2025-10-21 12:13:54,561 - INFO - Attempting direct download from DOI URL for: 10.1038/s41387-018-0059-4
+2025-10-21 12:13:56,049 - INFO - Found potential PDF link: https://www.nature.com/articles/s41387-018-0059-4.pdf
+2025-10-21 12:13:56,049 - INFO - Downloading PDF from: https://www.nature.com/articles/s41387-018-0059-4.pdf
+2025-10-21 12:13:56,659 - INFO - Successfully downloaded PDF: 10.1038/s41387-018-0059-4 -> ./30237505_Effects_of_resveratrol_on_bone_health_in_type_2_diabetic_pat.pdf
+2025-10-21 12:13:56,659 - INFO - Successfully downloaded via direct DOI method: 10.1038/s41387-018-0059-4
+2025-10-21 12:13:56,659 - INFO - Successfully downloaded via DOI: 30237505
+2025-10-21 12:13:56,659 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:13:58,660 - INFO - Processing article 9/39: PMID 28703838
+2025-10-21 12:13:58,660 - INFO - Attempting to download PDF for PMID: 28703838
+2025-10-21 12:13:58,660 - INFO - Attempting DOI download for PMID 28703838, DOI: 10.7417/T.2017.2013
+2025-10-21 12:13:58,660 - INFO - Attempting to download DOI: 10.7417/T.2017.2013
+2025-10-21 12:13:58,660 - INFO - Trying direct download from DOI URL for: 10.7417/T.2017.2013
+2025-10-21 12:13:58,660 - INFO - Attempting direct download from DOI URL for: 10.7417/T.2017.2013
+2025-10-21 12:13:59,269 - INFO - Found potential PDF link: http://www.seu-roma.it/riviste/clinica_terapeutica/open_access/articoli/168-04-03_MALVASINAPOLITANO.pdf
+2025-10-21 12:13:59,269 - INFO - Downloading PDF from: http://www.seu-roma.it/riviste/clinica_terapeutica/open_access/articoli/168-04-03_MALVASINAPOLITANO.pdf
+2025-10-21 12:13:59,645 - INFO - Successfully downloaded PDF: 10.7417/T.2017.2013 -> ./28703838_Can_trans_resveratrol_plus_d-chiro-inositol_and_myo-inositol.pdf
+2025-10-21 12:13:59,645 - INFO - Successfully downloaded via direct DOI method: 10.7417/T.2017.2013
+2025-10-21 12:13:59,645 - INFO - Successfully downloaded via DOI: 28703838
+2025-10-21 12:13:59,645 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:01,645 - INFO - Processing article 10/39: PMID 29885082
+2025-10-21 12:14:01,645 - INFO - Attempting to download PDF for PMID: 29885082
+2025-10-21 12:14:01,646 - INFO - Attempting DOI download for PMID 29885082, DOI: 10.1111/dom.13409
+2025-10-21 12:14:01,646 - INFO - Attempting to download DOI: 10.1111/dom.13409
+2025-10-21 12:14:01,646 - INFO - Trying direct download from DOI URL for: 10.1111/dom.13409
+2025-10-21 12:14:01,646 - INFO - Attempting direct download from DOI URL for: 10.1111/dom.13409
+2025-10-21 12:14:01,854 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:14:01,854 - INFO - Falling back to sci-hub download for: 10.1111/dom.13409
+2025-10-21 12:14:02,744 - INFO - Successfully downloaded via sci-hub: 10.1111/dom.13409 -> ./29885082_No_effect_of_resveratrol_on_VLDL-TG_kinetics_and_insulin_sen.pdf
+2025-10-21 12:14:02,745 - INFO - Successfully downloaded via DOI: 29885082
+2025-10-21 12:14:02,745 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:04,745 - INFO - Processing article 11/39: PMID 34371884
+2025-10-21 12:14:04,745 - INFO - Attempting to download PDF for PMID: 34371884
+2025-10-21 12:14:04,745 - INFO - Attempting PMC download for PMID 34371884, PMC ID: PMC8308792
+2025-10-21 12:14:04,745 - INFO - Querying PMC API for PMC8308792: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC8308792
+2025-10-21 12:14:05,275 - WARNING - No PDF links found for PMC8308792
+2025-10-21 12:14:05,275 - WARNING - No PMC PDF URL found for PMID 34371884
+2025-10-21 12:14:05,275 - INFO - Attempting DOI download for PMID 34371884, DOI: 10.3390/nu13072374
+2025-10-21 12:14:05,275 - INFO - Attempting to download DOI: 10.3390/nu13072374
+2025-10-21 12:14:05,276 - INFO - Trying direct download from DOI URL for: 10.3390/nu13072374
+2025-10-21 12:14:05,276 - INFO - Attempting direct download from DOI URL for: 10.3390/nu13072374
+2025-10-21 12:14:05,453 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:14:05,453 - INFO - Falling back to sci-hub download for: 10.3390/nu13072374
+2025-10-21 12:14:06,461 - INFO - Successfully downloaded via sci-hub: 10.3390/nu13072374 -> ./34371884_Reversal_of_Insulin_Resistance_in_Overweight_and_Obese_Subje.pdf
+2025-10-21 12:14:06,461 - INFO - Successfully downloaded via DOI: 34371884
+2025-10-21 12:14:06,461 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:08,462 - INFO - Processing article 12/39: PMID 31405706
+2025-10-21 12:14:08,462 - INFO - Attempting to download PDF for PMID: 31405706
+2025-10-21 12:14:08,462 - INFO - Attempting DOI download for PMID 31405706, DOI: 10.1016/j.dsx.2019.07.042
+2025-10-21 12:14:08,462 - INFO - Attempting to download DOI: 10.1016/j.dsx.2019.07.042
+2025-10-21 12:14:08,462 - INFO - Trying direct download from DOI URL for: 10.1016/j.dsx.2019.07.042
+2025-10-21 12:14:08,463 - INFO - Attempting direct download from DOI URL for: 10.1016/j.dsx.2019.07.042
+2025-10-21 12:14:08,861 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:14:08,861 - INFO - Falling back to sci-hub download for: 10.1016/j.dsx.2019.07.042
+2025-10-21 12:14:09,723 - INFO - Successfully downloaded via sci-hub: 10.1016/j.dsx.2019.07.042 -> ./31405706_Impact_of_resveratrol_supplementation_on_inflammatory,_antio.pdf
+2025-10-21 12:14:09,723 - INFO - Successfully downloaded via DOI: 31405706
+2025-10-21 12:14:09,723 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:11,723 - INFO - Processing article 13/39: PMID 33476086
+2025-10-21 12:14:11,723 - INFO - Attempting to download PDF for PMID: 33476086
+2025-10-21 12:14:11,724 - INFO - Attempting PMC download for PMID 33476086, PMC ID: PMC7819107
+2025-10-21 12:14:11,724 - INFO - Querying PMC API for PMC7819107: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7819107
+2025-10-21 12:14:12,341 - WARNING - No PDF links found for PMC7819107
+2025-10-21 12:14:12,341 - WARNING - No PMC PDF URL found for PMID 33476086
+2025-10-21 12:14:12,341 - INFO - Attempting DOI download for PMID 33476086, DOI: 10.14814/phy2.14692
+2025-10-21 12:14:12,341 - INFO - Attempting to download DOI: 10.14814/phy2.14692
+2025-10-21 12:14:12,341 - INFO - Trying direct download from DOI URL for: 10.14814/phy2.14692
+2025-10-21 12:14:12,341 - INFO - Attempting direct download from DOI URL for: 10.14814/phy2.14692
+2025-10-21 12:14:12,598 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:14:12,598 - INFO - Falling back to sci-hub download for: 10.14814/phy2.14692
+2025-10-21 12:14:15,961 - ERROR - Sci-hub download completed but file not found: 10.14814/phy2.14692
+2025-10-21 12:14:15,961 - WARNING - DOI download failed for PMID 33476086: Sci-hub download completed but file not found: 10.14814/phy2.14692
+2025-10-21 12:14:15,961 - ERROR - All download methods failed for PMID 33476086
+2025-10-21 12:14:15,961 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:17,962 - INFO - Processing article 14/39: PMID 37086927
+2025-10-21 12:14:17,962 - INFO - Attempting to download PDF for PMID: 37086927
+2025-10-21 12:14:17,962 - INFO - Attempting DOI download for PMID 37086927, DOI: 10.1016/j.ctim.2023.102950
+2025-10-21 12:14:17,962 - INFO - Attempting to download DOI: 10.1016/j.ctim.2023.102950
+2025-10-21 12:14:17,962 - INFO - Trying direct download from DOI URL for: 10.1016/j.ctim.2023.102950
+2025-10-21 12:14:17,962 - INFO - Attempting direct download from DOI URL for: 10.1016/j.ctim.2023.102950
+2025-10-21 12:14:18,228 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:14:18,228 - INFO - Falling back to sci-hub download for: 10.1016/j.ctim.2023.102950
+2025-10-21 12:14:21,457 - ERROR - Sci-hub download completed but file not found: 10.1016/j.ctim.2023.102950
+2025-10-21 12:14:21,457 - WARNING - DOI download failed for PMID 37086927: Sci-hub download completed but file not found: 10.1016/j.ctim.2023.102950
+2025-10-21 12:14:21,457 - ERROR - All download methods failed for PMID 37086927
+2025-10-21 12:14:21,457 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:23,458 - INFO - Processing article 15/39: PMID 35458194
+2025-10-21 12:14:23,458 - INFO - Attempting to download PDF for PMID: 35458194
+2025-10-21 12:14:23,458 - INFO - Attempting PMC download for PMID 35458194, PMC ID: PMC9026466
+2025-10-21 12:14:23,458 - INFO - Querying PMC API for PMC9026466: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9026466
+2025-10-21 12:14:23,912 - WARNING - No PDF links found for PMC9026466
+2025-10-21 12:14:23,912 - WARNING - No PMC PDF URL found for PMID 35458194
+2025-10-21 12:14:23,912 - INFO - Attempting DOI download for PMID 35458194, DOI: 10.3390/nu14081633
+2025-10-21 12:14:23,912 - INFO - Attempting to download DOI: 10.3390/nu14081633
+2025-10-21 12:14:23,912 - INFO - Trying direct download from DOI URL for: 10.3390/nu14081633
+2025-10-21 12:14:23,912 - INFO - Attempting direct download from DOI URL for: 10.3390/nu14081633
+2025-10-21 12:14:24,057 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:14:24,057 - INFO - Falling back to sci-hub download for: 10.3390/nu14081633
+2025-10-21 12:14:27,302 - ERROR - Sci-hub download completed but file not found: 10.3390/nu14081633
+2025-10-21 12:14:27,302 - WARNING - DOI download failed for PMID 35458194: Sci-hub download completed but file not found: 10.3390/nu14081633
+2025-10-21 12:14:27,302 - ERROR - All download methods failed for PMID 35458194
+2025-10-21 12:14:27,302 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:29,302 - INFO - Processing article 16/39: PMID 28238190
+2025-10-21 12:14:29,302 - INFO - Attempting to download PDF for PMID: 28238190
+2025-10-21 12:14:29,303 - INFO - Attempting DOI download for PMID 28238190, DOI: 10.1007/s00592-017-0977-y
+2025-10-21 12:14:29,303 - INFO - Attempting to download DOI: 10.1007/s00592-017-0977-y
+2025-10-21 12:14:29,303 - INFO - Trying direct download from DOI URL for: 10.1007/s00592-017-0977-y
+2025-10-21 12:14:29,303 - INFO - Attempting direct download from DOI URL for: 10.1007/s00592-017-0977-y
+2025-10-21 12:14:30,615 - INFO - Found PDF via meta citation: https://link.springer.com/content/pdf/10.1007/s00592-017-0977-y.pdf
+2025-10-21 12:14:30,616 - INFO - Downloading PDF from: https://link.springer.com/content/pdf/10.1007/s00592-017-0977-y.pdf
+2025-10-21 12:14:31,144 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://link.springer.com/content/pdf/10.1007/s00592-017-0977-y.pdf
+2025-10-21 12:14:31,144 - INFO - Falling back to sci-hub download for: 10.1007/s00592-017-0977-y
+2025-10-21 12:14:31,881 - INFO - Successfully downloaded via sci-hub: 10.1007/s00592-017-0977-y -> ./28238190_Effects_of_6_months_of_resveratrol_versus_placebo_on_pentrax.pdf
+2025-10-21 12:14:31,882 - INFO - Successfully downloaded via DOI: 28238190
+2025-10-21 12:14:31,882 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:33,882 - INFO - Processing article 17/39: PMID 29330620
+2025-10-21 12:14:33,882 - INFO - Attempting to download PDF for PMID: 29330620
+2025-10-21 12:14:33,883 - INFO - Attempting PMC download for PMID 29330620, PMC ID: PMC5851693
+2025-10-21 12:14:33,883 - INFO - Querying PMC API for PMC5851693: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC5851693
+2025-10-21 12:14:34,273 - WARNING - No PDF links found for PMC5851693
+2025-10-21 12:14:34,273 - WARNING - No PMC PDF URL found for PMID 29330620
+2025-10-21 12:14:34,273 - INFO - Attempting DOI download for PMID 29330620, DOI: 10.1007/s00592-017-1097-4
+2025-10-21 12:14:34,273 - INFO - Attempting to download DOI: 10.1007/s00592-017-1097-4
+2025-10-21 12:14:34,273 - INFO - Trying direct download from DOI URL for: 10.1007/s00592-017-1097-4
+2025-10-21 12:14:34,273 - INFO - Attempting direct download from DOI URL for: 10.1007/s00592-017-1097-4
+2025-10-21 12:14:34,903 - INFO - Found potential PDF link: https://link.springer.com/content/pdf/10.1007/s00592-017-1097-4.pdf
+2025-10-21 12:14:34,904 - INFO - Downloading PDF from: https://link.springer.com/content/pdf/10.1007/s00592-017-1097-4.pdf
+2025-10-21 12:14:35,707 - INFO - Successfully downloaded PDF: 10.1007/s00592-017-1097-4 -> ./29330620_Impact_of_sirtuin-1_expression_on_H3K56_acetylation_and_oxid.pdf
+2025-10-21 12:14:35,708 - INFO - Successfully downloaded via direct DOI method: 10.1007/s00592-017-1097-4
+2025-10-21 12:14:35,708 - INFO - Successfully downloaded via DOI: 29330620
+2025-10-21 12:14:35,708 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:37,708 - INFO - Processing article 18/39: PMID 33580595
+2025-10-21 12:14:37,708 - INFO - Attempting to download PDF for PMID: 33580595
+2025-10-21 12:14:37,709 - INFO - Attempting DOI download for PMID 33580595, DOI: 10.1002/ptr.7031
+2025-10-21 12:14:37,709 - INFO - Attempting to download DOI: 10.1002/ptr.7031
+2025-10-21 12:14:37,709 - INFO - Trying direct download from DOI URL for: 10.1002/ptr.7031
+2025-10-21 12:14:37,709 - INFO - Attempting direct download from DOI URL for: 10.1002/ptr.7031
+2025-10-21 12:14:39,733 - INFO - Found potential PDF link: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.7031
+2025-10-21 12:14:39,733 - INFO - Downloading PDF from: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.7031
+2025-10-21 12:14:40,664 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.7031
+2025-10-21 12:14:40,664 - INFO - Falling back to sci-hub download for: 10.1002/ptr.7031
+2025-10-21 12:14:41,487 - INFO - Successfully downloaded via sci-hub: 10.1002/ptr.7031 -> ./33580595_The_effects_of_resveratrol_supplementation_on_PPARα,_p16,_p5.pdf
+2025-10-21 12:14:41,487 - INFO - Successfully downloaded via DOI: 33580595
+2025-10-21 12:14:41,488 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:43,488 - INFO - Processing article 19/39: PMID 35538431
+2025-10-21 12:14:43,488 - INFO - Attempting to download PDF for PMID: 35538431
+2025-10-21 12:14:43,488 - INFO - Attempting PMC download for PMID 35538431, PMC ID: PMC9088077
+2025-10-21 12:14:43,489 - INFO - Querying PMC API for PMC9088077: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC9088077
+2025-10-21 12:14:43,881 - WARNING - No PDF links found for PMC9088077
+2025-10-21 12:14:43,881 - WARNING - No PMC PDF URL found for PMID 35538431
+2025-10-21 12:14:43,881 - INFO - Attempting DOI download for PMID 35538431, DOI: 10.1186/s12872-022-02637-2
+2025-10-21 12:14:43,881 - INFO - Attempting to download DOI: 10.1186/s12872-022-02637-2
+2025-10-21 12:14:43,882 - INFO - Trying direct download from DOI URL for: 10.1186/s12872-022-02637-2
+2025-10-21 12:14:43,882 - INFO - Attempting direct download from DOI URL for: 10.1186/s12872-022-02637-2
+2025-10-21 12:14:44,280 - INFO - Found potential PDF link: https://bmccardiovascdisord.biomedcentral.com/counter/pdf/10.1186/s12872-022-02637-2.pdf
+2025-10-21 12:14:44,280 - INFO - Downloading PDF from: https://bmccardiovascdisord.biomedcentral.com/counter/pdf/10.1186/s12872-022-02637-2.pdf
+2025-10-21 12:14:44,753 - INFO - Successfully downloaded PDF: 10.1186/s12872-022-02637-2 -> ./35538431_Effect_of_resveratrol_supplementation_on_hepatic_steatosis_a.pdf
+2025-10-21 12:14:44,753 - INFO - Successfully downloaded via direct DOI method: 10.1186/s12872-022-02637-2
+2025-10-21 12:14:44,754 - INFO - Successfully downloaded via DOI: 35538431
+2025-10-21 12:14:44,754 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:46,754 - INFO - Processing article 20/39: PMID 29914666
+2025-10-21 12:14:46,754 - INFO - Attempting to download PDF for PMID: 29914666
+2025-10-21 12:14:46,754 - INFO - Attempting DOI download for PMID 29914666, DOI: 10.1016/j.nutres.2018.03.015
+2025-10-21 12:14:46,754 - INFO - Attempting to download DOI: 10.1016/j.nutres.2018.03.015
+2025-10-21 12:14:46,755 - INFO - Trying direct download from DOI URL for: 10.1016/j.nutres.2018.03.015
+2025-10-21 12:14:46,755 - INFO - Attempting direct download from DOI URL for: 10.1016/j.nutres.2018.03.015
+2025-10-21 12:14:47,079 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:14:47,079 - INFO - Falling back to sci-hub download for: 10.1016/j.nutres.2018.03.015
+2025-10-21 12:14:48,093 - INFO - Successfully downloaded via sci-hub: 10.1016/j.nutres.2018.03.015 -> ./29914666_Resveratrol_supplementation_decreases_blood_glucose_without.pdf
+2025-10-21 12:14:48,093 - INFO - Successfully downloaded via DOI: 29914666
+2025-10-21 12:14:48,093 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:50,093 - INFO - Processing article 21/39: PMID 29357033
+2025-10-21 12:14:50,094 - INFO - Attempting to download PDF for PMID: 29357033
+2025-10-21 12:14:50,094 - INFO - Attempting DOI download for PMID 29357033, DOI: 10.1007/s00592-017-1098-3
+2025-10-21 12:14:50,094 - INFO - Attempting to download DOI: 10.1007/s00592-017-1098-3
+2025-10-21 12:14:50,094 - INFO - Trying direct download from DOI URL for: 10.1007/s00592-017-1098-3
+2025-10-21 12:14:50,094 - INFO - Attempting direct download from DOI URL for: 10.1007/s00592-017-1098-3
+2025-10-21 12:14:50,768 - INFO - Found PDF via meta citation: https://link.springer.com/content/pdf/10.1007/s00592-017-1098-3.pdf
+2025-10-21 12:14:50,768 - INFO - Downloading PDF from: https://link.springer.com/content/pdf/10.1007/s00592-017-1098-3.pdf
+2025-10-21 12:14:51,254 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://link.springer.com/content/pdf/10.1007/s00592-017-1098-3.pdf
+2025-10-21 12:14:51,255 - INFO - Falling back to sci-hub download for: 10.1007/s00592-017-1098-3
+2025-10-21 12:14:52,087 - INFO - Successfully downloaded via sci-hub: 10.1007/s00592-017-1098-3 -> ./29357033_The_effects_of_resveratrol_on_markers_of_oxidative_stress_in.pdf
+2025-10-21 12:14:52,087 - INFO - Successfully downloaded via DOI: 29357033
+2025-10-21 12:14:52,088 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:14:54,088 - INFO - Processing article 22/39: PMID 32144833
+2025-10-21 12:14:54,088 - INFO - Attempting to download PDF for PMID: 32144833
+2025-10-21 12:14:54,088 - INFO - Attempting DOI download for PMID 32144833, DOI: 10.1002/ptr.6655
+2025-10-21 12:14:54,088 - INFO - Attempting to download DOI: 10.1002/ptr.6655
+2025-10-21 12:14:54,088 - INFO - Trying direct download from DOI URL for: 10.1002/ptr.6655
+2025-10-21 12:14:54,088 - INFO - Attempting direct download from DOI URL for: 10.1002/ptr.6655
+2025-10-21 12:14:58,310 - INFO - Found potential PDF link: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.6655
+2025-10-21 12:14:58,311 - INFO - Downloading PDF from: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.6655
+2025-10-21 12:15:01,597 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.6655
+2025-10-21 12:15:01,598 - INFO - Falling back to sci-hub download for: 10.1002/ptr.6655
+2025-10-21 12:15:02,399 - INFO - Successfully downloaded via sci-hub: 10.1002/ptr.6655 -> ./32144833_The_effect_of_resveratrol_supplementation_on_serum_levels_of.pdf
+2025-10-21 12:15:02,399 - INFO - Successfully downloaded via DOI: 32144833
+2025-10-21 12:15:02,399 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:04,400 - INFO - Processing article 23/39: PMID 28701674
+2025-10-21 12:15:04,400 - INFO - Attempting to download PDF for PMID: 28701674
+2025-10-21 12:15:04,400 - INFO - Attempting DOI download for PMID 28701674, DOI: 10.1536/ihj.16-373
+2025-10-21 12:15:04,400 - INFO - Attempting to download DOI: 10.1536/ihj.16-373
+2025-10-21 12:15:04,400 - INFO - Trying direct download from DOI URL for: 10.1536/ihj.16-373
+2025-10-21 12:15:04,400 - INFO - Attempting direct download from DOI URL for: 10.1536/ihj.16-373
+2025-10-21 12:15:07,668 - INFO - Found PDF via meta citation: https://www.jstage.jst.go.jp/article/ihj/58/4/58_16-373/_pdf
+2025-10-21 12:15:07,668 - INFO - Downloading PDF from: https://www.jstage.jst.go.jp/article/ihj/58/4/58_16-373/_pdf
+2025-10-21 12:15:17,468 - INFO - Successfully downloaded PDF: 10.1536/ihj.16-373 -> ./28701674_Resveratrol_Ameliorates_Arterial_Stiffness_Assessed_by_Cardi.pdf
+2025-10-21 12:15:17,469 - INFO - Successfully downloaded via direct DOI method: 10.1536/ihj.16-373
+2025-10-21 12:15:17,469 - INFO - Successfully downloaded via DOI: 28701674
+2025-10-21 12:15:17,469 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:19,470 - INFO - Processing article 24/39: PMID 27520400
+2025-10-21 12:15:19,470 - INFO - Attempting to download PDF for PMID: 27520400
+2025-10-21 12:15:19,470 - INFO - Attempting DOI download for PMID 27520400, DOI: 10.1016/j.phrs.2016.08.010
+2025-10-21 12:15:19,470 - INFO - Attempting to download DOI: 10.1016/j.phrs.2016.08.010
+2025-10-21 12:15:19,470 - INFO - Trying direct download from DOI URL for: 10.1016/j.phrs.2016.08.010
+2025-10-21 12:15:19,470 - INFO - Attempting direct download from DOI URL for: 10.1016/j.phrs.2016.08.010
+2025-10-21 12:15:19,824 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:15:19,825 - INFO - Falling back to sci-hub download for: 10.1016/j.phrs.2016.08.010
+2025-10-21 12:15:20,627 - INFO - Successfully downloaded via sci-hub: 10.1016/j.phrs.2016.08.010 -> ./27520400_Six_months_of_resveratrol_supplementation_has_no_measurable.pdf
+2025-10-21 12:15:20,627 - INFO - Successfully downloaded via DOI: 27520400
+2025-10-21 12:15:20,627 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:22,627 - INFO - Processing article 25/39: PMID 31475415
+2025-10-21 12:15:22,627 - INFO - Attempting to download PDF for PMID: 31475415
+2025-10-21 12:15:22,628 - INFO - Attempting DOI download for PMID 31475415, DOI: 10.1002/ptr.6487
+2025-10-21 12:15:22,628 - INFO - Attempting to download DOI: 10.1002/ptr.6487
+2025-10-21 12:15:22,628 - INFO - Trying direct download from DOI URL for: 10.1002/ptr.6487
+2025-10-21 12:15:22,628 - INFO - Attempting direct download from DOI URL for: 10.1002/ptr.6487
+2025-10-21 12:15:24,485 - INFO - Found potential PDF link: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.6487
+2025-10-21 12:15:24,485 - INFO - Downloading PDF from: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.6487
+2025-10-21 12:15:25,928 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.6487
+2025-10-21 12:15:25,928 - INFO - Falling back to sci-hub download for: 10.1002/ptr.6487
+2025-10-21 12:15:26,677 - INFO - Successfully downloaded via sci-hub: 10.1002/ptr.6487 -> ./31475415_The_Effect_of_Resveratrol_Supplementation_on_Cardio-Metaboli.pdf
+2025-10-21 12:15:26,677 - INFO - Successfully downloaded via DOI: 31475415
+2025-10-21 12:15:26,677 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:28,677 - INFO - Processing article 26/39: PMID 31486447
+2025-10-21 12:15:28,677 - INFO - Attempting to download PDF for PMID: 31486447
+2025-10-21 12:15:28,678 - INFO - Attempting DOI download for PMID 31486447, DOI: 10.1039/c9fo01075k
+2025-10-21 12:15:28,678 - INFO - Attempting to download DOI: 10.1039/c9fo01075k
+2025-10-21 12:15:28,678 - INFO - Trying direct download from DOI URL for: 10.1039/c9fo01075k
+2025-10-21 12:15:28,678 - INFO - Attempting direct download from DOI URL for: 10.1039/c9fo01075k
+2025-10-21 12:15:29,832 - INFO - Found potential PDF link: https://www.rsc.org/suppdata/c9/fo/c9fo01075k/c9fo01075k1.pdf
+2025-10-21 12:15:29,832 - INFO - Downloading PDF from: https://www.rsc.org/suppdata/c9/fo/c9fo01075k/c9fo01075k1.pdf
+2025-10-21 12:15:30,137 - INFO - Successfully downloaded PDF: 10.1039/c9fo01075k -> ./31486447_The_effects_of_resveratrol_on_metabolic_status_in_patients_w.pdf
+2025-10-21 12:15:30,138 - INFO - Successfully downloaded via direct DOI method: 10.1039/c9fo01075k
+2025-10-21 12:15:30,138 - INFO - Successfully downloaded via DOI: 31486447
+2025-10-21 12:15:30,138 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:32,138 - INFO - Processing article 27/39: PMID 23557933
+2025-10-21 12:15:32,138 - INFO - Attempting to download PDF for PMID: 23557933
+2025-10-21 12:15:32,138 - INFO - PDF already exists for PMID 23557933: ./23557933_One-year_supplementation_with_a_grape_extract_containing_res.pdf
+2025-10-21 12:15:32,138 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:34,139 - INFO - Processing article 28/39: PMID 38896121
+2025-10-21 12:15:34,139 - INFO - Attempting to download PDF for PMID: 38896121
+2025-10-21 12:15:34,139 - INFO - Attempting DOI download for PMID 38896121, DOI: 10.20960/nh.05177
+2025-10-21 12:15:34,139 - INFO - Attempting to download DOI: 10.20960/nh.05177
+2025-10-21 12:15:34,139 - INFO - Trying direct download from DOI URL for: 10.20960/nh.05177
+2025-10-21 12:15:34,139 - INFO - Attempting direct download from DOI URL for: 10.20960/nh.05177
+2025-10-21 12:15:35,294 - WARNING - Direct DOI download failed: No PDF link found on publisher page
+2025-10-21 12:15:35,294 - INFO - Falling back to sci-hub download for: 10.20960/nh.05177
+2025-10-21 12:15:39,741 - ERROR - Sci-hub download completed but file not found: 10.20960/nh.05177
+2025-10-21 12:15:39,741 - WARNING - DOI download failed for PMID 38896121: Sci-hub download completed but file not found: 10.20960/nh.05177
+2025-10-21 12:15:39,741 - ERROR - All download methods failed for PMID 38896121
+2025-10-21 12:15:39,741 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:41,741 - INFO - Processing article 29/39: PMID 27207552
+2025-10-21 12:15:41,741 - INFO - Attempting to download PDF for PMID: 27207552
+2025-10-21 12:15:41,742 - INFO - Attempting DOI download for PMID 27207552, DOI: 10.2337/db16-0153
+2025-10-21 12:15:41,742 - INFO - Attempting to download DOI: 10.2337/db16-0153
+2025-10-21 12:15:41,742 - INFO - Trying direct download from DOI URL for: 10.2337/db16-0153
+2025-10-21 12:15:41,742 - INFO - Attempting direct download from DOI URL for: 10.2337/db16-0153
+2025-10-21 12:15:43,449 - INFO - Found potential PDF link: https://diabetesjournals.org/diabetes/article-pdf/65/8/2282/582394/db160153.pdf
+2025-10-21 12:15:43,449 - INFO - Downloading PDF from: https://diabetesjournals.org/diabetes/article-pdf/65/8/2282/582394/db160153.pdf
+2025-10-21 12:15:46,423 - INFO - Successfully downloaded PDF: 10.2337/db16-0153 -> ./27207552_Improved_Glycemic_Control_and_Vascular_Function_in_Overweigh.pdf
+2025-10-21 12:15:46,423 - INFO - Successfully downloaded via direct DOI method: 10.2337/db16-0153
+2025-10-21 12:15:46,423 - INFO - Successfully downloaded via DOI: 27207552
+2025-10-21 12:15:46,423 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:48,424 - INFO - Processing article 30/39: PMID 28273841
+2025-10-21 12:15:48,424 - INFO - Attempting to download PDF for PMID: 28273841
+2025-10-21 12:15:48,424 - INFO - Attempting PMC download for PMID 28273841, PMC ID: PMC5372570
+2025-10-21 12:15:48,424 - INFO - Querying PMC API for PMC5372570: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC5372570
+2025-10-21 12:15:48,846 - WARNING - No PDF links found for PMC5372570
+2025-10-21 12:15:48,846 - WARNING - No PMC PDF URL found for PMID 28273841
+2025-10-21 12:15:48,846 - INFO - Attempting DOI download for PMID 28273841, DOI: 10.3390/ijms18030554
+2025-10-21 12:15:48,846 - INFO - Attempting to download DOI: 10.3390/ijms18030554
+2025-10-21 12:15:48,846 - INFO - Trying direct download from DOI URL for: 10.3390/ijms18030554
+2025-10-21 12:15:48,846 - INFO - Attempting direct download from DOI URL for: 10.3390/ijms18030554
+2025-10-21 12:15:49,029 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:15:49,029 - INFO - Falling back to sci-hub download for: 10.3390/ijms18030554
+2025-10-21 12:15:50,115 - INFO - Successfully downloaded via sci-hub: 10.3390/ijms18030554 -> ./28273841_Comprehensive_Metabolomic_Analysis_in_Blood,_Urine,_Fat,_and.pdf
+2025-10-21 12:15:50,116 - INFO - Successfully downloaded via DOI: 28273841
+2025-10-21 12:15:50,116 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:52,116 - INFO - Processing article 31/39: PMID 26784973
+2025-10-21 12:15:52,116 - INFO - Attempting to download PDF for PMID: 26784973
+2025-10-21 12:15:52,117 - INFO - Attempting DOI download for PMID 26784973, DOI: 10.3109/00365521.2015.1107620
+2025-10-21 12:15:52,117 - INFO - Attempting to download DOI: 10.3109/00365521.2015.1107620
+2025-10-21 12:15:52,117 - INFO - Trying direct download from DOI URL for: 10.3109/00365521.2015.1107620
+2025-10-21 12:15:52,117 - INFO - Attempting direct download from DOI URL for: 10.3109/00365521.2015.1107620
+2025-10-21 12:15:52,360 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:15:52,360 - INFO - Falling back to sci-hub download for: 10.3109/00365521.2015.1107620
+2025-10-21 12:15:53,895 - INFO - Successfully downloaded via sci-hub: 10.3109/00365521.2015.1107620 -> ./26784973_Placebo-controlled,_randomised_clinical_trial__high-dose_res.pdf
+2025-10-21 12:15:53,895 - INFO - Successfully downloaded via DOI: 26784973
+2025-10-21 12:15:53,895 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:15:55,896 - INFO - Processing article 32/39: PMID 29057795
+2025-10-21 12:15:55,896 - INFO - Attempting to download PDF for PMID: 29057795
+2025-10-21 12:15:55,896 - INFO - Attempting PMC download for PMID 29057795, PMC ID: PMC5691758
+2025-10-21 12:15:55,896 - INFO - Querying PMC API for PMC5691758: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC5691758
+2025-10-21 12:15:56,466 - WARNING - No PDF links found for PMC5691758
+2025-10-21 12:15:56,466 - WARNING - No PMC PDF URL found for PMID 29057795
+2025-10-21 12:15:56,466 - INFO - Attempting DOI download for PMID 29057795, DOI: 10.3390/nu9101142
+2025-10-21 12:15:56,466 - INFO - Attempting to download DOI: 10.3390/nu9101142
+2025-10-21 12:15:56,466 - INFO - Trying direct download from DOI URL for: 10.3390/nu9101142
+2025-10-21 12:15:56,466 - INFO - Attempting direct download from DOI URL for: 10.3390/nu9101142
+2025-10-21 12:15:56,776 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:15:56,776 - INFO - Falling back to sci-hub download for: 10.3390/nu9101142
+2025-10-21 12:15:58,172 - INFO - Successfully downloaded via sci-hub: 10.3390/nu9101142 -> ./29057795_The_Effect_of_Piceatannol_from_Passion_Fruit_(Passiflora_edu.pdf
+2025-10-21 12:15:58,173 - INFO - Successfully downloaded via DOI: 29057795
+2025-10-21 12:15:58,173 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:16:00,173 - INFO - Processing article 33/39: PMID 31935938
+2025-10-21 12:16:00,173 - INFO - Attempting to download PDF for PMID: 31935938
+2025-10-21 12:16:00,174 - INFO - Attempting PMC download for PMID 31935938, PMC ID: PMC7019753
+2025-10-21 12:16:00,174 - INFO - Querying PMC API for PMC7019753: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC7019753
+2025-10-21 12:16:00,582 - WARNING - No PDF links found for PMC7019753
+2025-10-21 12:16:00,582 - WARNING - No PMC PDF URL found for PMID 31935938
+2025-10-21 12:16:00,582 - INFO - Attempting DOI download for PMID 31935938, DOI: 10.3390/nu12010161
+2025-10-21 12:16:00,582 - INFO - Attempting to download DOI: 10.3390/nu12010161
+2025-10-21 12:16:00,582 - INFO - Trying direct download from DOI URL for: 10.3390/nu12010161
+2025-10-21 12:16:00,582 - INFO - Attempting direct download from DOI URL for: 10.3390/nu12010161
+2025-10-21 12:16:00,794 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:16:00,795 - INFO - Falling back to sci-hub download for: 10.3390/nu12010161
+2025-10-21 12:16:01,650 - INFO - Successfully downloaded via sci-hub: 10.3390/nu12010161 -> ./31935938_Efficacy_and_Safety_of_Resveratrol_in_Type_1_Diabetes_Patien.pdf
+2025-10-21 12:16:01,650 - INFO - Successfully downloaded via DOI: 31935938
+2025-10-21 12:16:01,650 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:16:03,650 - INFO - Processing article 34/39: PMID 27807887
+2025-10-21 12:16:03,650 - INFO - Attempting to download PDF for PMID: 27807887
+2025-10-21 12:16:03,650 - INFO - Attempting DOI download for PMID 27807887, DOI: 10.1002/ptr.5737
+2025-10-21 12:16:03,650 - INFO - Attempting to download DOI: 10.1002/ptr.5737
+2025-10-21 12:16:03,650 - INFO - Trying direct download from DOI URL for: 10.1002/ptr.5737
+2025-10-21 12:16:03,650 - INFO - Attempting direct download from DOI URL for: 10.1002/ptr.5737
+2025-10-21 12:16:04,761 - INFO - Found potential PDF link: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.5737
+2025-10-21 12:16:04,761 - INFO - Downloading PDF from: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.5737
+2025-10-21 12:16:05,679 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ptr.5737
+2025-10-21 12:16:05,679 - INFO - Falling back to sci-hub download for: 10.1002/ptr.5737
+2025-10-21 12:16:06,357 - INFO - Successfully downloaded via sci-hub: 10.1002/ptr.5737 -> ./27807887_The_Impact_of_Resveratrol_Supplementation_on_Blood_Glucose,.pdf
+2025-10-21 12:16:06,357 - INFO - Successfully downloaded via DOI: 27807887
+2025-10-21 12:16:06,357 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:16:08,357 - INFO - Processing article 35/39: PMID 26234526
+2025-10-21 12:16:08,357 - INFO - Attempting to download PDF for PMID: 26234526
+2025-10-21 12:16:08,358 - INFO - Attempting DOI download for PMID 26234526, DOI: 10.1017/S0007114515002433
+2025-10-21 12:16:08,358 - INFO - Attempting to download DOI: 10.1017/S0007114515002433
+2025-10-21 12:16:08,358 - INFO - Trying direct download from DOI URL for: 10.1017/S0007114515002433
+2025-10-21 12:16:08,358 - INFO - Attempting direct download from DOI URL for: 10.1017/S0007114515002433
+2025-10-21 12:16:10,136 - INFO - Found potential PDF link: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2665ADF1B375C4F322754ABF7840A410/S0007114515002433a.pdf/the-effects-of-resveratrol-supplementation-on-cardiovascular-risk-factors-in-patients-with-non-alcoholic-fatty-liver-disease-a-randomised-double-blind-placebo-controlled-study.pdf
+2025-10-21 12:16:10,136 - INFO - Downloading PDF from: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2665ADF1B375C4F322754ABF7840A410/S0007114515002433a.pdf/the-effects-of-resveratrol-supplementation-on-cardiovascular-risk-factors-in-patients-with-non-alcoholic-fatty-liver-disease-a-randomised-double-blind-placebo-controlled-study.pdf
+2025-10-21 12:16:10,899 - INFO - Successfully downloaded PDF: 10.1017/S0007114515002433 -> ./26234526_The_effects_of_resveratrol_supplementation_on_cardiovascular.pdf
+2025-10-21 12:16:10,899 - INFO - Successfully downloaded via direct DOI method: 10.1017/S0007114515002433
+2025-10-21 12:16:10,899 - INFO - Successfully downloaded via DOI: 26234526
+2025-10-21 12:16:10,899 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:16:12,899 - INFO - Processing article 36/39: PMID 24317366
+2025-10-21 12:16:12,900 - INFO - Attempting to download PDF for PMID: 24317366
+2025-10-21 12:16:12,900 - INFO - Attempting DOI download for PMID 24317366, DOI: 10.1038/ijo.2013.231
+2025-10-21 12:16:12,900 - INFO - Attempting to download DOI: 10.1038/ijo.2013.231
+2025-10-21 12:16:12,900 - INFO - Trying direct download from DOI URL for: 10.1038/ijo.2013.231
+2025-10-21 12:16:12,900 - INFO - Attempting direct download from DOI URL for: 10.1038/ijo.2013.231
+2025-10-21 12:16:13,717 - INFO - Found PDF via meta citation: https://www.nature.com/articles/ijo2013231.pdf
+2025-10-21 12:16:13,717 - INFO - Downloading PDF from: https://www.nature.com/articles/ijo2013231.pdf
+2025-10-21 12:16:14,145 - WARNING - Direct DOI download failed: URL did not return a valid PDF: https://www.nature.com/articles/ijo2013231.pdf
+2025-10-21 12:16:14,146 - INFO - Falling back to sci-hub download for: 10.1038/ijo.2013.231
+2025-10-21 12:16:15,433 - INFO - Successfully downloaded via sci-hub: 10.1038/ijo.2013.231 -> ./24317366_Short-term_supplementation_with_a_specific_combination_of_di.pdf
+2025-10-21 12:16:15,433 - INFO - Successfully downloaded via DOI: 24317366
+2025-10-21 12:16:15,433 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:16:17,433 - INFO - Processing article 37/39: PMID 38871717
+2025-10-21 12:16:17,433 - INFO - Attempting to download PDF for PMID: 38871717
+2025-10-21 12:16:17,434 - INFO - Attempting PMC download for PMID 38871717, PMC ID: PMC11176364
+2025-10-21 12:16:17,434 - INFO - Querying PMC API for PMC11176364: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC11176364
+2025-10-21 12:16:17,916 - WARNING - No PDF links found for PMC11176364
+2025-10-21 12:16:17,916 - WARNING - No PMC PDF URL found for PMID 38871717
+2025-10-21 12:16:17,916 - INFO - Attempting DOI download for PMID 38871717, DOI: 10.1038/s41467-024-49092-5
+2025-10-21 12:16:17,916 - INFO - Attempting to download DOI: 10.1038/s41467-024-49092-5
+2025-10-21 12:16:17,916 - INFO - Trying direct download from DOI URL for: 10.1038/s41467-024-49092-5
+2025-10-21 12:16:17,916 - INFO - Attempting direct download from DOI URL for: 10.1038/s41467-024-49092-5
+2025-10-21 12:16:18,606 - INFO - Found potential PDF link: https://www.nature.com/articles/s41467-024-49092-5.pdf
+2025-10-21 12:16:18,607 - INFO - Downloading PDF from: https://www.nature.com/articles/s41467-024-49092-5.pdf
+2025-10-21 12:16:19,229 - INFO - Successfully downloaded PDF: 10.1038/s41467-024-49092-5 -> ./38871717_Nicotinamide_riboside_for_peripheral_artery_disease__the_NIC.pdf
+2025-10-21 12:16:19,229 - INFO - Successfully downloaded via direct DOI method: 10.1038/s41467-024-49092-5
+2025-10-21 12:16:19,229 - INFO - Successfully downloaded via DOI: 38871717
+2025-10-21 12:16:19,229 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:16:21,229 - INFO - Processing article 38/39: PMID 39940362
+2025-10-21 12:16:21,230 - INFO - Attempting to download PDF for PMID: 39940362
+2025-10-21 12:16:21,230 - INFO - Attempting PMC download for PMID 39940362, PMC ID: PMC11819975
+2025-10-21 12:16:21,230 - INFO - Querying PMC API for PMC11819975: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC11819975
+2025-10-21 12:16:21,775 - WARNING - No PDF links found for PMC11819975
+2025-10-21 12:16:21,775 - WARNING - No PMC PDF URL found for PMID 39940362
+2025-10-21 12:16:21,775 - INFO - Attempting DOI download for PMID 39940362, DOI: 10.3390/nu17030504
+2025-10-21 12:16:21,775 - INFO - Attempting to download DOI: 10.3390/nu17030504
+2025-10-21 12:16:21,776 - INFO - Trying direct download from DOI URL for: 10.3390/nu17030504
+2025-10-21 12:16:21,776 - INFO - Attempting direct download from DOI URL for: 10.3390/nu17030504
+2025-10-21 12:16:22,029 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:16:22,030 - INFO - Falling back to sci-hub download for: 10.3390/nu17030504
+2025-10-21 12:16:26,554 - ERROR - Sci-hub download completed but file not found: 10.3390/nu17030504
+2025-10-21 12:16:26,554 - WARNING - DOI download failed for PMID 39940362: Sci-hub download completed but file not found: 10.3390/nu17030504
+2025-10-21 12:16:26,555 - ERROR - All download methods failed for PMID 39940362
+2025-10-21 12:16:26,555 - INFO - Waiting 2.0 seconds before next download...
+2025-10-21 12:16:28,555 - INFO - Processing article 39/39: PMID 37447275
+2025-10-21 12:16:28,555 - INFO - Attempting to download PDF for PMID: 37447275
+2025-10-21 12:16:28,555 - INFO - Attempting PMC download for PMID 37447275, PMC ID: PMC10346321
+2025-10-21 12:16:28,555 - INFO - Querying PMC API for PMC10346321: https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC10346321
+2025-10-21 12:16:29,148 - WARNING - No PDF links found for PMC10346321
+2025-10-21 12:16:29,148 - WARNING - No PMC PDF URL found for PMID 37447275
+2025-10-21 12:16:29,148 - INFO - Attempting DOI download for PMID 37447275, DOI: 10.3390/nu15132949
+2025-10-21 12:16:29,148 - INFO - Attempting to download DOI: 10.3390/nu15132949
+2025-10-21 12:16:29,148 - INFO - Trying direct download from DOI URL for: 10.3390/nu15132949
+2025-10-21 12:16:29,148 - INFO - Attempting direct download from DOI URL for: 10.3390/nu15132949
+2025-10-21 12:16:29,442 - WARNING - Direct DOI download failed: Failed to access DOI URL: HTTP 403
+2025-10-21 12:16:29,443 - INFO - Falling back to sci-hub download for: 10.3390/nu15132949
+2025-10-21 12:16:32,863 - ERROR - Sci-hub download completed but file not found: 10.3390/nu15132949
+2025-10-21 12:16:32,863 - WARNING - DOI download failed for PMID 37447275: Sci-hub download completed but file not found: 10.3390/nu15132949
+2025-10-21 12:16:32,863 - ERROR - All download methods failed for PMID 37447275
+2025-10-21 12:16:32,863 - INFO - Download completed: 30 successful, 1 cached, 8 failed out of 39 total
+2025-10-21 12:16:32,863 - INFO - Saving results...
+2025-10-21 12:16:32,866 - INFO - Results saved to _pubmed_downloaded_articles.json
+2025-10-21 12:16:32,866 - INFO - Statistics: 30 successful, 1 cached, 8 failed
+2025-10-21 12:16:32,866 - INFO - Download process completed!

@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: PubMed Generate Search",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/pubmed_generate_search.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: PubMed Download Articles",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/pubmed_download_articles.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: Gemini Classify Articles",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/gemini_classify_articles.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: Playwright Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/playwright_test.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: Gemini Target Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/gemini_select_target.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: Suggest Analysis",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/cohorts_and_tests_suggest_analysis.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: DataPointExtractor Analysis",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/gemini_extract_datapoints.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        },
+        {
+            "name": "Debug: WriteDocument Analysis",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/write_final_documentation.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src",
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+        }
+    ]
+}
