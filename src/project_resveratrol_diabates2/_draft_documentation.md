@@ -1,12 +1,12 @@
 # Meta-Analysis Project Documentation
 
-*Generated on: 2025-10-21 22:35:30*
+*Generated on: 2025-10-23 08:45:34*
 
 **Creator:** krisztian.sugar@frogs.hu "budapest" team
 
 ## 1. Input Topic
 
-**Topic:** Resveratrol supplementation and type 2 diabetes: a systematic review and meta-analysis
+**Topic:** Resveratrol supplementation and type 2 diabetes
 
 ## 2. Database Search
 
@@ -46,6 +46,20 @@ Based on fetched PubMed metadata, articles were pre-filtered using LLM analysis 
 - Studies with major methodological flaws
 - Conference abstracts without full methodology
 
+**Sample abstract-based classifications:**
+
+**Example 1 - GOOD CANDIDATE:**
+- PMID: 35240291
+- Classification: Good Candidate
+- Confidence Score: 1.0
+- Reasons: "['Clear Randomized Controlled Trial (RCT) methodology (double-blind, placebo-controlled).', 'Well-defined clinical population (T2DM patients) and intervention (Resveratrol 200 mg/day, 24 weeks).', 'Measurable primary and secondary clinical outcomes (glucose, HbA1c, inflammatory markers).', 'Results reported with effect sizes and 95% Confidence Intervals (CIs).', 'Adequate sample size (N=110 recruited).']"
+
+**Example 2 - BAD CANDIDATE:**
+- PMID: 39317551
+- Classification: Bad Candidate
+- Confidence Score: 1.0
+- Reasons: "['Pre-clinical animal study (Type 2 diabetes rat model).', 'Involves in vitro experimentation (HUVECs).', 'Focuses on molecular mechanisms (ferroptosis, Nrf2).']"
+
 **Result:** 39 articles remained after abstract filtering
 
 ## 4. Full-Text Article Download
@@ -70,6 +84,54 @@ Remaining full-text articles were classified one-by-one using LLM analysis:
 - `cohort`: Cohort characteristics
 
 Each classification includes evidence references from the source text.
+
+### 5.1. Full-Text Classification for Meta-Analysis Candidacy
+
+Based on the full text, each article was evaluated to determine if it contains any "no-go" stop words or criteria that would exclude it from meta-analysis. The LLM assessed each article's candidacy using the `candidate_meta_analysis` classifier.
+
+**Classification criteria:**
+- Articles with clear methodology, control groups, and quantifiable outcomes are marked as CANDIDATE
+- Articles with case reports, editorials, reviews without original data, or methodological flaws are marked as NOT_A_CANDIDATE
+- Confidence levels (High, Medium, Low) indicate the certainty of the classification
+
+**Sample classifications:**
+
+**Example 1 - CANDIDATE (High Confidence):**
+- PMID: 35240291
+- Classification: CANDIDATE
+- Confidence: High
+- Assessment: "The study is a randomized, placebo-controlled trial that meets all primary assessment criteria. It compares an intervention (resveratrol) against a control (placebo) in a defined population (T2DM patients) and reports sufficient quantitative data, including mean changes, standard errors, and mean differences with 95% confidence intervals, for key continuous outcomes. Therefore, it is highly suitable for inclusion in a quantitative meta-analysis."
+
+**Example 2 - NOT_A_CANDIDATE:**
+- PMID: 34371884
+- Classification: NOT_A_CANDIDATE
+- Confidence: High
+- Assessment: "The study is based on a robust randomized, controlled design with clear PICO elements. However, the specific content of this published article is focused on secondary correlation analyses of the trial data. It fails to provide the basic comparative summary statistics (Means and SDs for both arms at endpoint) necessary for direct calculation of effect sizes, thus precluding its use as a stand-alone candidate for quantitative meta-analysis."
+
+**Result:** 23 articles confirmed as candidates for meta-analysis after full-text review
+
+### 5.2. Full-Text Classification for Study Type
+
+Based on the full text, each article was evaluated to determine if it contains any "no-go" stop words or criteria that would exclude it from meta-analysis. The LLM performed study type classification to categorize the research design.
+
+**Study type classifications:**
+- Randomized Controlled Trial (RCT)
+- Cohort Study
+- Case-Control Study
+
+**Sample study_type classifier results:**
+
+**Example 1 - study_type classifier result:**
+- PMID: 35240291
+- Classification: "Randomized Controlled Trial"
+- Confidence: "High"
+- Evidence: "This study is explicitly identified in the title, abstract, and Section 2.1 as a "randomized, double blinded placebo-controlled parallel group trial." Participants were selected (n=110) and then subjected to a random allocation process, assigning them to either the intervention group (resveratrol 200 mg/day) or the control group (placebo/cellulose capsules). The study then followed these groups prospectively for 24 weeks to assess the primary and secondary outcomes (e.g., FPG, HbA1c, HOMA-IR, inflammatory markers). The presence of random assignment to intervention groups meets the definitive criterion for a Randomized Controlled Trial (RCT)."
+
+**Example 2 - study_type classifier result:**
+- PMID: 32900519
+- Classification: "Randomized Controlled Trial"
+- Confidence: "High"
+- Evidence: "The study is explicitly identified in the title and the methods section (Section 2.1) as a '24-month randomised, double-blind, placebo-controlled, two-period crossover intervention trial.' Participants were allocated to either the active intervention (resveratrol) or the control (placebo) using a random assignment mechanism ('Altman's randomisation by minimisation procedure,' Section 2.5). The study design involves an experimental intervention (supplementation) and prospective outcome measurement over 24 months, satisfying all criteria for a Randomized Controlled Trial."
 
 ## 6. Meta-Analysis Target Selection
 
@@ -124,7 +186,7 @@ LLM generated Python code to create Forest plots and statistical tables for the 
 
 ## 10. Results
 
-**Topic:** Resveratrol supplementation and type 2 diabetes: a systematic review and meta-analysis
+**Topic:** Resveratrol supplementation and type 2 diabetes
 
 **Generated visualizations:**
 ![_meta_analysis_forest_HbA1c.png](_meta_analysis_forest_HbA1c.png)

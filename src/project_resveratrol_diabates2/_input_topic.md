@@ -1,1 +1,1 @@
-Resveratrol supplementation and type 2 diabetes: a systematic review and meta-analysis
+Resveratrol supplementation and type 2 diabetes

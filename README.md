@@ -134,6 +134,10 @@ python run_meta_analysis.py --data _extracted_datapoints.csv
 
 ## 📊 Output Files
 
+### Final Reports
+- **[Draft Meta-Analysis Report](src/project_resveratrol_diabates2/_draft_meta_analysis_report.pdf)**: Initial automated research report with basic formatting and standard sections
+- **[Advanced Meta-Analysis Report](src/project_resveratrol_diabates2/_advanced_meta_analysis_report.pdf)**: Publication-ready comprehensive report with enhanced formatting, professional styling, and complete methodology documentation
+
 ### Primary Outputs
 - **`_meta_analysis_output.txt`**: Complete statistical analysis results
 - **`_meta_analysis_forest_*.png`**: Forest plots for visual interpretation

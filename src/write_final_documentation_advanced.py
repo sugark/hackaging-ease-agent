@@ -81,14 +81,14 @@ class AdvancedDocumentationGenerator:
             return ""
 
     def load_prompt_files(self) -> Dict[str, str]:
-        """Load key prompt files (_prompt_classifier* and _prompt_extractor*)."""
+        """Load key prompt files (prompt_classifier* and _prompt_extractor*)."""
         prompt_files = {}
         
         # Load key prompt files only (to avoid overwhelming the API)
         key_files = [
-            "_prompt_classifier_candidate_meta_analysis.py",
-            "_prompt_classifier_cochrane_bias.py",
-            "_prompt_extractor_clinical_test.py"
+            "prompt_classifier_candidate_meta_analysis.py",
+            "prompt_classifier_cochrane_bias.py",
+            "prompt_extractor_clinical_test.py"
         ]
         
         for filepath in key_files:

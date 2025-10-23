@@ -280,8 +280,59 @@ def generate_documentation():
     doc_content += "- Studies with major methodological flaws\n"
     doc_content += "- Conference abstracts without full methodology\n\n"
     
-    # Count good candidates
+    # Add sample classifications from pre-filtering
     filtered_data = load_json_file("_pubmed_filtered_articles.json")
+    if filtered_data:
+        doc_content += "**Sample abstract-based classifications:**\n\n"
+        
+        # Find examples of good and bad candidates
+        good_candidate_example = None
+        bad_candidate_example = None
+        
+        classifications = filtered_data.get('classifications', [])
+        for classification in classifications:
+            if isinstance(classification, dict):
+                is_good = classification.get('is_good_candidate', False)
+                pmid = classification.get('pmid', 'N/A')
+                reasons = classification.get('reasons', 'N/A')
+                confidence = classification.get('confidence_score', 'N/A')
+                
+                if is_good and not good_candidate_example:
+                    good_candidate_example = {
+                        'pmid': pmid,
+                        'reasons': reasons,
+                        'confidence': confidence
+                    }
+                elif not is_good and not bad_candidate_example:
+                    bad_candidate_example = {
+                        'pmid': pmid,
+                        'reasons': reasons,
+                        'confidence': confidence
+                    }
+                
+                # Break if we have both examples
+                if good_candidate_example and bad_candidate_example:
+                    break
+        
+        # Add good candidate example
+        if good_candidate_example:
+            doc_content += "**Example 1 - GOOD CANDIDATE:**\n"
+            doc_content += f"- PMID: {good_candidate_example['pmid']}\n"
+            doc_content += f"- Classification: Good Candidate\n"
+            doc_content += f"- Confidence Score: {good_candidate_example['confidence']}\n"
+            doc_content += f"- Reasons: \"{good_candidate_example['reasons']}\"\n\n"
+        
+        # Add bad candidate example
+        if bad_candidate_example:
+            doc_content += "**Example 2 - BAD CANDIDATE:**\n"
+            doc_content += f"- PMID: {bad_candidate_example['pmid']}\n"
+            doc_content += f"- Classification: Bad Candidate\n"
+            doc_content += f"- Confidence Score: {bad_candidate_example['confidence']}\n"
+            doc_content += f"- Reasons: \"{bad_candidate_example['reasons']}\"\n\n"
+    else:
+        doc_content += "**Sample classifications:** Data not available\n\n"
+    
+    # Count good candidates
     good_candidates = count_good_candidates(filtered_data)
     doc_content += f"**Result:** {good_candidates} articles remained after abstract filtering\n\n"
     
@@ -310,6 +361,128 @@ def generate_documentation():
     doc_content += "- `cohort`: Cohort characteristics\n\n"
     doc_content += "Each classification includes evidence references from the source text.\n\n"
     
+    # 5.1. Full-Text Classification for Meta-Analysis Candidacy
+    print("Processing full-text classification section...")
+    doc_content += "### 5.1. Full-Text Classification for Meta-Analysis Candidacy\n\n"
+    doc_content += "Based on the full text, each article was evaluated to determine if it contains any \"no-go\" stop words or criteria that would exclude it from meta-analysis. The LLM assessed each article's candidacy using the `candidate_meta_analysis` classifier.\n\n"
+    
+    doc_content += "**Classification criteria:**\n"
+    doc_content += "- Articles with clear methodology, control groups, and quantifiable outcomes are marked as CANDIDATE\n"
+    doc_content += "- Articles with case reports, editorials, reviews without original data, or methodological flaws are marked as NOT_A_CANDIDATE\n"
+    doc_content += "- Confidence levels (High, Medium, Low) indicate the certainty of the classification\n\n"
+    
+    # Add sample classifications
+    classified_data = load_json_file("_classified_articles.json")
+    if classified_data:
+        doc_content += "**Sample classifications:**\n\n"
+        
+        # Find examples of CANDIDATE and NOT_A_CANDIDATE
+        candidate_example = None
+        non_candidate_example = None
+        
+        articles = classified_data.get('articles', [])
+        for article in articles:
+            classifier_results = article.get('classifier_results', {})
+            candidate_analysis = classifier_results.get('candidate_meta_analysis', {})
+            result = candidate_analysis.get('result', {})
+            
+            if result.get('candidacy_classification') == 'CANDIDATE' and result.get('confidence') == 'High' and not candidate_example:
+                candidate_example = {
+                    'pmid': article.get('pmid', 'N/A'),
+                    'classification': result.get('candidacy_classification', 'N/A'),
+                    'confidence': result.get('confidence', 'N/A'),
+                    'assessment': result.get('overall_assessment', 'N/A')
+                }
+            elif result.get('candidacy_classification') == 'NOT_A_CANDIDATE' and not non_candidate_example:
+                non_candidate_example = {
+                    'pmid': article.get('pmid', 'N/A'),
+                    'classification': result.get('candidacy_classification', 'N/A'),
+                    'confidence': result.get('confidence', 'N/A'),
+                    'assessment': result.get('overall_assessment', 'N/A')
+                }
+            
+            # Break if we have both examples
+            if candidate_example and non_candidate_example:
+                break
+        
+        # Add candidate example
+        if candidate_example:
+            doc_content += "**Example 1 - CANDIDATE (High Confidence):**\n"
+            doc_content += f"- PMID: {candidate_example['pmid']}\n"
+            doc_content += f"- Classification: {candidate_example['classification']}\n"
+            doc_content += f"- Confidence: {candidate_example['confidence']}\n"
+            doc_content += f"- Assessment: \"{candidate_example['assessment']}\"\n\n"
+        
+        # Add non-candidate example
+        if non_candidate_example:
+            doc_content += "**Example 2 - NOT_A_CANDIDATE:**\n"
+            doc_content += f"- PMID: {non_candidate_example['pmid']}\n"
+            doc_content += f"- Classification: {non_candidate_example['classification']}\n"
+            doc_content += f"- Confidence: {non_candidate_example['confidence']}\n"
+            doc_content += f"- Assessment: \"{non_candidate_example['assessment']}\"\n\n"
+    else:
+        doc_content += "**Sample classifications:** Data not available\n\n"
+    
+    # Count final candidates
+    final_candidates = 0
+    if classified_data:
+        articles = classified_data.get('articles', [])
+        for article in articles:
+            classifier_results = article.get('classifier_results', {})
+            candidate_analysis = classifier_results.get('candidate_meta_analysis', {})
+            result = candidate_analysis.get('result', {})
+            if result.get('candidacy_classification') == 'CANDIDATE':
+                final_candidates += 1
+    
+    doc_content += f"**Result:** {final_candidates} articles confirmed as candidates for meta-analysis after full-text review\n\n"
+
+    # 5.2. Full-Text Classification for Study Type
+    print("Processing study type classification section...")
+    doc_content += "### 5.2. Full-Text Classification for Study Type\n\n"
+    doc_content += "Based on the full text, each article was evaluated to determine if it contains any \"no-go\" stop words or criteria that would exclude it from meta-analysis. The LLM performed study type classification to categorize the research design.\n\n"
+    
+    doc_content += "**Study type classifications:**\n"
+    doc_content += "- Randomized Controlled Trial (RCT)\n"
+    doc_content += "- Cohort Study\n"
+    doc_content += "- Case-Control Study\n\n"
+    
+    # Add sample study_type classifications
+    if classified_data:
+        doc_content += "**Sample study_type classifier results:**\n\n"
+        
+        # Find examples of high confidence RCT classifications with non-empty justification
+        rct_examples = []
+        
+        articles = classified_data.get('articles', [])
+        for article in articles:
+            classifier_results = article.get('classifier_results', {})
+            study_type_analysis = classifier_results.get('study_type', {})
+            result = study_type_analysis.get('result', {})
+            
+            # Check for non-empty justification field
+            justification = result.get('justification', '')
+            
+            if (result.get('classification') == 'Randomized Controlled Trial' and 
+                result.get('confidence') == 'High' and 
+                justification and justification.strip() and  # Ensure justification is not empty
+                len(rct_examples) < 2):
+                rct_examples.append({
+                    'pmid': article.get('pmid', 'N/A'),
+                    'classification': result.get('classification', 'N/A'),
+                    'confidence': result.get('confidence', 'N/A'),
+                    'evidence': justification  # Use justification as evidence
+                })
+        
+        # Add RCT examples
+        for i, example in enumerate(rct_examples, 1):
+            doc_content += f"**Example {i} - study_type classifier result:**\n"
+            doc_content += f"- PMID: {example['pmid']}\n"
+            doc_content += f"- Classification: \"{example['classification']}\"\n"
+            doc_content += f"- Confidence: \"{example['confidence']}\"\n"
+            doc_content += f"- Evidence: \"{example['evidence']}\"\n\n"
+    else:
+        doc_content += "**Sample study_type classifications:** Data not available\n\n"
+
     # 6. Analysis Target Section
     print("Processing analysis target section...")
     doc_content += "## 6. Meta-Analysis Target Selection\n\n"
