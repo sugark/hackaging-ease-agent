@@ -1,0 +1,9 @@
+{
+  "selected_clinical_test": "Hemoglobin A1c (HbA1c)",
+  "justification": "HbA1c is a standardized, widely reported laboratory test for long-term glycemic control, making it highly comparable across studies. It is clinically relevant for assessing the metabolic effects of interventions in diabetes, PCOS, and cancer-related metabolic dysregulation, all of which are heavily represented in the provided data.",
+  "recommended_cohorts": [
+    "Type 2 Diabetes Patients on Metformin",
+    "Polycystic Ovary Syndrome (PCOS) Patients on Metformin",
+    "Cancer Patients on Metformin"
+  ]
+}

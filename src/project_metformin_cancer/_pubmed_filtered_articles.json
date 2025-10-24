@@ -1,0 +1,4909 @@
+{
+  "metadata": {
+    "total_articles_classified": 512,
+    "good_candidates": 242,
+    "bad_candidates": 270,
+    "classification_timestamp": "2025-10-22 23:26:22",
+    "classifier": "Gemini AI"
+  },
+  "classifications": [
+    {
+      "pmid": "35378172",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study utilizing murine (mouse) models exclusively.",
+        "Focuses on mechanistic outcomes (T-cell function, transcriptomic analysis) rather than human clinical endpoints (OS, PFS)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37195082",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study relying on single-cell RNA sequencing and metabolic analysis.",
+        "Lacks robust, defined human clinical trial data or large observational cohort data."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "37147018",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using in vitro models (murine and human CD8 T cells) and in vivo mouse models.",
+        "Outcomes are mechanistic (apoptosis, proliferation, cytokine production), not clinical efficacy endpoints."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36108523",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty; insufficient information to determine study design, methodology, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35852878",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty; insufficient information to determine study design, methodology, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34246699",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty; insufficient information to determine study design, methodology, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36012397",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using tumor-bearing mice (Lewis Lung Carcinoma xenograft models).",
+        "Outcomes are preclinical (tumor growth, circulating molecular levels) in mice."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39560490",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective analysis of two clinical cohorts (human NSCLC patients) with clear clinical outcomes (RFS, PFS, OS).",
+        "Utilizes defined statistical methods (Hazard Ratio, Confidence Interval) suitable for meta-analysis."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "37582751",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study focused on drug resistance pathways (SE-TFs-PTGR1 axis) in PCa cells.",
+        "Lacks large-scale human clinical trial data or definitive clinical efficacy outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35724834",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty; insufficient information to determine study design, methodology, or outcomes. Title suggests a mechanistic focus."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36857596",
+      "is_good_candidate": true,
+      "reasons": [
+        "Analysis of a large, well-defined human cohort (ASPREE trial participants) with diabetes (N=2045).",
+        "Uses rigorous statistical methods (Cox proportional hazards regression) and reports quantifiable clinical outcomes (cancer incidence, mortality) with HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35714813",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty; insufficient information to determine study design, methodology, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37409755",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an in vitro study using cell lines and xenograft models.",
+        "Focus is on molecular mechanism (ER stress-CHOP pathway) and synergy, not powered clinical outcomes."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "40091020",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using TNBC cell lines and nude mouse xenograft models.",
+        "Outcomes are cellular assays and tumor growth inhibition in mice, lacking human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27356748",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article/Commentary discussing the rationale and challenges of repurposing metformin for cancer.",
+        "Does not present original primary research data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37213670",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study investigating human gastric cancer cell lines (AGS cells).",
+        "Outcomes are cellular/molecular (growth inhibition, apoptosis), not clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39630677",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large human observational study (retrospective case-control) using a large database ('All of Us').",
+        "Utilizes rigorous methodology (propensity score matching and multivariable regression) to control for confounders.",
+        "Reports clear clinical outcome (cancer risk) with statistical metrics (ORs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33191721",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using various cancer cell lines.",
+        "Outcomes are based on viability and proliferation measurements (MTT assay), not human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37030634",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study using a murine model (KC mice) of pancreatic carcinogenesis.",
+        "Outcomes are preclinical, focused on molecular mechanism (NETs, inflammation) and mPanIN progression in mice."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37225730",
+      "is_good_candidate": true,
+      "reasons": [
+        "Human observational cohort study with an adequate sample size (N=492) of early-stage CRC patients.",
+        "Clear clinical outcomes reported (RFS and OS) analyzed using multivariate modeling, including HRs and p-values."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39541840",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical/mechanistic study focused on nanoparticle design (Fe-PDA-MET NP) and molecular pathways (ferroptosis, TIME remodeling).",
+        "Lacks large-scale human clinical trial data on efficacy."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36726289",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study focusing on physiological mechanism (salivary function/AMPK pathway) following radiation.",
+        "Likely uses animal or cell models, lacking human cancer treatment outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34052334",
+      "is_good_candidate": false,
+      "reasons": [
+        "Designated as a 'Reply' (letter or editorial comment).",
+        "Does not present original primary research data for inclusion."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40520024",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using a mouse model (PCOS-like mice) and in vitro cell models.",
+        "Focuses on molecular mechanisms (Ethe1/Keap1/PINK1 pathway) and metabolic markers in animals."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40105683",
+      "is_good_candidate": true,
+      "reasons": [
+        "Phase II randomized controlled trial (RCT) in human patients (N=41).",
+        "Clear population and intervention (metformin + CRT vs. CRT). Provides human safety and feasibility data, and while preliminary, is a controlled trial design."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "35078642",
+      "is_good_candidate": true,
+      "reasons": [
+        "Observational cohort study (N=1064 patients) with prospective follow-up for HCC.",
+        "Reports definitive clinical outcomes (HCC incidence and OS) using Cox proportional hazards analysis (HRs and P-values)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38530777",
+      "is_good_candidate": true,
+      "reasons": [
+        "Observational study leveraging a cohort derived from a randomized controlled trial (PREOPANC RCT).",
+        "Reports robust clinical outcomes (Overall Survival) in pancreatic cancer patients with statistical metrics (HR=0.56; 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23358989",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty; insufficient information to determine study design, methodology, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35831458",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large human observational cohort study (N=41,533).",
+        "High methodological rigor, specifically employing three methods (time-dependent Cox, landmark, nested case-control) to avoid immortal time bias.",
+        "Reports clear outcome (CRC incidence) with HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31491730",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large national cohort study (N=15,052) of colorectal cancer patients.",
+        "Reports definitive clinical outcomes (Cancer-Specific Survival and Overall Survival) using Cox regression (HRs and CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25076330",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article summarizing epidemiological data and conference abstracts.",
+        "Does not present original primary research data suitable for quantitative synthesis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39933530",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using TNBC cell lines and patient-derived xenograft models (mice).",
+        "Focuses on molecular pathways (c-Src, mitochondrial reprogramming) and synergy in mice, lacking human clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39893002",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study utilizing CRPC cell lines and xenograft models (in vitro and in vivo).",
+        "Focus is on resistance mechanisms and mitochondrial fitness, not human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36328378",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a mechanistic study focusing on immunological outcomes (NK cell function, cytokine expression) and molecular pathways (CXCL1).",
+        "Relies on Phase I trials, which are preliminary and designed for safety/dosing, not powered for efficacy meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "39923680",
+      "is_good_candidate": true,
+      "reasons": [
+        "Phase II randomized, placebo-controlled trial (RCT) in human patients (N=108).",
+        "Reports clear clinical efficacy outcomes (PFS and OS) with statistical measures (HR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36321555",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using HCC cell lines and in vitro/in vivo models.",
+        "Focuses on metabolic adaptation and molecular targets (TOMM34/ATP5B axis), lacking human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30022336",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective human cohort study of veterans (N=84,434).",
+        "High methodological rigor, including propensity score matching and Cox regression, specifically addressing time-related biases.",
+        "Reports clear clinical outcomes (incidence cancer risk) with robust statistics (aHR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40434511",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase Ib dose-finding and pharmacokinetic (PK) trial (N=41).",
+        "Primary goals are safety and dose escalation (MTD/PK). Efficacy outcomes (PFS/OS) are highly preliminary and often underpowered for inclusion in meta-analyses seeking definitive treatment effects."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "30046513",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using Glioblastoma multiforme (GBM) cell lines.",
+        "Outcomes are cellular/molecular metrics (motility, invasion, AKT inactivation), not human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40090535",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using a rat PCOS model (animal study).",
+        "Outcomes are based on animal phenotypic, hormonal, and genotypic determinants, not human clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37047828",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pilot intervention study with a very small sample size (N=8 PCOS patients).",
+        "Primary outcomes are molecular biomarkers (DNA methylation and gene expression), not powered clinical endpoints."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35780231",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using cancer cell lines and xenograft mouse models.",
+        "Outcomes are based on cellular assays and liver metastatic rate in mice, lacking human clinical efficacy data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29274360",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using nude mice xenograft models (animal study).",
+        "Outcomes focus on tumor growth inhibition in mice and molecular mechanisms (autophagy), not human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39160673",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a mechanistic study focusing on in vitro cell biology (radiosensitization, ROS levels) and molecular targets (GAPDH and TAGLN2).",
+        "Lacks robust clinical efficacy data (PFS, OS) from a controlled human trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28185288",
+      "is_good_candidate": false,
+      "reasons": [
+        "Window of opportunity trial (Phase 0/I) with a small sample size (N=39 completed).",
+        "Primary endpoints are pharmacodynamic and biomarker changes (CAV1, GALB, apoptosis) rather than clinical efficacy/survival outcomes required for meta-analysis of treatment effect."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "22689798",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large prospective human cohort study derived from Women's Health Initiative clinical trials (N=68,019).",
+        "Reports clear clinical outcome (invasive breast cancer incidence) using robust statistical methods (Cox regression, HRs, CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39463147",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical/mechanistic study using HNSCC cell systems (in vitro and in vivo models).",
+        "Focuses on genetic resistance mechanisms (HRAS mutation) and metabolic pathways, lacking human clinical efficacy data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38167322",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using an experimental carcinoma model in syngeneic mice (animal study).",
+        "Outcomes are preclinical (tumor growth inhibition in mice, Granzyme B expression), lacking human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24496803",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large human cohort study (N=87,600) using a major database.",
+        "Employs rigorous methods (time-dependent variable analysis, Cox regression) specifically to avoid time-related biases common in observational studies.",
+        "Reports clear clinical outcome (bladder cancer incidence) with HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34165313",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study focusing on drug delivery system design (microspheres) and formulation efficacy.",
+        "Outcomes are based on inhibition of metastasis in preclinical models (*in vivo* testing), lacking human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40179096",
+      "is_good_candidate": true,
+      "reasons": [
+        "Robust Mendelian randomization (MR) methodology, suitable for inferring causality in meta-analysis.",
+        "Utilizes strong statistical methods (IVW, MR-Egger, sensitivity analyses).",
+        "Analysis is based on human genetic data from GWAS."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "22497968",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing.",
+        "Cannot assess study methodology, population, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39689458",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an in vitro (cellular assays) and preclinical mechanism study.",
+        "Uses a xenograft mouse model (animal study).",
+        "Lacks human clinical trial data or large-scale epidemiological outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36224510",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing.",
+        "Cannot assess study methodology, population, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38807407",
+      "is_good_candidate": false,
+      "reasons": [
+        "Appears to be a commentary, hypothesis, or discussion focusing on rare clinical observations (case reports).",
+        "Lacks rigorous epidemiological study methodology (RCT or large cohort) necessary for quantitative synthesis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "35140015",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large observational cohort study (N=6225).",
+        "Clear clinical outcome (survival).",
+        "Uses robust statistical methods including Cox proportional hazards models and nested case-control matching with reported HRs and 95% CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34720054",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro/laboratory mechanism study using cancer cell lines.",
+        "Preclinical investigation lacking human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26490666",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (cancer-bearing cats).",
+        "Pilot study design (N=9), focusing on toxicity and biomarkers.",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25843797",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro/cellular mechanism study using human liver cancer cells.",
+        "Focuses on molecular pathways (mTOR, DEPTOR).",
+        "Lacks robust human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26616262",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large, population-based prospective cohort study (Women's Health Initiative).",
+        "Clear clinical endpoints (cancer incidence, cancer death).",
+        "Uses robust Cox regression models with reported HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32994182",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an in vitro and animal model study (mouse allograft model).",
+        "Focuses on molecular mechanism (mTOR signaling and EMT).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38866699",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing.",
+        "Title suggests a letter, editorial, or commentary, not original research or a systematic review."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26997714",
+      "is_good_candidate": false,
+      "reasons": [
+        "Narrative review or commentary aimed at dermatologists.",
+        "Lacks original primary data (RCT, cohort) or systematic review methodology."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31293011",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based retrospective cohort study (N=7872).",
+        "Clear clinical outcome (all-cause mortality).",
+        "Uses robust time-dependent Cox models with reported HRs and 95% CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28380674",
+      "is_good_candidate": true,
+      "reasons": [
+        "Robust observational cohort study (N=636 diabetic NSCLC patients).",
+        "Clear clinical outcome (overall survival).",
+        "Uses time-dependent multivariate Cox models with reported HRs and 95% CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35545330",
+      "is_good_candidate": false,
+      "reasons": [
+        "Narrative review or perspective article.",
+        "Discusses the potential roles and mechanisms of metformin; does not present original primary data or systematic review findings."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36588385",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an in vitro/cellular mechanism study.",
+        "Uses a xenograft mouse model (preclinical in vivo).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40592481",
+      "is_good_candidate": false,
+      "reasons": [
+        "Drug development study focusing on synthesizing and testing a novel nanodelivery system.",
+        "Preclinical work, tested both in vitro and in vivo (likely animal models).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22389381",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro/cellular mechanism study using MTC cell lines.",
+        "Analysis of human tissue samples is very small (N=14) and focused on expression/molecular targets, not clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36351567",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study (N=466 patients).",
+        "Clear clinical endpoints (ORR, PFS, OS).",
+        "Provides comparative statistical analysis (p-values, survival times) suitable for quantitative synthesis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25417601",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=20) for a clinical study.",
+        "Designed as a 'preoperative window' pilot study.",
+        "Primary outcomes are surrogate markers (Ki-67, metabolomics) rather than hard long-term efficacy endpoints (OS, PFS)."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "37562095",
+      "is_good_candidate": false,
+      "reasons": [
+        "Prospective, single-arm Phase I/II clinical trial (N=25 evaluable).",
+        "Design is preliminary, primarily assessing tolerability and safety, with insufficient power and lack of a randomized control group for definitive efficacy meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "28619830",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based cohort study (N=12,572 elderly PDAC patients).",
+        "Clear clinical outcome (Overall Survival).",
+        "Uses robust statistical methods (time-varying Cox models, propensity score adjustment) with reported HRs and 95% CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37620736",
+      "is_good_candidate": false,
+      "reasons": [
+        "Very small sample size for a clinical intervention study (N=20 treated patients).",
+        "Primary focus is molecular mechanism (gene expression, miRNA/PI3K/AKT pathway modulation), not robust clinical efficacy outcomes."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "35040885",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing.",
+        "Cannot assess study methodology, population, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35274724",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase I dose de-escalation study (N=40 patients).",
+        "Primary focus is safety, tolerability, and pharmacokinetics (PK).",
+        "Not designed or powered for efficacy inclusion in meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39182906",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (PCOS rats).",
+        "Focuses on gene expression, hormonal balance, and biochemical mechanisms.",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40277915",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro/cellular mechanism study using TNBC cells.",
+        "Focuses on molecular signaling pathways (HMGB1/RAGE, EMT).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23942093",
+      "is_good_candidate": false,
+      "reasons": [
+        "Hybrid study: although it includes prognostic data from human patients (N=273), the therapeutic effects and mechanism are primarily validated using in vitro assays and xenograft animal models (preclinical focus)."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "36361684",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical animal study (syngeneic colon cancer mouse model).",
+        "Focuses on immunological mechanisms and imaging validation.",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28193839",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro/cellular mechanism study.",
+        "Uses a xenographic tumor growth model in vivo (preclinical).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36583563",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study focusing on human patients (N=168).",
+        "Clear clinical endpoints (OS, PFS, DFS).",
+        "Uses appropriate statistical methods (adjusted HRs and 95% CIs) suitable for meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37552599",
+      "is_good_candidate": false,
+      "reasons": [
+        "Chemistry/Synthesis study focusing on the development of TPP+ analogs and protocols for detection.",
+        "Preclinical investigation using cell lines and mouse tissue.",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22565006",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing.",
+        "Title suggests a methodological commentary or editorial (not original data)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38922530",
+      "is_good_candidate": false,
+      "reasons": [
+        "In silico/Computational modeling study using pre-existing tumor cell line data (DepMap).",
+        "Lacks primary human clinical outcome data from an RCT or cohort study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40562062",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective comparative study in human patients (N=66).",
+        "Assesses clinically relevant patient-reported outcomes (HRQOL, distress) and metabolic changes over time.",
+        "Uses regression analysis to provide quantitative associations."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37933877",
+      "is_good_candidate": false,
+      "reasons": [
+        "Nanoparticle synthesis and testing study.",
+        "In vitro/cellular model investigation (3D spheroid).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30693913",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro/cellular mechanism study.",
+        "Uses a xenograft mouse model in vivo (preclinical).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31532548",
+      "is_good_candidate": false,
+      "reasons": [
+        "Designated as a 'Letter' (editorial comment or opinion).",
+        "Lacks original primary data or systematic review methodology."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35552758",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (PCOS rats).",
+        "Focuses on molecular signaling pathways (lncRNA/miRNA/GLUT4 regulation).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32410514",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study.",
+        "Clear clinical outcome (cancer incidence risk).",
+        "Uses standardized statistical metrics (SIRs and 95% CIs) suitable for meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38185658",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (mouse model of radiation-induced skin fibrosis).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32919225",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based retrospective cohort study (N > 138,000 users).",
+        "Clear clinical endpoint (overall cancer incidence).",
+        "Uses robust Cox regression models and advanced statistical methods (IPTW) with reported HRs and 95% CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37676282",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective clinical cohort analysis (N=802).",
+        "Clear clinical endpoints (OS, PFS, ORR) and comparison of treatment subgroups.",
+        "Uses multivariate Cox analysis, providing statistical metrics suitable for inclusion."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31346700",
+      "is_good_candidate": false,
+      "reasons": [
+        "Narrative review, commentary, or hypothesis paper.",
+        "Calls for further investigation; does not present original primary data or systematic review findings."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22266734",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=112,408 individuals).",
+        "Clear clinical outcome (all-cause mortality after incident cancer).",
+        "Uses Cox proportional hazards models with reported HRs and 95% CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34288597",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing.",
+        "Title suggests a review or mechanistic commentary; cannot assess methodology."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32021184",
+      "is_good_candidate": false,
+      "reasons": [
+        "Drug development study focusing on synthesizing and testing multifunctional nanoparticles.",
+        "Primarily preclinical work using xenograft mouse models.",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26132091",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on developing and validating a preclinical methodology (CSC assays).",
+        "Preclinical study using cell lines and mouse models (xenografts).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23864581",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (N=65,754 patients).",
+        "Clear clinical outcome (cancer risk reduction).",
+        "Focuses on dose-dependent effects and reports HRs and 95% CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36127427",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a basic science/mechanistic study using single-cell RNA-sequencing (scRNA-seq)",
+        "Focus is on cell heterogeneity and receptor-ligand interactions rather than clinical intervention efficacy",
+        "Retrospective clinical data mentioned is exploratory and supportive, not the main methodological study type required for meta-analysis of clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39122360",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (Merative Marketscan)",
+        "Uses robust methodology (propensity score matching, Cox regression)",
+        "Clear intervention/comparator groups (SGLT-2i vs oGLDs, and SGLT-2i + Metformin)",
+        "Defined clinical outcomes (HCC, cirrhosis, CVD, CKD, non-liver cancer)",
+        "Statistical results reported (HRs, 95% CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38967919",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large nationwide retrospective cohort study (N=1.6 million)",
+        "Robust methodology utilizing propensity-score matching and Cox proportional hazards analysis",
+        "Compares defined exposures (GLP-1RAs, insulin, metformin)",
+        "Reports clear statistical outcomes (HRs and 95% CIs) for 13 obesity-associated cancers."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38665260",
+      "is_good_candidate": false,
+      "reasons": [
+        "Very small sample size (N=25)",
+        "Observational follow-up design, not a primary randomized trial comparison",
+        "Insufficient power and high susceptibility to bias for robust inclusion in a major meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36907105",
+      "is_good_candidate": false,
+      "reasons": [
+        "Predominantly a mechanistic and preclinical study (in vitro/in vivo mouse models)",
+        "The associated human cohort is small (n=85) and described as 'exploratory-observational-randomized retrospective,' lacking the quality criteria for robust efficacy trials."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33516777",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty, suggesting a non-primary research article (e.g., editorial, letter, or commentary)",
+        "Lacks defined methodology, population, or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38098114",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase Ib clinical trial, primarily focused on safety and tolerability",
+        "Very small sample size (N=20 enrolled)",
+        "Efficacy data (PFS) is preliminary and exploratory, not powered for definitive conclusions (authors suggest further investigation in larger trials)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38926749",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large prospective cohort study (NHANES linkage) providing nationally representative data (N=3995)",
+        "Robust statistical methods used (Cox proportional hazards and logistic regression)",
+        "Clear, clinically relevant outcomes (cardiometabolic mortality and disease incidence)",
+        "Effect sizes (HRs/ORs and CIs) are reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39408965",
+      "is_good_candidate": false,
+      "reasons": [
+        "Relatively small sample size for a cohort comparison (PCOS n=69, controls n=18)",
+        "Primary focus is mechanistic (changes in gut microbiota and SCFAs), rather than core clinical endpoints (e.g., birth rates, major morbidity)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37314979",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (N=4851 esophageal cancer patients)",
+        "Clear exposure (metformin use) and outcome (all-cause and disease-specific mortality)",
+        "Robust statistical analysis (multivariable Cox regression) including dose-response trend",
+        "Statistical results (HRs and 95% CIs) are reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29860724",
+      "is_good_candidate": false,
+      "reasons": [
+        "Described as a 'preliminary observation' and retrospective chart review",
+        "Focuses heavily on surrogate biomarkers of aging (ferritin, HbA1c, lymphocyte counts) rather than definitive cancer outcomes",
+        "Implied limitations in sample size and methodology typical of preliminary studies."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "38374053",
+      "is_good_candidate": false,
+      "reasons": [
+        "Randomized controlled trial (RCT) but severely limited by small size (N=60 recruited, N=36 completed)",
+        "Short treatment duration (12 weeks)",
+        "Authors explicitly state findings need to be confirmed in PCOS study populations with larger sample sizes, suggesting lack of sufficient power."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "35220243",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small retrospective cohort study (N=40 patients)",
+        "Primarily focused on assessing safety (Phase Ib characteristics) of a combination therapy",
+        "Lack of robust control group for efficacy comparison of metformin versus non-metformin diabetic controls."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40601368",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large nationwide population-based cohort study",
+        "Rigorous methodological approaches employed (1:1 propensity score matching, time-dependent Cox models, Fine-Gray competing risk analysis)",
+        "Clear exposure/outcome definitions (CRC risk, all-cause mortality), with dose-response assessment",
+        "Statistical results (aHRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32446797",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based case-control study with data from two large cohorts",
+        "Clear outcomes (risk reduction for breast and colorectal cancer)",
+        "Robust statistical methods used (multivariate analysis, adjusted for multiple confounders)",
+        "Effect sizes (ORs, CIs) are reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37659962",
+      "is_good_candidate": false,
+      "reasons": [
+        "Highly mechanistic focus involving preclinical models (mouse models, cell lines) and biomarker correlation (NKX3.1 status)",
+        "Clinical data serves primarily for correlation with a specific molecular marker, not robust general population efficacy assessment."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37399061",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a mechanistic study focusing on resistance mechanisms (insulin feedback) using mouse models",
+        "Retrospective clinical evaluation derived from a small Phase 2 trial is secondary and biomarker-focused, not intended for robust clinical efficacy analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26973204",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (UK National Cancer Data Repository, N=533/1350 analyses)",
+        "Clear outcome (lung cancer-specific mortality) and exposure groups",
+        "Robust statistical analysis using Cox regression models",
+        "Statistical results (adjusted HRs, CIs) provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38366810",
+      "is_good_candidate": true,
+      "reasons": [
+        "Cohort study derived from high-quality primary data (two randomized trials, PregMet2 and Labour Progression Study)",
+        "Clear comparison between metformin and placebo in the PCOS subgroup",
+        "Defined patient-reported outcome measure (Childbirth Experience Questionnaire, CEQ scores)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "27496094",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N=21,352 U.S. Veterans)",
+        "Robust statistical methodology (multivariable Cox models) adjusted for diabetic severity and other risk factors",
+        "Clear primary outcome (Overall Survival) comparing metformin users to non-metformin users",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23962874",
+      "is_good_candidate": true,
+      "reasons": [
+        "Moderately large cohort study (N=9486 T2DM patients)",
+        "Uses Cox proportional hazards regression to examine cancer risk (breast, prostate, colon)",
+        "Compares multiple glucose-lowering medications (metformin, insulin, sulfonylurea) and glycemic control levels."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36178848",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based retrospective cohort study (N=1971 patients)",
+        "Employs robust statistical adjustment technique (Inverse Probability Treatment Weighting, IPTW) to balance covariates",
+        "Clear outcomes (PCa-related mortality and all-cause mortality)",
+        "Statistical results (wHRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34373584",
+      "is_good_candidate": true,
+      "reasons": [
+        "Extremely large population-based cohort study (N=388,760 men)",
+        "Utilizes robust methodology including time-dependent variables in Cox proportional hazard models",
+        "Clear outcomes (PC incidence and mortality) assessed over a 10-year period",
+        "Statistical results (aHRs, CIs) provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30385499",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing, suggesting a non-primary research article (Letter), lacking defined methodology and statistical results."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40595354",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N=63,907 women) using SEER-Medicare data",
+        "High-quality methodological design using Inverse Probability of Treatment Weighting (IPTW-PS) and competing-risks models",
+        "Clear outcomes (all-cause and cancer-specific mortality)",
+        "Statistical results (HRs, CIs) provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26721670",
+      "is_good_candidate": true,
+      "reasons": [
+        "Population-based retrospective cohort study using administrative databases",
+        "Employs appropriate statistical techniques for time-varying exposure and mortality (Fine-Gray competing risk and Cox regression)",
+        "Examines dose-dependent relationship for clear mortality outcomes (cancer-specific and overall)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "21812892",
+      "is_good_candidate": true,
+      "reasons": [
+        "Moderately large retrospective cohort study (N=3685 T2DP)",
+        "Uses robust methodology, including Cox regression for competing risks and adjustment using propensity scores",
+        "Clear outcomes (cancer and other-than-cancer mortality)",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40532471",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large nationwide retrospective cohort study (N=753 patients) providing real-world evidence (RWE)",
+        "Uses multivariate analysis to control for comorbidities and disease aggressiveness",
+        "Clear survival outcomes (OS and PFS) related to metformin comedication."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "22778198",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based retrospective cohort study (N=~1 million individuals followed)",
+        "Robust statistical methods (Cox regression, adjustment for confounders and detection bias)",
+        "Clear outcome (colon cancer risk) and assessment of duration/dose-dependent effect",
+        "Statistical results (adjusted RRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23918942",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based retrospective cohort study (N=3837 patients)",
+        "Employs robust methodology using a time-varying Cox proportional hazard model for cumulative duration exposure (dose-dependent analysis)",
+        "Clear outcomes (PC-specific and all-cause mortality)",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "19717820",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract content is missing, suggesting a non-primary research article (likely a commentary or editorial), lacking defined methodology and statistical results."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38490274",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large nationwide nested case-control study (N=1737 cases, N=8685 controls)",
+        "Rigorous methodology (incidence-density matching, conditional logistic regression)",
+        "Clear exposure (GLP-1RA use) and outcome (glaucoma incidence), with duration analysis",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28918830",
+      "is_good_candidate": false,
+      "reasons": [
+        "Relatively small retrospective cohort study for survival analysis (Colon N=202, Lung N=180)",
+        "Comparison group definition is weak and susceptible to confounding ('controls taking any medication except MF')."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "36662841",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primary focus is on Bacille Calmette Guerin (BCG) intervention, not metformin efficacy",
+        "Mixed methodology includes small retrospective clinical cohorts and weak ecological analysis of global data",
+        "Metformin is discussed primarily as a potential confounding/inhibitory factor."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24133632",
+      "is_good_candidate": false,
+      "reasons": [
+        "Retrospective cohort study with severely imbalanced comparison groups (Metformin group N=20, Non-diabetic N=422)",
+        "Small key subgroup size dramatically increases the risk of bias and limits power for robust meta-analysis comparison."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40323038",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort analysis (N=4882 patients) from a specialized cancer center",
+        "Utilizes univariable and multivariable analysis to assess risk factors",
+        "Clear, clinically relevant outcome (lymphedema risk after ALND)",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34085799",
+      "is_good_candidate": true,
+      "reasons": [
+        "Nationwide population-based cohort study (Korean NHIS Data)",
+        "Robust statistical methods (Cox proportional hazards regression, multivariable adjustment)",
+        "Clear survival outcomes (OS, CSS) including analysis based on long-term use",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40268162",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective comparative cohort study (N=74,975 matched pairs)",
+        "Robust methodological technique (1:1 propensity score matching, Cox models) to compare first-line therapies (SGLT2i vs Metformin)",
+        "Clear, clinically relevant outcomes (dementia incidence, mortality)",
+        "Statistical results (aHRs, CIs) provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38114915",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality retrospective study using propensity score matching to balance cohorts",
+        "Clear comparative intervention (metformin mono vs dual therapy with SGLT2-I)",
+        "Defined clinical outcomes (mortality, hepatic decompensation, HCC occurrence)",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34811499",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large cohort study (N=4572 men with advanced PCa)",
+        "Utilizes robust statistical methods (multivariable, time-varying Cox models) appropriate for longitudinal drug exposure",
+        "Clear survival outcomes (all-cause and PCa-specific mortality)",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35079115",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase 2 randomized controlled trial (RCT)",
+        "Very small sample size (N=29 enrolled)",
+        "The trial was stopped early due to predicted inability to achieve the primary endpoint, indicating insufficient power/efficacy for robust synthesis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36400170",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large observational retrospective study using EHR data from 52 hospitals",
+        "Used Inverse Probability Score Weighting (IPSW) for robust covariate balancing",
+        "Clear clinical outcome (COVID-19 severity and mortality)",
+        "Statistical results (ORs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27211307",
+      "is_good_candidate": true,
+      "reasons": [
+        "Multicenter retrospective study across 8 centers in 2 countries",
+        "Moderate sample size (N=108) with balanced comparison groups",
+        "Multivariate analysis performed to assess metformin use as an independent factor for survival",
+        "Clear outcomes (PFS, OS) reported with statistical results (HRs, P-values)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37452329",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=3742 BC patients)",
+        "Rigorous statistical methodology (multivariable Cox models) and sensitivity analysis using propensity-score matching",
+        "Clear survival outcomes (OS, DSS, RFS) related to chronic medication use",
+        "Statistical results (HRs, CIs) provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32182614",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primary outcome assessed is a genomic biomarker (Oncotype DX Recurrence Score), not a hard clinical endpoint (e.g., recurrence or survival)",
+        "Limited clinical utility for meta-analyses focused on efficacy/mortality."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "33848178",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study focuses on a highly specific and high-risk patient population (Heart Transplant recipients)",
+        "Key subgroup of metformin users is very small (N=52), limiting statistical power and generalizability."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "24215316",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (N=1058 diabetic women with breast cancer)",
+        "Uses multivariate Cox regression to assess survival outcomes (all-cause and cancer-specific mortality)",
+        "Includes dose/duration stratification for refined analysis",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29956875",
+      "is_good_candidate": true,
+      "reasons": [
+        "Extremely large retrospective cohort study (N=43,800 matched cohort)",
+        "Highly rigorous statistical methodology (Propensity Score matching, Cox regression with Inverse Probability of Treatment Weighting, dose-response analysis)",
+        "Clear outcome (HCC risk reduction)",
+        "Statistical results (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27519177",
+      "is_good_candidate": true,
+      "reasons": [
+        "Moderate-to-large retrospective cohort study (N=1106 patients)",
+        "Clear defined outcome (Overall Survival) in advanced NSCLC patients",
+        "Robust statistical analysis (multivariate Cox proportional hazard model) controlling for confounding factors."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "30753459",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large cohort study (N=55,629 T2DM patients)",
+        "Employs highly advanced and robust statistical methodology (Marginal Structural Models with IPTW) specifically appropriate for analyzing time-varying drug exposure with time-varying confounders",
+        "Clear cancer risk outcomes (HRs, CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24898303",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=95,820) designed to emulate an intention-to-treat trial.",
+        "Clear comparative exposure (Metformin vs. Sulfonylurea) and well-defined outcome (incident cancer diagnosis).",
+        "Uses robust statistical methods (Cox proportional hazards models) and reports effect sizes (HRs, CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35533029",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study derived from a randomized trial population.",
+        "Clear exposure (sulfonylureas vs. non-users) and measurable outcomes (SCC and BCC development).",
+        "Provides appropriate statistical measures (HRs and CIs) after controlling for confounders."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32798709",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=74,984) using high-quality data (VHA).",
+        "Employs advanced statistical techniques (Marginal structural models and propensity-matching) to control for confounding.",
+        "Clear clinically relevant outcomes (mortality, HCC, hepatic decompensation) and reports effect sizes (HRs, CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34779535",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=85,963) with long follow-up (mean 10.3 years).",
+        "Focuses on a specific high-risk population (NAFLD and DM) with clear outcomes (HCC risk).",
+        "Uses appropriate statistical methods (Cox proportional hazards models) and reports HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33610593",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based case-control study (N > 76,000 participants).",
+        "Clear exposure (metformin use) and defined outcomes (BCC, SCC).",
+        "Provides quantifiable effect sizes (ORs, CIs) calculated using conditional logistic regression."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37125965",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large, multi-institutional cohort study (N=1,395 patients) focusing on a specific clinical intervention (Immune Checkpoint Blockade).",
+        "Clear survival outcomes (OS and PFS).",
+        "Uses multivariable analysis and reports adjusted effect sizes (HRs, CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34260511",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear retrospective cohort design with defined population (sporadic VS patients) and outcome.",
+        "Uses a measurable primary outcome (volumetric tumor growth defined by >20% increase).",
+        "Provides statistical results including HRs and CIs, suitable for pooling regardless of null findings."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37889443",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study focusing on survival in a severe cancer type (glioblastoma).",
+        "Clear outcome (overall survival) and statistical analysis (Cox regression, Kaplan-Meier).",
+        "Provides adjusted effect sizes (aHRs, CIs) for inclusion."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "27587088",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N > 300,000) using national insurance data.",
+        "Robust statistical methodology (Cox regression with inverse probability of treatment weighting).",
+        "Clear exposure, outcome (gastric cancer risk), and detailed dose-duration analysis (HRs, CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33626532",
+      "is_good_candidate": true,
+      "reasons": [
+        "Multi-center retrospective cohort study (N=537) focused on a specific cancer type (Cholangiocarcinoma).",
+        "Clear clinical endpoints (Disease-Free Survival and Overall Survival).",
+        "Provides necessary statistical data (HRs, CIs) for meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "40239400",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study (single center, N=953) focused on complications (IMC) and survival in ICI patients.",
+        "Clear methodology and defined clinical outcomes (IMC incidence, OS).",
+        "Provides statistical comparisons (p-values, survival data) and is relevant to drug toxicity/efficacy."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "33058005",
+      "is_good_candidate": false,
+      "reasons": [
+        "The article is primarily a discussion or hypothesis-generating piece based on preliminary evidence.",
+        "It focuses on a potential molecular mechanism (IRS1 pathway) and explicitly calls for future prospective RCTs.",
+        "Does not report primary clinical outcomes or robust effect sizes from a controlled trial or large cohort."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30281009",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective study (N=2,441) using an institutional database.",
+        "Clear defined intervention (radiation therapy) and clinically relevant outcomes (BCR and OS).",
+        "Uses rigorous statistical methods (Kaplan-Meier, Cox regression, multivariate analysis) and reports HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34929693",
+      "is_good_candidate": true,
+      "reasons": [
+        "Multicentre retrospective cohort study using a large number of hospital databases (N=9).",
+        "Investigates chemopreventive effects on specific cancer subtypes (ESCC, EAC).",
+        "Provides adjusted effect sizes (aORs) and p-values for clear associations."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32159875",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study comparing matched arms (metformin users vs other antidiabetic agents).",
+        "Clear definition of patient population (solid organ transplant recipients) and primary outcome (malignancy first occurrence).",
+        "Provides survival curves and subgroup analyses, suitable for pooling."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "33725979",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large, nationwide population-based retrospective cohort study (Korean NHIS, N > 9,000 diabetic survivors).",
+        "Clear primary outcome (all-cause mortality in cancer survivors).",
+        "Uses robust statistical methods (Cox models, stratified analysis) and reports adjusted HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32532851",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=20,577) comparing risks of third-line antidiabetic medications.",
+        "Uses strong statistical methodology (Propensity-score weighting) to reduce confounding.",
+        "Clear outcomes (cancer incidence, cancer mortality, all-cause mortality) with HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36547172",
+      "is_good_candidate": true,
+      "reasons": [
+        "Population-based retrospective cohort study focused on a defined cancer population (Head and Neck Melanoma, N=382).",
+        "Clear survival outcome (Recurrence-Free Survival).",
+        "Uses robust multivariate Cox regression analysis and reports HRs and CIs."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "33911196",
+      "is_good_candidate": false,
+      "reasons": [
+        "This article is identified as a comment/editorial discussing the complexity of associations.",
+        "It does not present primary data, original results, or formal statistical analysis suitable for meta-analysis pooling."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37077173",
+      "is_good_candidate": true,
+      "reasons": [
+        "Nationwide retrospective cohort study (Taiwan NHIRD) with a large matched cohort (N=6,222).",
+        "Clear clinical outcomes (5-year overall survival and risk of liver metastasis).",
+        "Uses appropriate methodology (Cox regression with time-dependent covariates) and reports HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26013675",
+      "is_good_candidate": true,
+      "reasons": [
+        "Nested case-control study design, which is a methodologically strong approach within a cohort.",
+        "Clear exposure (various antidiabetic drugs) and outcome (HCC risk).",
+        "Provides statistical measures (ORs, CIs) and analyzes duration dependency."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "29453032",
+      "is_good_candidate": true,
+      "reasons": [
+        "Population-based observational study using cancer registry and claims data.",
+        "Clear survival outcomes (Overall Survival and Cancer-Specific Mortality).",
+        "Uses appropriate time-dependent Cox regression models and reports HRs and CIs."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36008432",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort analysis using Propensity Score (PS) matching to balance covariates.",
+        "Clear focus on treatment response (TACE) and local recurrence (LTR) in HCC patients.",
+        "Provides robust statistical results (ORs and HRs with CIs) on treatment efficacy."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "28736111",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective follow-up cohort study investigating malignancy risk after heart transplantation.",
+        "Metformin treatment and DM status are assessed as time-dependent factors.",
+        "Uses robust multivariate analysis and reports significant HRs and CIs over 15 years of follow-up."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31770138",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large case-control study (N > 460,000) using US Veterans EHR data.",
+        "Clear exposure (metformin use) and outcome (CRC risk, stratified by site).",
+        "Uses multivariable and multinomial logistic regression, reporting ORs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30229901",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based cohort study (N > 223,000 incident cancer patients).",
+        "Uses strong methodological controls including Propensity Score (PS) matching.",
+        "Clear outcome (risk of new-onset metastatic cancer) and reports adjusted HRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35134807",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is primarily focused on identifying and validating a biomarker (HSPA6) derived from mechanistic pathways, not on metformin's primary clinical effect.",
+        "Includes initial in vitro/NGS analysis.",
+        "The clinical cohort (N=83) is small and used to assess biomarker prognostic value, not metformin outcome association in a large cohort."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26897929",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=913) focused on a specific cancer type (Biliary Tract Cancer).",
+        "Clear survival outcomes (RFS and OS).",
+        "Provides necessary statistical data (HRs, CIs from multivariable analysis) for meta-analysis pooling."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "33464703",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a pilot randomized controlled trial with a very small sample size (N=30).",
+        "The primary endpoint (HCL levels measured by MRS) is an intermediate metabolic outcome, not a long-term clinical or oncological endpoint.",
+        "Insufficient power for meta-analysis of survival/incidence."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "27789181",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective review (N=3,217) from an institutional database.",
+        "Detailed subgroup analysis based on specific antidiabetic drug classes (metformin vs. insulin vs. none).",
+        "Uses advanced competing risk regression models and reports subdistribution hazard ratios (sHRs, CIs) for survival and failure."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30941974",
+      "is_good_candidate": false,
+      "reasons": [
+        "Relatively small sample size (N=518).",
+        "The primary endpoint is prostate cancer detection/grade at biopsy, which is prone to selection and screening bias, rather than true incidence or survival in a general population cohort.",
+        "Limited statistical power for robust meta-analysis inclusion."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "29165598",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study population (offspring born to mothers with PCOS) and primary outcomes (fetal growth and birth anthropometrics) are irrelevant to the meta-analysis topic (adult cancer risk or survival).",
+        "This is a post-hoc analysis focused on maternal/fetal health."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32424261",
+      "is_good_candidate": true,
+      "reasons": [
+        "Case-control design assessing the risk of overall and high-grade prostate cancer (N=3,481).",
+        "Clear definition of exposure (metformin use) and outcome.",
+        "Provides necessary statistical measures (ORs, CIs) for meta-analysis of association studies."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "30084749",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective review comparing metformin users versus non-metformin antidiabetic drug users (N=321 CRC/DM patients).",
+        "Clear survival outcomes (Overall Survival and Progression-Free Survival).",
+        "Provides adjusted HRs and CIs, suitable for pooling regional data."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "34312687",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective analysis focused on treatment efficacy (Y-90 RS) in HCC patients (N=106).",
+        "Clear outcomes (tumor response by mRECIST and OS).",
+        "Uses multivariate logistic regression and provides survival analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31583436",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a Phase I trial primarily designed to assess safety, dose-limiting toxicities (DLTs), and pharmacodynamics (AMPK).",
+        "Sample size (N=100) is small for efficacy comparison, and secondary endpoints (response rates, stable disease) lack the definitive power of a Phase III study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25899185",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study population (pregnant women with PCOS) and outcome (Gestational Diabetes Mellitus) are irrelevant to the meta-analysis topic (adult cancer incidence or survival).",
+        "Focuses on obstetric and metabolic outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37270169",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a mechanistic and preclinical study involving in vitro cell line experiments, molecular analysis (qPCR, Western blotting), and animal models ('in vivo').",
+        "Clinical data component is limited (retrospective SUVmax correlation) and not the primary focus of robust clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29246826",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=16,237 matched pairs) using national database.",
+        "Uses strong methodological control (propensity score weighted Cox regression).",
+        "Clear outcome (skin cancer risk) and provides detailed dose/duration analysis (HRs, CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37227368",
+      "is_good_candidate": true,
+      "reasons": [
+        "High-quality observational study using methodologically rigorous approach (Target Trial Emulation).",
+        "Based on large population-based linked electronic health records (UK).",
+        "Clear outcomes (total cancer and site-specific cancer incidence) and reports risk differences/CIs using IPTW."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37735822",
+      "is_good_candidate": false,
+      "reasons": [
+        "The primary exposures examined are GLP-1RAs and DPP-4 inhibitors compared to SGLT2 inhibitors.",
+        "Metformin serves only as a background add-on therapy, not the primary exposure whose effect is being analyzed for meta-analysis inclusion."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "38308321",
+      "is_good_candidate": false,
+      "reasons": [
+        "This article is a protocol description for a Phase II randomized clinical trial (MILI study).",
+        "It provides methodology and endpoints but contains no finalized data, results, or effect sizes for inclusion in a meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39790228",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N=88,713) of US veterans.",
+        "Direct comparison of Metformin versus Sulfonylurea (active comparator).",
+        "Uses strong statistical methodology (Propensity Score-Matched IPTW, Cox models) and reports HRs and CIs for cancer subtypes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34443319",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is primarily an in vitro and mechanistic study focusing on the chemical structure (metal complex formation) and antiproliferative effects in cancer cell lines.",
+        "It does not report human clinical outcomes (incidence or survival)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "20980415",
+      "is_good_candidate": true,
+      "reasons": [
+        "Nested case-control study design within a defined cohort (insulin-treated T2DM patients).",
+        "Clear outcome (incident cancer) and exposure (metformin use).",
+        "Provides effect sizes (ORs, CIs) adjusted for confounders."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "40290515",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a systematic review and Network Meta-Analysis (NMA), which summarizes primary data.",
+        "Meta-analyses typically include only primary research studies (RCTs or observational cohorts/case-controls), not other reviews/meta-analyses."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30623338",
+      "is_good_candidate": true,
+      "reasons": [
+        "Community-based retrospective cohort study (N=2,353) with clear comparative groups (monotherapy vs. non-users).",
+        "Clear outcome (cancer incidence) and statistical analysis (adjusted HRs, CIs).",
+        "Provides real-world evidence of association."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "34006970",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using colorectal cancer cell lines.",
+        "Focuses on metabolic phenotype and mechanistic drug response under differing glucose conditions.",
+        "Lack of human clinical data on incidence or survival."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25575041",
+      "is_good_candidate": false,
+      "reasons": [
+        "The endpoint is prostate cancer diagnosis and grade following a specific, invasive biopsy procedure (template-guided mapping biopsy).",
+        "This endpoint is highly susceptible to screening and selection bias rather than being a measure of population-level incidence or overall survival.",
+        "Small sample size for assessing cancer risk association (N=1034)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "25419576",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large cohort study (N=23,394) with long follow-up (9 years).",
+        "Methodologically rigorous, addressing time-related biases by using Lexis tabulation and Poisson regression.",
+        "Clear outcome (cancer incidence) and provides RRs and CIs."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36428689",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using cancer cell lines.",
+        "Preclinical animal study (mouse xenografts).",
+        "Focuses on molecular mechanisms (NAMPT inhibition)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38971341",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical animal study (SDT rats).",
+        "Investigates the effect of a plant extract (CGDCM), not a standard pharmaceutical intervention."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29977599",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily in vitro study investigating molecular mechanisms (Wnt signaling, intracellular acidification).",
+        "Includes a mouse xenograft model (preclinical)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38893174",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro cell line study (CRC cells).",
+        "Focuses on transcriptomics and molecular mechanism analysis (miRNA and gene pairs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28732480",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a description of an ongoing clinical trial protocol ('currently open to recruitment'), lacking final outcome data.",
+        "The primary endpoint is surrogate biological markers (FASN/AMPK pathway expression) rather than hard clinical outcomes."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31597663",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primary findings derived from animal model (mice).",
+        "Small human observational cohort focusing on tissue histology and biological markers (fibrosis, T-cell ratios)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26291325",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro cell line study (breast cancer cells).",
+        "Focuses on molecular mechanisms (PKM2, AMPK/mTOR pathway modulation)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25358675",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective population-based screening trial (ERSPC Aarau).",
+        "Analyzes clinical outcomes (PCa incidence, overall survival).",
+        "Reports robust statistical analysis (OR, 95% CI)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "26472977",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a systematic review and meta-analysis (secondary source data), not a primary clinical or epidemiological study suitable for pooling individual data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36766896",
+      "is_good_candidate": false,
+      "reasons": [
+        "Appears to be a simple survey/questionnaire-based observational study.",
+        "Lacks clear definition of control group, rigorous statistical methodology, and sufficient quantitative outcomes in the abstract for pooling."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "25502158",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study spanning 20 years (N=583 patients).",
+        "Defined clinical outcome (progression to esophageal adenocarcinoma).",
+        "Uses multivariate logistic regression and reports statistical findings (P-values)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "32601620",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small pilot/preliminary randomized study (N=41).",
+        "Primarily focuses on translational correlates (AMPK phosphorylation) and safety (DLT), not large-scale efficacy data.",
+        "Presents results as a sub-group analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "40243198",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large-scale, long-term Randomized Controlled Trial (RCT) follow-up (DPP/DPPOS, N=3,234).",
+        "Clear intervention (Metformin vs. Placebo/ILS).",
+        "Measures hard clinical endpoint (Total Cancer Incidence) over 21 years.",
+        "Reports robust statistical analysis (HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32532664",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large-scale retrospective cohort study (N=336,168) using national registry data.",
+        "Analyzes hard clinical outcome (lung cancer incidence).",
+        "Reports Hazard Ratios (HR) and Confidence Intervals (CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25681088",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical animal study (rat and mouse models).",
+        "Investigates mammary carcinogenesis models."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36604960",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based retrospective cohort study (N>130,000).",
+        "Clear clinical outcome (cervical cancer incidence) in a defined population (newly diagnosed T2DM).",
+        "Reports robust statistical measures (HR, CI) and dose-response findings."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22611195",
+      "is_good_candidate": false,
+      "reasons": [
+        "Basic science/mechanistic study focused on genome-wide analysis of translational targets.",
+        "Lacks human clinical outcome data (incidence or survival)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25377470",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro metabolic studies.",
+        "Preclinical animal study (mice) investigating dietary manipulation."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25674734",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (N=71,847) using national database.",
+        "Analyzes clinical outcomes (HCC and non-liver cancers).",
+        "Reports adjusted Hazard Ratios (HR) and Confidence Intervals (CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30385498",
+      "is_good_candidate": false,
+      "reasons": [
+        "The article is identified as a 'Letter', indicating it is an opinion, editorial, or commentary, lacking primary data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27534967",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an in vitro/cell line study investigating molecular mechanisms (EMT, epigenetics, AMPK/ERK axis).",
+        "Translational validation is limited to leukocytes from diabetic subjects."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "24074896",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a hypothesis paper, not a primary research study reporting data or outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27689018",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using cancer cell lines.",
+        "Investigates Canagliflozin, a drug mechanistically related but chemically distinct from Metformin, and is not suitable for a Metformin-specific meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25913129",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N=478,921) using national registry data.",
+        "Clear clinical outcome (endometrial cancer risk).",
+        "Uses robust statistical modeling (time-dependent Cox regression, PS-adjustment) and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28154203",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical animal study (rat model of mammary carcinogenesis).",
+        "Focuses on surrogate markers (OCT2 protein expression, tumor volume regression)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25804611",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical animal study (rat model).",
+        "Investigates chemically induced mammary carcinogenesis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25820555",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N=479,475) using national registry data.",
+        "Clear clinical outcome (ovarian cancer incidence).",
+        "Uses robust statistical modeling (time-dependent approach) and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38520039",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large prospective cohort study (N=185,181, Nurses' Health Studies).",
+        "Substantial person-years of follow-up (3.3 million).",
+        "Analyzes hard clinical outcome (breast cancer incidence) and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "21800293",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clinical retrospective cohort study (N=1448) focused on a specific cancer subtype (TNBC).",
+        "Analyzes hard survival outcomes (DMFS, RFS, OS).",
+        "Uses Cox proportional hazards models and reports HR and CI."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "26537234",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N=482,033) using national registry data.",
+        "Studies breast cancer incidence and statistically evaluates the role of metformin as a risk modifier.",
+        "Reports HRs and CIs."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "23641353",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study (N=1,320 patients) with clinical outcome (cancer incidence).",
+        "Uses multiple regression analysis and compares metformin dosage groups (quantitative data).",
+        "Provides primary epidemiological data."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "31269196",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based cohort study (N>315,000).",
+        "Uses robust statistical methodology (time-dependent Cox model, weighted cumulative exposure) to minimize bias.",
+        "Analyzes cancer incidence across major sites and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22751115",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily an animal study (mice) and in vitro study focused on molecular mechanisms (AMPK, DNA repair).",
+        "Preclinical investigation of skin tumorigenesis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36168905",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based retrospective cohort study using national database.",
+        "Analyzes specific clinical outcome (pancreatic cancer incidence).",
+        "Uses Cox regression and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23966577",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study using nested case-control methodology.",
+        "Rigorous statistical analysis (conditional logistic regression, accounted for latency).",
+        "Clear clinical outcome (colorectal cancer incidence) and reports RR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22994747",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using cancer cell lines (Hep-G2).",
+        "Preclinical animal xenograft model (in vivo tumor growth).",
+        "Focuses on molecular mechanisms (mTOR, apoptosis)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26405648",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a review article summarizing clinical observations, animal studies, and cell line research.",
+        "Does not present new primary data for pooling."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25051408",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large prospective cohort study (N=88,107, Women's Health Initiative).",
+        "Analyzes endometrial cancer risk and reports multivariate Cox regression results (HR, CI).",
+        "Addresses major confounders (BMI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23137378",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study using large UK database (CPRD).",
+        "Compares cancer incidence between initial metformin and sulfonylurea exposure.",
+        "Reports standardized incidence rates, adjusted HR, and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31827719",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a theoretical/conceptual paper or review.",
+        "Focuses on the mediator role of glucose metabolism in aging and cancer, lacking new primary epidemiological or clinical trial data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30042822",
+      "is_good_candidate": false,
+      "reasons": [
+        "Computational modeling/theoretical study.",
+        "Lacks primary clinical or epidemiological data collection."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32938643",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large nationwide retrospective cohort study using robust methodology (time-dependent variables).",
+        "Analyzes hard clinical outcomes (gastric cancer incidence and mortality).",
+        "Reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "21752291",
+      "is_good_candidate": true,
+      "reasons": [
+        "Sub-analysis of a large prospective Randomized Controlled Trial (RCT) (D2C cohort, N=26,742).",
+        "Measures cancer incidence using record linkage.",
+        "Reports SIRs and HRs with CI."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "27026681",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=76,733 male veterans).",
+        "Uses robust statistical methods (Cox model, propensity score adjustment).",
+        "Analyzes clinical outcome (prostate cancer incidence) and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36420887",
+      "is_good_candidate": false,
+      "reasons": [
+        "The primary exposure studied is analgesic use (not metformin).",
+        "Metformin adherence is only a secondary factor/covariate in the analysis."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "25201464",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N=395,481) using national registry data.",
+        "Clear clinical outcome (prostate cancer incidence).",
+        "Uses robust statistical modeling (time-dependent Cox regression, PS-adjustment) and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28645427",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=92,366) combined with nested case-control analysis.",
+        "Rigorous statistical methodology (Poisson and conditional logistic regression).",
+        "Measures clinical outcome (endometrioid EC incidence) and reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22614062",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro cell line experiments.",
+        "Preclinical animal xenograft model (murine model).",
+        "Lacks human clinical outcome data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "21509444",
+      "is_good_candidate": true,
+      "reasons": [
+        "Sub-analysis of a large, international Randomized Controlled Trial (RCT) (ADVANCE trial, N=11,140).",
+        "Analyzes hard clinical outcomes (cancer incidence and mortality).",
+        "Reports HR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "22923670",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study using nested case-control methodology (N=115,923).",
+        "Rigorous statistical analysis (conditional logistic regression) adjusted for smoking.",
+        "Clear clinical outcome (lung cancer incidence) and reports RR and CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39991135",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal/in vitro study (fission yeast S. pombe)",
+        "Focuses on genetic and molecular mechanisms, lacking human clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35783012",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using bladder cancer cells",
+        "Focuses on cell proliferation and molecular pathways, lacking human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32753274",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N>320,000) using a nationwide database",
+        "Clear clinical outcome (overall cancer incidence)",
+        "Robust statistical methodology (multivariate Cox regression, HRs, 95% CIs) reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32950701",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based nationwide cohort study (N>732,000)",
+        "Employs time-dependent Cox analysis to reduce bias",
+        "Clear clinical outcomes (lung cancer risk and mortality) with dose-response reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34725457",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using MDA-MB-231 breast cancer cell lines",
+        "Focuses on metabolic profiling (mechanistic), lacking human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "20304770",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (Fischer-344 rats)",
+        "Lacks human subjects and clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36581893",
+      "is_good_candidate": true,
+      "reasons": [
+        "Pooled analysis of data from two registered randomized placebo-controlled trials (RCTs)",
+        "Clear population (breast cancer survivors) and defined intervention (metformin vs placebo)",
+        "Robust statistical methods used, providing quantitative data."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "29465545",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large-scale, prospective, multicenter cohort study",
+        "Clear clinical outcome (cancer incidence) with long follow-up (mean 5.8 years)",
+        "Robust statistical reporting (HR 0.513, 95% CI 0.318-0.826) and adjustment for confounders."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32462322",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large retrospective cohort study (N>347,000) using national database",
+        "Clear outcome focused on specific cancer incidence (stomach cancer)",
+        "Appropriate statistical methodology (Cox proportional hazards regression, HRs, CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25303400",
+      "is_good_candidate": true,
+      "reasons": [
+        "Extremely large historical cohort study (N>1.4 million)",
+        "Uses time-dependent variable approach and reports clear dose-response analysis",
+        "Provides highly relevant quantitative data on thyroid cancer risk (HR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "19487376",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study (N=2,529 total) investigating a specific, critical therapeutic outcome (pathologic complete response, pCR)",
+        "Uses multivariate logistic regression to compare well-defined clinical subgroups (diabetic metformin users vs non-users)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "20204498",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study (Balb/c mice model)",
+        "Lacks human subjects and clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34629300",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective, multicentric, randomized Phase II study (RCT)",
+        "Clear intervention (DOCE + MET vs DOCE + Placebo) and measurable clinical endpoints (PSA response, PFS, OS).",
+        "Gold standard methodology for intervention evaluation."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "21696791",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large historical cohort study (N>36,000)",
+        "Investigates association between specific glucose-lowering agents and incident cancer",
+        "Statistical analysis includes multivariate adjustment and HRs/CIs."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "20551014",
+      "is_good_candidate": true,
+      "reasons": [
+        "Nested case-control study design, providing high-quality observational data on cancer incidence",
+        "Uses appropriate matching and multivariate analysis (OR, CI), controlling for metformin exposure."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "19221498",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using breast cancer cell lines",
+        "Results are preclinical/mechanistic, lacking human clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30895533",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large longitudinal observational cohort study using a nationwide database",
+        "Employs robust nested case-control and cohort analysis methods",
+        "Clear clinical outcome (breast cancer incidence) and statistical reporting (HR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35422875",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using nasopharyngeal carcinoma cells",
+        "Focuses on cell activity and apoptosis assays, lacking human clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27220959",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review, commentary, and opinion piece",
+        "Does not present original quantitative clinical data suitable for meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24509842",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large historical cohort study (N>940,000)",
+        "Uses time-dependent variables and reports clear dose-response relationship for bladder cancer risk",
+        "Robust statistical reporting (HR, CI, P-trend)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24816805",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large historical cohort study (N>476,000 female patients)",
+        "Uses time-dependent variables and reports clear dose-response relationship for breast cancer risk",
+        "Robust statistical reporting (HR, CI, P-trend)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27304493",
+      "is_good_candidate": false,
+      "reasons": [
+        "Commentary/brief review summarizing findings from other publications",
+        "Does not contain original quantitative data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29447929",
+      "is_good_candidate": false,
+      "reasons": [
+        "Theoretical/hypothetical paper proposing a concept and future trial",
+        "Does not contain primary quantitative data from a completed clinical study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37354679",
+      "is_good_candidate": false,
+      "reasons": [
+        "Congress report/Editorial/Opinion piece",
+        "Lacks structured quantitative methodology and relies on speculative associations and small clinical observations."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31293823",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article summarizing existing literature",
+        "Does not present original primary quantitative data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28981404",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large longitudinal observational cohort study using robust statistical methods (propensity score matching, competing risk regression)",
+        "Reports specific quantitative associations between metformin use and lower risks of cancer incidence and mortality (aSHR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "16189280",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical/mechanistic study using microarray profiling and gene expression biomarkers",
+        "Outcomes are surrogate markers, not human clinical endpoints (cancer incidence, survival)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37522769",
+      "is_good_candidate": false,
+      "reasons": [
+        "Theoretical scientific thesis based on a very small case series (N=4 patients)",
+        "Lacks robust cohort or randomized trial methodology, statistical power, and generalizability."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28169131",
+      "is_good_candidate": true,
+      "reasons": [
+        "Observational study using rigorous methodology (propensity score matching, time-dependent Cox model)",
+        "Provides high-quality quantitative data on cancer patients and antidiabetic drug safety/risk of metastases."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "28190681",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large longitudinal cohort study (N>41,000) with long follow-up (8.8 years)",
+        "Uses advanced latent class modeling to assess metformin effects on multiple clinical outcomes, including cancer risk."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32660613",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective cohort study (registered trial) with defined intervention (metformin) and follow-up (1 year)",
+        "Provides quantitative data on important mechanistic/surrogate outcomes (mtDNA-CN, testosterone) in a well-defined population (PCOS)."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "29728105",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=117 total, N=9 metformin users) for the primary exposure comparison",
+        "The primary outcome (L'Hermitte's sign) is a specific toxicity, not a general efficacy or cancer incidence outcome suitable for meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "24878085",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective, randomized, experimental study (clinical trial structure)",
+        "Clear intervention (Metformin + Chemo) and measurable clinical endpoints (relapse, survival).",
+        "Provides quantitative data suitable for focused meta-analysis on specific cancer treatment."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "32456015",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large nationwide population-based longitudinal study with rigorous matching and adjustment",
+        "Quantitatively assesses the effect of metformin use in a subgroup (PCOS) on a major clinical outcome (GH-PE risk)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "15053248",
+      "is_good_candidate": false,
+      "reasons": [
+        "Case report/small case series (N=2 women)",
+        "Sample size is insufficient for quantitative meta-analysis inclusion."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34983571",
+      "is_good_candidate": true,
+      "reasons": [
+        "Longitudinal cohort study (N=108) with defined intervention and follow-up (12 months)",
+        "Reports quantitative efficacy data using surrogate markers (BMI, FAI) and multivariate analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "25424411",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large case-control study using nationwide US insurance databases",
+        "Addresses a clear clinical outcome (CRC prevention) and uses appropriate methodology (conditional logistic regression, AOR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31815634",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large cohort study (N=4,030) using linked health records",
+        "Addresses critical cardiovascular outcomes and mortality using adjusted Cox regression analysis (HR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32544018",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=28) retrospective pilot study",
+        "Outcomes are surrogate metabolic/vascular markers rather than hard clinical endpoints."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "12192894",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective cohort study with defined intervention and follow-up (6 months)",
+        "Provides quantitative data on multiple clinical and endocrine endpoints relevant for PCOS meta-analyses (menstrual cyclicity, BMI, androgens)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "20500100",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=36) and complex, combined polytherapy intervention",
+        "Difficult to isolate the independent effect of metformin; outcomes are mainly surrogate markers."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "24529918",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primary objective is the effect of rosiglitazone withdrawal, not metformin efficacy or safety",
+        "Metformin is a confounder/background therapy, not the primary exposure of interest."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32581289",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N>20,000) using propensity score matching",
+        "Includes lung cancer incidence as a measured clinical outcome (HR, CI) suitable for meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38888178",
+      "is_good_candidate": false,
+      "reasons": [
+        "Cross-sectional study focusing on disease association (PCOS and MetS prevalence) based on inflammation and menopausal status",
+        "Does not evaluate the effect of metformin intervention on clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "15624270",
+      "is_good_candidate": false,
+      "reasons": [
+        "Very small longitudinal prospective study (N=21)",
+        "Sample size and short follow-up (8 weeks) limit robustness for quantitative meta-analysis inclusion."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "23194004",
+      "is_good_candidate": false,
+      "reasons": [
+        "Very small longitudinal study (N=20 intervention group) with short duration (8 weeks)",
+        "Outcomes are primarily biomarkers (AMH) rather than hard clinical endpoints; sample size is inadequate."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "34277970",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study focuses on health policy outcomes (drug utilization and adherence patterns based on insurance)",
+        "Metformin is a baseline drug, not the primary intervention or clinical outcome being evaluated."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33207942",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large cohort study (N=7,803 BC patients) using linked national databases (SEER-Medicare)",
+        "Assesses a relevant clinical outcome (cancer stage at diagnosis) comparing metformin users to other ADM users (OR, CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "16716324",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective study analyzing a major clinical endpoint in PCOS (menstrual cyclicity normalization)",
+        "Provides quantitative response rates based on duration of metformin treatment."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "14998944",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective observational study with longitudinal follow-up through pregnancy (N=42 pregnancies)",
+        "Focuses on critical clinical outcomes (Gestational Diabetes development) and physiological metrics (IR, weight gain) in a high-risk population (PCOS)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29325133",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study utilizes a prospective cohort design, which is observational and non-randomized.",
+        "Lacks a concurrent control group (e.g., placebo or alternative treatment) necessary for high-quality intervention meta-analysis."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "19375579",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study design is primarily cross-sectional and longitudinal observational.",
+        "Lacks the methodology of a randomized controlled trial (RCT) necessary for high-quality efficacy meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "21359582",
+      "is_good_candidate": true,
+      "reasons": [
+        "This is a post hoc analysis derived from a major randomized controlled trial (DIGAMI 2).",
+        "Provides long-term clinical outcome data (mortality, morbidity) with clear statistical measures (HR, OR, 95% CI).",
+        "Highly relevant clinical population (patients with MI and Type 2 diabetes)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "37265016",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology with defined intervention groups (Metformin monotherapy vs. Combination therapy).",
+        "Well-defined study population (overweight/obese women with PCOS).",
+        "Measurable outcomes assessed (menstrual cycle, HOMA-IR, hormonal parameters)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39353946",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is based on preclinical findings using mouse PCOS models.",
+        "Excluded due to criterion: Animal studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27808588",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear randomized study methodology comparing two active interventions (metformin vs. myo-inositol).",
+        "Well-defined population (PCOS women with IR/hyperinsulinemia).",
+        "Measurable clinical and metabolic outcomes (BMI, HOMA-IR, menstrual cycle, hirsutism)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36755918",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study uses a PCOS mouse model and focuses on molecular mechanisms (ferroptosis, signaling pathways).",
+        "Excluded due to criterion: Animal studies and mechanistic focus."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34907435",
+      "is_good_candidate": true,
+      "reasons": [
+        "High quality three-armed Randomized Controlled Trial (RCT) design (Acupuncture vs. Metformin vs. Sham).",
+        "Large, adequate sample size (n=342).",
+        "Clear primary outcome (HOMA-IR change) and detailed statistical reporting (CI, p-values)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30842661",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study focuses on molecular and mechanistic findings using cell lines and patient-derived tumor xenografts.",
+        "Excluded due to criterion: Animal studies and in vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32286137",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study focuses on molecular mechanisms (AMPK/SIRT1 pathway) and uses cancer cell lines (in vitro).",
+        "Excluded due to criterion: In vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36060969",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (n=60) comparing Metformin monotherapy versus combination therapy (Metformin + Liraglutide).",
+        "Well-defined clinical outcomes related to gonadal and metabolic profiles.",
+        "Statistical analysis comparing outcomes between groups is provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37573301",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study focuses on signaling pathways (STAT3/LKB1/mTORC1/CREB) using mouse models and xenografts.",
+        "Excluded due to criterion: Animal studies and mechanistic focus."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32243780",
+      "is_good_candidate": false,
+      "reasons": [
+        "The research is a mechanistic study using mouse models and organoids.",
+        "Excluded due to criterion: Animal studies and mechanistic focus."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38880216",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study uses an obese PCOS mouse model to examine drug effects.",
+        "Excluded due to criterion: Animal studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40041289",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study investigates mechanisms in a rat model of PCOS.",
+        "Excluded due to criterion: Animal studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39415242",
+      "is_good_candidate": true,
+      "reasons": [
+        "Includes a pragmatic, randomized, controlled clinical study (n=230 women) with clear intervention (NAC) and control groups.",
+        "Primary clinical outcomes (ovulation induction efficacy, pregnancy rates) are measurable and statistically compared."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39748269",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology comparing two active drugs (Hydroxychloroquine vs. Metformin).",
+        "Defined clinical endpoints (metabolism, body fat, hormones) and statistical comparisons are reported.",
+        "Clinical trial registration is provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39357046",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (n=80) comparing a digital intervention versus Metformin.",
+        "Well-defined population (PCOS women with IR) and measurable primary outcome (HOMA-IR change).",
+        "Detailed statistical reporting (95% CI, p-values) and clinical trial registration."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30111296",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is primarily an in vitro investigation focused on developing nano-carriers and analyzing mechanistic metabolic pathways in cancer cells.",
+        "Excluded due to criterion: In vitro mechanistic study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30022161",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study focuses on molecular mechanisms (TET2 phosphorylation, AMPK, 5hmC) using in vitro and in vivo models.",
+        "Excluded due to criterion: Animal studies and in vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27746051",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is a mechanistic metabolomics analysis using patient biopsies and animal tumors, focusing on biomarker discovery rather than clinical efficacy.",
+        "Design is non-RCT and geared toward basic science insights."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "39847053",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear prospective clinical trial design (implied RCT, 'divided equally') comparing two active treatments (MI/DCI vs. Metformin).",
+        "Well-defined PCOS population and measurable clinical endpoints (HOMA-IR, SHBG, ovulation).",
+        "Clinical trial registration is provided."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "37204669",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is an animal investigation using mice with breast cancer to analyze radioproteomics.",
+        "Excluded due to criterion: Animal studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24533710",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is an observational genetic association study (pharmacogenetics) and does not assess intervention efficacy directly.",
+        "The methodology is cohort-based genotyping prior to treatment, not an RCT."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "19502420",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is primarily mechanistic and observational, combining cross-sectional, in vivo infusion, ex vivo, and non-randomized longitudinal intervention data (n=21).",
+        "Lacks the methodology of a robust RCT for intervention efficacy."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "24480191",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is an in vitro investigation using cancer cells to explore metabolic reprogramming.",
+        "Excluded due to criterion: In vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38811809",
+      "is_good_candidate": false,
+      "reasons": [
+        "The research methodology involves bioinformatics analysis combined with in vitro experiments (A549 cells).",
+        "Excluded due to criterion: In vitro and mechanistic study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "20557275",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a review article/commentary summarizing existing epidemiological, in vitro, and in vivo evidence.",
+        "Excluded due to criterion: Editorial comments, letters, or opinions."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24913417",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a summary/review article presenting the 'pros' of metformin use in PCOS.",
+        "Excluded due to criterion: Editorial comments or opinions."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30244975",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is a pharmacodynamic analysis focused on metabolic biomarkers (metabolomics, transcriptomics) in breast cancer biopsies, not a standard clinical efficacy RCT.",
+        "Focus is highly mechanistic and on adaptation pathways."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36147577",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology comparing combination therapy (CANA/MET) vs. monotherapy (MET).",
+        "Well-defined population (overweight/obese non-diabetic PCOS women).",
+        "Reports statistical comparisons of gonadal and metabolic profiles, and adverse events.",
+        "Clinical trial registration is provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24682417",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a review article summarizing molecular pathways and clinical trials.",
+        "Excluded due to criterion: Editorial comments or opinions (review article)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38956672",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is a small, preliminary case-control investigation (n=5 patients) focusing on mechanistic changes (microbial EVs).",
+        "Fails the criterion for adequate sample size and general methodological rigor for intervention MA."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "28089566",
+      "is_good_candidate": false,
+      "reasons": [
+        "The research is a mechanistic study using mouse liver tissue and primary hepatocytes (in vitro/animal focus).",
+        "Excluded due to criterion: Animal studies and in vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30860580",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is an in vitro/ex vivo investigation using primary cell cultures and cell lines from PitNETs.",
+        "Excluded due to criterion: In vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37354673",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is a longitudinal observational intervention (PCOS patients taking Metformin) without randomization or a formal control group.",
+        "Design is weaker than a controlled trial for efficacy meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "38735598",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study uses an induced PCOS rat model to compare interventions.",
+        "Excluded due to criterion: Animal studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37347114",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear randomized trial design comparing combination therapy versus monotherapy (MET vs. MET+Beinaglutide).",
+        "Despite being a 'pilot' study, it reports quantitative clinical outcomes (weight loss, HOMA-IR, TT) with statistical measures.",
+        "Clinical trial registration is provided."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "36932437",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is a mechanistic in vitro investigation using human granulosa cells.",
+        "Focuses on molecular signaling pathways (INSR, PI(3)K, PPARγ), not clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36803912",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a bibliometric study (analysis of publication trends/keywords).",
+        "Does not provide primary data from a clinical trial or systematic review."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24676011",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is missing.",
+        "The title suggests an editorial, debate, or opinion piece, not an article providing primary data."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "30858485",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is missing.",
+        "The title suggests a review or mechanistic commentary.",
+        "Lack of methodological clarity."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32209321",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is an in vitro investigation using neuronal cells focusing on molecular pathways (PP5/AMPK-JNK).",
+        "Excluded due to criterion: In vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32720198",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear three-group Randomized Controlled Trial (RCT) methodology (Sitagliptin vs. Metformin vs. Placebo).",
+        "Well-defined population (PCOS patients undergoing ICSI) and measurable outcomes (oocyte/embryo quality, pregnancy rates).",
+        "Clinical trial registration is provided."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36843612",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a retrospective analysis using non-randomized data (metformin use based on clinical criteria).",
+        "Retrospective design introduces high risk of selection bias/confounding, making it unsuitable for meta-analysis focusing on intervention efficacy derived from RCTs."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "28114390",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study focuses on molecular mechanisms (STAT3 activation) using in vitro cell lines and a xenograft tumor model.",
+        "Excluded due to criterion: Animal studies and in vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31137785",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is an in vitro investigation using human prostate cancer cells to assess molecular sensitization.",
+        "Excluded due to criterion: In vitro mechanistic study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31082618",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is a mechanistic investigation focused on phosphorylation pathways (AMPK/PI3K/Akt) in colorectal cancer cells (in vitro).",
+        "Excluded due to criterion: In vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34234193",
+      "is_good_candidate": false,
+      "reasons": [
+        "The research utilizes in vitro cancer cell lines and xenograft nude mice models.",
+        "Excluded due to criterion: Animal studies and in vitro studies only."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35821253",
+      "is_good_candidate": false,
+      "reasons": [
+        "The study is highly mechanistic, focusing on T-cell metabolism and tumor immunosurveillance using in vitro, in vivo, and patient data.",
+        "Not a controlled clinical efficacy trial."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "30866414",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro study using cancer cell lines.",
+        "Focuses purely on molecular mechanism (integrin β1, anoikis), lacking human clinical efficacy data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34726324",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (RCT) comparing two active interventions (Canagliflozin vs Metformin).",
+        "Clear primary outcome (HOMA-IR) reported with effect size and 95% confidence interval.",
+        "Well-defined clinical population (PCOS with IR)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "17327307",
+      "is_good_candidate": true,
+      "reasons": [
+        "Controlled clinical trial design with randomization.",
+        "Clear intervention arms (Metformin vs OCP combinations) in a defined population (PCOS, overweight).",
+        "Measurable primary outcomes (insulin resistance, arterial stiffness) reported with statistical analysis."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "30468782",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical, mechanistic study utilizing mouse embryonic fibroblasts (MEF) and human cell lines.",
+        "Focuses on metabolomics and molecular pathways (AMPKα-independent effects), not clinical outcomes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37782190",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro mechanistic study using murine macrophage and osteoblastic cell lines.",
+        "Focuses on molecular pathways (AMPK, mTOR) and osteoclast differentiation, lacks clinical relevance for efficacy meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "21928327",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article or editorial discussing the potential of a molecular target (AMPK) in malignancies.",
+        "Does not present original quantifiable data from a primary study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39155689",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study utilizing an animal model (PCOS rats).",
+        "Focuses on molecular mechanisms (AMPK/AKT/mTOR pathway and autophagy) in animal tissue."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23577418",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article summarizing treatment strategies for PCOS.",
+        "Does not provide original data from a structured interventional or observational study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37399981",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro mechanistic study using glioblastoma cell lines.",
+        "Focuses on combination therapy mechanisms (ROS-AMPK-mTOR axis) in cell culture models."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29705631",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro mechanistic study using HepG2 cell lines and metabolomics.",
+        "Investigates metabolic changes and pathway activation (AMPK/mTOR) in a cell model."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37681914",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article focusing on the molecular mechanism of metformin (Wnt signaling pathway).",
+        "Does not present original quantifiable clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36232780",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small pilot/exploratory study (N=26) on healthy subjects.",
+        "Focuses on lipidomic biomarkers and pharmacokinetic changes after a single dose, not clinical efficacy in a disease state."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "33861440",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (RCT) comparing Metformin plus Curcumin versus Metformin alone.",
+        "Well-defined population (PCOS women) and measurable clinical/biochemical outcomes (HOMA-IR, lipids, testosterone).",
+        "Reports statistical differences and effect sizes."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38831454",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study using cell viability assays and tumor xenograft models (animal model).",
+        "Focuses on epigenetic mechanisms (H3K9 acetylation) of metformin action."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "23958241",
+      "is_good_candidate": true,
+      "reasons": [
+        "Controlled clinical intervention study, although sequential, with defined groups (PCOS, NC subjects).",
+        "Evaluates effects of anti-diabetic therapies (Pioglitazone, Metformin) on insulin action (clamp) and inflammatory markers in skeletal muscle.",
+        "Provides quantifiable human physiological data."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "16764619",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized clinical study (RCT) design.",
+        "Clear comparison groups (LOD alone vs LOD + Metformin) and specific clinical outcomes (ovulation rate, pregnancy rate, insulin resistance).",
+        "Reports effect sizes and statistical comparisons (P < 0.05)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30612112",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study protocol describing a future randomized controlled trial (RCT).",
+        "Does not present completed results or quantifiable data for analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32276996",
+      "is_good_candidate": false,
+      "reasons": [
+        "Case report (adolescent girl) and general clinical commentary on a specific PCOS subphenotype (HAIR-AN syndrome).",
+        "Lacks aggregated, quantifiable data from a structured study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34743745",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study protocol for a randomized controlled trial (RCT).",
+        "Does not present completed results or quantifiable data for analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38126764",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase I dose-escalation clinical study (N=30 patients).",
+        "Primary focus is on safety, tolerability, and MTD determination, not powered for definitive efficacy conclusions."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "25940306",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro mechanistic study using human and mouse cancer cell lines.",
+        "Focuses on synergy and inhibition of de novo lipogenesis pathways, lacks clinical relevance."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28770330",
+      "is_good_candidate": false,
+      "reasons": [
+        "Review article discussing the status of metformin therapy in PCOS.",
+        "Does not provide original primary data suitable for pooling."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30182764",
+      "is_good_candidate": false,
+      "reasons": [
+        "Explicitly labeled as a 'pilot trial'.",
+        "Small sample size (N=44) and potential lack of sufficient statistical power for inclusion in meta-analyses focusing on major efficacy outcomes."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "29659896",
+      "is_good_candidate": true,
+      "reasons": [
+        "Long-term follow-up study of a prior randomized controlled trial (RCT).",
+        "Reports robust, quantifiable data (weight gain, BMI, lipids) for long-term metabolic outcomes (7.7 years).",
+        "Clear comparison based on original RCT allocation (Metformin vs Placebo during pregnancy)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "16817823",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=16).",
+        "Non-randomized, single-arm, before-and-after intervention study.",
+        "Focuses on a surrogate outcome (Coronary Flow Reserve) rather than hard clinical endpoints."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "26794854",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study utilizing cancer cell lines and experimental animal models (xenografts).",
+        "Focuses on mechanistic compromise of metabolism (glycolysis, OXPHOS) rather than clinical efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29334602",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using cell lines and an orthotopic mice model.",
+        "Reports survival data only in animals and mechanistic findings (AMPK, AKT pathway)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32067218",
+      "is_good_candidate": true,
+      "reasons": [
+        "Includes an interventional component where 43 PCOS women were randomized to six months of oral metformin therapy.",
+        "Reports quantifiable changes in clinically relevant outcomes (insulin sensitivity via clamp, HOMA-IR, FAI)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "24157941",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro mechanistic study using human and mouse cancer cell lines.",
+        "Focuses on antagonistic effects via STAT3- and AMPK/LKB1-dependent pathways."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39558974",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study utilizes a non-mammalian model organism (*C. elegans*).",
+        "Findings are preclinical and focused on longevity mechanisms (DAF-16/FOXO-independent)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39422716",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pharmacogenetic study relying on an animal model (knockin mice) for in vivo pharmacokinetics and efficacy assessment.",
+        "Human component is solely genotyping/prevalence assessment, not a clinical trial of efficacy."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40358794",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical study using an animal model (letrozole-induced PCOS rat model).",
+        "Focuses on physiological and molecular outcomes (AMPK/GLUT4) in animals."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25866577",
+      "is_good_candidate": false,
+      "reasons": [
+        "Brief review/narrative summary of clinical pharmacology.",
+        "Does not provide original, quantifiable data from a structured study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34649197",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical research focusing on nanotherapeutic synthesis, delivery mechanism, and in vitro/tumor model testing.",
+        "Lacks human clinical efficacy data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27775072",
+      "is_good_candidate": false,
+      "reasons": [
+        "Primarily a molecular mechanistic study (H19/SAHH axis, DNA methylation).",
+        "The clinical component (human tissue analysis) is used to validate the molecular mechanism, not to report clinical outcomes from a trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39206686",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical drug development study focusing on the mechanism of a novel conjugate in NSCLC cells and animal models.",
+        "Lacks human clinical trial data on efficacy or safety."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39111591",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective analysis of a multicenter randomized controlled trial (RCT) dataset (N=114).",
+        "Provides quantifiable data on metformin efficacy (HOMA-IR changes) suitable for data pooling or sensitivity analysis."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "25903858",
+      "is_good_candidate": false,
+      "reasons": [
+        "In vitro mechanistic study using prostate cancer cell lines.",
+        "Focuses on synergistic antiproliferative effects and molecular pathways (AMPK/mTOR) in culture."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33609439",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical/mechanistic study focused on mitochondrial respiration and metabolic coupling (asparagine) using mouse cancer models.",
+        "Lacks human clinical efficacy data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34006565",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (RCT) comparing Metformin, behavioral weight loss, and control (N=121).",
+        "Clear intervention, defined outcomes (microbiome composition, SCFAs, fasting insulin), and reported associations suitable for data extraction."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36734151",
+      "is_good_candidate": false,
+      "reasons": [
+        "Non-informative abstract (likely review, editorial, or commentary).",
+        "Title suggests a broad, general discussion lacking specific methodological detail or primary data."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "39600254",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (N>33,000) with robust register linkage.",
+        "Clear methodology (Cox regression) for survival analysis (prognosis).",
+        "Reports quantifiable effect sizes (HRs and 95% CIs) for clinical outcomes (mortality, recurrence)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35608580",
+      "is_good_candidate": true,
+      "reasons": [
+        "Phase 3 randomized, placebo-controlled, double-blind clinical trial (RCT).",
+        "Large sample size (N=3649) and long follow-up (median 96.2 months).",
+        "Primary outcome is a hard clinical endpoint (Invasive Disease-Free Survival), reported with HR and 95% CI."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29386513",
+      "is_good_candidate": false,
+      "reasons": [
+        "Mechanistic study using human HCC cell lines and a mouse model.",
+        "Focuses on metabolic reprogramming (HK2, oxidative phosphorylation) and drug sensitization mechanisms."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "37667332",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preclinical research focused on establishing an organoid biobank (HRCA-PDOs) and high-throughput drug screening.",
+        "Metformin findings derived from ex vivo models, not a clinical trial."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39243730",
+      "is_good_candidate": true,
+      "reasons": [
+        "Exploratory analysis of a Phase III RCT (SPARTAN trial).",
+        "Provides quantifiable survival outcomes (OS, MFS) and effect modification data (aHRs, 95% CIs) related to metformin use."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "30848544",
+      "is_good_candidate": true,
+      "reasons": [
+        "Systematic review and meta-regression analysis of cohort studies.",
+        "Provides pooled effect estimates (RR and 95% CI) and methodological assessment, suitable for high-level evidence synthesis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33262518",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large nationwide population-based cohort study (N=22,324).",
+        "Uses robust methods (Cox regression, time-dependent analysis) to determine survival (OS, LCSS).",
+        "Reports quantifiable risk estimates (HR and 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38637957",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large cohort study (N=2,779) tracking a clinical outcome (HCC onset).",
+        "Uses appropriate survival analysis models (subdistribution hazard models) and reports quantifiable risk estimates (aSHR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "25041125",
+      "is_good_candidate": true,
+      "reasons": [
+        "Population-based case-control analysis (high-quality observational design).",
+        "Quantifiable risk outcome (HNC risk) reported using adjusted Odds Ratios (ORs and 95% CIs)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39690329",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study utilizing Taiwan's National Health Insurance Research Database.",
+        "Rigorous methodology employed, including Propensity Score Matching and competing risk models.",
+        "Provides clear quantitative results (HR, CI, IRR, p-values) for a clinically relevant outcome (SSNHL risk)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "26630530",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study with high sample size (N > 240,000).",
+        "Rigorous statistical analysis using Propensity Score Weighting (IPTW) and Cox regression.",
+        "Clear quantitative results (HR, CI, incidence rates) for kidney cancer risk."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "37649039",
+      "is_good_candidate": true,
+      "reasons": [
+        "Nationwide population-based cohort study with large sample size (N=26,190).",
+        "Clear outcomes (BC-specific survival) and quantitative results (HR, 95% CI).",
+        "Uses appropriate multivariable Cox proportional hazard models."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "28456789",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study with robust sample size (N > 280,000).",
+        "Rigorous methodology including matched sample analysis and Inverse Probability of Treatment Weighting (IPTW).",
+        "Provides clear dose-dependent quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "29788134",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty, making assessment of methodology, results, and suitability for meta-analysis impossible."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27861146",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based cohort study (N > 300,000).",
+        "Rigorous statistical methods (IPTW, matched-pair sensitivity analysis).",
+        "Provides clear dose-dependent quantitative results (HR, 95% CI) for esophageal cancer risk."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "26067686",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty, making assessment of methodology, results, and suitability for meta-analysis impossible."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32196659",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large nationwide cohort study with defined patient population (diabetic CRC patients, N=16,676).",
+        "Uses advanced statistical methods (Multivariate Cox regression, stabilized IPTW).",
+        "Clear quantitative mortality outcomes (HR, 95% CI)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "27926515",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study primarily relies on preclinical research (in vitro cell studies and in vivo mouse models).",
+        "Lacks human clinical efficacy or risk data suitable for a clinical meta-analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "36688306",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted entirely in a murine (animal) model.",
+        "Focuses on preclinical mechanistic and metabolic observations."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38312035",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted entirely in a mouse (animal) model.",
+        "Focuses on preclinical mechanistic findings via the inflammatory pathway."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32933550",
+      "is_good_candidate": false,
+      "reasons": [
+        "Cross-sectional study design, which is typically insufficient for assessing drug efficacy or long-term risk for clinical MA.",
+        "Outcome (mammographic breast density) is an intermediate biomarker, not a definitive clinical endpoint (e.g., incidence or mortality)."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "30980539",
+      "is_good_candidate": true,
+      "reasons": [
+        "Pooled analysis of patient data derived from three Phase III randomized controlled trials (RCTs).",
+        "Clear primary clinical outcomes (OS, PFS) analyzed using robust methods (multivariate Cox analyses).",
+        "Provides quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33884414",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, 3-parallel-arm controlled clinical trial (RCT) design.",
+        "Clear intervention arms and measurable biomarker outcomes (IGF-1, IGF1:IGFBP3 molar ratio).",
+        "Quantitative results (mean difference in change, CIs) are provided."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "25122066",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on in vitro cell line studies and in vivo mouse models.",
+        "Preclinical research, not a human clinical trial or epidemiological study."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29788487",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (RCT) using a 2x2 factorial design.",
+        "Adequate sample size (N=333) and high adherence/completion rate.",
+        "Provides quantitative results (percent changes, 95% CI) for key prognostic biomarkers."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "25576058",
+      "is_good_candidate": false,
+      "reasons": [
+        "Study conducted entirely in a mouse (animal) tumor transplant model.",
+        "Preclinical focus on mechanistic pathway signaling (mTOR, microRNA)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33516778",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large prospective cohort study (N=44,541) with long follow-up (median 8.6 years).",
+        "Clear definition of exposure and outcome (incident breast cancer risk, stratified by ER status).",
+        "Uses appropriate Cox models and provides quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "36916886",
+      "is_good_candidate": true,
+      "reasons": [
+        "Post-hoc analysis derived from two randomized controlled trials (PregMet and PregMet2).",
+        "Large sample size (N=615) and longitudinal data collection.",
+        "Provides quantitative immunological outcomes suitable for MA focusing on biomarkers/mechanisms."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32035002",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based retrospective cohort study (SEER-Medicare, N=12,700).",
+        "Uses robust methodology (Cox proportional hazard model with competing risks and propensity score adjustment).",
+        "Clear hard clinical endpoints (all-cause mortality, PCa mortality) with HRs and CIs."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "24963109",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is empty, making assessment of methodology, results, and suitability for meta-analysis impossible."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29802690",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study focusing on clinical survival outcomes (OS, PFS) in a defined cancer population.",
+        "Uses appropriate Cox proportional-hazards regression analysis.",
+        "Provides quantitative results (HR, 95% CI) for metformin effect."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "35902376",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large cohort study using SEER-Medicare data (N=143,035).",
+        "Uses robust epidemiological methods (conditional logistic and Cox models).",
+        "Provides clear quantitative risk estimates (OR, HR, 95% CI) for cancer incidence."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "37695982",
+      "is_good_candidate": true,
+      "reasons": [
+        "Secondary analysis of a large Phase III randomized controlled trial (MA.32).",
+        "Focuses on hard clinical outcomes (risk of new primary cancers).",
+        "Uses competing risks methodology and provides clear quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "26331456",
+      "is_good_candidate": true,
+      "reasons": [
+        "Population-based cohort study with clear clinical outcome (cancer-specific mortality).",
+        "Uses time-dependent Cox regression models to address time-related bias.",
+        "Provides quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "29511039",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based nested case-control design (N=878 cases, 4,364 controls).",
+        "Uses robust statistical methodology (conditional logistic regression).",
+        "Provides clear quantitative risk estimates (OR, 95% CI)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32859615",
+      "is_good_candidate": true,
+      "reasons": [
+        "Phase II randomized controlled trial (RCT) using a 2x2 factorial design.",
+        "Clear intervention and measured outcomes (inflammation biomarkers).",
+        "Uses rigorous statistical modeling and provides quantitative results (CIs)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "27565939",
+      "is_good_candidate": true,
+      "reasons": [
+        "Population-based retrospective cohort study using linked national datasets.",
+        "Uses appropriate Cox regression models and provides quantitative survival results (HR, 95% CI).",
+        "Focuses on a specific, clinically relevant outcome (survival in mesothelioma)."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "35894762",
+      "is_good_candidate": true,
+      "reasons": [
+        "Bi-centric case-control study with defined cases and controls (N=223 cases, 446 controls).",
+        "Provides quantitative statistical estimates (OR, 95% CI) for risk factor assessment.",
+        "Clear methodology for epidemiological inclusion."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "25956271",
+      "is_good_candidate": true,
+      "reasons": [
+        "Population-based cohort study focusing on hard clinical outcomes (mortality, recurrence).",
+        "Uses appropriate methodology (multivariable Cox models, competing risks).",
+        "Provides quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32369446",
+      "is_good_candidate": true,
+      "reasons": [
+        "Formal, registered Phase II clinical trial (RCT, NCT01579812).",
+        "Provides clinical survival outcomes (PFS, OS, 95% CI) in addition to biomarker data.",
+        "Clear description of intervention and patient population."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31324361",
+      "is_good_candidate": true,
+      "reasons": [
+        "Retrospective cohort study focusing on hard clinical endpoint (overall survival) in specific cancer types.",
+        "Provides comparative quantitative survival data (years, P-values).",
+        "Clear definition of experimental and control groups."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "31025540",
+      "is_good_candidate": false,
+      "reasons": [
+        "Focuses on in vitro cell line studies and in vivo mechanistic models.",
+        "Preclinical study investigating molecular mechanisms (ubiquitination, apoptosis), lacking human clinical data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32271517",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large observational study using SEER-Medicare data (N=2,499).",
+        "Analyzes hard clinical outcome (Overall Survival).",
+        "Uses robust methodology (Cox proportional hazard models) and provides quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "33193076",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large population-based cohort study (N=610,089).",
+        "Rigorous methodology utilizing IPTW and propensity scores.",
+        "Provides clear quantitative incidence rates and HRs (95% CI) for leukemia risk."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "35610365",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based prospective cohort study (N=107,706).",
+        "Uses multivariable Cox regression analyses to determine risk of PC diagnosis.",
+        "Provides clear quantitative risk estimates (HR, 95% CI)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "39099229",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a survey of clinical practice among endocrinologists.",
+        "It does not present primary patient outcome data, randomized comparisons, or epidemiological risk factors suitable for a clinical efficacy MA."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35572351",
+      "is_good_candidate": true,
+      "reasons": [
+        "Very large epidemiological study (N=7.23 million) using insurance claims data.",
+        "Uses rigorous statistical methods (Propensity Score stratified analyses).",
+        "Provides clear quantitative risk estimates (HR, 95% CI) for disease risk."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "38690892",
+      "is_good_candidate": true,
+      "reasons": [
+        "Secondary analysis of a Phase III randomized controlled trial (COVID-OUT).",
+        "Clear methodology and quantitative results (mean difference, OR, 95% CI).",
+        "Focuses on a measurable surrogate outcome (viral load)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "37302406",
+      "is_good_candidate": true,
+      "reasons": [
+        "Primary results of a large Phase III randomized controlled trial (RCT).",
+        "Quadruple-blind design ensures high quality evidence.",
+        "Focuses on a clear long-term clinical outcome (Long COVID incidence) with quantitative results (HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "38154770",
+      "is_good_candidate": true,
+      "reasons": [
+        "Secondary analysis of a large, randomized controlled trial (PPCOS I study).",
+        "Provides clear quantitative results (Odds Ratio, 95% CI) based on high-quality trial data.",
+        "Clear methodology for assessing prognostic factors."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "39461199",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind, placebo-controlled factorial trial.",
+        "Adequate sample size (N=200) and clear, measurable metabolic and hormonal outcomes.",
+        "Provides quantitative results for synergistic effects."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "34590929",
+      "is_good_candidate": true,
+      "reasons": [
+        "Double-blinded randomized controlled trial (RCT) design.",
+        "Focuses on key clinical endpoints in fertility treatment (OHSS incidence, pregnancy rates).",
+        "Provides detailed quantitative results and comparison statistics."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "38403687",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clinical trial structure comparing metformin vs placebo for FAP treatment.",
+        "Measures clinically relevant efficacy outcomes (polyp number and load).",
+        "Provides statistical significance results (P < 0.05)."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "32416251",
+      "is_good_candidate": false,
+      "reasons": [
+        "This analysis is a safety and adverse event management report for a different primary drug (alpelisib) in a Phase III trial.",
+        "Metformin is studied only as a concomitant therapy for managing side effects, not as the primary intervention for cancer outcomes or risk."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40675492",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large prospective cohort analysis derived from the long-term follow-up of the DPP RCT (N=3000).",
+        "Uses Cox proportional hazard models to estimate cancer risk (HR, 95% CI).",
+        "High quality longitudinal observational data."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "38758294",
+      "is_good_candidate": true,
+      "reasons": [
+        "Secondary analysis using data from the large randomized Diabetes Prevention Program (DPP) trial.",
+        "Uses rigorous statistical models (General linear models, Cox regression) on patient data.",
+        "Provides quantitative results regarding genetic predictors of T2D incidence."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37769677",
+      "is_good_candidate": false,
+      "reasons": [
+        "This specific post-hoc analysis explicitly excludes participants randomized to the metformin intervention arm.",
+        "The findings investigate weight loss mechanisms in lifestyle/placebo groups, making it unsuitable for a metformin MA."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40639383",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large-scale Phase III randomized controlled trial (STAMPEDE platform).",
+        "Focuses on the hard clinical endpoint of Overall Survival in metastatic prostate cancer.",
+        "Provides clear quantitative results (HR, 95% CI) based on intention-to-treat analysis."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "39437217",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind, placebo-controlled trial.",
+        "Clear intervention and measurable biochemical outcome (postoperative hyperglycemia).",
+        "Provides quantitative results suitable for pooling in MA of perioperative effects."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31570268",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a Phase 1 dose-escalation study (3+3 design).",
+        "The primary objective is safety/Maximum Tolerated Dose (MTD), not clinical efficacy.",
+        "Very small sample size (N=8 enrolled)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33653815",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large population-based cohort study (N=6,537).",
+        "Clear prognostic outcomes (prostate cancer death, ADT initiation).",
+        "Robust statistical analysis (multivariable-adjusted Cox regression) providing HRs and CIs."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "34697033",
+      "is_good_candidate": true,
+      "reasons": [
+        "Long-term follow-up (21 years) of a large, definitive randomized controlled trial (DPP/DPPOS).",
+        "Clear, highly relevant primary clinical outcomes (all-cause and cause-specific mortality).",
+        "Provides robust effect sizes (HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34383179",
+      "is_good_candidate": true,
+      "reasons": [
+        "Phase II double-blind, randomized, placebo-controlled trial (RCT).",
+        "Clear methodology and measurable outcomes (adiposity, breast density).",
+        "Adequate sample size (N=151) and statistical reporting (p-values, quantifiable changes)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "36509462",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase II, open-label, non-randomized study.",
+        "Small sample size (N=30 evaluable subjects).",
+        "Lack of a comparative control group limits reliability for meta-analysis of efficacy."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "34444833",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (SPIRIT) with clear methodology (three-arm parallel trial).",
+        "Clear, measurable outcomes (BMI and serum urate changes).",
+        "Provides effect sizes and 95% CI for comparative results."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34322775",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase 1 dose-escalation trial focused on MTD and DLTs (toxicity and safety).",
+        "Very small sample size (N=11 total treated).",
+        "Trial was stopped early due to unfavorable toxicity profile."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29602978",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (RCT) comparing different combination therapies.",
+        "Adequate sample size (N=240 allocated).",
+        "Clear, measurable outcomes (androgen parameters, body fat percentage) with statistical analysis (p-values, F statistics)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "30514262",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase II trial designed primarily as a 2x2 factorial *biomarker* study.",
+        "The primary endpoint is a surrogate biomarker (NFκB IHC expression) in tissue, not a definitive clinical outcome (e.g., recurrence or survival)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "39641916",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large randomized trial (N=1,442 participants, 4 intervention arms).",
+        "Clear primary outcome focused on long-term incidence of major noncommunicable diseases (T2D, CVD, cancer).",
+        "High quality, robust intervention study design."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32314464",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, controlled trial comparing two treatments (tofogliflozin vs glimepiride) added to dual therapy.",
+        "Clear outcomes (HbA1c, body fat percentage, fat mass) and robust statistical comparison (p-values, mean differences).",
+        "Clear methodology for comparative efficacy testing."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "24423336",
+      "is_good_candidate": true,
+      "reasons": [
+        "Substudy analysis derived from a randomized, placebo-controlled, double-blind, multicenter study (N=231 pregnancies).",
+        "Clear randomized methodology and quantifiable physiological outcomes (PI of uterine artery) correlated with clinical predictions (preeclampsia, GDM).",
+        "Provides robust statistical analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31413010",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind Phase II trial (N=224 patients).",
+        "Primary endpoint is a clinical outcome (Progression-Free Survival rate at 1 year).",
+        "Provides essential statistical metrics (median PFS, OS, 95% CI, p-values)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32711460",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a methodological study focusing on linking a clinical trial (CHHiP) with primary care data.",
+        "The goal is data supplementation and methodological recommendations, not reporting primary intervention efficacy results for inclusion in a clinical meta-analysis.",
+        "Small linked sample size (N=106)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "29482528",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, parallel, open-label study comparing three distinct treatment regimens.",
+        "Clear objectives related to glycemic control and $\\beta$-cell function in a specific population (T2DM+PCOS).",
+        "Provides clear comparative statistical results (p-values, percentages)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "28917544",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large, multicenter, randomized, pragmatic clinical trial (N=3028 patients).",
+        "Primary outcome is a major composite clinical endpoint (cardiovascular events).",
+        "High methodological quality with long-term follow-up and robust statistical reporting (HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31961463",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (RCT) with clear intervention arms and patient population (AEH/EEC).",
+        "Clear clinical response outcome (cumulative complete response rate).",
+        "Provides appropriate effect measures (OR, 95% CI, p-values)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "38868742",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a post-hoc analysis of existing RCTs.",
+        "The focus is on the observational correlation between maternal thyroid function (prognostic factors) and offspring anthropometrics, rather than the primary comparative efficacy of the randomized intervention (metformin vs placebo)."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "25158895",
+      "is_good_candidate": false,
+      "reasons": [
+        "Animal study conducted in TRAMP mice.",
+        "Data is not derived from human clinical trials."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "20926533",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, placebo-controlled, double-blind, multicenter study.",
+        "Adequate sample size (N=274 pregnancies).",
+        "Clear clinical outcomes (preeclampsia, GDM, preterm delivery, composite endpoint) with robust statistical reporting (prevalence, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27151652",
+      "is_good_candidate": false,
+      "reasons": [
+        "Retrospective review/pooled analysis of data collected from multiple Phase I trials.",
+        "Primary focus is on toxicity incidence (hyperglycemia) and predictive factors, not comparative clinical efficacy/safety of a standardized intervention."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "17145568",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=36) in a prospective assessment/pilot intervention design.",
+        "Treatment groups are defined by underlying condition (PCOS, hyperinsulinemia) and tolerance, lacking strict randomization or a true placebo control arm for comparative efficacy.",
+        "Methodology is weak for robust meta-analysis."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "26681720",
+      "is_good_candidate": true,
+      "reasons": [
+        "Long-term post-trial follow-up of the definitive ORIGIN RCT.",
+        "Focuses on legacy effects and major clinical outcomes (MI, stroke, CV death, cancer).",
+        "Provides high-quality survival data (HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "40374694",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase II trial focused on biomarker endpoints (transcriptomic and metabolomic profiles) in tissue.",
+        "Lack of definitive clinical outcomes (e.g., recurrence or survival) suitable for clinical efficacy meta-analysis."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "40711960",
+      "is_good_candidate": true,
+      "reasons": [
+        "Phase 3, multicenter, double-blind, randomized controlled trial.",
+        "Primary objective is a clear clinical prevention outcome (Metabolic Syndrome risk).",
+        "Provides quantified changes in metabolic markers (weight, HbA1c, waist circumference) and statistical data, despite early closure."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33661912",
+      "is_good_candidate": true,
+      "reasons": [
+        "Large retrospective cohort study (N=857 total patients) providing real-world evidence.",
+        "Clear clinical outcomes (Overall Survival and Recurrence-Free Survival).",
+        "Uses robust multivariate analysis to calculate independent predictors (suitable for meta-analysis of observational studies)."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "20684955",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective randomized study comparing two active treatments and a no-treatment arm.",
+        "Clear physiological surrogate outcome (flow-mediated dilation) relevant to cardiovascular risk.",
+        "Provides quantifiable measures and p-values for comparison."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "30910544",
+      "is_good_candidate": false,
+      "reasons": [
+        "Secondary analysis of an existing RCT, focusing on the prognostic correlation of baseline metabolic syndrome status.",
+        "Does not test the efficacy of a new randomized intervention, but examines observational risk factors.",
+        "Metformin use is a covariate, not the primary intervention being compared for efficacy."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "29490031",
+      "is_good_candidate": true,
+      "reasons": [
+        "Long-term follow-up study (4 years) derived from two previous RCTs.",
+        "Focuses on a major clinical safety outcome in offspring (BMI z score, overweight/obesity prevalence).",
+        "Provides robust statistical results (OR, 95% CI, p-values)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "19073504",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=32, 22 completed) in an intervention cohort study.",
+        "Lacks a concurrent randomized control/placebo group.",
+        "Primary outcome is a surrogate biochemical marker (insulin levels), characteristic of a pilot feasibility study."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "19522426",
+      "is_good_candidate": false,
+      "reasons": [
+        "Randomized structure, but very small sample size (N=32 total, 16 per group).",
+        "A pilot study lacking sufficient power, as noted by the authors (non-statistically significant difference in primary outcome)."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "26706833",
+      "is_good_candidate": false,
+      "reasons": [
+        "Substudy/retrospective analysis of a larger RCT focusing on prognostic biomarkers (IGF1R expression).",
+        "Metformin status was likely observational/non-randomized in this cohort.",
+        "Focus is correlational and retrospective, not primary comparative efficacy of a randomized intervention."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "32212089",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective, randomized study comparing combination therapy to monotherapy (N=80 patients).",
+        "Clear clinical endpoints (response to treatment, time to disease progression, overall survival).",
+        "Provides statistical data for survival comparison."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "37131014",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized controlled trial (RCT) comparing chemotherapy + metformin vs. chemotherapy alone (N=70 non-diabetic patients).",
+        "Focuses on clinically relevant toxicity outcomes (neuropathy, mucositis, cardiac function).",
+        "Provides quantified comparative results and p-values."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35538143",
+      "is_good_candidate": true,
+      "reasons": [
+        "Open-label randomized controlled trial (N=80 patients).",
+        "Primary outcomes are definitive clinical response measures in cancer (ORR, cCr, pCR, BCR).",
+        "Clear comparative structure and reported efficacy signals."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "30563932",
+      "is_good_candidate": false,
+      "reasons": [
+        "Randomized, double-blind trial, but defined as a presurgical 'window study'.",
+        "Primary outcome is a surrogate biomarker (Ki-67 proliferation marker), not long-term clinical recurrence or survival."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "26067687",
+      "is_good_candidate": true,
+      "reasons": [
+        "Double-blind, randomized, placebo-controlled phase 2 trial (N=121 patients).",
+        "Primary endpoint is a definitive clinical outcome (Overall Survival at 6 months).",
+        "Provides clear survival metrics (median OS, HR, 95% CI)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "16785142",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized study comparing GnRH antagonist protocol with or without metformin (N=40).",
+        "Clear reproductive outcomes measured (OHSS incidence, mature oocyte number, cancelled cycles).",
+        "Provides comparative mean differences and p-values."
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "pmid": "31910850",
+      "is_good_candidate": true,
+      "reasons": [
+        "Prospective, randomized, controlled trial (N=340 patients).",
+        "High methodological quality with clear primary and secondary cardiometabolic outcomes.",
+        "Provides robust statistical comparison (achievement ratios, 95% CI, p-values)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "34416879",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized clinical trial (N=175 patients: 83 treatment, 92 placebo).",
+        "Clear primary outcome measure (change in fibroadenoma size/regression).",
+        "Provides quantified effect sizes (OR, 95% CI) for comparative efficacy."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "28323503",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=30) in a 12-week randomized study.",
+        "Focus is on physiological surrogate markers (insulin resistance, \\beta-cell function), suggesting a preliminary/pilot nature lacking sufficient power or definitive clinical outcomes."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "11163815",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pilot study with a very small sample size (N=19 treated).",
+        "Relies on historic controls for comparison of the primary outcome (spontaneous abortion rate), introducing high potential for selection and confounding bias.",
+        "Design is not a robust RCT."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24917306",
+      "is_good_candidate": false,
+      "reasons": [
+        "Preoperative prospective trial (window-of-opportunity study, N=31).",
+        "Single-arm design (pre- vs post-intervention comparison).",
+        "Primary outcomes are surrogate biomarkers (Ki-67, Topoisomerase IIα) rather than definitive clinical endpoints."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "33509804",
+      "is_good_candidate": true,
+      "reasons": [
+        "Randomized, double-blind, controlled trial comparing two doses of metformin to placebo.",
+        "Primary outcomes are clear clinical/radiological measures (polyp number and size).",
+        "Clear RCT methodology providing quantifiable changes."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31819193",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pre-surgical window study focused on identifying molecular mechanisms (transcriptomic analysis).",
+        "Primary endpoint is molecular bioactivity/gene expression changes, not clinical efficacy (recurrence, survival)."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "15136950",
+      "is_good_candidate": false,
+      "reasons": [
+        "Intervention cohort study (N=103) lacking a contemporaneous randomized control/placebo group.",
+        "Results are based on observational comparison of baseline vs. post-treatment parameters, highly susceptible to bias."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "39511611",
+      "is_good_candidate": false,
+      "reasons": [
+        "Biomarker substudy/secondary analysis of an existing RCT (OCOG-ALMERA).",
+        "Focuses on the prognostic value of a cytokine (GDF15) and its correlation with survival, rather than the primary comparative efficacy of the intervention (metformin)."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "24668327",
+      "is_good_candidate": false,
+      "reasons": [
+        "Abstract is highly incomplete, lacking details on study design (RCT, cohort, etc.), sample size, comparison group, or specific statistical results.",
+        "Insufficient methodological information for classification."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35842567",
+      "is_good_candidate": false,
+      "reasons": [
+        "Phase I study specifically designed to assess pharmacokinetic (PK) Drug-Drug Interactions (DDI).",
+        "Primary endpoints are related to drug exposure (GMR, AUC) in healthy volunteers, not clinical efficacy or safety of the drugs for their primary indications."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24605899",
+      "is_good_candidate": false,
+      "reasons": [
+        "Presurgical trial (window study, N=35).",
+        "Single-arm intervention compared against historical controls (high risk of bias).",
+        "Primary endpoint is a surrogate biomarker (Ki-67 proliferation change), not a long-term clinical outcome."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "24823465",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) methodology (12-week prospective, randomized, open-label study).",
+        "Well-defined population (obese women with PCOS) and intervention (Metformin vs. Metformin + Roflumilast).",
+        "Measurable outcomes (anthropometric measures, BMI, hormonal status, HOMA-IR).",
+        "Statistical results reported, including means, SDs, and p-values for primary outcomes.",
+        "Adequate sample size (N=36 randomized, 31 completed) for a single trial contribution."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "16169430",
+      "is_good_candidate": true,
+      "reasons": [
+        "Explicitly stated as a prospective randomized trial (RCT).",
+        "Clear study population (PCOS patients undergoing IVF/ICSI) and intervention (Metformin).",
+        "Clinical outcomes are measurable (IVF/ICSI outcomes).",
+        "Methodology is suitable for pooling, despite the abstract being highly concise and lacking detailed statistical reporting (which would typically be present in the full text)."
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "pmid": "35872697",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Randomized Controlled Trial (RCT) design.",
+        "Adequate sample size (N=120) for statistical power.",
+        "Well-defined intervention groups (Metformin vs. Metformin + intensive exercise diet therapy).",
+        "Multiple measurable clinical and metabolic outcomes (FBG, HbA1c, lipid profile, PFS).",
+        "Statistical analysis and significant findings reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35730613",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a post-hoc analysis leveraging data from an existing RCT (SPIRIT Trial).",
+        "The primary focus is an observational/longitudinal analysis investigating associations between biomarkers (circulating and fecal SCFAs) and changes in blood pressure, rather than reporting primary randomized treatment effects.",
+        "The study design is associational (correlation analysis) rather than a pure RCT outcome report."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "31140202",
+      "is_good_candidate": true,
+      "reasons": [
+        "Robust methodology: Large-scale RCT using a 2x2 factorial design.",
+        "Large sample size (N=333).",
+        "Clear population (breast cancer survivors) and interventions (Weight loss vs. Control, Metformin vs. Placebo).",
+        "Measurable objective outcomes (changes in cognitive function).",
+        "Statistical results reported, including P-values and findings on effect modification."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "21655990",
+      "is_good_candidate": false,
+      "reasons": [
+        "Small sample size (N=47 randomized; pilot cohort N=8).",
+        "Window-of-opportunity design primarily focused on biological effects and intermediate biomarkers (Ki67, gene expression) rather than long-term clinical efficacy outcomes (survival, recurrence).",
+        "This type of study often represents Phase I/II exploratory data, limiting its contribution to clinical efficacy meta-analyses."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "pmid": "31718828",
+      "is_good_candidate": true,
+      "reasons": [
+        "Clear Prospective Randomized Controlled Trial (RCT) design.",
+        "Adequate sample size (N~204 total) across three groups.",
+        "Compares multiple active interventions (high-dose Metformin, Rosiglitazone, Combination therapy).",
+        "Clear, measurable clinical and metabolic outcomes (weight, BMI, androgen, insulin, lipid levels).",
+        "Statistical comparison results between groups are reported."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "35265033",
+      "is_good_candidate": true,
+      "reasons": [
+        "Analysis derived from two large, well-designed randomized, double-blind, placebo-controlled trials (RCTs).",
+        "Clear treatment comparison (Metformin vs. Placebo).",
+        "Reports treatment effects on measured hormonal and metabolic outcomes (fT4 levels, correlation with weight gain and GDM risk).",
+        "The underlying methodology is robust RCT data, making it highly suitable for inclusion."
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "pmid": "25740979",
+      "is_good_candidate": true,
+      "reasons": [
+        "Analysis from a large, prospective RCT (NCIC CTG MA.32).",
+        "Large sample size (N=492) for this interim analysis.",
+        "Clear comparison (Metformin vs. Placebo).",
+        "Focuses on measurable metabolic and weight outcomes.",
+        "Detailed statistical results reported, including percentages of change and specific p-values."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "27430256",
+      "is_good_candidate": false,
+      "reasons": [
+        "This abstract describes a study protocol for a Phase II RCT.",
+        "It does not present completed results, data, or statistical analysis of outcomes.",
+        "Meta-analyses require completed studies with reported efficacy data."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "31626727",
+      "is_good_candidate": false,
+      "reasons": [
+        "This is a Phase 1 dose escalation study.",
+        "The primary goal is safety and determining the Maximum Tolerated Dose (MTD), not clinical efficacy.",
+        "Very small sample size (N=20), insufficient for robust efficacy pooling."
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "pmid": "32046384",
+      "is_good_candidate": false,
+      "reasons": [
+        "Pilot study design.",
+        "Extremely small sample size (N=8 total: 4 MET, 4 CON).",
+        "Focuses on mechanistic/biomarker changes (Ki67, steroid receptors) in tumor tissue, not clinical efficacy.",
+        "Insufficient power and size for meaningful meta-analysis inclusion."
+      ],
+      "confidence_score": 1.0
+    }
+  ]
+}

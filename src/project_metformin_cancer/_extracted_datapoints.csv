@@ -1,0 +1,29 @@
+study_id,author_year,country,population_type,sample_size_intervention,sample_size_control,intervention_name,dose_mg_per_day,duration_days,outcome_name,biomarker_unit,intervention_baseline_mean,intervention_baseline_sd,intervention_post_mean,intervention_post_sd,control_baseline_mean,control_baseline_sd,control_post_mean,control_post_sd,mean_difference,sd_difference,p_value,effect_direction,statistical_significance
+27496094,Paulus_2016,USA,Type2_Diabetes_CRC,2033,2132,Metformin,,,HbA1c,percent,6.9,1.5,,6.8,1.5,,,,,,,
+27496094,Paulus_2016,USA,Type2_Diabetes_CRC,2033,818,Metformin,,,HbA1c,percent,6.9,1.5,,6.2,1.2,,,,,,,
+32159875,Bartlett_2020,US,Type2_Diabetes,172,147,Metformin,,5479,HbA1c,percent,,,7.6,,,,6.7,,0.9,,0.11,increase,no
+32532851,Wong_2020,Hong Kong,Type 2 Diabetes Patients on Metformin,2860,9957,TZD,,,HbA1c,percent,8.30,1.21,,,8.48,1.26,,,,,,
+32532851,Wong_2020,Hong Kong,Type 2 Diabetes Patients on Metformin,7760,2860,Insulin,,,HbA1c,percent,9.10,2.05,,,8.30,1.21,,,,,,
+32532851,Wong_2020,Hong Kong,Type 2 Diabetes Patients on Metformin,7760,9957,Insulin,,,HbA1c,percent,9.10,2.05,,,8.48,1.26,,,,,,
+36008432,Jung_2022,South Korea,Type 2 Diabetes Patients on Metformin,91,73,Metformin,250,,HbA1c,percent,7.0,2.1,,,6.8,1.7,,,,,0.557,no
+36008432,Jung_2022,South Korea,Type 2 Diabetes Patients on Metformin,47,47,Metformin,250,,HbA1c,percent,6.9,2.0,,,6.6,1.4,,,,,0.852,no
+28736111,Peled_2017,Israel,Type2_Diabetes,48,37,Metformin,1097.9,3285,HbA1c,percent,8.4,1.3,,,7.3,0.7,,,1.1,,0.049,increase,yes
+34312687,Elsayed_2021,USA,Type2_Diabetes_HCC,19,21,Metformin,,,HbA1c,percent,6.25,,,,7.34,,,,,,0.062,decrease,no
+23137378,Qiu_2013,UK,Type2_Diabetes,26768,8453,Metformin,,2658,HbA1c,percent,8.8,1.8,,,9.2,2.1,,,,,,,
+27026681,Wang_2016,USA,Type2_Diabetes_NHW,23130,36776,Metformin,,180,HbA1c,percent,6.87,0.87,6.94,0.84,6.28,0.89,6.34,0.81,0.60,,,"increase,"""
+27026681,Wang_2016,USA,Type2_Diabetes_AA,4819,7774,Metformin,,180,HbA1c,percent,7.23,1.15,7.16,1.06,6.42,1.09,6.32,0.89,0.84,,,"increase,"""
+27026681,Wang_2016,USA,Type2_Diabetes_Hispanic,1856,2378,Metformin,,180,HbA1c,percent,6.98,0.95,7.04,0.92,6.25,0.91,6.32,0.78,0.72,,,"increase,"""
+31815634,Bromage_2019,England,Type2_Diabetes_AMI,2576,1454,Metformin,,,HbA1c,mmol/mol,61.48,17.39,,""",58.99,17.16,"","",2.49,"",0.001,increase,yes"
+34726324,Cai_2022,China,PCOS_IR,30,29,Canagliflozin,100,84,HbA1c,percent,5.60,0.674,5.34,,5.53,0.438,5.45,,-0.18,,0.181,decrease,no
+29659896,Underdal_2018,Norway,PCOS,66,65,Metformin,2000,280,HbA1c,percent,,,5.2,0.26,,,5.2,0.45,0.0,,0.624,no change,no
+34006565,Mueller_2021,USA,Cancer Patients on Metformin,37,38,Metformin,2000,365,HbA1c,percent,5.8,0.5,5.8,,5.7,0.5,5.7,,0.1,,,increase,
+26331456,Mc Menamin_2016,UK,Type 2 Diabetes Patients on Metformin,675,522,Metformin,,,HbA1c,percent,15,0.7,,,11,0.7,,,,,,,
+38403687,Zhou_2024,China,Cancer Patients on Metformin,9,6,Metformin,1000,365,HbA1c,percent,5.53,,5.49,,5.45,,5.55,,-0.06,,0.558,decrease,no
+29482528,Tao_2018,China,PCOS_T2DM,21,21,Metformin,2000,168,HbA1c,percent,7.3,0.2,6.3,0.3,,,,,-1.1,0.4,0.001,decrease,yes
+29482528,Tao_2018,China,PCOS_T2DM,21,21,Saxagliptin + Metformin,2000,168,HbA1c,percent,7.4,0.3,6.1,0.2,7.3,0.2,6.3,0.3,-0.2,,0.016,decrease,yes
+29482528,Tao_2018,China,PCOS_T2DM,21,21,Saxagliptin,5,168,HbA1c,percent,7.4,0.3,6.3,0.2,7.3,0.2,6.3,0.3,0.0,,0.890,neutral,no
+29482528,Tao_2018,China,PCOS_T2DM,21,21,Saxagliptin + Metformin,2000,168,HbA1c,percent,7.4,0.3,6.1,0.2,,,,,-1.3,0.3,0.001,decrease,yes
+29482528,Tao_2018,China,PCOS_T2DM,21,21,Saxagliptin,5,168,HbA1c,percent,7.4,0.3,6.3,0.2,,,,,-1.1,0.4,0.001,decrease,yes
+28917544,Vaccaro_2017,Italy,Type2_Diabetes,1535,1493,Pioglitazone,23.0,1745,HbA1c,percent,7.67,0.50,7.24,0.20,7.69,0.51,7.30,0.21,-0.06,,0.01,decrease,yes
+26681720,ORIGIN_Trial_Investigators_2015,Multinational,Dysglycemia/T2D,1873,1887,Insulin Glargine,,3431,HbA1c,percent,6.38,,6.55,,6.28,,6.70,,-0.15,,0.025,decrease,yes
+31910850,Fuchigami_2020,Japan,Type2_Diabetes,168,163,Dapagliflozin,,168,HbA1c,percent,7.8,0.8,6.9,,7.8,0.8,6.9,,0.0,,0.85,,no

@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "input_topic": "Association of metformin use and cancer incidence",
+  "generated_queries": {
+    "queries": [
+      {
+        "query_type": "Broad Synonym Search (High Sensitivity)",
+        "query_string": "(metformin OR Glucophage OR biguanide OR dimethylbiguanide) AND (cancer OR neoplasm OR carcinoma OR malignancy OR oncogenesis OR incidence OR risk reduction OR tumor) NOT (systematic review[pt] OR meta-analysis[pt] OR review[pt])",
+        "rationale": "Uses a wide array of synonyms for both the exposure (metformin) and the outcome (cancer incidence/risk) to maximize recall of diverse terminology, ensuring broad coverage."
+      },
+      {
+        "query_type": "MeSH Term Focused Query",
+        "query_string": "('Metformin'[MeSH] AND ('Neoplasms'[MeSH] OR 'Cancer Incidence'[MeSH]) AND ('Cohort Studies'[MeSH] OR 'Case-Control Studies'[MeSH])) NOT (systematic review[pt] OR meta-analysis[pt] OR review[pt])",
+        "rationale": "Leverages controlled vocabulary (MeSH terms) for highly relevant, indexed articles, specifically targeting relevant study designs for incidence reporting."
+      },
+      {
+        "query_type": "[Title/Abstract] Specific Search",
+        "query_string": "(metformin[tiab] AND (cancer incidence[tiab] OR neoplasm risk[tiab])) NOT (systematic review[pt] OR meta-analysis[pt] OR review[pt])",
+        "rationale": "Restricts key terms to the Title or Abstract fields, prioritizing studies where the association between metformin and cancer incidence is a central focus of the paper."
+      },
+      {
+        "query_type": "Observational Study Design Filter",
+        "query_string": "(metformin OR Glucophage) AND (cancer OR neoplasm) AND (cohort study[pt] OR case-control study[pt] OR longitudinal studies[mesh]) NOT (systematic review[pt] OR meta-analysis[pt] OR review[pt])",
+        "rationale": "Explicitly filters for observational study types (cohort, case-control) which are the primary sources for determining long-term incidence associations in real-world populations."
+      },
+      {
+        "query_type": "Mechanism-Focused Search (Glucose Metabolism)",
+        "query_string": "(metformin OR biguanide) AND (glucose metabolism OR insulin resistance OR AMPK pathway) AND (cancer OR tumor OR malignancy) NOT (systematic review[pt] OR meta-analysis[pt] OR review[pt])",
+        "rationale": "Includes mechanistic concepts related to metformin's known pathways (e.g., glucose control, AMPK) to capture studies that may frame the association in a physiological context, rather than just clinical terms."
+      },
+      {
+        "query_type": "Recent Publication Focus (Last 10 Years)",
+        "query_string": "(metformin AND (cancer OR neoplasm) AND incidence) AND (2014:2024[dp]) NOT (systematic review[pt] OR meta-analysis[pt] OR review[pt])",
+        "rationale": "Limits the search results to the last decade (2014-2024) to capture the most current and likely highest quality primary research studies on this topic."
+      },
+      {
+        "query_type": "Clinical Trial and Randomized Study Focus",
+        "query_string": "(metformin AND cancer incidence) AND (randomized controlled trial[pt] OR clinical trial[pt]) NOT (systematic review[pt] OR meta-analysis[pt] OR review[pt])",
+        "rationale": "Specifically targets high-quality intervention studies (RCTs or clinical trials) that may have recorded cancer incidence as a secondary or long-term outcome."
+      }
+    ],
+    "synonyms_identified": {
+      "main_concept_1_metformin": [
+        "Glucophage",
+        "biguanide",
+        "dimethylbiguanide",
+        "metformin hydrochloride"
+      ],
+      "main_concept_2_cancer_incidence": [
+        "neoplasm",
+        "malignancy",
+        "carcinoma",
+        "tumor",
+        "oncogenesis",
+        "cancer risk",
+        "incidence rate",
+        "risk reduction"
+      ],
+      "related_pathways": [
+        "glucose metabolism",
+        "insulin resistance",
+        "AMPK pathway"
+      ]
+    },
+    "topic_analysis": {
+      "main_concepts": [
+        "Metformin Use",
+        "Cancer Incidence/Risk",
+        "Association (Exposure/Outcome)"
+      ],
+      "suggested_mesh_terms": [
+        "Metformin",
+        "Neoplasms",
+        "Incidence",
+        "Cohort Studies",
+        "Case-Control Studies",
+        "Diabetes Mellitus, Type 2"
+      ],
+      "study_types": [
+        "clinical trial",
+        "randomized controlled trial",
+        "cohort study",
+        "case-control study",
+        "observational study"
+      ]
+    }
+  },
+  "total_queries": 7,
+  "usage_instructions": {
+    "api_usage": "Use these queries with PubMed E-utilities API",
+    "rate_limiting": "Respect NCBI rate limits (3 requests/second max)",
+    "email_required": "Set NCBI_EMAIL environment variable"
+  },
+  "generation_method": "gemini_ai"
+}

@@ -1,0 +1,34 @@
+Successfully loaded 28 rows from _extracted_datapoints.csv
+Columns: ['study_id', 'author_year', 'country', 'population_type', 'sample_size_intervention', 'sample_size_control', 'intervention_name', 'dose_mg_per_day', 'duration_days', 'outcome_name', 'biomarker_unit', 'intervention_baseline_mean', 'intervention_baseline_sd', 'intervention_post_mean', 'intervention_post_sd', 'control_baseline_mean', 'control_baseline_sd', 'control_post_mean', 'control_post_sd', 'mean_difference', 'sd_difference', 'p_value', 'effect_direction', 'statistical_significance']
+Outcomes available: ['HbA1c']
+Studies: ['Paulus_2016' 'Bartlett_2020' 'Wong_2020' 'Jung_2022' 'Peled_2017'
+ 'Elsayed_2021' 'Qiu_2013' 'Wang_2016' 'Bromage_2019' 'Cai_2022'
+ 'Underdal_2018' 'Mueller_2021' 'Mc Menamin_2016' 'Zhou_2024' 'Tao_2018'
+ 'Vaccaro_2017' 'ORIGIN_Trial_Investigators_2015' 'Fuchigami_2020']
+
+After cleaning missing values: 7 rows remaining
+Outcomes with multiple studies: ['HbA1c']
+
+
+==================================================
+GENERATED CHARTS
+==================================================
+--- Meta-analysis for HbA1c ---
+      author_year        intervention_name  dose_mg_per_day         g      se_g
+11      Wang_2016                Metformin              NaN  0.730173  0.008653
+12      Wang_2016                Metformin              NaN  0.876209  0.019148
+13      Wang_2016                Metformin              NaN  0.852698  0.032329
+16  Underdal_2018                Metformin           2000.0  0.000000  0.174746
+21       Tao_2018  Saxagliptin + Metformin           2000.0 -0.769663  0.319828
+22       Tao_2018              Saxagliptin              5.0  0.000000  0.308607
+25   Vaccaro_2017             Pioglitazone             23.0 -0.292622  0.036543
+Pooled SMD (Hedges' g): 0.714
+Standard Error of Pooled SMD: 0.007
+95% CI: [0.699, 0.728]
+
+Chart: Forest Plot - HbA1c
+Filename: _meta_analysis_forest_HbA1c.png
+Description: Forest plot showing standardized mean differences for HbA1c with 95% confidence intervals
+-----------------------------
+
+
