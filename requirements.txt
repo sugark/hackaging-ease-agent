@@ -25,3 +25,4 @@ beautifulsoup4>=4.9.0
 requests>=2.25.0
 
 md2pdf
+matplotlib

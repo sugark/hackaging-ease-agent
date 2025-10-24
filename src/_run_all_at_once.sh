@@ -264,7 +264,8 @@ echo "Purpose: Create publication-ready PDF documents"
 # - Clinical decision-making support
 # - Regulatory submission documentation
 # - Stakeholder communication
-python write_final_documentation_into_pdf.py
+python write_final_documentation_into_pdf.py --mode draft
+python write_final_documentation_into_pdf.py --mode advanced
 echo "✓ PDF reports generated successfully"
 echo ""
 

@@ -39,7 +39,8 @@
             "program": "${workspaceFolder}/src/gemini_classify_articles.py",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/src",
-            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python"
+            "python": "${workspaceFolder}/../../../miniconda3/envs/hackathlon-ease-agent/bin/python",
+            "args": ["--max-articles","200"]
         },
         {
             "name": "Debug: Playwright Test",

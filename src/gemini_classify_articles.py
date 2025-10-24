@@ -22,6 +22,7 @@ from dotenv import load_dotenv
 
 from google import genai
 from google.genai import types
+import PyPDF2
 from system_prompt_classifier import SYSTEM_PROMPT_CLASSIFIER
 from prompt_classifier_article_type import PROMPT_CLASSIFIER_ARTICLE_TYPE
 from prompt_classifier_candidate_meta_analysis import PROMPT_CLASSIFIER_CANDIDATE_META_ANALYSIS
@@ -121,14 +122,9 @@ class GeminiArticleProcessor:
                 logger.warning(f"PDF file not found: {pdf_path}")
                 return None
             
-            # Upload the PDF file
-            with open(pdf_path, 'rb') as f:
-                pdf_content = f.read()
-            
-            doc_io = io.BytesIO(pdf_content)
-            
+            # Upload PDF file           
             document = self.client.files.upload(
-                file=doc_io,
+                file=pdf_path,
                 config=dict(mime_type='application/pdf')
             )
             
@@ -200,6 +196,12 @@ class GeminiArticleProcessor:
             article['classifier_status'] = 'no_pdf'
             return article
         
+        if article.get('classifier_status') == 'cache_failed':
+            logger.warning(f"Reported cache issue {pmid}")
+            return article
+        
+        
+        
         logger.info(f"Processing article {pmid}")
         
         # Create cache for this article
@@ -254,6 +256,98 @@ class GeminiArticleProcessor:
         logger.info(f"Completed processing article {pmid}")
         return article
     
+    def check_pdf_pages(self, pdf_path: str) -> Optional[int]:
+        """
+        Check the number of pages in a PDF file.
+        
+        Args:
+            pdf_path: Path to the PDF file
+            
+        Returns:
+            Number of pages or None if failed to read
+        """
+        try:
+            with open(pdf_path, 'rb') as file:
+                reader = PyPDF2.PdfReader(file)
+                num_pages = len(reader.pages)
+                logger.info(f"PDF {pdf_path} has {num_pages} pages")
+                return num_pages
+        except Exception as e:
+            logger.error(f"Failed to read PDF {pdf_path}: {str(e)}")
+            return None
+    
+    def shrink_pdf(self, pdf_path: str, max_pages: int = 30) -> Optional[str]:
+        """
+        Create a shrunk version of PDF with maximum specified pages.
+        
+        Args:
+            pdf_path: Path to the original PDF file
+            max_pages: Maximum number of pages to include (default: 30)
+            
+        Returns:
+            Path to the shrunk PDF or None if failed
+        """
+        try:
+            # Generate output filename
+            pdf_pathlib = Path(pdf_path)
+            output_filename = f"{pdf_pathlib.stem}_{max_pages}_pages_version.pdf"
+            output_path = pdf_pathlib.parent / output_filename
+            
+            # Read original PDF
+            with open(pdf_path, 'rb') as input_file:
+                reader = PyPDF2.PdfReader(input_file)
+                writer = PyPDF2.PdfWriter()
+                
+                # Add only the first max_pages pages
+                pages_to_add = min(len(reader.pages), max_pages)
+                for page_num in range(pages_to_add):
+                    writer.add_page(reader.pages[page_num])
+                
+                # Write shrunk PDF
+                with open(output_path, 'wb') as output_file:
+                    writer.write(output_file)
+            
+            logger.info(f"Created shrunk PDF: {output_path} ({pages_to_add} pages)")
+            return str(output_path)
+            
+        except Exception as e:
+            logger.error(f"Failed to shrink PDF {pdf_path}: {str(e)}")
+            return None
+    
+    def process_pdf_for_article(self, article: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Check PDF page count and shrink if necessary for an article.
+        
+        Args:
+            article: Article data dictionary containing pdf_path
+            
+        Returns:
+            Updated article with pdf_pages, and potentially pdf_path_original and updated pdf_path
+        """
+        # Check if PDF has already been processed
+        if article.get('pdf_pages') is not None and article.get('pdf_path_original') is not None:
+            logger.info(f"PDF already processed for article, skipping PDF processing")
+            return article
+        
+        pdf_path = article['pdf_path']
+        page_count = self.check_pdf_pages(pdf_path)
+        
+        if page_count is not None:
+            article['pdf_pages'] = page_count
+            
+            if page_count > 30:
+                logger.info(f"PDF has {page_count} pages, creating 30-page version")
+                shrunk_pdf_path = self.shrink_pdf(pdf_path, 30)
+                
+                if shrunk_pdf_path:
+                    article['pdf_path_original'] = pdf_path
+                    article['pdf_path'] = shrunk_pdf_path
+                    logger.info(f"Updated article to use shrunk PDF: {shrunk_pdf_path}")
+                else:
+                    logger.warning(f"Failed to shrink PDF, using original: {pdf_path}")
+        
+        return article
+    
     def process_articles(self):
         """Main processing function."""
         logger.info("Starting article processing")
@@ -282,6 +376,10 @@ class GeminiArticleProcessor:
         processed_count = 0
         for i, article in enumerate(articles):
             if article.get('pdf_path') and os.path.exists(article['pdf_path']) and processed_count < self.max_articles:
+                
+                # Check PDF page count and shrink if necessary
+                articles[i] = self.process_pdf_for_article(article)
+                article = articles[i]
                 articles[i] = self.process_single_article(article)
                 processed_count += 1
                 

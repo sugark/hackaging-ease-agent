@@ -53,7 +53,7 @@ class CohortsTestsAnalyzer:
         
         self.api_key = api_key
         self.csv_data_file = csv_data_file
-        self.MODEL="gemini-1.5-pro"
+        self.MODEL="gemini-2.5-pro"
         
         # Initialize Gemini client
         try:

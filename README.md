@@ -135,8 +135,14 @@ python run_meta_analysis.py --data _extracted_datapoints.csv
 ## 📊 Output Files
 
 ### Final Reports
+
+#### Resveratrol and Type 2 Diabetes Project
 - **[Draft Meta-Analysis Report](src/project_resveratrol_diabates2/_draft_meta_analysis_report.pdf)**: Initial automated research report with basic formatting and standard sections
 - **[Advanced Meta-Analysis Report](src/project_resveratrol_diabates2/_advanced_meta_analysis_report.pdf)**: Publication-ready comprehensive report with enhanced formatting, professional styling, and complete methodology documentation
+
+#### Metformin and Cancer Project
+- **[Draft Meta-Analysis Report](src/project_metformin_cancer/_draft_meta_analysis_report.pdf)**: Initial automated research report with basic formatting and standard sections
+- **[Advanced Meta-Analysis Report](src/project_metformin_cancer/_advanced_meta_analysis_report.pdf)**: Publication-ready comprehensive report with enhanced formatting, professional styling, and complete methodology documentation
 
 ### Primary Outputs
 - **`_meta_analysis_output.txt`**: Complete statistical analysis results
